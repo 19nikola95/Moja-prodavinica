@@ -1,0 +1,154 @@
+.GlavniIzgledHedera{
+  display: flex;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgb(29, 170, 235);
+}
+.KontenjerLoga{
+ position: absolute;
+ left: 100px;
+}
+.IzgledLoga{
+  display: flex;
+  height: 80px;
+  width: 150px;
+  cursor: pointer;
+}
+.KontenjerdShearchBara{
+margin-left: 30px;
+display: flex;
+align-items: center;
+position: absolute;
+right: 44%;
+top: 20px;
+}
+.IzgledShearchBara{
+  border: none;
+  width: 540px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 50px;
+  background-color: rgb(183, 232, 255);
+ font-size: 18px;
+  box-shadow: 0px 0px 5px rgba(22, 82, 30, 0.6);
+}
+.IzgledShearchBara::placeholder{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.KontenjerZaAplikaciju{
+  height: 80px;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 430px;
+  cursor: pointer;
+ }
+.LevaStranjaKontenjerZaAplikaciju{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.SimbolZaAplikaciju{
+  height: 38px;
+  width: 38px;
+}
+.DesnaStranjaKontenjerZaAplikaciju{
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
+  margin-left: 5px;
+}
+.KontenjerZaAkaunt{
+  height: 80px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 260px;
+  cursor: pointer;
+}
+.LevaStranaKontenjeraZaAkaunt{
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+}
+.SimbolZaKorisnika{
+  height: 60px;
+  width: 60px;
+}
+.DesnaStranaKontenjeraZaAkaunt{
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
+  }
+  .KontenjerZaKorpu{
+    height: 80px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+  }
+  .LevaStranaKontenjeraZaKorpu{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .SimboliZaKorpu{
+    height: 40px;
+    width: 40px;
+  }
+  .DesnaStranjaKontenjeraZaKorpu{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+  }
+  .KontenjerZaLupu{
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    position: absolute;
+    left: 345px;
+    top: 23px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .IzgledLupe{
+    width: 42px;
+    height: 42px;
+  }
+  @media ( max-width: 1300px){ 
+    .IzgledShearchBara{
+      width: 350px;
+    }
+    .KontenjerdShearchBara{
+      right: 50%;
+    }
+   }
+  
+  @media ( max-width: 1100px){ 
+    .IzgledShearchBara{
+      opacity: 0;
+    }
+    .KontenjerZaLupu{
+      opacity: 1;
+    }
+  }
+  

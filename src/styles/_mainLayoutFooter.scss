@@ -1,0 +1,135 @@
+.GlavniIzgledFootera{
+  display: flex;
+  align-items: center;
+   //position:absolute;
+   //bottom: 0px;
+   //left: 0px;
+   //right: 0px;
+  height: 200px;
+ width: 100%;
+  background-color: rgb(29, 170, 235);
+ 
+}
+.KontenjerZapratiNas{
+  height: 200px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  left: 20%;
+}
+.GornjiDeoKontenjeraZapratiNas{
+  width: 260px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: bold;
+  }
+  .KontenjerZaFacebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+  }
+  .IzgledSimbolaFacebook{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .IzgledSlovFacebooka{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .KontenjerZaTikTok{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+  }
+  .IzgledSimbolaTiktoka{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .IzgledSlovaTiktoka{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .KontenjerZaYoutube{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+  }
+  .IzgledSimbolaYoutube{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .IzgledSlovaYoutube{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .KontenjerSaznajONama{
+    height: 200px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    left: 45%;
+  }
+  .GornjiDeoKontenjeraSaznajONama{
+  width: 260px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: bold;
+  }
+  .IzgleSlovaOpcijeONama{
+    font-size: 20px;
+    margin-left: 0px;
+    font-weight: 540;
+    line-height:1.8;
+    margin: 0;
+    cursor: pointer;
+  }
+  .KontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+    height: 200px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    left: 65%;
+  }
+  .GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+  width: 260px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: bold;
+  }
+  .IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti{
+    font-size: 19px;
+    margin-left: 0px;
+    font-weight: 540;
+    line-height: 2.2;
+    margin: 0;
+    cursor: pointer;
+  }

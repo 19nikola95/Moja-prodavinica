@@ -1,0 +1,265 @@
+.KontenjerZaKontaktirajNas{
+  height: 900px;
+  background-color: white;
+  margin: 0;
+}
+.KontenjerGornjegObaveštenja{
+  margin-top: 130px;
+  margin-left: 6%;
+  color: rgb(58, 58, 58);
+  }
+.IzgledSlovaObavestenja{
+  margin: 0;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.IzgledSlovaNaslovaOProdavnici{
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.KontenjerNazivProdavnice{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: 50px;
+  height: 100px;
+  width: 600px;
+}
+.KontenjerMestoProdavnice{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -100px;
+  margin-left: 550px;
+  height: 100px;
+  width: 500px;
+}
+.KontenjerUlicaProdavnice{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -100px;
+  margin-left: 900px;
+  height: 100px;
+  width: 500px;
+}
+.KontenjerBrojProdavnice{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -100px;
+  margin-left: 1280px;
+  height: 100px;
+  width: 500px;
+}
+.KontenjerImeVlasnika{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -20px;
+  margin-left: 50px;
+  height: 100px;
+  width: 500px;
+}
+.KontenjerPrezime{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -100px;
+  margin-left: 320px;
+  height: 100px;
+  width: 500px;
+}
+.KontenjerBrojTelefona{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -100px;
+  margin-left: 620px;
+  height: 100px;
+  width: 500px;
+}
+.KontenjeEmail{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -100px;
+  margin-left: 980px;
+  height: 100px;
+  width: 500px;
+}
+.IzgledSvihTekstovaZaKontaktirajNas{
+  font-size: 24px;
+  margin-right: 10px;
+}
+.IzgledSvihInputaZaKontaktirajNas{
+  height: 24px;
+  font-size: 18px;
+  width: 250px;
+  border-radius: 5px;
+  border: rgb(11, 12, 11);
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+}
+.IzgledMestoInputaZaKontaktirajNas{
+  height: 24px;
+  font-size: 18px;
+  width: 200px;
+  border-radius: 5px;
+  border: rgb(11, 12, 11);
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+}
+.IzgledBrojInputaZaKontaktirajNas{
+  height: 24px;
+  font-size: 18px;
+  width: 80px;
+  border-radius: 5px;
+  border: rgb(11, 12, 11);
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+}
+.IzgledEmailInputaZaKontaktirajNas{
+  height: 24px;
+  font-size: 18px;
+  width: 376px;
+  border-radius: 5px;
+  border: rgb(11, 12, 11);
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+}
+.IzgledSlovaNaslovaOvlasniku{
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-left: 100px;
+}
+.IzgledImeInputaZaKontaktirajNas{
+  height: 24px;
+  font-size: 18px;
+  width: 150px;
+  border-radius: 5px;
+  border: rgb(11, 12, 11);
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+}
+.KontenjerDodatneInfromacije{
+  margin-top: 0px;
+  margin-left: 30%;
+}
+.DodatneInfromacije{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  color: rgb(58, 58, 58);
+}
+.IzgledDugmetaZaRegistraciju{
+  height: 60px;
+  width: 300px;
+  margin-top: 18px;
+  margin-left: 40%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 28px;
+  border: none;
+  background-color: rgb(29, 170, 235);
+  cursor: pointer;
+}
+.Okvir1{
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  margin-top: 30px;
+}
+.Informacije{
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: -30px;
+  width: 1400px;
+  height: 150px;
+}
+.KontenjeEmailObavestenja{
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 500px;
+}
+.KontenjeBrojlObavestenja{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  width: 500px;
+  margin-bottom: 35px;
+}
+.KontenjeBoksZalObavestenja{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 250px;
+  width: 1400px;
+  margin-left: 100px;
+  margin-right: 0px;
+  border-color: red;
+  border-style: solid;
+  border-width: 2px;
+}
+.IzgledObavestenjaTekstovaZaKontaktirajNas{
+  font-size: 24px;
+  width: 410px;
+}
+.IzgledBoxObavestenjaInputaZaKontaktirajNas{
+  width: 900px;
+  height: 200px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin: 0;
+}
+.KontenjeBoksZalObavestenja::placeholder{
+  font-size: 20px;
+ }
+ 
+ .DugmeUpit{
+  height: 50px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 28px;
+  border: none;
+  background-color: rgb(29, 170, 235);
+  cursor: pointer;
+  margin-top: 180px;
+  margin-left: -530px;
+ }
+ .IzgledEmailInputaZaKontaktirajNas1{
+  display: flex;
+  align-items: center;
+  height: 24px;
+  font-size: 18px;
+  margin-top: 0px;
+  width: 376px;
+  border-radius: 5px;
+  border: rgb(11, 12, 11);
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+}
+.KontenjerTekstUputa{
+  margin-left: 80px;
+  margin-top: -50px;
+}
+.PostaviPitanje{
+  margin-top: -60px;
+  margin-left: 200px;
+}

@@ -1,0 +1,162 @@
+.MojNalog{
+  height: 1090px;
+  background-color: white;
+}
+.KontenjerSlikaProfila{
+ position: absolute;
+ width: 300px;
+ top: 130px;
+ left: 20px;
+ 
+}
+.IzgledProfilneSlike{
+ object-fit: cover;
+ height: 160px;
+ width: 160px;
+ border-radius: 50%;
+ margin-left: 30px;
+ cursor: pointer;
+}
+.IzgledSlovaProfila{
+  font-size: 20px;
+  margin-left: 15px;
+  width: 400px;
+}
+.IzgledMestaProfila{
+  font-size: 20px;
+  margin-left: 15px;
+  width: 300px;
+}
+.IzgledEmailaProfila{
+  font-size: 20px;
+  margin-left: 15px;
+  width: 300px;
+}
+.IzgledBrojaProfila{
+  font-size: 20px;
+  margin-left: 15px;
+  width: 300px;
+}
+.SimbolIzmeni{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 184px;
+  left: 166px;
+  cursor: pointer;
+}
+.SimbolIzmeni1{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 252px;
+  left: 80px;
+  cursor: pointer;
+}
+.SimbolIzmeni2{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 295px;
+  left: 280px;
+  cursor: pointer;
+}
+.SimbolIzmeni3{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 338px;
+  left: 120px;
+  cursor: pointer;
+}
+.DugmeSacuvajIzmene{
+  padding: 15px;
+  font-size: 15px;
+  margin-left: 60px;
+  margin-top: 10px;
+  background-color: rgb(183, 232, 255);
+  border: none;
+  font-weight: 600;
+  color: rgb(37, 36, 36);
+  box-shadow: 0px 0px 5px rgba(22, 82, 30, 0.6);
+  cursor: pointer;
+}
+.DugmeOdjaviSe{
+  padding: 15px;
+  font-size: 15px;
+  margin-left: 60px;
+  margin-top: 10px;
+  background-color: rgb(183, 232, 255);
+  border: none;
+  font-weight: 600;
+  color: rgb(37, 36, 36);
+  box-shadow: 0px 0px 5px rgba(22, 82, 30, 0.6);
+  position: absolute;
+  top: 750px;
+  left: 20px;
+  cursor: pointer;
+}
+.LinijaOdvajanja{
+  height: 1000px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  position: absolute;
+  left: 320px;
+  top: -47px;
+  margin: 0px;
+}
+.DugmeProizvodiKojiMiSeSvidjaju{
+  position: absolute;
+  top: 120px;
+  left: 27%;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  background-color: rgb(29, 170, 235);
+  border: none;
+  box-shadow: 0px 0px 5px rgba(22, 82, 30, 0.6);
+}
+.DugmeMojaInteresovanja{
+  position: absolute;
+  top: 120px;
+  left: 45%;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  background-color: rgb(183, 232, 255);
+  border: none;
+  box-shadow: 0px 0px 5px rgba(22, 82, 30, 0.6);
+}
+.DugmeIstorijaKorpe{
+  position: absolute;
+  top: 120px;
+  left: 63%;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  background-color: rgb(183, 232, 255);
+  border: none;
+  box-shadow: 0px 0px 5px rgba(22, 82, 30, 0.6);
+}
+.MojeProdavnice{
+  position: absolute;
+  top: 120px;
+  left: 81%;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  background-color: rgb(183, 232, 255);
+  border: none;
+  box-shadow: 0px 0px 5px rgba(22, 82, 30, 0.6);
+}
+.LinijaNavigacije{
+  width: 100%;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  position: absolute;
+  left: 340px;
+  top: 200px;
+  margin: 0px;
+}
