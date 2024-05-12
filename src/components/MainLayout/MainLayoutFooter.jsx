@@ -7,15 +7,15 @@ export function MainLayoutFooter() {
           </div>
           <div className="DonjiDeoKontenjeraZapratiNas">
             <div className="KontenjerZaFacebook">
-              <img className="IzgledSimbolaFacebook" src="Slike za footer/simbol-za-facebook.png" alt=""/>
+              <img className="IzgledSimbolaFacebook" src="/Slike za footer/simbol-za-facebook.png" alt=""/>
               <p className="IzgledSlovFacebooka">Facebook</p>
             </div>
             <div className="KontenjerZaTikTok">
-              <img className="IzgledSimbolaTiktoka" src="Slike za footer/simbol-za-tiktok.png" alt=""/>
+              <img className="IzgledSimbolaTiktoka" src="/Slike za footer/simbol-za-tiktok.png" alt=""/>
               <p className="IzgledSlovaTiktoka">TikTok</p>
             </div>
             <div className="KontenjerZaYoutube">
-              <img className="IzgledSimbolaYoutube" src="Slike za footer/simbol-za-youtube.png" alt=""/>
+              <img className="IzgledSimbolaYoutube" src="/Slike za footer/simbol-za-youtube.png" alt=""/>
               <p className="IzgledSlovaYoutube">Youtube</p>
             </div>
             </div>
