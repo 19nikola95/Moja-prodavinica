@@ -1,37 +1,36 @@
 .GlavniIzgledHedera{
   display: flex;
+  padding-top: 0px;
+  margin-top: 0px;
   height: 80px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  background-color: rgb(29, 170, 235);
+  width: 1575px;
+ margin-bottom: 0px;
+ background-color: rgb(245, 242, 242);
+  background-image: linear-gradient(to right, rgb(245, 247, 122) 20%, rgb(154, 218, 102) 80%);
+ box-shadow: 0px 0px 10px rgba(95, 97, 95, 0.6);
 }
 .KontenjerLoga{
- position: absolute;
- left: 100px;
+ margin-left:  60px;
+ margin-top: -10px;
 }
 .IzgledLoga{
   display: flex;
-  height: 80px;
-  width: 150px;
+  height: 120px;
+  width: 190px;
   cursor: pointer;
 }
 .KontenjerdShearchBara{
-margin-left: 30px;
+padding-left: 65px;
 display: flex;
 align-items: center;
-position: absolute;
-right: 44%;
-top: 20px;
 }
 .IzgledShearchBara{
   border: none;
-  width: 540px;
+  width: 600px;
   height: 40px;
   padding-left: 10px;
   border-radius: 50px;
-  background-color: rgb(183, 232, 255);
+  background-color: rgb(255, 255, 255);
  font-size: 18px;
   box-shadow: 0px 0px 5px rgba(22, 82, 30, 0.6);
 }
@@ -42,11 +41,10 @@ top: 20px;
 }
 .KontenjerZaAplikaciju{
   height: 80px;
-  width: 190px;
+  width: 240px;
   display: flex;
   align-items: center;
-  position: absolute;
-  right: 430px;
+ margin-left: 30px;
   cursor: pointer;
  }
 .LevaStranjaKontenjerZaAplikaciju{
@@ -56,24 +54,24 @@ top: 20px;
   align-items: center;
 }
 .SimbolZaAplikaciju{
-  height: 38px;
-  width: 38px;
+  height: 40px;
+  width: 40px;
 }
 .DesnaStranjaKontenjerZaAplikaciju{
   display: flex;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  color: rgb(8, 8, 8);
+  color: rgba(19, 15, 15, 0.938);
   margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .KontenjerZaAkaunt{
   height: 80px;
   width: 140px;
   display: flex;
   align-items: center;
-  position: absolute;
-  right: 260px;
+margin-right: 25px;
   cursor: pointer;
 }
 .LevaStranaKontenjeraZaAkaunt{
@@ -88,17 +86,19 @@ top: 20px;
 }
 .DesnaStranaKontenjeraZaAkaunt{
   display: flex;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
-  color: rgb(8, 8, 8);
+  color: rgba(19, 15, 15, 0.938);
+  font-family: Arial, Helvetica, sans-serif;
   }
   .KontenjerZaKorpu{
     height: 80px;
     width: 120px;
     display: flex;
     align-items: center;
-    position: absolute;
-    right: 100px;
+   margin-left: 25px;
+   
+   
     cursor: pointer;
   }
   .LevaStranaKontenjeraZaKorpu{
@@ -113,17 +113,18 @@ top: 20px;
   }
   .DesnaStranjaKontenjeraZaKorpu{
     display: flex;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
-    color: rgb(8, 8, 8);
+    color: rgba(19, 15, 15, 0.938);
   }
   .KontenjerZaLupu{
     display: flex;
     align-items: center;
     opacity: 0;
-    position: absolute;
-    left: 345px;
-    top: 23px;
+    width: 42px;
+    height: 42px;
+    margin-top: 16px;
+    
     border-width: 2px;
     border-color: black;
     border-style: solid;
@@ -133,6 +134,7 @@ top: 20px;
   .IzgledLupe{
     width: 42px;
     height: 42px;
+   
   }
   @media ( max-width: 1300px){ 
     .IzgledShearchBara{

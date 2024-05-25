@@ -1,0 +1,136 @@
+.KontenjerSadrzaja{
+  height: 1800px;
+  margin: 0px;
+}
+.VideoReklame{
+  height: 150px;
+  width: 1500px;
+  margin-top: 12px;
+  margin-left: 2%;
+  background-color: rgb(110, 106, 106);
+}
+.KontenjerNaslovILogo{
+  height: 60px;
+  width: 1500px;
+  margin-left: 2%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LogoZaNaslov{
+  height: 60px;
+  width: 90px;
+  margin-right: 2px;
+}
+.IzgledSlovaNaslova{
+  font-size: 30px;
+  font-weight: bold;
+}
+.IzgledOpisa{
+  font-size: 18px;
+  margin-left: 16%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 540;
+  color: rgb(211, 88, 16);
+}
+.KontenjerSaSvimProizvodima{
+  margin-top: 40px;
+  margin-left: 50px;
+  height: 1200px;
+  width: 1450px;
+  display: flex;
+}
+.KontenjerProizvoda{
+  width: 298px;
+  height: 209px;
+  margin-right: 10px;
+}
+.GornjiDeoKontenjeraProizvoda{
+  width: 296px;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+.IzgledSlikaProizvoda{
+  object-fit: cover;
+  height: 140px;
+  width: 140px;
+}
+.KontenjerZaTekstProizvoda{
+  width: 156px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+}
+.RedUKontenjeruZaTekstProizvoda{
+  width: 156px;
+  height: 35px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DonjiDeoKontenjeraProizvoda{
+  width: 296px;
+  height: 60px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.IzgledOdabiraKolicine{
+  width: 45px;
+  height: 35px;
+ font-size: 24px;
+  margin-left: 45px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 8px;
+}
+.IzgledOdabiraKolicine::placeholder{
+  color: rgb(0, 0, 0);
+}
+.IzgledKorpeUKontenjeruZaProizvod{
+  width: 45px;
+  height: 45px;
+  margin-left: 92px;
+  cursor: pointer;
+}
+.IzgledSlovaCena{
+  height: 30px;
+  width: 154px;
+  margin-top: 8px;
+  margin-left: 2px;
+  font-size: 16px;
+  font-weight: 550;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.KontenjerZaDugmice{
+ margin-top: 15px;
+  height: 50px;
+  width: 1550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.DugmrStrane{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: gray;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}

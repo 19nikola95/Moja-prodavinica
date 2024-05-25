@@ -1,0 +1,194 @@
+.GlavniKontenjerZaSadrzaj{
+  height: 3700px;
+  background-color: rgb(245, 244, 244);
+}
+.KontenjerZaNaslov{
+  height: 40px;
+  width: 1500px;
+  margin: 0px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  }
+  .IzgledSlovaNaslova{
+    margin-top: 40px;
+    font-size: 30px;
+   margin: 0px;
+   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+.KontenjerZaPretragu{
+  width: 1500px;
+  height: 80px;
+margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.IzgledInputaZaProdavnice{
+  width: 450px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(19, 26, 128, 0.6);
+  font-size: 18px;
+}
+.IzgledInputaZaProdavnice::placeholder{
+  font-size: 18px;
+  color: rgba(31, 30, 30, 0.678);
+ padding-left: 10px;
+}
+.KontenjerSaIzboromObroka{
+  width: 1420px;
+  height: 120px;
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 355px 355px 355px 355px ;
+  row-gap: 20px;
+}
+.IzgledDugmetaZaObroke{
+  height: 80px;
+  width: 200px;
+  margin-left: 40px;
+  margin-top: 0;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: gray;
+  font-size: 18px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+  background-color: rgb(206, 235, 101);
+  cursor: pointer;
+}
+.KontenjerSaSlikama{
+  width: 1565px;
+  height: 2960px;
+  margin-left: 0px;
+   margin-top: 30px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: 310px 310px 310px 310px 310px;
+  row-gap: 10px;
+   }
+  .KontenjerProizvoda{
+    width: 300px;
+    height: 350px;
+   margin-left: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+  }
+  .GornjiDeoKontenjeraProizvoda{
+    width: 296px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+   
+  }
+  .IzgledSlikaProizvoda{
+    object-fit: cover;
+    height: 140px;
+    width: 140px;
+   border: none;
+  }
+  .KontenjerZaTekstProizvoda{
+    width: 156px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .RedUKontenjeruZaTekstProizvoda{
+    width: 156px;
+    height: 31px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .SlovaZaOpisSadrzaja{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+  }
+  .DonjiDeoKontenjeraProizvoda{
+    padding-top: 5px;
+    width: 296px;
+    height: 200px;
+    border: none;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    display: grid;
+    grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+    grid-template-columns: 150px 150px;
+    
+  }
+  
+  .IzgledSlovaCena{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 520;
+    margin-bottom: 0px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    line-height: 1;
+  }
+  .IzgledNaslovaMarketa{
+    font-size: 18px;
+    margin-top: 16px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  .GornjiKontenjerSaSlikama{
+    width: 1220px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  .DonjiKontenjerSaSlikama{
+    width: 1220px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+  .KontenjerZaDruguStranicu{
+    width: 1560px;
+    height: 60px;
+    margin: 0px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmeZaSledecuStranu{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    
+   margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .DimenzijeSlikeKorpe{
+    height: 26px;
+    width: 26px;
+    margin-top: 6px;
+    cursor: pointer;
+    border-color: rgb(131, 123, 123);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 5px;
+  }

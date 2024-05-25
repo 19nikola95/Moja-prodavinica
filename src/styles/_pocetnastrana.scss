@@ -1,0 +1,147 @@
+.KontenjerPocetneStrane{
+  height: 3070px;
+  width: 1575px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(245, 244, 244);
+}
+.VideoReklame{
+  padding-top: 150px;
+  height: 150px;
+  width: 1510px;
+  margin-top: 12px;
+  margin-left: 2%;
+  background-color: gray;
+}
+.KontenjerZaDugmice{
+  height: 100px;
+  width: 1440px;
+  margin-top: 25px;
+  display: flex;
+ justify-content: space-between;
+}
+.DugmeIzbora{
+  height: 70px;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 25px;
+ background-color: rgb(206, 235, 101);
+  border: none;
+  border-radius: 12px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  color: rgb(37, 37, 37);
+  cursor: pointer;
+}
+.IzgledSlovaObavestenja{
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.KontenjerPreporuceniProizvodi{
+  height: 760px;
+  width: 1460px;
+  margin-left: 90px;
+  margin-bottom: 0;
+  display: grid;
+  column-gap: 310px 310px 310px 310px;
+  row-gap: 0px;
+  align-items: center;
+
+  
+}
+
+.KontenjerZaSledeceINazad{
+  height: 40px;
+  width: 1460px;
+ margin-left: 90px;
+ margin-bottom: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: end;
+
+
+}
+.DugmeZaStranice{
+  height: 38px;
+  width: 100px;
+  margin-right: 80px;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(206, 235, 101);
+  cursor: pointer;
+}
+.KontenjerProizvoda{
+  width: 310px;
+  height: 366px;
+  margin-right: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.GornjiDeoKontenjeraProizvoda{
+  width: 310px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: none;
+}
+.IzgledSlikaProizvoda{
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  border: none;
+}
+.KontenjerZaTekstProizvoda{
+  width: 160px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+}
+.RedUKontenjeruZaTekstProizvoda{
+  width: 156px;
+  height: 35px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.DonjiDeoKontenjeraProizvoda{
+  width: 310px;
+  height: 210px;
+  display: grid;
+  grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+  grid-template-columns: 150px 150px;
+  border: none;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 1px;
+  text-align: center;
+  line-height: 1;
+  background-color: white;
+}
+
+.IzgledSlovaCena{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 520;
+  margin-bottom: 10px;
+   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.IzgledNaslovaMarketa{
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}

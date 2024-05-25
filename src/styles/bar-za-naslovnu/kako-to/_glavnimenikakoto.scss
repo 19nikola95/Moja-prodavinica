@@ -1,0 +1,107 @@
+.KontenjerSaSadrzajem{
+  height: 1800px;
+
+}
+.SlovaNaslova{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 48%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.SlovaOpisa{
+  font-size: 20px;
+  margin-left: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.KontenjerZaPretragu{
+  width: 500px;
+  height: 80px;
+  margin-left: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.IzgledInputaZaProdavnice::placeholder{
+  font-size: 18px;
+  color: rgba(31, 30, 30, 0.678);
+}
+.IzgledInputaZaProdavnice{
+  width: 450px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(19, 26, 128, 0.6);
+  font-size: 18px;
+}
+.KontenjerSaResenjima{
+  height: 1480px;
+  width: 1500px;
+  margin-top: 30px;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
+}
+.KontenjerSaIzgledom{
+  height: 195px;
+  width: 180px;
+  border-radius: 12px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 48px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.KontenjerSaIzgledomGornji{
+  height: 135px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.KontenjerSaIzgledomDonji{
+  height: 60px;
+  width: 180px;
+  border: none;
+  border-top-color: rgba(2, 2, 2, 0.808);
+  border-top-style: solid;
+  border-top-width: 2px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.IzgledSlikeLoga{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 135px;
+  width: 180px;
+}
+.KontenjerZaDugmice{
+  height: 50px;
+  width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.DugmrStrane{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: gray;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}

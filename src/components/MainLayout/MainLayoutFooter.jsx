@@ -1,3 +1,4 @@
+import Link from "next/link"
 export function MainLayoutFooter() {
   return <footer className="MainLayout__footer GlavniIzgledFootera">
     <div className="GlavniIzgledFootera">
@@ -24,10 +25,10 @@ export function MainLayoutFooter() {
           <div className="GornjiDeoKontenjeraSaznajONama">
             <p>Saznaj o nama</p>
           </div>
-          <p className="IzgleSlovaOpcijeONama">O mojoj prodavnici</p>
+          <Link href="/o-nama"><p className="IzgleSlovaOpcijeONama">O mojoj prodavnici</p> </Link>
           <p className="IzgleSlovaOpcijeONama">Blog</p>
-          <p className="IzgleSlovaOpcijeONama">Registracija prodavnice</p>
-          <p className="IzgleSlovaOpcijeONama">Kontaktiraj nas</p>
+          <Link href="/registuj-prodavnicu"><p className="IzgleSlovaOpcijeONama">Registracija prodavnice</p></Link>
+          <Link href="/kontaktiraj-nas"> <p className="IzgleSlovaOpcijeONama">Kontaktiraj nas</p></Link>
         </div>
         <div className="KontenjerUsloviKoriscenjaIPolitikaPrivatnosti">
           <div className="GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti">

@@ -1,6 +1,7 @@
+import '../../../styles/_registrujProdavnicu.scss';
 export default function registrujprodavnicu() {
   return (
-  <div>
+      <div>
     <div className="KontenjerZaKontaktirajNas">
    <div className="KontenjerGornjegObaveštenja">
         <p className="IzgledSlovaObavestenja">Ukoliko imate prodavnicu i želite da bude vidljiva sivma preko aplikacije popunite formular ispod</p>
@@ -62,11 +63,11 @@ export default function registrujprodavnicu() {
       <div className="PostaviPitanje">
       <textarea rows="10" className="IzgledBoxObavestenjaInputaZaKontaktirajNas" type="text" placeholder="Šta god vas zanima ovde napišite"></textarea>
       </div>
-
-    <div className="KontenjerZaDugme">
+    
+  </div>
+  <div className="KontenjerZaDugme">
     <button className="DugmeUpit">Pošalji upit</button>
     </div>
-  </div>
   </div>
   );
 }

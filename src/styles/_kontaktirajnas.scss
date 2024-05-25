@@ -1,21 +1,30 @@
 .KontenjerZaKontaktirajNasPravi{
   height: 762px;
-  background-color: white;
-  margin: 0;
+  background-color: rgb(245, 244, 244);
+  width: 1575px;
+}
+.Kontenjerzanaslov{
+  height: 40px;
+
+  width: 1575px;
 }
 .IzgledNaslova{
-  margin-top: 130px;
+ padding-top: 40px;
   margin-left: 45%;
   font-size: 30px;
   font-weight: bold;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
 }
 .KontenjerOpisa{
-  margin-top: 0px;
+  margin-top: 60px;
   margin-left: 13%;
 }
 .Opis{
   width: 1200px;
   font-size: 24px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
 }
 .IzgledBoxObavestenjaInputaZaKontaktirajNas{
   width: 900px;
@@ -49,17 +58,19 @@
   width: 500px;
 }
 .KontenjerZaDugme{
-  margin-top: -300px;
+  margin-top: -240px;
   margin-left: 44%;
-  margin-bottom: 150px;
+  margin-bottom: 60px;
 }
 .DugmeZaPoruku{
   height: 50px;
   width: 200px;
+  background-color: rgb(206, 235, 101);
   font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
   border-radius: 28px;
   border: none;
-  background-color: rgb(29, 170, 235);
+ 
   cursor: pointer;
 }

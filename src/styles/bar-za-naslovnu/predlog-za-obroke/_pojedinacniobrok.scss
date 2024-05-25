@@ -1,0 +1,133 @@
+.KontenjerSadrzaja{
+  height: 1600px;
+  background-color: rgb(245, 244, 244);
+}
+.VideoReklame{
+  height: 150px;
+  width: 1500px;
+  margin-top: 12px;
+  margin-left: 2%;
+  background-color: rgb(110, 106, 106);
+}
+.IzgledSlovaNaslova{
+  margin-left: 45%;
+  font-size: 30px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.KontenjerStranice{
+  width: 1520px;
+  height: 1100px;
+  margin-left: 40px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+ 
+}
+.LevaStranaKontenjeraStranice{
+  width: 400px;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.IzgledSlike{
+  width: 400px;
+  height: 300px;
+  border-radius: 24px;
+}
+.DesnaStranaKontenjeraStranice{
+  margin-left: 80px;
+  width: 750px;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.RedULevomKontenjeru{
+  height: 30px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.RedULevomKontenjeruNaslov{
+  margin-left: 32%;
+  margin-bottom: 10px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+  font-size: 22px;
+}
+.KontenjerIzgledDUgmetaKorpe{
+  margin-top: 30px;
+  height: 66px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: rgb(206, 235, 101);
+  border: none;
+  cursor: pointer;
+}
+.IzgledDUgmetaKorpe{
+  height: 60px;
+  width: 60px;
+}
+.RedUDesnomKontenjeru{
+  width: 750px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+  
+}
+.RedUDesnomKontenjeruNaslov{
+  margin-left: 31%;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+  font-size: 22px;
+ 
+}
+.VideoKlip{
+  margin-top: 60px;
+  width: 600px;
+  height: 450px;
+  background-color: gray;
+}
+.KontenjerZaJosRecepta{
+  height: 1100px;
+  width: 248px;
+  margin-left: 40px;
+ 
+}
+.RedZaJosRecepata{
+  width: 248px;
+  height: 100px;
+  display: flex;
+  border-color: rgb(117, 104, 104);
+  border-style: solid;
+  cursor: pointer;
+}
+.IzgledSlikeZaJos{
+  height: 100px;
+  width: 135px;
+}
+.DesnaStranaZaJos{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+ 
+}
+.SlovaZaJos{
+  margin-left: 5px;
+  font-size: 15px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}

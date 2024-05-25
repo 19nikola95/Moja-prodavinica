@@ -4,8 +4,10 @@ import { MainLayoutHeader } from "./MainLayoutHeader";
 
 export function MainLayout({ children }) {
   return <>
+
     <MainLayoutHeader/>
-    <main>{children}</main>
+    <main>{children}</main> 
    <MainLayoutFooter/>
+
   </>
 }
