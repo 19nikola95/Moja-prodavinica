@@ -1,6 +1,6 @@
 import Link from "next/link"
 export function MainLayoutFooter() {
-  return <footer className="MainLayout__footer GlavniIzgledFootera">
+  return <footer className="MainLayout__footer">
     <div className="GlavniIzgledFootera">
         <div className="KontenjerZapratiNas">
           <div className="GornjiDeoKontenjeraZapratiNas">

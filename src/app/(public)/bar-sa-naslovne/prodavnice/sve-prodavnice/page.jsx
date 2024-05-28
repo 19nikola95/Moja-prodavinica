@@ -1,75 +1,75 @@
-import '../../../../../styles/bar-za-naslovnu/prodavnice/_sveprodavnice.scss';
+import styles from '../../../../../styles/bar-za-naslovnu/prodavnice/sveprodavnice.module.scss';
 import Link from "next/link"
 export default function pocetna() {
   return (
   <div>
-<div class="KontenjerPocetneStrane">
-  <div class="PozicijaNaslova">
-  <p class="IzgledNaslova">Sve prodavnice</p>
+<div className={styles.KontenjerPocetneStrane}>
+  <div className={styles.PozicijaNaslova}>
+  <p className={styles.IzgledNaslova}>Sve prodavnice</p>
   </div>
-        <div class="KontenjerZaPretragu">
-          <input class="IzgledInputaZaProdavnice" type="text" name="" id="" placeholder="Unesi naziv prodavnice"/>
+        <div className={styles.KontenjerZaPretragu}>
+          <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Unesi naziv prodavnice"/>
         </div>
-        <div class="KontenjerSaProdavnicama">
+        <div className={styles.KontenjerSaProdavnicama}>
         <Link href="/bar-sa-naslovne/prodavnice/pojedinacna-prodavnica">
-          <div class="KontenjerSaIzgledom">
-            <div class="KontenjerSaIzgledomGornji">
-              <img class="IzgledSlikeLoga" src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
             </div>
-            <div class="KontenjerSaIzgledomDonji">
-              <p class="ImeMarketa">DIS</p>
-              <p class="UlicaIbroj">(Smederevska Palanka, Trgovačka 26)</p>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
+              <p className={styles.UlicaIbroj}>(Smederevska Palanka, Trgovačka 26)</p>
             </div>
           </div>
           </Link>
-          <div class="KontenjerSaIzgledom">
-            <div class="KontenjerSaIzgledomGornji">
-              <img class="IzgledSlikeLoga" src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
             </div>
-            <div class="KontenjerSaIzgledomDonji">
-              <p class="ImeMarketa">DIS</p>
-            </div>
-          </div>
-          <div class="KontenjerSaIzgledom">
-            <div class="KontenjerSaIzgledomGornji">
-              <img class="IzgledSlikeLoga" src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-            </div>
-            <div class="KontenjerSaIzgledomDonji">
-              <p class="ImeMarketa">DIS</p>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
             </div>
           </div>
-          <div class="KontenjerSaIzgledom">
-            <div class="KontenjerSaIzgledomGornji">
-              <img class="IzgledSlikeLoga" src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
             </div>
-            <div class="KontenjerSaIzgledomDonji">
-              <p class="ImeMarketa">DIS</p>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
             </div>
           </div>
-          <div class="KontenjerSaIzgledom">
-            <div class="KontenjerSaIzgledomGornji">
-              <img class="IzgledSlikeLoga" src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
             </div>
-            <div class="KontenjerSaIzgledomDonji">
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
+            </div>
+          </div>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+            </div>
+            <div className={styles.KontenjerSaIzgledomDonji}>
               <p>DIS</p>
             </div>
           </div>
-          <div class="KontenjerSaIzgledom">
-            <div class="KontenjerSaIzgledomGornji">
-              <img class="IzgledSlikeLoga" src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
             </div>
-            <div class="KontenjerSaIzgledomDonji">
+            <div className={styles.KontenjerSaIzgledomDonji}>
               <p>DIS</p>
             </div>
           </div>
           
         </div>
-        <div className="KontenjerZaDugmice">
-      <button className="DugmrStrane">1</button>
-      <button className="DugmrStrane">2</button>
-      <button className="DugmrStrane">3</button>
-      <button className="DugmrStrane">4</button>
-      <button className="DugmrStrane">5</button>
+        <div className={styles.KontenjerZaDugmice}>
+      <button className={styles.DugmrStrane}>1</button>
+      <button className={styles.DugmrStrane}>2</button>
+      <button className={styles.DugmrStrane}>3</button>
+      <button className={styles.DugmrStrane}>4</button>
+      <button className={styles.DugmrStrane}>5</button>
     </div>
       </div>
   </div>

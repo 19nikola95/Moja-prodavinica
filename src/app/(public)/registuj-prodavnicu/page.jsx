@@ -1,72 +1,72 @@
-import '../../../styles/_registrujProdavnicu.scss';
+import styles from '../../../styles/registrujprodavnicu.module.scss';
 export default function registrujprodavnicu() {
   return (
       <div>
-    <div className="KontenjerZaKontaktirajNas">
-   <div className="KontenjerGornjegObaveštenja">
-        <p className="IzgledSlovaObavestenja">Ukoliko imate prodavnicu i želite da bude vidljiva sivma preko aplikacije popunite formular ispod</p>
+    <div className={styles.KontenjerZaKontaktirajNas}>
+   <div className={styles.KontenjerGornjegObaveštenja}>
+        <p className={styles.IzgledSlovaObavestenja}>Ukoliko imate prodavnicu i želite da bude vidljiva sivma preko aplikacije popunite formular ispod</p>
         </div>
-        <p className="IzgledSlovaNaslovaOProdavnici">Podaci o prodavnici:</p>
-        <div className="KontenjerNazivProdavnice">
-          <p className="IzgledSvihTekstovaZaKontaktirajNas">Naziv prodavnice:</p>
-          <input className="IzgledSvihInputaZaKontaktirajNas" type="text"/>
+        <p className={styles.IzgledSlovaNaslovaOProdavnici}>Podaci o prodavnici:</p>
+        <div className={styles.KontenjerNazivProdavnice}>
+          <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Naziv prodavnice:</p>
+          <input className={styles.IzgledSvihInputaZaKontaktirajNas} type="text"/>
         </div>
-        <div className="KontenjerMestoProdavnice">
-          <p className="IzgledSvihTekstovaZaKontaktirajNas">Mesto:</p>
-          <input className="IzgledMestoInputaZaKontaktirajNas" type="text"/>
+        <div className={styles.KontenjerMestoProdavnice}>
+          <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Mesto:</p>
+          <input className={styles.IzgledMestoInputaZaKontaktirajNas} type="text"/>
         </div>
-        <div className="KontenjerUlicaProdavnice">
-          <p className="IzgledSvihTekstovaZaKontaktirajNas">Ulica:</p>
-          <input className="IzgledSvihInputaZaKontaktirajNas" type="text"/>
+        <div className={styles.KontenjerUlicaProdavnice}>
+          <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Ulica:</p>
+          <input className={styles.IzgledSvihInputaZaKontaktirajNas} type="text"/>
         </div>
-        <div className="KontenjerBrojProdavnice">
-          <p className="IzgledSvihTekstovaZaKontaktirajNas">Broj:</p>
-          <input className="IzgledBrojInputaZaKontaktirajNas" type="text"/>
+        <div className={styles.KontenjerBrojProdavnice}>
+          <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Broj:</p>
+          <input className={styles.IzgledBrojInputaZaKontaktirajNas} type="text"/>
         </div>
-        <p  className="IzgledSlovaNaslovaOvlasniku">Podaci o vlasniku prodavnice:</p>
-        <div className="KontenjerImeVlasnika">
-          <p className="IzgledSvihTekstovaZaKontaktirajNas">Ime:</p>
-          <input className="IzgledImeInputaZaKontaktirajNas" type="text"/>
+        <p  className={styles.IzgledSlovaNaslovaOvlasniku}>Podaci o vlasniku prodavnice:</p>
+        <div className={styles.KontenjerImeVlasnika}>
+          <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Ime:</p>
+          <input className={styles.IzgledImeInputaZaKontaktirajNas} type="text"/>
         </div>
-        <div className="KontenjerPrezime">
-          <p className="IzgledSvihTekstovaZaKontaktirajNas">Prezime:</p>
-          <input className="IzgledImeInputaZaKontaktirajNas" type="text"/>
+        <div className={styles.KontenjerPrezime}>
+          <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Prezime:</p>
+          <input className={styles.IzgledImeInputaZaKontaktirajNas} type="text"/>
         </div>
-        <div className="KontenjerBrojTelefona">
-        <p className="IzgledSvihTekstovaZaKontaktirajNas">Broj telefona:</p> 
-        <input className="IzgledImeInputaZaKontaktirajNas" type="text"/>
+        <div className={styles.KontenjerBrojTelefona}>
+        <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Broj telefona:</p> 
+        <input className={styles.IzgledImeInputaZaKontaktirajNas} type="text"/>
       </div>
-      <div className="KontenjeEmail">
-        <p className="IzgledSvihTekstovaZaKontaktirajNas">Email:</p>
-        <input className="IzgledEmailInputaZaKontaktirajNas" type="text"/>
+      <div className={styles.KontenjeEmail}>
+        <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Email:</p>
+        <input className={styles.IzgledEmailInputaZaKontaktirajNas} type="text"/>
       </div>
-      <button className="IzgledDugmetaZaRegistraciju">Registracija</button>
-      <div className="Okvir1">
+      <button className={styles.IzgledDugmetaZaRegistraciju}>Registracija</button>
+      <div className={styles.Okvir1}>
       </div>
       
-      <div className="KontenjerDodatneInfromacije">
-      <p className="DodatneInfromacije">Za sve dodatne infromacije kontaktirajte nas</p>
+      <div className={styles.KontenjerDodatneInfromacije}>
+      <p className={styles.DodatneInfromacije}>Za sve dodatne infromacije kontaktirajte nas</p>
       </div>
-    <div className="Informacije">
-    <div className="KontenjeEmailObavestenja">
-      <p className="IzgledSvihTekstovaZaKontaktirajNas">Email:</p>
-      <input className="IzgledEmailInputaZaKontaktirajNas1" type="text" placeholder="Unesite vaš email"/>
+    <div className={styles.Informacije}>
+    <div className={styles.KontenjeEmailObavestenja}>
+      <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Email:</p>
+      <input className={styles.IzgledEmailInputaZaKontaktirajNas1} type="text" placeholder="Unesite vaš email"/>
     </div>
-    <div className="KontenjeBrojlObavestenja">
-      <p className="IzgledSvihTekstovaZaKontaktirajNas">Broj telefona:</p>
-      <input className="IzgledImeInputaZaKontaktirajNas" type="text" placeholder="Unesite vaš broj"/>
+    <div className={styles.KontenjeBrojlObavestenja}>
+      <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Broj telefona:</p>
+      <input className={styles.IzgledImeInputaZaKontaktirajNas} type="text" placeholder="Unesite vaš broj"/>
     </div>
     </div>
-     <div className="KontenjerTekstUputa">
-      <p className="IzgledObavestenjaTekstovaZaKontaktirajNas">Ukoliko imate dodatne zahteve, pitanja ili nekih nejasnoća ovde slobodno pitajte:</p>
+     <div className={styles.KontenjerTekstUputa}>
+      <p className={styles.IzgledObavestenjaTekstovaZaKontaktirajNas}>Ukoliko imate dodatne zahteve, pitanja ili nekih nejasnoća ovde slobodno pitajte:</p>
       </div>
-      <div className="PostaviPitanje">
-      <textarea rows="10" className="IzgledBoxObavestenjaInputaZaKontaktirajNas" type="text" placeholder="Šta god vas zanima ovde napišite"></textarea>
+      <div className={styles.PostaviPitanje}>
+      <textarea rows="10" className={styles.IzgledBoxObavestenjaInputaZaKontaktirajNas} type="text" placeholder="Šta god vas zanima ovde napišite"></textarea>
       </div>
     
   </div>
-  <div className="KontenjerZaDugme">
-    <button className="DugmeUpit">Pošalji upit</button>
+  <div className={styles.KontenjerZaDugme}>
+    <button className={styles.DugmeUpit}>Pošalji upit</button>
     </div>
   </div>
   );

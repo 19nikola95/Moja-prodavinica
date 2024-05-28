@@ -1,16 +1,16 @@
-import '../../../../../styles/bar-za-naslovnu/predlog-za-obroke/_smutiisejkovi.scss';
+import styles from '../../../../../styles/bar-za-naslovnu/predlog-za-obroke/smutiisejkovi.module.scss';
 export default function pocetna() {
   return (
   <div>
-<div class="GlavniKontenjerZaSadrzaj">
-      <div class="VideoReklame"></div>
-      <p class="IzgledSlovaNaslova">Smuti i šejkovi</p>
-      <div class="KontenjerSaObrocima">
-        <div class="KontenjerSaPojedinacnimObrokom">
-          <div class="KontenjerZaSliku">
-            <img class="IzgledSlike" src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
+<div className={styles.GlavniKontenjerZaSadrzaj}>
+      <div className={styles.VideoReklame}></div>
+      <p className={styles.IzgledSlovaNaslova}>Smuti i šejkovi</p>
+      <div className={styles.KontenjerSaObrocima}>
+        <div className={styles.KontenjerSaPojedinacnimObrokom}>
+          <div className={styles.KontenjerZaSliku}>
+            <img className={styles.IzgledSlike} src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
           </div>
-          <div class="KonjtenjerZaTekst">
+          <div className={styles.KonjtenjerZaTekst}>
             <p>Musaka</p>
           </div>
         </div>
@@ -19,4 +19,3 @@ export default function pocetna() {
   </div>
     );
   }
-  

@@ -1,35 +1,35 @@
-import '../../../../../styles/bar-za-naslovnu/nagradne-igre/_glavnimeninagradneigre.scss';
+import styles from '../../../../../styles/bar-za-naslovnu/nagradne-igre/glavnimeniNagradneigre.module.scss';
 import Link from "next/link"
 export default function GlavniMeniNagradneIgre() {
   return (
   <div>
-<div className="GlavniKontenjerZaSadrzaj">
-<div class="PozicijaNaslova">
-      <p className="IzgledSlovaNaslova">Sve nagradne igre</p>
+<div className={styles.GlavniKontenjerZaSadrzaj}>
+<div className={styles.PozicijaNaslova}>
+      <p className={styles.IzgledSlovaNaslova}>Sve nagradne igre</p>
       </div>
-      <div className="ProstorZaKontenjereNagradneIgre">
+      <div className={styles.ProstorZaKontenjereNagradneIgre}>
       <Link href="/bar-sa-naslovne/nagradne-igre/pojedinacni-meni">
-      <div className="KontenjerZaNagradnuIgru">
-        <div className="GornjiDeoZaNagradnuIgru">
-          <img className="SlikaNagradneIgre" src="/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg" alt=""/>
+      <div className={styles.KontenjerZaNagradnuIgru}>
+        <div className={styles.GornjiDeoZaNagradnuIgru}>
+          <img className={styles.SlikaNagradneIgre} src="/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg" alt=""/>
         </div>
-        <div className="DonjiDeoZaNagradneIgre">
-          <div className="DonjiDeoZaNaslov">
-            <p className="SlovaNaslovaIgre">Lav nagradna igra 2024: Osvoji auto uz Lav pivo</p>
+        <div className={styles.DonjiDeoZaNagradneIgre}>
+          <div className={styles.DonjiDeoZaNaslov}>
+            <p className={styles.SlovaNaslovaIgre}>Lav nagradna igra 2024: Osvoji auto uz Lav pivo</p>
           </div>
-          <div className="DonjiDeoZaTrajanje">
-            <p className="SlovaTrajanjeIgre">Trajanje: 15.04.2024 do 26.05.2024</p>
+          <div className={styles.DonjiDeoZaTrajanje}>
+            <p className={styles.SlovaTrajanjeIgre}>Trajanje: 15.04.2024 do 26.05.2024</p>
           </div>
         </div>
       </div>
       </Link>
     </div>
-    <div className="KontenjerZaDugmice">
-      <button className="DugmrStrane">1</button>
-      <button className="DugmrStrane">2</button>
-      <button className="DugmrStrane">3</button>
-      <button className="DugmrStrane">4</button>
-      <button className="DugmrStrane">5</button>
+    <div className={styles.KontenjerZaDugmice}>
+      <button className={styles.DugmrStrane}>1</button>
+      <button className={styles.DugmrStrane}>2</button>
+      <button className={styles.DugmrStrane}>3</button>
+      <button className={styles.DugmrStrane}>4</button>
+      <button className={styles.DugmrStrane}>5</button>
     </div>
     </div>
       </div>

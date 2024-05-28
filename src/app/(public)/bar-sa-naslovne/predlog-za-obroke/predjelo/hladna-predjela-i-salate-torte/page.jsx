@@ -1,16 +1,16 @@
-import '../../../../../../styles/bar-za-naslovnu/predlog-za-obroke/_hladnapredjelaisalatetorte.scss';
-export default function korpa() {
+import styles from '../../../../../../styles/bar-za-naslovnu/predlog-za-obroke/hladnapredjelaisalatetorte.module.scss';
+export default function pocetna() {
   return (
   <div>
- <div class="GlavniKontenjerZaSadrzaj">
-      <div class="VideoReklame"></div>
-      <p class="IzgledSlovaNaslova">Hladna predjela i slane torte</p>
-      <div class="KontenjerSaObrocima">
-        <div class="KontenjerSaPojedinacnimObrokom">
-          <div class="KontenjerZaSliku">
-            <img class="IzgledSlike" src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
+<div className={styles.GlavniKontenjerZaSadrzaj}>
+      <div className={styles.VideoReklame}></div>
+      <p className={styles.IzgledSlovaNaslova}>Hladna predjela i salane torte</p>
+      <div className={styles.KontenjerSaObrocima}>
+        <div className={styles.KontenjerSaPojedinacnimObrokom}>
+          <div className={styles.KontenjerZaSliku}>
+            <img className={styles.IzgledSlike} src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
           </div>
-          <div class="KonjtenjerZaTekst">
+          <div className={styles.KonjtenjerZaTekst}>
             <p>Musaka</p>
           </div>
         </div>
