@@ -1,443 +1,445 @@
+import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/tehnikaposudjeialatiglavnimeni.module.scss';
 import Link from "next/link"
-import '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/_tehnikaposudjeialatglavnimenii.scss'
-export default function kontaktirajnas() {
+export default function pocetna() {
   return (
   <div>
-<div class="GlavniKontenjerZaSadrzaj">
-<div class="VideoReklame"></div>
-      <p class="IzgledSlovaNaslova">Tehnika i ostalo</p>
-      <div class="KontenjerZaPretragu">
-        <input class="IzgledInputaZaProdavnice" type="text" name="" id="" placeholder="Pretraga proizvoda"/>
+ <div className={styles.GlavniKontenjerZaSadrzaj}>
+  <div className={styles.VideoReklame}></div>
+  <div className={styles.KontenjerZaNaslov}>
+      <p className={styles.IzgledSlovaNaslova}>Sredstva za održavanje higijene</p>
       </div>
-      <div class="KontenjerSaIzboromObroka">
+      <div className={styles.KontenjerZaPretragu}>
+        <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Pretraga proizvoda"/>
+      </div>
+      <div className={styles.KontenjerSaIzboromObroka}>
       <Link href="/bar-sa-naslovne/svi-proizvodi/tehnika-posudje-i-igracke/tehnika">
-        <button class="IzgledDugmetaZaObroke">Tehnika</button>
+        <button className={styles.IzgledDugmetaZaObroke}>Tehnika</button>
         </Link>
         <Link href="/bar-sa-naslovne/svi-proizvodi/tehnika-posudje-i-igracke/posudje">
-        <button class="IzgledDugmetaZaObroke">Posuđe</button>
+        <button className={styles.IzgledDugmetaZaObroke}>Posuđe</button>
         </Link>
         <Link href="/bar-sa-naslovne/svi-proizvodi/tehnika-posudje-i-igracke/stvari-za-kucu">
-        <button class="IzgledDugmetaZaObroke">Stvari za kuću</button>
+        <button className={styles.IzgledDugmetaZaObroke}>Stvari za kuću</button>
         </Link>
         <Link href="/bar-sa-naslovne/svi-proizvodi/tehnika-posudje-i-igracke/igracke">
-        <button class="IzgledDugmetaZaObroke">Igračke</button>
+        <button className={styles.IzgledDugmetaZaObroke}>Igračke</button>
         </Link>
         <Link href="/bar-sa-naslovne/svi-proizvodi/tehnika-posudje-i-igracke/alati">
-        <button class="IzgledDugmetaZaObroke">Alati</button>
+        <button className={styles.IzgledDugmetaZaObroke}>Alati</button>
         </Link>
       </div>
-      <div className="KontenjerSaSlikama">
+      <div className={styles.KontenjerSaSlikama}>
          
-         <div className="KontenjerProizvoda">
-           <div className="GornjiDeoKontenjeraProizvoda">
-             <img className="IzgledSlikaProizvoda" src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-             <div className="KontenjerZaTekstProizvoda">
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Mleko od badema</p>
+         <div className={styles.KontenjerProizvoda}>
+           <div className={styles.GornjiDeoKontenjeraProizvoda}>
+             <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+             <div className={styles.KontenjerZaTekstProizvoda}>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Mleko od badema</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >350g</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >350g</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Doktor etker</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Doktor etker</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <img className="DimenzijeSlikeKorpe" src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <img className={styles.DimenzijeSlikeKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
                </div>
              </div>
            </div>
-           <div className="DonjiDeoKontenjeraProizvoda">
-           <div className="IzgledNaslovaMarketa">
+           <div className={styles.DonjiDeoKontenjeraProizvoda}>
+           <div className={styles.IzgledNaslovaMarketa}>
            <p>Univerexport</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>DIS</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Aman</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Idea</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Mega Market</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Gomex</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>STR MAJA</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Tempo</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
            </div>
          </div>
-         <div className="KontenjerProizvoda">
-           <div className="GornjiDeoKontenjeraProizvoda">
-             <img className="IzgledSlikaProizvoda" src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-             <div className="KontenjerZaTekstProizvoda">
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Mleko od badema</p>
+         <div className={styles.KontenjerProizvoda}>
+           <div className={styles.GornjiDeoKontenjeraProizvoda}>
+             <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+             <div className={styles.KontenjerZaTekstProizvoda}>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Mleko od badema</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >350g</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >350g</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Doktor etker</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Doktor etker</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <img className="DimenzijeSlikeKorpe" src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <img className={styles.DimenzijeSlikeKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
                </div>
              </div>
            </div>
-           <div className="DonjiDeoKontenjeraProizvoda">
-           <div className="IzgledNaslovaMarketa">
+           <div className={styles.DonjiDeoKontenjeraProizvoda}>
+           <div className={styles.IzgledNaslovaMarketa}>
            <p>Univerexport</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>DIS</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Aman</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Idea</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Mega Market</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Gomex</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>STR MAJA</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Tempo</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
            </div>
          </div>
-         <div className="KontenjerProizvoda">
-           <div className="GornjiDeoKontenjeraProizvoda">
-             <img className="IzgledSlikaProizvoda" src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-             <div className="KontenjerZaTekstProizvoda">
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Mleko od badema</p>
+         <div className={styles.KontenjerProizvoda}>
+           <div className={styles.GornjiDeoKontenjeraProizvoda}>
+             <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+             <div className={styles.KontenjerZaTekstProizvoda}>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Mleko od badema</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >350g</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >350g</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Doktor etker</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Doktor etker</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <img className="DimenzijeSlikeKorpe" src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <img className={styles.DimenzijeSlikeKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
                </div>
              </div>
            </div>
-           <div className="DonjiDeoKontenjeraProizvoda">
-           <div className="IzgledNaslovaMarketa">
+           <div className={styles.DonjiDeoKontenjeraProizvoda}>
+           <div className={styles.IzgledNaslovaMarketa}>
            <p>Univerexport</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>DIS</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Aman</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Idea</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Mega Market</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Gomex</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>STR MAJA</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Tempo</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
            </div>
          </div>
-         <div className="KontenjerProizvoda">
-           <div className="GornjiDeoKontenjeraProizvoda">
-             <img className="IzgledSlikaProizvoda" src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-             <div className="KontenjerZaTekstProizvoda">
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Mleko od badema</p>
+         <div className={styles.KontenjerProizvoda}>
+           <div className={styles.GornjiDeoKontenjeraProizvoda}>
+             <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+             <div className={styles.KontenjerZaTekstProizvoda}>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Mleko od badema</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >350g</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >350g</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Doktor etker</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Doktor etker</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <img className="DimenzijeSlikeKorpe" src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <img className={styles.DimenzijeSlikeKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
                </div>
              </div>
            </div>
-           <div className="DonjiDeoKontenjeraProizvoda">
-           <div className="IzgledNaslovaMarketa">
+           <div className={styles.DonjiDeoKontenjeraProizvoda}>
+           <div className={styles.IzgledNaslovaMarketa}>
            <p>Univerexport</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>DIS</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Aman</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Idea</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Mega Market</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Gomex</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>STR MAJA</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Tempo</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
            </div>
          </div>
-         <div className="KontenjerProizvoda">
-           <div className="GornjiDeoKontenjeraProizvoda">
-             <img className="IzgledSlikaProizvoda" src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-             <div className="KontenjerZaTekstProizvoda">
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Mleko od badema</p>
+         <div className={styles.KontenjerProizvoda}>
+           <div className={styles.GornjiDeoKontenjeraProizvoda}>
+             <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+             <div className={styles.KontenjerZaTekstProizvoda}>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Mleko od badema</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >350g</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >350g</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Doktor etker</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Doktor etker</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <img className="DimenzijeSlikeKorpe" src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <img className={styles.DimenzijeSlikeKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
                </div>
              </div>
            </div>
-           <div className="DonjiDeoKontenjeraProizvoda">
-           <div className="IzgledNaslovaMarketa">
+           <div className={styles.DonjiDeoKontenjeraProizvoda}>
+           <div className={styles.IzgledNaslovaMarketa}>
            <p>Univerexport</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>DIS</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Aman</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Idea</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Mega Market</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Gomex</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>STR MAJA</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Tempo</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
            </div>
          </div>
-         <div className="KontenjerProizvoda">
-           <div className="GornjiDeoKontenjeraProizvoda">
-             <img className="IzgledSlikaProizvoda" src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-             <div className="KontenjerZaTekstProizvoda">
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Mleko od badema</p>
+         <div className={styles.KontenjerProizvoda}>
+           <div className={styles.GornjiDeoKontenjeraProizvoda}>
+             <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+             <div className={styles.KontenjerZaTekstProizvoda}>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Mleko od badema</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >350g</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >350g</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <p className="SlovaZaOpisSadrzaja" >Doktor etker</p>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <p className={styles.SlovaZaOpisSadrzaja} >Doktor etker</p>
                </div>
-               <div className="RedUKontenjeruZaTekstProizvoda">
-                 <img className="DimenzijeSlikeKorpe" src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+               <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                 <img className={styles.DimenzijeSlikeKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
                </div>
              </div>
            </div>
-           <div className="DonjiDeoKontenjeraProizvoda">
-           <div className="IzgledNaslovaMarketa">
+           <div className={styles.DonjiDeoKontenjeraProizvoda}>
+           <div className={styles.IzgledNaslovaMarketa}>
            <p>Univerexport</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>DIS</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Aman</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Idea</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>Mega Market</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Gomex</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledNaslovaMarketa">
+      <div className={styles.IzgledNaslovaMarketa}>
      <p>STR MAJA</p>
      </div>
-     <div className="IzgledNaslovaMarketa">
+     <div className={styles.IzgledNaslovaMarketa}>
      <p>Tempo</p>
      </div>
-     <div className="IzgledSlovaCena">
+     <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
-      <div className="IzgledSlovaCena">
+      <div className={styles.IzgledSlovaCena}>
       <p>211.300 din</p>
       </div>
            </div>
@@ -446,16 +448,16 @@ export default function kontaktirajnas() {
          </div>
         
       
-       <div className="KontenjerZaDruguStranicu">
-         <button className="DugmeZaSledecuStranu">1</button>
-         <button className="DugmeZaSledecuStranu">2</button>
-         <button className="DugmeZaSledecuStranu">3</button>
-         <button className="DugmeZaSledecuStranu">4</button>
-         <button className="DugmeZaSledecuStranu">5</button>
-         <button className="DugmeZaSledecuStranu">6</button>
-         <button className="DugmeZaSledecuStranu">7</button>
-         <button className="DugmeZaSledecuStranu">8</button>
-         <button className="DugmeZaSledecuStranu">9</button>
+       <div className={styles.KontenjerZaDruguStranicu}>
+         <button className={styles.DugmeZaSledecuStranu}>1</button>
+         <button className={styles.DugmeZaSledecuStranu}>2</button>
+         <button className={styles.DugmeZaSledecuStranu}>3</button>
+         <button className={styles.DugmeZaSledecuStranu}>4</button>
+         <button className={styles.DugmeZaSledecuStranu}>5</button>
+         <button className={styles.DugmeZaSledecuStranu}>6</button>
+         <button className={styles.DugmeZaSledecuStranu}>7</button>
+         <button className={styles.DugmeZaSledecuStranu}>8</button>
+         <button className={styles.DugmeZaSledecuStranu}>9</button>
        </div>
      </div>
 </div>
