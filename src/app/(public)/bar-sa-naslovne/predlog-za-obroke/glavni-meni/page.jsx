@@ -3,7 +3,8 @@ import styles from '../../../../../styles/bar-za-naslovnu/predlog-za-obroke/glav
 export default function predlogZaObroke() {
   return (
   <div>
-<div className={styles.GlavniKontenjerZaSadrzaj}>
+   <div className={styles.GlavniKontenjerZaSadrzaj}>
+   <div className={styles.VideoReklame}></div>
   <div className={styles.KontenjerZaNaslov}>
   <p className={styles.IzgledSlovaNaslova}>Predlog za obroke</p>
   </div>
@@ -63,6 +64,17 @@ export default function predlogZaObroke() {
           </div>
         </div>
         </div>
+        <div className={styles.KontenjerZaDruguStranicu}>
+         <button className={styles.DugmeZaSledecuStranu}>1</button>
+         <button className={styles.DugmeZaSledecuStranu}>2</button>
+         <button className={styles.DugmeZaSledecuStranu}>3</button>
+         <button className={styles.DugmeZaSledecuStranu}>4</button>
+         <button className={styles.DugmeZaSledecuStranu}>5</button>
+         <button className={styles.DugmeZaSledecuStranu}>6</button>
+         <button className={styles.DugmeZaSledecuStranu}>7</button>
+         <button className={styles.DugmeZaSledecuStranu}>8</button>
+         <button className={styles.DugmeZaSledecuStranu}>9</button>
+       </div>
     </div>
   </div>
     );

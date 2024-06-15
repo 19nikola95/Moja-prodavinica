@@ -1,38 +1,50 @@
 .KontenjerSadrzaja{
-  height: 1600px;
-  width: 1575px;
+  height: 100%;
+  width: 100.2%;
+  display: flex;
+  flex-direction: column;
   background-color: rgb(245, 244, 244);
 }
 .VideoReklame{
   height: 150px;
-  width: 1500px;
-  margin-top: 12px;
-  margin-left: 2%;
-  background-color: rgb(110, 106, 106);
+  width: 100%;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: gray;
 }
-.IzgledSlovaNaslova{
-  margin-left: 45%;
-  font-size: 30px;
-  font-weight: 0;
-  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: rgba(19, 15, 15, 0.938);
-}
-.KontenjerStranice{
-  width: 1520px;
-  height: 1100px;
-  margin-left: 40px;
-  margin-top: 80px;
+.KontenjerZaNaslov{
+  height: 40px;
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 3%;
   display: flex;
-  flex-direction: row;
- 
-}
+  text-align: center;
+  justify-content: center;
+  }
+  .IzgledSlovaNaslova{
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+.KontenjerStranice{
+  width: 97%;
+  height: 100%;
+  margin-left: 20px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 28% 48% 22%;
+  justify-items: center;
+ }
 .LevaStranaKontenjeraStranice{
-  width: 400px;
-  height: 1100px;
+  width: 420px;
   display: flex;
   flex-direction: column;
+  height: 100%;
   align-items: center;
-  
 }
 .IzgledSlike{
   width: 400px;
@@ -42,30 +54,34 @@
 .DesnaStranaKontenjeraStranice{
   margin-left: 80px;
   width: 750px;
-  height: 1100px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
 .RedULevomKontenjeru{
-  height: 30px;
+  height: 100%;
   width: 400px;
   display: flex;
   align-items: center;
   font-size: 18px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
+  line-height: 14px;
 }
 .RedULevomKontenjeruNaslov{
-  margin-left: 32%;
+  height: 25px;
+  width: 400px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
   font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .KontenjerIzgledDUgmetaKorpe{
-  margin-top: 40px;
-  height: 66px;
+  margin-top: 80px;
+  height: 70px;
   width: 100px;
   display: flex;
   align-items: center;
@@ -80,52 +96,66 @@
   width: 60px;
 }
 .RedUDesnomKontenjeru{
-  
-  width: 750px;
+  width: 680px;
   display: flex;
   align-items: center;
   font-size: 18px;
-  
-}
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+  line-height: 30px;
+  }
 .RedUDesnomKontenjeruNaslov{
-  margin-left: 31%;
+  height: 25px;
+  width: 740px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
   font-size: 22px;
- 
-}
+  }
+  .KontenjerZaPostupke{
+    display: flex;
+    width: 730px;
+  }
 .VideoKlip{
-  margin-top: 60px;
-  width: 600px;
-  height: 450px;
-  background-color: gray;
+ margin-top: 10px;
+ margin-bottom: 40px;
+ width: 600px;
+ height: 450px;
+ background-color: gray;
 }
 .KontenjerZaJosRecepta{
-  height: 1100px;
-  width: 248px;
-  margin-left: 40px;
- 
+ height: 100%;
+ width: 260px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-left: 80px;
 }
 .RedZaJosRecepata{
-  width: 248px;
-  height: 100px;
-  margin-bottom: 5px;
+  width: 300px;
+  height: 80px;
   display: flex;
+  margin-bottom: 5px;
   border-color: rgb(117, 104, 104);
   border-style: solid;
   cursor: pointer;
-}
+ }
 .IzgledSlikeZaJos{
-  height: 100px;
-  width: 135px;
+  height: 80px;
+  width: 105px;
 }
 .DesnaStranaZaJos{
+  height: 80px;
+  width: 173px;
   display: flex;
   align-items: center;
-  justify-content: start;
- 
+ justify-content: center;
 }
 .SlovaZaJos{
   margin-left: 5px;
   font-size: 15px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
 }

@@ -1,337 +1,369 @@
-.KontenjerSlikaProfila{
-  width: 300px;
-  margin-top: 20px;
-  margin-left: 5px;
- }
- .KontenjerSlikaProfila{
-  width: 300px;
- padding-top: 30px;
-  margin-left: 5px;
- }
- .IzgledProfilneSlike{
-  object-fit: cover;
-  height: 160px;
-  width: 160px;
-  border-radius: 50%;
-  margin-left: 50px;
-  cursor: pointer;
- }
- .IzgledSlovaProfila{
-   font-size: 20px;
-   margin-left: 15px;
-   width: 300px;
-   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: rgba(19, 15, 15, 0.938);
- }
- .IzgledMestaProfila{
-   font-size: 20px;
-   margin-left: 15px;
-   width: 300px;
-   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: rgba(19, 15, 15, 0.938);
- }
- .IzgledEmailaProfila{
-   font-size: 20px;
-   margin-left: 15px;
-   width: 300px;
-   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: rgba(19, 15, 15, 0.938);
- }
- .IzgledBrojaProfila{
-   font-size: 20px;
-   margin-left: 15px;
-   width: 300px;
-   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: rgba(19, 15, 15, 0.938);
- }
- .KontenjerIme{
-   width: 320px;
-   display: flex;
-   align-items: center;
- }
- .SimbolIzmeni{
-   width: 20px;
-   height: 20px;
-   cursor: pointer;
-   margin-right: 15px;
- }
- .KontenjerMesto{
-   width: 320px;
-   display: flex;
-   align-items: center;
- }
- .SimbolIzmeni1{
-   width: 20px;
-   height: 20px;
-   cursor: pointer;
-   margin-right: 15px;
- }
- .KontenjerEmail{
-   width: 320px;
-   display: flex;
-   align-items: center;
- }
- .SimbolIzmeni2{
-   width: 20px;
-   height: 20px;
-   cursor: pointer;
-   margin-right: 15px;
- }
- .KontenjerBroj{
-   width: 320px;
-   display: flex;
-   align-items: center;
- }
- .SimbolIzmeni3{
-   width: 20px;
-   height: 20px;
-   cursor: pointer;
-   margin-right: 15px;
- }
- .DugmeSacuvajIzmene{
-   padding: 15px;
-   font-size: 16px;
-   margin-left: 70px;
-   margin-top: 20px;
-   background-color: rgb(206, 235, 101);
-   border: none;
-   border-radius: 10px;
-   font-weight: 520;
-  box-shadow: none;
-   font-family: Helvetica, sans-serif;
-   color: rgba(19, 15, 15, 0.938);
- 
-   cursor: pointer;
- }
- .DugmeOdjaviSe{
-   padding: 15px;
-   font-size: 16px;
-   margin-left: 90px;
-   margin-top: 300px;
-   background-color: rgb(206, 235, 101);
-   border: none;
-   border-radius: 10px;
-   font-weight: 520;
-   font-family: Helvetica, sans-serif;
-   color: rgba(19, 15, 15, 0.938);
-   cursor: pointer;
-   box-shadow: none;
- }
- .LinijaOdvajanja{
-   height: 1012px;
-   border-width: 2px;
-   border-color: black;
-   border-style: solid;
-   margin-top: -884px;
-   margin-left: 320px;
- }
- .BarZaNavigaciju{
-   margin-top: -1010px;
-   margin-left: 385px;
-   width: 1150px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   height: 100px;
- 
- }
- .DugmeProizvodiKojiMiSeSvidjaju{
-   width: 200px;
-   height: 60px;
-   font-size: 18px;
-   background-color: rgb(206, 235, 101);
-   border: none;
-   border-radius: 15px;
-   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: rgba(19, 15, 15, 0.938);
-   box-shadow: none;
-   cursor: pointer;
- }
- .DugmeMojaInteresovanja{
-   width: 200px;
-   height: 60px;
-   font-size: 18px;
-   background-color: rgb(245, 247, 122);
-    border: none;
-    border-radius: 15px;
-   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: rgba(19, 15, 15, 0.938);
-   box-shadow: none;
-   cursor: pointer;
- }
- .DugmeIstorijaKorpe{
-   width: 200px;
-   height: 60px;
-   font-size: 18px;
-   background-color: rgb(206, 235, 101);
-   border: none;
-   border-radius: 15px;
-   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: rgba(19, 15, 15, 0.938);
-   box-shadow: none;
-   cursor: pointer;
- }
- .MojeProdavnice{
-   width: 200px;
-   height: 60px;
-   font-size: 18px;
-   background-color: rgb(206, 235, 101);
-   border: none;
-   border-radius: 15px;
-   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: rgba(19, 15, 15, 0.938);
-   box-shadow: none;
-   cursor: pointer;
- }
- .LinijaNavigacije{
-   width: 1242px;
-   border-width: 2px;
-   border-color: black;
-   border-style: solid;
-   margin-left: 328px;
-   margin-top: 10px;
- 
- }
-
 .MojNalog{
-  height: 960px;
+  height: 100%;
+  width: 100.1%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-items: center;
   background-color: rgb(245, 244, 244);
-  margin-top: -18px;
 }
-.KontenjerNaslova{
-  height: 40px;
-  width: 1200px;
-  margin: 0px;
-  margin-left: 350px;
-  margin-top: 20px;
+.InicijalniPodatci{
   display: flex;
-  text-align: center;
+  height: 100%;
+  width: 100%;
   justify-content: center;
- 
-margin-bottom: 40px;
 }
-.IzgledIzaberiSvojaInteresovanja{
-  font-size: 30px;
-  margin: 0px;
+.KontenjerSlikaProfilaiOpisa{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  border-right-color: black;
+  border-right-style: solid;
+}
+.KontenjerSlike{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+}
+.IzgledProfilneSlike{
+ object-fit: cover;
+ height: 160px;
+ width: 160px;
+ border-radius: 50%;
+ cursor: pointer;
+ margin: 0;
+ padding: 0;
+}
+.IzgledSlovaProfila{
+font-size: 20px;
+ width: 300px;
+ font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ color: rgba(19, 15, 15, 0.938);
+}
+.IzgledMestaProfila{
+  font-size: 20px;
+  width: 300px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
 }
-.KontenjerIzaberiVrstuProizvoda{
-  width: 1200px;
-  height: 700px ;
-  margin-left: 360px;
+.IzgledEmailaProfila{
+  font-size: 20px;
+  width: 300px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.IzgledBrojaProfila{
+  font-size: 20px;
+  width: 300px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.KontenjerIme{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 2%;
+}
+.SimbolIzmeni{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  margin-right: 3%;
+}
+.KontenjerMesto{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 2%;
+}
+.SimbolIzmeni1{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 3%;
+}
+.KontenjerEmail{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 2%;
+}
+.SimbolIzmeni2{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 3%;
+}
+.KontenjerBroj{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 2%;
+}
+.SimbolIzmeni3{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 3%;
+}
+.KontenjerZaDugmeZaSacuvati{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.DugmeSacuvajIzmene{
+  padding: 15px;
+  font-size: 16px;
+  background-color: rgb(206, 235, 101);
+  border: none;
+  border-radius: 10px;
+  font-weight: 520;
+  box-shadow: none;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+  cursor: pointer;
+}
+.KontenjerOdjaviSe{
+ margin-top: 30%;
+ margin-bottom: 40px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.DugmeOdjaviSe{
+  padding: 15px;
+  font-size: 16px;
+  background-color: rgb(206, 235, 101);
+  border: none;
+  border-radius: 10px;
+  font-weight: 520;
+  font-family: Helvetica, sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+  cursor: pointer;
+  box-shadow: none;
+}
+.KontenjerSaCelimSadrzajem{
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
 }
-.PrviKontenjer{
-  width: 1200px;
-  height: 82px;
+.BarZaNavigaciju{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+  height: 100px;
+  margin-top: 40px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+.DugmeProizvodiKojiMiSeSvidjaju{
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  background-color: rgb(206, 235, 101);
+  border: none;
+  border-radius: 15px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+  box-shadow: none;
+  cursor: pointer;
+}
+.DugmeMojaInteresovanja{
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  background-color: rgb(245, 247, 122);
+   border: none;
+   border-radius: 15px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+  box-shadow: none;
+  cursor: pointer;
+}
+.DugmeIstorijaKorpe{
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  background-color: rgb(206, 235, 101);
+  border: none;
+  border-radius: 15px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+  box-shadow: none;
+  cursor: pointer;
+}
+.MojeProdavnice{
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  background-color: rgb(206, 235, 101);
+  border: none;
+  border-radius: 15px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+  box-shadow: none;
+  cursor: pointer;
+}
+.KontenjerNaslova{
+  width: 100%;
+  height: 30px;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
-
+.IzgledIzaberiSvojaInteresovanja{
+  font-size: 28px;
+   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.KontenjerIzaberiVrstuProizvoda{
+  width: 100%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px;
+  justify-items: center;
+  align-items: center;
+  padding: 0px;
+}
 .KontenjerZdravaHrada{
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 300px;
-  height: 50px;
-  margin-right: 100px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
 }
 .KontenjerMlecniProizvodi{
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 300px;
-  height: 50px;
-  margin-right: 46px;
-  
+  height: 80px; 
+  margin: 0px;
+  padding: 0px;
 }
 .KontenjerVoceIPovrce{
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 300px;
-  height: 50px;
-  margin-right: 112px;
-  margin-left: -54px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
 }
 .KontenjerMesniProizvodi{
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 300px;
-  height: 50px;
- 
-}
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  }
 .KontenjerSmrznuto{
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 300px;
-  height: 50px;
-  margin-right: 112px;
-  margin-left: -54px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
 }
 .KontenjerPice{
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 300px;
-  height: 50px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
 }
 .KontenjerSlatkisiIGrickalice{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   width: 400px;
-  height: 50px;
-  margin-right: 12px;
-  margin-left: -48px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 12px;
 }
 .KontenjerLicnaHigijena{
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 300px;
-  height: 50px;
-  margin-right: 112px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
 }
 .KontenjerKucnaHemija{
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 300px;
-  height: 50px;
-  margin-right: 456px;
- 
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
 }
 .KontenjerKutakZaBebe{
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 300px;
-  height: 50px;
-  margin-right: 52px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
 }
 .KontenjerKucniLjubimci{
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 300px;
-  height: 50px;
-  margin-right: 112px;
-  margin-left: 50px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
 }
 .KontenjerTehnikaIPosudje{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   width: 400px;
-  height: 50px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 12px;
 }
 .IzgledSlovaZaCekiranje{
   font-size: 24px;
@@ -347,17 +379,16 @@ margin-bottom: 40px;
   margin-right: 10px;
 }
 .ProstorZaSacuvati{
-  width: 1200px;
-  height: 180px;
+  width: 100%;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  margin-bottom: 40px;
 }
 .IzgledDugmeta{
   height: 80px;
   width: 220px;
-  margin-right: 100px;
   border-radius: 40px;
   background-color: rgb(206, 235, 101);
   font-size: 24px;

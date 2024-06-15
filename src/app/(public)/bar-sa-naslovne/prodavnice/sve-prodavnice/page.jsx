@@ -4,12 +4,13 @@ export default function pocetna() {
   return (
   <div>
 <div className={styles.KontenjerPocetneStrane}>
+  <div className={styles.VideoReklame}></div>
   <div className={styles.PozicijaNaslova}>
   <p className={styles.IzgledNaslova}>Sve prodavnice</p>
   </div>
-        <div className={styles.KontenjerZaPretragu}>
-          <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Unesi naziv prodavnice"/>
-        </div>
+  <div className={styles.KontenjerZaPretragu}>
+        <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Pretraga obroka"/>
+      </div>
         <div className={styles.KontenjerSaProdavnicama}>
         <Link href="/bar-sa-naslovne/prodavnice/pojedinacna-prodavnica">
           <div className={styles.KontenjerSaIzgledom}>
@@ -51,7 +52,7 @@ export default function pocetna() {
               <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
             </div>
             <div className={styles.KontenjerSaIzgledomDonji}>
-              <p>DIS</p>
+            <p className={styles.ImeMarketa}>DIS</p>
             </div>
           </div>
           <div className={styles.KontenjerSaIzgledom}>
@@ -59,10 +60,81 @@ export default function pocetna() {
               <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
             </div>
             <div className={styles.KontenjerSaIzgledomDonji}>
-              <p>DIS</p>
+            <p className={styles.ImeMarketa}>DIS</p>
             </div>
           </div>
-          
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+            </div>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
+            </div>
+          </div>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+            </div>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
+            </div>
+          </div>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+            </div>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
+            </div>
+          </div>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+            </div>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
+            </div>
+          </div>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+            </div>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
+            </div>
+          </div>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+            </div>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
+            </div>
+          </div>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+            </div>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
+            </div>
+          </div>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+            </div>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
+            </div>
+          </div>
+          <div className={styles.KontenjerSaIzgledom}>
+            <div className={styles.KontenjerSaIzgledomGornji}>
+              <img className={styles.IzgledSlikeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
+            </div>
+            <div className={styles.KontenjerSaIzgledomDonji}>
+              <p className={styles.ImeMarketa}>DIS</p>
+            </div>
+          </div>
         </div>
         <div className={styles.KontenjerZaDugmice}>
       <button className={styles.DugmrStrane}>1</button>

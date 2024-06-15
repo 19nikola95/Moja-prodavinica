@@ -1,26 +1,31 @@
 .GlavniIzgledHedera{
-  display: flex;
-  padding-top: 0px;
-  margin-top: 0px;
-  height: 80px;
+  display: grid;
+  grid-template-columns: 18% 43% 15% 14% 10%;
+  justify-items: center;
+  grid-template-rows: 90px;
+  align-items: center;
+  height: 90px;
   width: 100%;
- margin-bottom: 0px;
- background-color: rgb(245, 242, 242);
+  background-color: rgb(245, 242, 242);
   background-image: linear-gradient(to right, rgb(245, 247, 122) 20%, rgb(154, 218, 102) 80%);
  box-shadow: 0px 0px 10px rgba(95, 97, 95, 0.6);
 }
 .KontenjerLoga{
- margin-left:  60px;
- margin-top: -15px;
+ height: 90px;
+ width: 210px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 .IzgledLoga{
   display: flex;
-  height: 120px;
-  width: 190px;
+  height: 60px;
+  width: 210px;
   cursor: pointer;
 }
 .KontenjerdShearchBara{
-padding-left: 65px;
+height: 90px;
+width: 600px;
 display: flex;
 align-items: center;
 }
@@ -28,23 +33,22 @@ align-items: center;
   border: none;
   width: 600px;
   height: 40px;
-  padding-left: 10px;
   border-radius: 50px;
   background-color: rgb(255, 255, 255);
- font-size: 18px;
+  font-size: 18px;
   box-shadow: 0px 0px 5px rgba(22, 82, 30, 0.6);
 }
 .IzgledShearchBara::placeholder{
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
 }
 .KontenjerZaAplikaciju{
   height: 80px;
-  width: 240px;
+  width: 100%;
   display: flex;
   align-items: center;
- margin-left: 30px;
+  justify-content: center;
   cursor: pointer;
  }
 .LevaStranjaKontenjerZaAplikaciju{
@@ -68,10 +72,10 @@ align-items: center;
 }
 .KontenjerZaAkaunt{
   height: 80px;
-  width: 140px;
+  width: 100%;
   display: flex;
   align-items: center;
-margin-right: 25px;
+  justify-content: end;
   cursor: pointer;
 }
 .LevaStranaKontenjeraZaAkaunt{
@@ -86,6 +90,7 @@ margin-right: 25px;
 }
 .DesnaStranaKontenjeraZaAkaunt{
   display: flex;
+  width: 120px;
   font-size: 15px;
   font-weight: bold;
   color: rgba(19, 15, 15, 0.938);
@@ -93,12 +98,10 @@ margin-right: 25px;
   }
   .KontenjerZaKorpu{
     height: 80px;
-    width: 120px;
+    width: 100%;
     display: flex;
     align-items: center;
-   margin-left: 25px;
-   
-   
+    justify-content: center;
     cursor: pointer;
   }
   .LevaStranaKontenjeraZaKorpu{
@@ -116,6 +119,7 @@ margin-right: 25px;
     font-size: 22px;
     font-weight: bold;
     color: rgba(19, 15, 15, 0.938);
+    margin-left: 10px;
   }
   .KontenjerZaLupu{
     display: flex;
@@ -124,7 +128,6 @@ margin-right: 25px;
     width: 42px;
     height: 42px;
     margin-top: 16px;
-    
     border-width: 2px;
     border-color: black;
     border-style: solid;
@@ -134,23 +137,4 @@ margin-right: 25px;
   .IzgledLupe{
     width: 42px;
     height: 42px;
-   
   }
-  @media ( max-width: 1300px){ 
-    .IzgledShearchBara{
-      width: 350px;
-    }
-    .KontenjerdShearchBara{
-      right: 50%;
-    }
-   }
-  
-  @media ( max-width: 1100px){ 
-    .IzgledShearchBara{
-      opacity: 0;
-    }
-    .KontenjerZaLupu{
-      opacity: 1;
-    }
-  }
-  

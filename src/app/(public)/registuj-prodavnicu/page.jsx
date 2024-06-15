@@ -6,7 +6,10 @@ export default function registrujprodavnicu() {
    <div className={styles.KontenjerGornjegObaveštenja}>
         <p className={styles.IzgledSlovaObavestenja}>Ukoliko imate prodavnicu i želite da bude vidljiva sivma preko aplikacije popunite formular ispod</p>
         </div>
+        <div className={styles.KontenjerZaObavestenjeUpitnika}>
         <p className={styles.IzgledSlovaNaslovaOProdavnici}>Podaci o prodavnici:</p>
+        </div>
+        <div className={styles.GornjaPoljaOProdavnici}>
         <div className={styles.KontenjerNazivProdavnice}>
           <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Naziv prodavnice:</p>
           <input className={styles.IzgledSvihInputaZaKontaktirajNas} type="text"/>
@@ -23,7 +26,11 @@ export default function registrujprodavnicu() {
           <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Broj:</p>
           <input className={styles.IzgledBrojInputaZaKontaktirajNas} type="text"/>
         </div>
+        </div>
+        <div className={styles.KontenjerZaObavestenjeUpitnika}>
         <p  className={styles.IzgledSlovaNaslovaOvlasniku}>Podaci o vlasniku prodavnice:</p>
+        </div>
+        <div className={styles.DonjaPoljaOProdavnici}>
         <div className={styles.KontenjerImeVlasnika}>
           <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Ime:</p>
           <input className={styles.IzgledImeInputaZaKontaktirajNas} type="text"/>
@@ -40,7 +47,10 @@ export default function registrujprodavnicu() {
         <p className={styles.IzgledSvihTekstovaZaKontaktirajNas}>Email:</p>
         <input className={styles.IzgledEmailInputaZaKontaktirajNas} type="text"/>
       </div>
+      </div>
+      <div className={styles.KontenjerZaDugmeRegistracije}>
       <button className={styles.IzgledDugmetaZaRegistraciju}>Registracija</button>
+      </div>
       <div className={styles.Okvir1}>
       </div>
       
@@ -57,16 +67,17 @@ export default function registrujprodavnicu() {
       <input className={styles.IzgledImeInputaZaKontaktirajNas} type="text" placeholder="Unesite vaš broj"/>
     </div>
     </div>
+    <div className={styles.KontenjerPisanjeUpita}>
      <div className={styles.KontenjerTekstUputa}>
       <p className={styles.IzgledObavestenjaTekstovaZaKontaktirajNas}>Ukoliko imate dodatne zahteve, pitanja ili nekih nejasnoća ovde slobodno pitajte:</p>
+      <div className={styles.KontenjerZaDugme}>
+    <button className={styles.DugmeUpit}>Pošalji upit</button>
+    </div>
       </div>
       <div className={styles.PostaviPitanje}>
       <textarea rows="10" className={styles.IzgledBoxObavestenjaInputaZaKontaktirajNas} type="text" placeholder="Šta god vas zanima ovde napišite"></textarea>
       </div>
-    
-  </div>
-  <div className={styles.KontenjerZaDugme}>
-    <button className={styles.DugmeUpit}>Pošalji upit</button>
+    </div>
     </div>
   </div>
   );

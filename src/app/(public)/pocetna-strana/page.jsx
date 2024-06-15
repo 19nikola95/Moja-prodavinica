@@ -23,14 +23,16 @@ export default function pocetna() {
 <button className={styles.DugmeIzbora}>Prodavnice</button>
 </Link>
 </div>
+<div className={styles.KontenjerZaNaslov}>
 <p className={styles.IzgledSlovaObavestenja}>
-  Samo za vas preporučujemo:
-</p>
+  Samo za vas preporučujemo:</p>
+</div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
-<Link href="bar-sa-naslovne/svi-proizvodi/pojedinacni-proizvodi">
   <div className={styles.KontenjerProizvoda}>
     <div className={styles.GornjiDeoKontenjeraProizvoda}>
+    <Link href="bar-sa-naslovne/svi-proizvodi/pojedinacni-proizvodi">
     <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+    </Link>
       <div className={styles.KontenjerZaTekstProizvoda}>
         <div className={styles.RedUKontenjeruZaTekstProizvoda}>
           <p>Mleko od badema</p>
@@ -94,7 +96,7 @@ export default function pocetna() {
        </div>
     </div>
   </div>
-</Link>
+
   <div className={styles.KontenjerProizvoda}>
   <div className={styles.GornjiDeoKontenjeraProizvoda}>
       <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
@@ -161,17 +163,349 @@ export default function pocetna() {
        </div>
     </div>
   </div>
-
+  <div className={styles.KontenjerProizvoda}>
+ < div className={styles.GornjiDeoKontenjeraProizvoda}>
+      <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+      <div className={styles.KontenjerZaTekstProizvoda}>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>Mleko od badema</p>
+        </div>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>350g</p>
+        </div>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>Doktor etker</p>
+        </div>
+      </div>
+    </div>
+    <div className={styles.DonjiDeoKontenjeraProizvoda}>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Univerexport</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>DIS</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>Aman</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Idea</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>Mega Market</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Gomex</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>STR MAJA</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Tempo</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+    </div>
+</div>
+<div className={styles.KontenjerProizvoda}>
+ < div className={styles.GornjiDeoKontenjeraProizvoda}>
+      <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+      <div className={styles.KontenjerZaTekstProizvoda}>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>Mleko od badema</p>
+        </div>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>350g</p>
+        </div>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>Doktor etker</p>
+        </div>
+      </div>
+    </div>
+    <div className={styles.DonjiDeoKontenjeraProizvoda}>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Univerexport</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>DIS</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>Aman</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Idea</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>Mega Market</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Gomex</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>STR MAJA</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Tempo</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+    </div>
+</div>
+<div className={styles.KontenjerProizvoda}>
+ < div className={styles.GornjiDeoKontenjeraProizvoda}>
+      <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+      <div className={styles.KontenjerZaTekstProizvoda}>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>Mleko od badema</p>
+        </div>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>350g</p>
+        </div>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>Doktor etker</p>
+        </div>
+      </div>
+    </div>
+    <div className={styles.DonjiDeoKontenjeraProizvoda}>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Univerexport</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>DIS</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>Aman</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Idea</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>Mega Market</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Gomex</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>STR MAJA</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Tempo</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+    </div>
+</div>
+<div className={styles.KontenjerProizvoda}>
+ < div className={styles.GornjiDeoKontenjeraProizvoda}>
+      <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+      <div className={styles.KontenjerZaTekstProizvoda}>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>Mleko od badema</p>
+        </div>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>350g</p>
+        </div>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>Doktor etker</p>
+        </div>
+      </div>
+    </div>
+    <div className={styles.DonjiDeoKontenjeraProizvoda}>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Univerexport</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>DIS</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>Aman</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Idea</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>Mega Market</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Gomex</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>STR MAJA</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Tempo</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+    </div>
+</div>
+<div className={styles.KontenjerProizvoda}>
+ < div className={styles.GornjiDeoKontenjeraProizvoda}>
+      <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+      <div className={styles.KontenjerZaTekstProizvoda}>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>Mleko od badema</p>
+        </div>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>350g</p>
+        </div>
+        <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+          <p>Doktor etker</p>
+        </div>
+      </div>
+    </div>
+    <div className={styles.DonjiDeoKontenjeraProizvoda}>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Univerexport</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>DIS</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>Aman</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Idea</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>Mega Market</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Gomex</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledNaslovaMarketa}>
+      <p>STR MAJA</p>
+      </div>
+      <div className={styles.IzgledNaslovaMarketa}>
+      <p>Tempo</p>
+      </div>
+      <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+       <div className={styles.IzgledSlovaCena}>
+       <p>211.300 din</p>
+       </div>
+    </div>
+</div>
+ 
 </div> {/* Ovo je samo za vas proizvodi */}
 <div className={styles.KontenjerZaSledeceINazad}>
 <button className={styles.DugmeZaStranice}>Nazad</button>
 <button className={styles.DugmeZaStranice}>Sledeće</button>
 </div>
+
+<div className={styles.KontenjerZaNaslov}>
 <p className={styles.IzgledSlovaObavestenja}>
   Proizvodi po vašem ukusu:
 </p>
+</div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
- 
   <div className={styles.KontenjerProizvoda}>
  < div className={styles.GornjiDeoKontenjeraProizvoda}>
       <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>

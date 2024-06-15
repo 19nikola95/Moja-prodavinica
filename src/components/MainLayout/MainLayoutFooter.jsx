@@ -4,7 +4,7 @@ export function MainLayoutFooter() {
     <div className="GlavniIzgledFootera">
         <div className="KontenjerZapratiNas">
           <div className="GornjiDeoKontenjeraZapratiNas">
-            <p>Zaprati nas na mrezama</p>
+            <p className="IzgledSlovaNaslovaZObavestenja">Zaprati nas na mrezama</p>
           </div>
           <div className="DonjiDeoKontenjeraZapratiNas">
             <div className="KontenjerZaFacebook">
@@ -23,7 +23,7 @@ export function MainLayoutFooter() {
         </div>
         <div className="KontenjerSaznajONama">
           <div className="GornjiDeoKontenjeraSaznajONama">
-            <p>Saznaj o nama</p>
+            <p className="IzgledSlovaNaslovaZObavestenja">Saznaj o nama</p>
           </div>
           <Link href="/o-nama"><p className="IzgleSlovaOpcijeONama">O mojoj prodavnici</p> </Link>
           <p className="IzgleSlovaOpcijeONama">Blog</p>
@@ -32,7 +32,7 @@ export function MainLayoutFooter() {
         </div>
         <div className="KontenjerUsloviKoriscenjaIPolitikaPrivatnosti">
           <div className="GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti">
-            <p>Uslovi koriscenja i politika privatnosti</p>
+            <p className="IzgledSlovaNaslovaZObavestenja">Uslovi koriscenja i politika privatnosti</p>
           </div>
           <p className="IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti">Uslovi koriscenja</p>
           <p className="IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti">Politika privatnosti</p>

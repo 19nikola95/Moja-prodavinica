@@ -6,34 +6,45 @@ width: 100%;
   flex-direction: column;
 }
 .VideoReklame{
+  display: flex;
   height: 150px;
-  width: 1500px;
-  margin-top: 12px;
-  margin-left: 2%;
-  background-color: rgb(110, 106, 106);
+  width: 100%;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+   background-color: gray;
+}
+.PozicijaNaslova{
+  height: 60px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .IzgledSlovaNaslova{
-  margin-left: 0%;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin: 0;
+  padding: 0;
   font-size: 30px;
-  font-weight: bold;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 .KontenjerSaSadrzajom{
-  
-  margin-left: 2%;
-  width: 1400px;
-  height: 1100px;
-  display: flex;
-  flex-direction: row;
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+ grid-template-columns: 60% 40%;
+ justify-items: center;
 }
 .LevaStranjaKontenjeraSaSadrzajom{
-   width: 900px;
-  height: 1100px;
+  width: 900px;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 .IzgledSlike{
   width: 400px;
@@ -46,12 +57,15 @@ width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 .IzgledSlovaSadrzaja{
   font-size: 22px;
   font-weight: bold;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
+  padding: 0;
+  margin: 0;
 }
 .KontenjerSaOpisom{
   width: 900px;
@@ -61,6 +75,7 @@ width: 100%;
   line-height: 1.4;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
+  margin-left: 10px;
 }
 .IzgledSlovaOpisa{
   font-size: 18px;
@@ -70,7 +85,7 @@ width: 100%;
 }
 .DesnaStranjaKontenjeraSaSadrzajom{
   width: 500px;
-  height: 1100px;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -89,6 +104,7 @@ border-width: 2px;
 border-style: solid;
 display: flex;
 flex-direction: row;
+margin-bottom: 10px;
 }
 .LevaKontenjerSaOstalimNagradnimIgrama{
 height: 84px;

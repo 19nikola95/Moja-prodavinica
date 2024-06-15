@@ -8,7 +8,9 @@ export default function pocetna() {
     <img className={styles.LogoZaNaslov} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
     <p className={styles.IzgledSlovaNaslova}>DIS</p>
   </div>
+  <div className={styles.KontenjerZaOpis}>
    <p className={styles.IzgledOpisa}>Dis je market koji ima svoju aplikaciju kako bi ste uštedeli još više ili dobili neku povoljnost preuzmite aplikaciju <a href="https://www.nasakartica.rs/">Naša kartica</a></p>
+   </div>
         <div className={styles.KontenjerSaSvimProizvodima}>
           <div className={styles.KontenjerProizvoda}>
             <div className={styles.GornjiDeoKontenjeraProizvoda}>
@@ -48,6 +50,144 @@ export default function pocetna() {
                 </div>
                 <div className={styles.IzgledSlovaCena}>
                   <p>356,22 din</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.DonjiDeoKontenjeraProizvoda}>
+             <input className={styles.IzgledOdabiraKolicine} type="number" placeholder="0"/>
+             <img  className={styles.IzgledKorpeUKontenjeruZaProizvod} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+            </div>
+          </div>
+          <div className={styles.KontenjerProizvoda}>
+            <div className={styles.GornjiDeoKontenjeraProizvoda}>
+              <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+              <div className={styles.KontenjerZaTekstProizvoda}>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Mleko od badema</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>350g</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Doktor etker</p>
+                </div>
+                <div className={styles.IzgledSlovaCena}>
+                  <p><b>356,22 din</b></p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.DonjiDeoKontenjeraProizvoda}>
+             <input className={styles.IzgledOdabiraKolicine} type="number" placeholder="0"/>
+             <img  className={styles.IzgledKorpeUKontenjeruZaProizvod} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+            </div>
+          </div>
+          <div className={styles.KontenjerProizvoda}>
+            <div className={styles.GornjiDeoKontenjeraProizvoda}>
+              <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+              <div className={styles.KontenjerZaTekstProizvoda}>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Mleko od badema</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>350g</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Doktor etker</p>
+                </div>
+                <div className={styles.IzgledSlovaCena}>
+                  <p><b>356,22 din</b></p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.DonjiDeoKontenjeraProizvoda}>
+             <input className={styles.IzgledOdabiraKolicine} type="number" placeholder="0"/>
+             <img  className={styles.IzgledKorpeUKontenjeruZaProizvod} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+            </div>
+          </div>
+          <div className={styles.KontenjerProizvoda}>
+            <div className={styles.GornjiDeoKontenjeraProizvoda}>
+              <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+              <div className={styles.KontenjerZaTekstProizvoda}>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Mleko od badema</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>350g</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Doktor etker</p>
+                </div>
+                <div className={styles.IzgledSlovaCena}>
+                  <p><b>356,22 din</b></p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.DonjiDeoKontenjeraProizvoda}>
+             <input className={styles.IzgledOdabiraKolicine} type="number" placeholder="0"/>
+             <img  className={styles.IzgledKorpeUKontenjeruZaProizvod} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+            </div>
+          </div>
+          <div className={styles.KontenjerProizvoda}>
+            <div className={styles.GornjiDeoKontenjeraProizvoda}>
+              <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+              <div className={styles.KontenjerZaTekstProizvoda}>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Mleko od badema</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>350g</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Doktor etker</p>
+                </div>
+                <div className={styles.IzgledSlovaCena}>
+                  <p><b>356,22 din</b></p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.DonjiDeoKontenjeraProizvoda}>
+             <input className={styles.IzgledOdabiraKolicine} type="number" placeholder="0"/>
+             <img  className={styles.IzgledKorpeUKontenjeruZaProizvod} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+            </div>
+          </div>
+          <div className={styles.KontenjerProizvoda}>
+            <div className={styles.GornjiDeoKontenjeraProizvoda}>
+              <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+              <div className={styles.KontenjerZaTekstProizvoda}>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Mleko od badema</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>350g</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Doktor etker</p>
+                </div>
+                <div className={styles.IzgledSlovaCena}>
+                  <p><b>356,22 din</b></p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.DonjiDeoKontenjeraProizvoda}>
+             <input className={styles.IzgledOdabiraKolicine} type="number" placeholder="0"/>
+             <img  className={styles.IzgledKorpeUKontenjeruZaProizvod} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
+            </div>
+          </div>
+          <div className={styles.KontenjerProizvoda}>
+            <div className={styles.GornjiDeoKontenjeraProizvoda}>
+              <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+              <div className={styles.KontenjerZaTekstProizvoda}>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Mleko od badema</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>350g</p>
+                </div>
+                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                  <p>Doktor etker</p>
+                </div>
+                <div className={styles.IzgledSlovaCena}>
+                  <p><b>356,22 din</b></p>
                 </div>
               </div>
             </div>

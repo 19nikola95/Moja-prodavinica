@@ -1,31 +1,32 @@
 .KontenjerPocetneStrane{
-  height: 3070px;
-  width: 1575px;
+  height: 100%;
+  width: 100.1%;
   display: flex;
   flex-direction: column;
   background-color: rgb(245, 244, 244);
 }
 .VideoReklame{
- 
+  display: flex;
   height: 150px;
-  width: 1510px;
-  margin-top: 12px;
-  margin-left: 2%;
-  background-color: gray;
+  width: 100%;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ background-color: gray;
 }
 .KontenjerZaDugmice{
   height: 100px;
-  width: 1440px;
-  margin-top: 25px;
-  display: flex;
- justify-content: space-between;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  justify-items: center;
 }
 .DugmeIzbora{
   height: 70px;
   width: 200px;
   margin-left: 50px;
   margin-top: 25px;
- background-color: rgb(206, 235, 101);
+  background-color: rgb(206, 235, 101);
   border: none;
   border-radius: 12px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -33,37 +34,35 @@
   color: rgb(37, 37, 37);
   cursor: pointer;
 }
+.KontenjerZaNaslov{
+width: 100%;
+height: 30px;
+display: flex;
+margin-top: 30px;
+margin-bottom: 60px;
+}
 .IzgledSlovaObavestenja{
-  margin-top: 5px;
-  margin-left: 25px;
-  margin-bottom: 25px;
+  margin-left: 6%;
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(19, 15, 15, 0.938);
 }
 .KontenjerPreporuceniProizvodi{
-  height: 760px;
-  width: 1460px;
-  margin-left: 90px;
-  margin-bottom: 0;
+  height: 100%;
+  width: 100%;
   display: grid;
-  column-gap: 310px 310px 310px 310px;
-  row-gap: 0px;
+  grid-template-columns: 25% 25% 25% 25%;
   align-items: center;
-
-  
+  justify-items: center;
 }
 
 .KontenjerZaSledeceINazad{
-  height: 40px;
-  width: 1460px;
- margin-left: 90px;
+ height: 40px;
+ width: 100%;
  margin-bottom: 20px;
  display: flex;
  align-items: center;
  justify-content: end;
-
-
 }
 .DugmeZaStranice{
   height: 38px;
@@ -76,7 +75,7 @@
 }
 .KontenjerProizvoda{
   width: 310px;
-  height: 366px;
+  height: 386px;
   margin-right: 10px;
   border-color: black;
   border-style: solid;
@@ -116,32 +115,129 @@
 }
 .DonjiDeoKontenjeraProizvoda{
   width: 310px;
-  height: 210px;
+  height: 234.5px;
   display: grid;
   grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px;
   grid-template-columns: 150px 150px;
   border: none;
+  justify-items: center;
   border-top-color: black;
   border-top-style: solid;
   border-top-width: 1px;
   text-align: center;
-  line-height: 1;
   background-color: white;
+  margin: 0px;
+  padding: 0px;
 }
 
 .IzgledSlovaCena{
-  margin-top: 20px;
+  margin: 0px;
+  padding: 0px;
   font-size: 18px;
   font-weight: 520;
-  margin-bottom: 10px;
-   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
+  line-height: 1;
 }
 .IzgledNaslovaMarketa{
   font-size: 20px;
-  margin-top: 16px;
   margin-bottom: 2px;
   margin-left: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+@media (min-width: 1600px) and (max-width: 1750px){
+  .DugmeIzbora{
+    margin-left: 40px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1600px){
+  .DugmeIzbora{
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+  .DugmeIzbora{
+    margin-left: 0px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+.KontenjerZaDugmice{
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin-left: 0px;
+}
+.DugmeIzbora{
+  margin-left: 0px;
+}
+.KontenjerPreporuceniProizvodi{
+  grid-template-columns: 33% 33% 33%;
+}
+}
+@media (min-width: 900px) and (max-width: 1000px){
+  .KontenjerZaDugmice{
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 0px;
+    margin-bottom: 70px;
+  }
+  .DugmeIzbora{
+    margin-left: 0px;
+  }
+  .KontenjerPreporuceniProizvodi{
+    grid-template-columns: 33.3% 33.3% 33.3%;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px){
+  .KontenjerZaDugmice{
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 0px;
+    margin-bottom: 70px;
+  }
+  .DugmeIzbora{
+    margin-left: 0px;
+  }
+  .KontenjerPreporuceniProizvodi{
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (min-width: 600px) and (max-width: 700px){
+  .KontenjerZaDugmice{
+    grid-template-columns: 50% 50%;
+    margin-left: 0px;
+    margin-bottom: 160px;
+  }
+  .DugmeIzbora{
+    margin-left: 0px;
+  }
+  .KontenjerPreporuceniProizvodi{
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px){
+  .KontenjerZaDugmice{
+    grid-template-columns: 50% 50%;
+    margin-left: 0px;
+    margin-bottom: 160px;
+  }
+  .DugmeIzbora{
+    margin-left: 0px;
+  }
+  .KontenjerPreporuceniProizvodi{
+    grid-template-columns: 100%;
+  }
+}
+@media (min-width: 350px) and (max-width: 500px){
+  .KontenjerZaDugmice{
+    grid-template-columns: 100%;
+    margin-left: 0px;
+    margin-bottom: 350px;
+  }
+  .DugmeIzbora{
+    margin-left: 0px;
+  }
+  .KontenjerPreporuceniProizvodi{
+    grid-template-columns: 100%;
+  }
+  .DugmeZaStranice{
+    margin-right: 50px;
+  }
 }

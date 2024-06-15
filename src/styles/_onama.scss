@@ -1,45 +1,59 @@
 .GlavniKontenjerZaSadrzaj{
-  height: 900px;
-  width: 1575px;
+  height: 100%;
+  width: 100.1%;
+  display: flex;
+  flex-direction: column;
   background-color: rgb(245, 244, 244);
-  margin: 0;
-
 }
 .PozicijaNaslova{
-  height: 46px;
-  width: 1570px;
-  margin-bottom: 10px;
- padding-top: 30px;
+  height: 60px;
+  width: 100%;
+  margin-top: 20px;
   display: flex;
+  align-items: center;
   justify-content: center;
-  text-align: center;
-
 }
 .IzgledSlovaNaslova{
- margin: 0px;
+  margin: 0;
+  padding: 0;
   font-size: 30px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
 }
+.KontenjerZaOpis{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100%;
+width: 100%;
+}
 .OpisONama{
-  margin-top: -10px;
-  margin-left: 6%;
-  margin-bottom: 0px;
-  width: 1400px;
+  margin: 0px;
+  padding: 0px;
+  width: 90%;
   font-size: 24px;
-  margin-bottom: 0px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
 }
 .UvodOpisa{
-  margin-top: 0px;
-  margin-left: 6%;
-  width: 1400px;
+  margin: 0px;
+  padding: 0px;
+  width: 90%;
   font-size: 24px;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.ZaglavljeZaKontenjerReklame{
+  height: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 .KontenjerZaVideoReklamu{
-  margin-top: 50px;
-  margin-left: 25%;
-  margin-bottom: 0px;
   height: 400px;
   width: 800px;
   background-color: gray;

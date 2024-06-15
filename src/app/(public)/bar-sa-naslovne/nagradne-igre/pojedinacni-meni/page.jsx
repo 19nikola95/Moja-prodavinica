@@ -4,7 +4,9 @@ export default function kontaktirajnas() {
   <div>
 <div className={styles.GlavniKontenjerZaSadrzaj}>
         <div className={styles.VideoReklame}></div>
+        <div className={styles.PozicijaNaslova}>
         <p className={styles.IzgledSlovaNaslova}>Lav nagradna igra 2024: Osvoji auto uz Lav pivo</p>
+        </div>
         <div className={styles.KontenjerSaSadrzajom}>
           <div className={styles.LevaStranjaKontenjeraSaSadrzajom}>
             <img className={styles.IzgledSlike} src="/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg" alt=""/>

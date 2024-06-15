@@ -1,6 +1,8 @@
 .GlavniIzgledFootera{
- display: flex;
+  display: grid;
+  grid-template-columns: 34% 33% 33%;
   align-items: center;
+  justify-items: center;
   height: 200px;
   width: 100%;
   background-color: rgb(245, 242, 242);
@@ -9,12 +11,11 @@
  
 }
 .KontenjerZapratiNas{
-  height: 200px;
+  height: 190px;
   width: 260px;
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-left: 20%;
 }
 .GornjiDeoKontenjeraZapratiNas{
   width: 260px;
@@ -79,12 +80,11 @@
     cursor: pointer;
   }
   .KontenjerSaznajONama{
-    height: 200px;
+    height: 190px;
     width: 260px;
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-left: 8%;
   }
   .GornjiDeoKontenjeraSaznajONama{
   width: 260px;
@@ -92,19 +92,23 @@
   display: flex;
   align-items: center;
   vertical-align: middle;
-  font-size: 24px;
-  font-weight: bold;
+
+  }
+  .IzgledSlovaNaslovaZObavestenja{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
   }
   .IzgleSlovaOpcijeONama{
     font-size: 20px;
-    margin-left: 0px;
     font-weight: 540;
     line-height:1.8;
     margin: 0;
     cursor: pointer;
   }
   .KontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
-    height: 200px;
+    height: 190px;
     width: 260px;
     display: flex;
     flex-direction: column;
@@ -122,7 +126,6 @@
   }
   .IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti{
     font-size: 19px;
-    margin-left: 0px;
     font-weight: 540;
     line-height: 2.2;
     margin: 0;

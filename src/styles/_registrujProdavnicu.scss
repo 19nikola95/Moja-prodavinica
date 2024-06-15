@@ -1,82 +1,104 @@
 .KontenjerZaKontaktirajNas{
-  height: 1050px;
-  width: 1570px;
+  height: 100%;
+  width: 100.1%;
+  display: flex;
+  flex-direction: column;
   background-color: rgb(245, 244, 244);
-margin-top: -10px;
-
 }
 .KontenjerGornjegObaveštenja{
-  height: 30px;
-  margin-top: 150x;
-  margin-bottom: 20px;
-  margin-left: 4%;
-  color: rgb(58, 58, 58);
-
+  height: 60px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   }
 .IzgledSlovaObavestenja{
-    padding-top: 40px;
+  margin: 0;
+  padding: 0;
   font-size: 30px;
-    margin-top: 10px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
-  font-weight: 600;
- 
+}
+.KontenjerZaObavestenjeUpitnika{
+  height: 25px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-align: center;
+ justify-content: center;
+
 }
 .IzgledSlovaNaslovaOProdavnici{
   font-size: 22px;
   font-weight: bold;
-  margin-top: 80px;
-  margin-left: 100px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
-  
+  margin: 0px;
+  padding: 0px;
+}
+.GornjaPoljaOProdavnici{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 37% 21% 27% 11%;
 }
 .KontenjerNazivProdavnice{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: -30px;
-  margin-left: 50px;
+  justify-content: center;
   height: 100px;
   width: 600px;
-
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
 }
 .KontenjerMestoProdavnice{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: -100px;
-  margin-left: 550px;
+  justify-content: center;
+
   height: 100px;
   width: 500px;
- 
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
 }
 .KontenjerUlicaProdavnice{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: -100px;
-  margin-left: 900px;
+  justify-content: center;
+
   height: 100px;
   width: 500px;
- 
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
 }
 .KontenjerBrojProdavnice{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: -100px;
-  margin-left: 1280px;
   height: 100px;
   width: 100px;
-  
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(19, 15, 15, 0.938);
+}
+.DonjaPoljaOProdavnici{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0S;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 24% 14% 28% 32%;
 }
 .KontenjerImeVlasnika{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: -20px;
-  margin-left: 50px;
+  justify-content: center;
   height: 100px;
   width: 500px;
 }
@@ -84,8 +106,7 @@ margin-top: -10px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: -100px;
-  margin-left: 320px;
+  justify-content: center;
   height: 100px;
   width: 500px;
 }
@@ -93,8 +114,7 @@ margin-top: -10px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: -100px;
-  margin-left: 620px;
+  justify-content: center;
   height: 100px;
   width: 500px;
 
@@ -103,16 +123,16 @@ margin-top: -10px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: -100px;
-  margin-left: 980px;
+  justify-content: start;
   height: 100px;
   width: 500px;
 
 }
 .IzgledSvihTekstovaZaKontaktirajNas{
   font-size: 24px;
+  margin: 0px;
+  padding: 0px;
   margin-right: 10px;
-
 }
 .IzgledSvihInputaZaKontaktirajNas{
   height: 24px;
@@ -169,10 +189,10 @@ margin-top: -10px;
 .IzgledSlovaNaslovaOvlasniku{
   font-size: 22px;
   font-weight: bold;
-  margin-top: 0px;
-  margin-left: 100px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
+  margin: 0px;
+  padding: 0px;
 
 }
 .IzgledImeInputaZaKontaktirajNas{
@@ -189,22 +209,31 @@ margin-top: -10px;
 
 }
 .KontenjerDodatneInfromacije{
-  margin-top: 0px;
-  margin-left: 30%;
+  height: 60px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 .DodatneInfromacije{
+  margin: 0;
+  padding: 0;
   font-size: 30px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
-  font-weight: 550;
- 
+}
+.KontenjerZaDugmeRegistracije{
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .IzgledDugmetaZaRegistraciju{
   height: 60px;
   width: 300px;
-  margin-top: 18px;
-  margin-left: 40%;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 28px;
@@ -222,29 +251,41 @@ margin-top: -10px;
 
 }
 .Informacije{
-  display: flex;
-  align-items: center;
-  margin-left: 100px;
-  margin-top: -30px;
-  width: 1400px;
-  height: 150px;
-
+width: 100%;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0px;
+padding: 0px;
+margin-bottom: 10px;
 }
 .KontenjeEmailObavestenja{
-  display: flex;
-  align-items: center;
-  height: 80px;
-  width: 500px;
-
+ display: flex;
+ align-items: center;
+ justify-content: end;
+ height: 80px;
+ width: 500px;
+ margin: 0px;
+padding: 0px;
 }
 .KontenjeBrojlObavestenja{
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 100px;
-  width: 500px;
-  margin-bottom: 35px;
-
+  height: 80px;
+  width: 300px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 6%;
+}
+.KontenjerPisanjeUpita{
+  display: flex;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 .KontenjeBoksZalObavestenja{
   display: flex;
@@ -252,9 +293,7 @@ margin-top: -10px;
   justify-content: center;
   height: 250px;
   width: 1400px;
-  margin-left: 100px;
   margin-right: 0px;
-
   border-width: 2px;
 }
 .IzgledObavestenjaTekstovaZaKontaktirajNas{
@@ -262,7 +301,8 @@ margin-top: -10px;
   width: 410px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
- 
+  margin: 0px;
+  padding: 0px;
 }
 .IzgledBoxObavestenjaInputaZaKontaktirajNas{
   width: 900px;
@@ -272,28 +312,22 @@ margin-top: -10px;
   margin: 0;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
- 
 }
 .KontenjeBoksZalObavestenja::placeholder{
   font-size: 20px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
- 
  }
  .KontenjerZaDugme{
   height: 60px;
   width: 240px;
- 
-margin-bottom: 60px;
-margin-top: -290px;
-  margin-left: 180px;
- 
+  margin-top: 5%;
  }
  .DugmeUpit{
   height: 50px;
   width: 200px;
   font-size: 24px;
-margin: 0px;
+  margin: 0px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
   border-radius: 28px;
@@ -315,18 +349,17 @@ margin: 0px;
   background-color: white;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
-  
 }
 .KontenjerTekstUputa{
-  margin-left: 80px;
-  margin-top: -50px;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 410px;
+  margin: 0px;
+  padding: 0px;
 }
 .PostaviPitanje{
-
-  margin-left: 500px;
-  width: 910px;
-  margin-top: -138px;
-
+display: flex;
+width: 910px;
 }

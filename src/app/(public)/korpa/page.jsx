@@ -3,7 +3,9 @@ export default function korpa() {
   return (
   <div>
 <div className={styles.KontenjerKorpe}>
+        <div className={styles.KontenjerZaNaslov}>
         <p className={styles.TekstNaslova}>Korpa</p>
+        </div>
       <div className={styles.KontenjerSaSvimInformacijama}>
         <div className={styles.LevaStranaKontenjeraSaSvimInformacijama}>
           <div className={styles.KontenjerInformacijeObavestenja}>
@@ -96,18 +98,6 @@ export default function korpa() {
           <p>Ukoliko želite  spisak sa proizvodima podeljenim po prodavnicama čekirajte ovde.</p>
          </div>
          <div className={styles.KontenjerSvihIzabranihProizvoda}>
-          <div className={styles.LevaStranaKontenjerSvihIzabranihProizvoda}>
-            <div className={styles.RedZaProizvode}></div>
-            <div className={styles.RedZaProizvode}>
-              <img className={styles.SlikaProizvodaIzKorpe} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-              <p>Bademovo mleko</p>
-              <input className={styles.BrojProizvoda} type="number"/>
-              <img className={styles.IzgledZamene} src="/SlikeZnakova/zamena.png" alt=""/>
-              <img className={styles.IzgledX} src="/SlikeZnakova/izgled x.jpg" alt=""/>
-            </div>
-          </div>
-          <div className={styles.DesnaStranaKontenjerSvihIzabranihProizvoda}>
-            <div className={styles.RedZaProizvode}></div>
             <div className={styles.RedZaProizvode}>
               <img className={styles.SlikaProizvodaIzKorpe} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
               <p>Bademovo mleko</p>
@@ -122,7 +112,14 @@ export default function korpa() {
               <img className={styles.IzgledZamene} src="/SlikeZnakova/zamena.png" alt=""/>
               <img className={styles.IzgledX} src="/SlikeZnakova/izgled x.jpg" alt=""/>
             </div>
-          </div>
+            <div className={styles.RedZaProizvode}>
+              <img className={styles.SlikaProizvodaIzKorpe} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+              <p>Bademovo mleko</p>
+              <input className={styles.BrojProizvoda} type="number"/>
+              <img className={styles.IzgledZamene} src="/SlikeZnakova/zamena.png" alt=""/>
+              <img className={styles.IzgledX} src="/SlikeZnakova/izgled x.jpg" alt=""/>
+            </div>
+          
          </div>
         </div>
       </div>

@@ -1,20 +1,14 @@
               
 import Link from "next/link"
 export function MainLayoutHeader() {
-
   return <header className="MainLayout__header">
-   
       <div className="HeaderPozadina">
       <div className="GlavniIzgledHedera">
       <Link href="/pocetna-strana"><div className="KontenjerLoga">
-         
          <img className="IzgledLoga" src="/Logo sajta/Logo.png" alt=""/> 
         </div></Link>
         <div className="KontenjerdShearchBara">
           <input className="IzgledShearchBara" type="text" placeholder="Unesi naziv namernice"/>
-        </div>
-        <div className="KontenjerZaLupu">
-          <img className="IzgledLupe" src="/Slike za heder/simbol-za-lupu.png" alt=""/>
         </div>
         <div className="KontenjerZaAplikaciju">
           <div className="LevaStranjaKontenjerZaAplikaciju">
@@ -35,9 +29,9 @@ export function MainLayoutHeader() {
         <Link href="/korpa"><div className="KontenjerZaKorpu">
           <div className="LevaStranaKontenjeraZaKorpu">
             <img  className="SimboliZaKorpu" src="/Slike za heder/simbol-za-korpu.png" alt=""/>
-          </div>
           <div className="DesnaStranjaKontenjeraZaKorpu">
             <p>110</p>
+          </div>
           </div>
         </div> </Link>
       </div>

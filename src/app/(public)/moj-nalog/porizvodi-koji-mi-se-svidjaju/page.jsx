@@ -5,8 +5,10 @@ export default function proizvodiKojiMiSeSvidjaju() {
   <div>
     <div className={styles.MojNalog}>
         <div className={styles.InicijalniPodatci}>
-          <div className={styles.KontenjerSlikaProfila}>
+          <div className={styles.KontenjerSlikaProfilaiOpisa}>
+            <div className={styles.KontenjerSlike}>
             <img  className={styles.IzgledProfilneSlike} src="/Moj nalog/bred pit.jpg" alt=""/>
+            </div>
             <div className={styles.KontenjerIme}>
             <p className={styles.IzgledSlovaProfila}>Nikola Milojević</p>
             <img  className={styles.SimbolIzmeni} src="/SlikeZnakova/zamena.png" alt=""/>
@@ -23,18 +25,22 @@ export default function proizvodiKojiMiSeSvidjaju() {
             <p className={styles.IzgledBrojaProfila}>066001215</p>
             <img  className={styles.SimbolIzmeni3} src="/SlikeZnakova/zamena.png" alt=""/>
           </div>
+          <div className={styles.KontenjerZaDugmeZaSacuvati}>
             <button className={styles.DugmeSacuvajIzmene}>Sačuvaj izmene</button>
+            </div>
+            <div className={styles.KontenjerOdjaviSe}>
             <button className={styles.DugmeOdjaviSe}>Odjavi se</button>
-            <div className={styles.LinijaOdvajanja}></div>
+            </div>
           </div>
         </div>
+        <div className={styles.KontenjerSaCelimSadrzajem}>
         <div className={styles.BarZaNavigaciju}>
           <button className={styles.DugmeProizvodiKojiMiSeSvidjaju}>Proizvodi koji mi se sviđaju</button>
           <Link href="/moj-nalog/moja-interesovanja"><button className={styles.DugmeMojaInteresovanja}>Moja interesovanja</button> </Link>
           <Link href="/moj-nalog/Istorija-korpe"> <button className={styles.DugmeIstorijaKorpe}>Istorija korpe</button></Link>
           <Link href="/moj-nalog/moje-prodavnice"><button className={styles.MojeProdavnice}>Moje prodavnice</button></Link>
           </div>
-        <div className={styles.LinijaNavigacije}></div>
+     
         <div className={styles.KontenjerPratiteProizvode}>
           <p className={styles.NaslovZaAkciju}>Pratite proizvode koji vam se svidjaju</p>
         </div>
@@ -385,11 +391,7 @@ export default function proizvodiKojiMiSeSvidjaju() {
        </div>
             </div>
           </div>
-          
-        
           </div>
-         
-       
         <div className={styles.KontenjerZaDruguStranicu}>
           <button className={styles.DugmeZaSledecuStranu}>1</button>
           <button className={styles.DugmeZaSledecuStranu}>2</button>
@@ -401,6 +403,7 @@ export default function proizvodiKojiMiSeSvidjaju() {
           <button className={styles.DugmeZaSledecuStranu}>8</button>
           <button className={styles.DugmeZaSledecuStranu}>9</button>
         </div>
+      </div>
       </div>
 </div>
   );
