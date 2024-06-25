@@ -59,7 +59,7 @@ export default function proizvodiKojiMiSeSvidjaju() {
                 <div className={styles.RedUKontenjeruZaTekstProizvoda}>
                   <p className={styles.SlovaZaOpisSadrzaja} >Doktor etker</p>
                 </div>
-                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                <div className={styles.RedUkontenjeruZaTekstProizvodaSamoKorpa}>
                   <img className={styles.DimenzijeSlikeKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function proizvodiKojiMiSeSvidjaju() {
                 <div className={styles.RedUKontenjeruZaTekstProizvoda}>
                   <p className={styles.SlovaZaOpisSadrzaja} >Doktor etker</p>
                 </div>
-                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                <div className={styles.RedUkontenjeruZaTekstProizvodaSamoKorpa}>
                   <img className={styles.DimenzijeSlikeKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
                 </div>
               </div>
@@ -197,7 +197,7 @@ export default function proizvodiKojiMiSeSvidjaju() {
                 <div className={styles.RedUKontenjeruZaTekstProizvoda}>
                   <p className={styles.SlovaZaOpisSadrzaja} >Doktor etker</p>
                 </div>
-                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                <div className={styles.RedUkontenjeruZaTekstProizvodaSamoKorpa}>
                   <img className={styles.DimenzijeSlikeKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
                 </div>
               </div>
@@ -266,7 +266,7 @@ export default function proizvodiKojiMiSeSvidjaju() {
                 <div className={styles.RedUKontenjeruZaTekstProizvoda}>
                   <p className={styles.SlovaZaOpisSadrzaja} >Doktor etker</p>
                 </div>
-                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                <div className={styles.RedUkontenjeruZaTekstProizvodaSamoKorpa}>
                   <img className={styles.DimenzijeSlikeKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
                 </div>
               </div>
@@ -335,7 +335,7 @@ export default function proizvodiKojiMiSeSvidjaju() {
                 <div className={styles.RedUKontenjeruZaTekstProizvoda}>
                   <p className={styles.SlovaZaOpisSadrzaja} >Doktor etker</p>
                 </div>
-                <div className={styles.RedUKontenjeruZaTekstProizvoda}>
+                <div className={styles.RedUkontenjeruZaTekstProizvodaSamoKorpa}>
                   <img className={styles.DimenzijeSlikeKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
                 </div>
               </div>

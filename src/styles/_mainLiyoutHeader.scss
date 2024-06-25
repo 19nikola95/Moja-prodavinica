@@ -1,67 +1,73 @@
-.GlavniIzgledHedera{
+.GlavniIzgledHedera {
   display: grid;
-  grid-template-columns: 18% 43% 15% 14% 10%;
+  grid-template-columns: 18% 39% 4% 15% 14% 10%;
   justify-items: center;
   grid-template-rows: 90px;
   align-items: center;
   height: 90px;
   width: 100%;
   background-color: rgb(245, 242, 242);
-  background-image: linear-gradient(to right, rgb(245, 247, 122) 20%, rgb(154, 218, 102) 80%);
- box-shadow: 0px 0px 10px rgba(95, 97, 95, 0.6);
+  background-image: linear-gradient(
+    to right,
+    rgb(245, 247, 122) 20%,
+    rgb(154, 218, 102) 80%
+  );
+  box-shadow: 0px 0px 10px rgba(95, 97, 95, 0.6);
 }
-.KontenjerLoga{
- height: 90px;
- width: 210px;
- display: flex;
- align-items: center;
- justify-content: center;
+.KontenjerLoga {
+  height: 90px;
+  width: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.IzgledLoga{
+.IzgledLoga {
   display: flex;
   height: 60px;
   width: 210px;
   cursor: pointer;
 }
-.KontenjerdShearchBara{
-height: 90px;
-width: 600px;
-display: flex;
-align-items: center;
+.KontenjerdShearchBara {
+  height: 90px;
+  width: 680px;
+  display: flex;
+  align-items: center;
 }
-.IzgledShearchBara{
+.IzgledShearchBara {
   border: none;
-  width: 600px;
+  width: 680px;
   height: 40px;
   border-radius: 50px;
   background-color: rgb(255, 255, 255);
   font-size: 18px;
   box-shadow: 0px 0px 5px rgba(22, 82, 30, 0.6);
 }
-.IzgledShearchBara::placeholder{
+.IzgledShearchBara::placeholder {
   font-size: 18px;
-  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 10px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   color: rgba(19, 15, 15, 0.938);
 }
-.KontenjerZaAplikaciju{
+.KontenjerZaAplikaciju {
   height: 80px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
- }
-.LevaStranjaKontenjerZaAplikaciju{
+}
+.LevaStranjaKontenjerZaAplikaciju {
   height: 40px;
   width: 40px;
   display: flex;
   align-items: center;
 }
-.SimbolZaAplikaciju{
+.SimbolZaAplikaciju {
   height: 40px;
   width: 40px;
 }
-.DesnaStranjaKontenjerZaAplikaciju{
+.DesnaStranjaKontenjerZaAplikaciju {
   display: flex;
   text-align: center;
   font-size: 16px;
@@ -70,7 +76,20 @@ align-items: center;
   margin-left: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.KontenjerZaAkaunt{
+.KontenjerZaLupuu{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+}
+.IzgledLupe{
+  height: 70px;
+  width: 70px;
+}
+.KontenjerZaAkaunt {
   height: 80px;
   width: 100%;
   display: flex;
@@ -78,63 +97,308 @@ align-items: center;
   justify-content: end;
   cursor: pointer;
 }
-.LevaStranaKontenjeraZaAkaunt{
+.LevaStranaKontenjeraZaAkaunt {
   height: 60px;
   width: 60px;
   display: flex;
   align-items: center;
 }
-.SimbolZaKorisnika{
+.SimbolZaKorisnika {
   height: 60px;
   width: 60px;
 }
-.DesnaStranaKontenjeraZaAkaunt{
+.DesnaStranaKontenjeraZaAkaunt {
   display: flex;
   width: 120px;
   font-size: 15px;
   font-weight: bold;
   color: rgba(19, 15, 15, 0.938);
   font-family: Arial, Helvetica, sans-serif;
+}
+.KontenjerZaKorpu {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.LevaStranaKontenjeraZaKorpu {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+}
+.SimboliZaKorpu {
+  height: 40px;
+  width: 40px;
+}
+.DesnaStranjaKontenjeraZaKorpu {
+  display: flex;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(19, 15, 15, 0.938);
+  margin-left: 10px;
+}
+
+@media (min-width: 1500px) and (max-width: 1600px){
+  .KontenjerdShearchBara {
+    width: 550px;
   }
-  .KontenjerZaKorpu{
-    height: 80px;
-    width: 100%;
+  .IzgledShearchBara {
+    width: 550px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1500px){
+  .KontenjerdShearchBara {
+    width: 450px;
+  }
+  .IzgledShearchBara {
+    width: 450px;
+  }
+  .KontenjerZaLupuu{
+    display: none;
+  }
+  .GlavniIzgledHedera {
+    grid-template-columns: 20% 38% 15% 16% 10%;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1200px){
+  .KontenjerdShearchBara {
+    width: 350px;
+  }
+  .IzgledShearchBara {
+    width: 350px;
+  }
+  .GlavniIzgledHedera {
+    grid-template-columns: 24% 34% 14% 18% 10%;
+    justify-items: center;
+  }
+  .KontenjerZaLupuu{
+    display: none;
+  }
+  .LevaStranaKontenjeraZaKorpu{
+    justify-content: center;
+  }
+  .DesnaStranjaKontenjerZaAplikaciju{
+    width: 90px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+  .KontenjerdShearchBara {
+    width: 350px;
+  }
+  .IzgledShearchBara {
+    width: 350px;
+  }
+  .GlavniIzgledHedera {
+    grid-template-columns: 22% 38% 14% 15% 11%;
+    justify-items: center;
+  }
+  .KontenjerZaLupuu{
+    display: none;
+  }
+  .DesnaStranaKontenjeraZaAkaunt{
+    width: 80px;
+  }
+  .LevaStranaKontenjeraZaKorpu{
+    justify-content: center;
+  }
+}
+@media (min-width: 900px) and (max-width: 1000px){
+  .KontenjerdShearchBara {
+   display: none;
+  }
+  .GlavniIzgledHedera {
+    grid-template-columns: 28% 18% 18% 18% 18%;
+  }
+  .DesnaStranjaKontenjerZaAplikaciju{
+    display: none;
+  }
+  .DesnaStranaKontenjeraZaAkaunt{
+   display: none;
+  }
+  .DesnaStranjaKontenjeraZaKorpu{
+    display: none;
+  }
+  .KontenjerZaLupuu{
+    opacity: 1;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px){
+  .KontenjerdShearchBara {
+    display: none;
+   }
+   .GlavniIzgledHedera {
+     grid-template-columns: 30% 18% 18% 18% 16%;
+   }
+   .DesnaStranjaKontenjerZaAplikaciju{
+     display: none;
+   }
+   .DesnaStranaKontenjeraZaAkaunt{
+    display: none;
+   }
+   .DesnaStranjaKontenjeraZaKorpu{
+     display: none;
+   }
+   .KontenjerZaLupuu{
+     opacity: 1;
+   }
+}
+@media (min-width: 600px) and (max-width: 700px){
+  .KontenjerdShearchBara {
+    display: none;
+   }
+   .GlavniIzgledHedera {
+     grid-template-columns: 36% 16% 16% 16% 16%;
+   }
+   .DesnaStranjaKontenjerZaAplikaciju{
+     display: none;
+   }
+   .DesnaStranaKontenjeraZaAkaunt{
+    display: none;
+   }
+   .DesnaStranjaKontenjeraZaKorpu{
+     display: none;
+   }
+   .KontenjerZaLupuu{
+     opacity: 1;
+   }
+}
+@media (min-width: 400px) and (max-width: 600px){
+  .KontenjerdShearchBara {
+    display: none;
+   }
+   .GlavniIzgledHedera {
+     grid-template-columns: 55% 15% 15% 15%;
+   }
+   .KontenjerZaAplikaciju{
+     display: none;
+   }
+   .DesnaStranaKontenjeraZaAkaunt{
+    display: none;
+   }
+   .DesnaStranjaKontenjeraZaKorpu{
+     display: none;
+   }
+   .KontenjerZaLupuu{
+     opacity: 1;
+   }
+   .LevaStranaKontenjeraZaKorpu{
+    justify-content: center;
+   }
+}
+@media (min-width: 350px) and (max-width: 400px){
+  .KontenjerdShearchBara {
+    display: none;
+   }
+   .GlavniIzgledHedera {
+     grid-template-columns: 60% 12% 15% 12%;
+   }
+   .KontenjerZaAplikaciju{
+     display: none;
+   }
+   .KontenjerZaAkaunt{
+    width: 48px;
+    justify-content: center;
+   }
+   .DesnaStranaKontenjeraZaAkaunt{
+    display: none;
+   }
+   .DesnaStranjaKontenjeraZaKorpu{
+     display: none;
+   }
+   .KontenjerZaLupuu{
+     opacity: 1;
+     width: 40px;
+   }
+   .KontenjerZaKorpu {
+    margin: 0;
+  }
+  .LevaStranaKontenjeraZaKorpu{
+    width: 40px;
+  }
+  .KontenjerLoga {
+    height: 60px;
+    width: 175px;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .IzgledLoga {
+    display: flex;
+    height: 50px;
+    width: 175px;
     cursor: pointer;
   }
-  .LevaStranaKontenjeraZaKorpu{
-    height: 60px;
-    width: 60px;
-    display: flex;
-    align-items: center;
+  .SimboliZaKorpu {
+    height: 25px;
+    width: 25px;
   }
-  .SimboliZaKorpu{
+  .SimbolZaKorisnika{
     height: 40px;
     width: 40px;
   }
-  .DesnaStranjaKontenjeraZaKorpu{
-    display: flex;
-    font-size: 22px;
-    font-weight: bold;
-    color: rgba(19, 15, 15, 0.938);
-    margin-left: 10px;
+  .IzgledLupe{
+    height: 45px;
+    width: 45px;
   }
-  .KontenjerZaLupu{
+}
+@media (min-width: 300px) and (max-width: 350px){
+  .KontenjerdShearchBara {
+    display: none;
+   }
+   .GlavniIzgledHedera {
+     grid-template-columns: 60% 12% 15% 12%;
+   }
+   .KontenjerZaAplikaciju{
+     display: none;
+   }
+   .KontenjerZaAkaunt{
+    width: 48px;
+    justify-content: center;
+   }
+   .DesnaStranaKontenjeraZaAkaunt{
+    display: none;
+   }
+   .DesnaStranjaKontenjeraZaKorpu{
+     display: none;
+   }
+   .KontenjerZaLupuu{
+     opacity: 1;
+     width: 40px;
+   }
+   .KontenjerZaKorpu {
+    margin: 0;
+
+  }
+  .LevaStranaKontenjeraZaKorpu{
+    width: 40px;
+    justify-content: center;
+  }
+  .KontenjerLoga {
+    height: 60px;
+    width: 158px;
     display: flex;
     align-items: center;
-    opacity: 0;
-    width: 42px;
-    height: 42px;
-    margin-top: 16px;
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-    border-radius: 50%;
+    justify-content: center;
+  }
+  .IzgledLoga {
+    display: flex;
+    height: 45px;
+    width: 158px;
     cursor: pointer;
   }
-  .IzgledLupe{
-    width: 42px;
-    height: 42px;
+  .SimboliZaKorpu {
+    height: 25px;
+    width: 25px;
   }
+  .SimbolZaKorisnika{
+    height: 40px;
+    width: 40px;
+  }
+  .IzgledLupe{
+    height: 45px;
+    width: 45px;
+  }
+}

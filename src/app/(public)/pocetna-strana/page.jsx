@@ -7,19 +7,19 @@ export default function pocetna() {
    <div  className={styles.KontenjerPocetneStrane}>
 <div className={styles.VideoReklame}></div>
 <div className={styles.KontenjerZaDugmice}>
-  <Link href="/bar-sa-naslovne/svi-proizvodi/glavni-meni">
+  <Link className={styles.LinkSviProizovi} href="/bar-sa-naslovne/svi-proizvodi/glavni-meni">
 <button className={styles.DugmeIzbora}>Svi proizvodi</button> 
 </Link>
-<Link href="/bar-sa-naslovne/predlog-za-obroke/glavni-meni">
+<Link className={styles.LinkPredlogZaObroke} href="/bar-sa-naslovne/predlog-za-obroke/glavni-meni">
 <button className={styles.DugmeIzbora}>Predlog za obroke</button>
 </Link>
-<Link href="/bar-sa-naslovne/kako-to/glavni-meni">
+<Link className={styles.LinkPKakoTo} href="/bar-sa-naslovne/kako-to/glavni-meni">
 <button className={styles.DugmeIzbora}>Kako to ?</button>
 </Link>
-<Link href="/bar-sa-naslovne/nagradne-igre/glavni-meni">
+<Link className={styles.LinkNagradnaIgra} href="/bar-sa-naslovne/nagradne-igre/glavni-meni">
 <button className={styles.DugmeIzbora}>Nagradna igra</button>
 </Link>
-<Link href="/bar-sa-naslovne/prodavnice/sve-prodavnice">
+<Link className={styles.LinkProdavnice} href="/bar-sa-naslovne/prodavnice/sve-prodavnice">
 <button className={styles.DugmeIzbora}>Prodavnice</button>
 </Link>
 </div>
@@ -645,9 +645,11 @@ export default function pocetna() {
 <button className={styles.DugmeZaStranice}>Nazad</button>
 <button className={styles.DugmeZaStranice}>Sledeće</button>
 </div>
+<div className={styles.KontenjerZaNaslov}>
 <p className={styles.IzgledSlovaObavestenja}>
   Najpopularniji proizvodi:
 </p>
+</div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
    <div className={styles.KontenjerProizvoda}>
     <div className={styles.GornjiDeoKontenjeraProizvoda}>

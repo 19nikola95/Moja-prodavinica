@@ -92,7 +92,7 @@ export default function korpa() {
             <p>Proizvodi iz vase korpe:</p>
           </div>
          <div className={styles.KontenjerZaDugmice}>
-          <button className={styles.Dugmici}>Odstampaj</button>
+          <button className={styles.Dugmici}>Odštampaj</button>
           <button className={styles.Dugmici}>Pošalji</button>
           <input className={styles.IzgledCekBoxa} type="checkbox"/>
           <p>Ukoliko želite  spisak sa proizvodima podeljenim po prodavnicama čekirajte ovde.</p>

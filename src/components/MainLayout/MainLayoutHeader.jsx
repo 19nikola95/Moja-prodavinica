@@ -10,6 +10,9 @@ export function MainLayoutHeader() {
         <div className="KontenjerdShearchBara">
           <input className="IzgledShearchBara" type="text" placeholder="Unesi naziv namernice"/>
         </div>
+        <div className="KontenjerZaLupuu">
+        <img className="IzgledLupe" src="/Slike za heder/simbol-za-lupu.png" alt="" />
+        </div>
         <div className="KontenjerZaAplikaciju">
           <div className="LevaStranjaKontenjerZaAplikaciju">
             <img className="SimbolZaAplikaciju" src="/Slike za heder/simbol-za-aplikaciju.png" alt=""/>

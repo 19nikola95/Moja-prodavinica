@@ -36,12 +36,14 @@
 }
 .KontenjerZaNaslov{
 width: 100%;
-height: 30px;
+height: 32px;
 display: flex;
-margin-top: 30px;
-margin-bottom: 60px;
+margin-top: 40px;
+margin-bottom: 40px;
 }
 .IzgledSlovaObavestenja{
+  padding: 0px;
+  margin: 0px;
   margin-left: 6%;
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
@@ -156,12 +158,12 @@ margin-bottom: 60px;
     margin-left: 20px;
   }
 }
-@media (min-width: 1200px) and (max-width: 1300px){
+@media (min-width: 1200px) and (max-width: 1500px){
   .DugmeIzbora{
     margin-left: 0px;
   }
 }
-@media (min-width: 1000px) and (max-width: 1100px){
+@media (min-width: 1100px) and (max-width: 1200px){
 .KontenjerZaDugmice{
   grid-template-columns: 20% 20% 20% 20% 20%;
   margin-left: 0px;
@@ -173,69 +175,289 @@ margin-bottom: 60px;
   grid-template-columns: 33% 33% 33%;
 }
 }
-@media (min-width: 900px) and (max-width: 1000px){
+@media (min-width: 1000px) and (max-width: 1100px){
   .KontenjerZaDugmice{
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     margin-left: 0px;
-    margin-bottom: 70px;
   }
   .DugmeIzbora{
     margin-left: 0px;
+    width: 190px;
+  }
+  .KontenjerPreporuceniProizvodi{
+    grid-template-columns: 33% 33% 33%;
+  }
+  }
+@media (min-width: 900px) and (max-width: 1000px){
+  .KontenjerZaDugmice{
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100px;
+    margin-left: 0px;
+    margin-bottom: 60px;
+  }
+  .DugmeIzbora{
+    margin-left: 0px;
+    margin-top: 0px;
   }
   .KontenjerPreporuceniProizvodi{
     grid-template-columns: 33.3% 33.3% 33.3%;
+  }
+  .LinkSviProizovi{
+    height: 72px;
+    width: 200px;
+  }
+  .LinkPredlogZaObroke{
+    height: 72px;
+    width: 200px;
+  }
+  .LinkPKakoTo{
+    height: 72px;
+    width: 200px;
+  }
+  .LinkNagradnaIgra{
+    height: 72px;
+    width: 200px;
+  }
+  .LinkProdavnice{
+    height: 72px;
+    width: 200px;
+  }
+  .VideoReklame{
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 700px) and (max-width: 900px){
   .KontenjerZaDugmice{
     grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 90px;
     margin-left: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
   .DugmeIzbora{
-    margin-left: 0px;
+    margin: 0px;
   }
   .KontenjerPreporuceniProizvodi{
     grid-template-columns: 50% 50%;
+  }
+  .LinkSviProizovi{
+    height: 72px;
+    width: 200px;
+  }
+  .LinkPredlogZaObroke{
+    height: 72px;
+    width: 200px;
+  }
+  .LinkPKakoTo{
+    height: 72px;
+    width: 200px;
+  }
+  .LinkNagradnaIgra{
+    height: 72px;
+    width: 200px;
+  }
+  .LinkProdavnice{
+    height: 72px;
+    width: 200px;
+  }
+  .VideoReklame{
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 600px) and (max-width: 700px){
   .KontenjerZaDugmice{
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 90px;
     margin-left: 0px;
-    margin-bottom: 160px;
+    margin-bottom: 40px;
+    justify-items: center;
+    align-items: center;
   }
   .DugmeIzbora{
     margin-left: 0px;
+    width: 170px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 0px;
   }
   .KontenjerPreporuceniProizvodi{
     grid-template-columns: 50% 50%;
+  }
+    .LinkSviProizovi{
+    height: 60px;
+    width: 170px;
+  }
+  .LinkPredlogZaObroke{
+    height: 60px;
+    width: 170px;
+  }
+  .LinkPKakoTo{
+    height: 60px;
+    width: 170px;
+  }
+  .LinkNagradnaIgra{
+    height: 60px;
+    width: 170px;
+  }
+  .LinkProdavnice{
+    height: 60px;
+    width: 170px;
+  }
+  .VideoReklame{
+    margin-bottom: 16px;
   }
 }
 @media (min-width: 400px) and (max-width: 600px){
   .KontenjerZaDugmice{
-    grid-template-columns: 50% 50%;
+    height: 40px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 56px;
     margin-left: 0px;
-    margin-bottom: 160px;
+    margin-bottom: 50px;
   }
   .DugmeIzbora{
     margin-left: 0px;
+    font-size: 15px;
+    height: 45px;
+    width: 120px;
+    margin: 0px;
   }
   .KontenjerPreporuceniProizvodi{
     grid-template-columns: 100%;
+  }
+  .LinkSviProizovi{
+    height: 45px;
+    width: 120px;
+  }
+  .LinkPredlogZaObroke{
+    height: 45px;
+    width: 120px;
+  }
+  .LinkPKakoTo{
+    height: 45px;
+    width: 120px;
+  }
+  .LinkNagradnaIgra{
+    height: 45px;
+    width: 120px;
+  }
+  .LinkProdavnice{
+    height: 45px;
+    width: 120px;
+  }
+  .VideoReklame{
+    margin-bottom: 19px;
+  }
+  .IzgledSlovaObavestenja{
+    font-size: 18px;
+  }
+  .KontenjerZaNaslov{
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
-@media (min-width: 350px) and (max-width: 500px){
+@media (min-width: 350px) and (max-width: 400px){
   .KontenjerZaDugmice{
-    grid-template-columns: 100%;
+    height: 35px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 56px;
     margin-left: 0px;
-    margin-bottom: 350px;
+    margin-bottom: 50px;
   }
   .DugmeIzbora{
     margin-left: 0px;
+    font-size: 14px;
+    height: 35px;
+    width: 100px;
+    margin: 0px;
   }
   .KontenjerPreporuceniProizvodi{
     grid-template-columns: 100%;
+  }
+  .LinkSviProizovi{
+    height: 40px;
+    width: 100px;
+  }
+  .LinkPredlogZaObroke{
+    height: 40px;
+    width: 100px;
+  }
+  .LinkPKakoTo{
+    height: 40px;
+    width: 100px;
+  }
+  .LinkNagradnaIgra{
+    height: 40px;
+    width: 100px;
+  }
+  .LinkProdavnice{
+    height: 40px;
+    width: 100px;
+  }
+  .VideoReklame{
+    margin-bottom: 19px;
+  }
+  .IzgledSlovaObavestenja{
+    font-size: 18px;
+  }
+  .KontenjerZaNaslov{
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .DugmeZaStranice{
+    margin-right: 50px;
+  }
+}
+@media (min-width: 300px) and (max-width: 350px){
+  .KontenjerZaDugmice{
+    height: 35px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 56px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+  .DugmeIzbora{
+    margin-left: 0px;
+    font-size: 14px;
+    height: 35px;
+    width: 100px;
+    margin: 0px;
+  }
+  .KontenjerPreporuceniProizvodi{
+    grid-template-columns: 100%;
+    margin-left: 3px;
+  }
+  .LinkSviProizovi{
+    height: 40px;
+    width: 100px;
+  }
+  .LinkPredlogZaObroke{
+    height: 40px;
+    width: 100px;
+  }
+  .LinkPKakoTo{
+    height: 40px;
+    width: 100px;
+  }
+  .LinkNagradnaIgra{
+    height: 40px;
+    width: 100px;
+  }
+  .LinkProdavnice{
+    height: 40px;
+    width: 100px;
+  }
+  .VideoReklame{
+    margin-bottom: 19px;
+  }
+  .IzgledSlovaObavestenja{
+    font-size: 18px;
+  }
+  .KontenjerZaNaslov{
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .DugmeZaStranice{
     margin-right: 50px;

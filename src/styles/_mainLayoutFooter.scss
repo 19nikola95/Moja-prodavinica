@@ -8,7 +8,6 @@
   background-color: rgb(245, 242, 242);
   background-image: linear-gradient(to right, rgb(245, 247, 122) 20%, rgb(154, 218, 102) 80%);
   box-shadow: 0px 0px 20px rgba(95, 97, 95, 0.6);
- 
 }
 .KontenjerZapratiNas{
   height: 190px;
@@ -130,4 +129,231 @@
     line-height: 2.2;
     margin: 0;
     cursor: pointer;
+  }
+
+  @media (min-width: 700px) and (max-width: 900px){
+    .GlavniIzgledFootera{
+      grid-template-columns: 36% 34% 30%;
+    }
+    .KontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+      width: 200px;
+    }
+    .KontenjerSaznajONama{
+      margin-left: 10px;
+      width: 200px;
+    }
+    .IzgledSlovaNaslovaZObavestenja{
+      width: 200px;
+      font-size: 20px;
+    }
+    .GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+      width: 200px;
+    }
+    .GornjiDeoKontenjeraSaznajONama{
+      width: 200px;
+    }
+    .GornjiDeoKontenjeraZapratiNas{
+      width: 200px;
+    }
+    .KontenjerZapratiNas{
+      margin-left: 30px;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 700px){
+    .GlavniIzgledFootera{
+      grid-template-columns: 30% 34% 40%;
+    }
+    .KontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+      width: 160px;
+    }
+    .KontenjerSaznajONama{
+      margin-left: 10px;
+      width: 200px;
+    }
+    .KontenjerZapratiNas{
+      width: 80px;
+      justify-content: start;
+    }
+    .IzgledSlovaNaslovaZObavestenja{
+      display: none;
+    }
+    .IzgledSlovaTiktoka{
+      display: none;
+    }
+    .IzgledSlovaYoutube{
+      display: none;
+    }
+    .IzgledSlovFacebooka{
+      display: none;
+    }
+    .GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+      display: none;
+    }
+    .GornjiDeoKontenjeraSaznajONama{
+      display: none;
+    }
+    .GornjiDeoKontenjeraZapratiNas{
+      display: none;
+    }
+  }
+  @media (min-width: 400px) and (max-width: 600px){
+    .GlavniIzgledFootera{
+      grid-template-columns: 20% 40% 40%;
+    }
+    .KontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+      width: 130px;
+      margin-left: 20px;
+    }
+    .KontenjerSaznajONama{
+      margin-left: 70px;
+      width: 200px;
+    }
+    .IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti{
+      font-size: 16px;
+    }
+    .IzgleSlovaOpcijeONama{
+      font-size: 16px;
+    }
+    .KontenjerZapratiNas{
+      width: 80px;
+      justify-content: start;
+      margin-left: 30px;
+    }
+    .IzgledSlovaNaslovaZObavestenja{
+      display: none;
+    }
+    .IzgledSlovaTiktoka{
+      display: none;
+    }
+    .IzgledSlovaYoutube{
+      display: none;
+    }
+    .IzgledSlovFacebooka{
+      display: none;
+    }
+    .GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+      display: none;
+    }
+    .GornjiDeoKontenjeraSaznajONama{
+      display: none;
+    }
+    .GornjiDeoKontenjeraZapratiNas{
+      display: none;
+    }
+  }
+  @media (min-width: 350px) and (max-width: 400px){
+    .GlavniIzgledFootera{
+      grid-template-columns: 20% 42% 38%;
+    }
+    .KontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+      width: 130px;
+      align-items: center;
+    }
+    .KontenjerSaznajONama{
+      width: 160px;
+      margin-left: 50px;
+    }
+    .IzgleSlovaOpcijeONama{
+      font-size: 14px;
+    }
+    .IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti{
+      font-size: 14px;
+    }
+    .KontenjerZapratiNas{
+      width: 60px;
+      justify-content: start;
+      align-items: center;
+  
+    }
+    .IzgledSlovaNaslovaZObavestenja{
+      display: none;
+    }
+    .IzgledSlovaTiktoka{
+      display: none;
+    }
+    .IzgledSlovaYoutube{
+      display: none;
+    }
+    .IzgledSlovFacebooka{
+      display: none;
+    }
+    .GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+      display: none;
+    }
+    .GornjiDeoKontenjeraSaznajONama{
+      display: none;
+    }
+    .GornjiDeoKontenjeraZapratiNas{
+      display: none;
+    }
+    .IzgledSimbolaFacebook{
+      width: 40px;
+      height: 40px;
+    }
+    .IzgledSimbolaTiktoka{
+      width: 30px;
+      height: 30px;
+    }
+    .IzgledSimbolaYoutube{
+      width: 30px;
+      height: 30px;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 350px){
+    .GlavniIzgledFootera{
+      grid-template-columns: 20% 42% 38%;
+    }
+    .KontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+      width: 108px;
+      align-items: center;
+    }
+    .KontenjerSaznajONama{
+      width: 160px;
+      margin-left: 50px;
+    }
+    .IzgleSlovaOpcijeONama{
+      font-size: 14px;
+    }
+    .IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti{
+      font-size: 14px;
+    }
+    .KontenjerZapratiNas{
+      width: 60px;
+      justify-content: start;
+      align-items: center;
+  
+    }
+    .IzgledSlovaNaslovaZObavestenja{
+      display: none;
+    }
+    .IzgledSlovaTiktoka{
+      display: none;
+    }
+    .IzgledSlovaYoutube{
+      display: none;
+    }
+    .IzgledSlovFacebooka{
+      display: none;
+    }
+    .GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
+      display: none;
+    }
+    .GornjiDeoKontenjeraSaznajONama{
+      display: none;
+    }
+    .GornjiDeoKontenjeraZapratiNas{
+      display: none;
+    }
+    .IzgledSimbolaFacebook{
+      width: 40px;
+      height: 40px;
+    }
+    .IzgledSimbolaTiktoka{
+      width: 30px;
+      height: 30px;
+    }
+    .IzgledSimbolaYoutube{
+      width: 30px;
+      height: 30px;
+    }
   }
