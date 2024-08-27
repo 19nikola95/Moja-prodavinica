@@ -65,7 +65,7 @@ border-radius: 15px;
   height: 80px;
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
 }
 .DonjiDeoZaTrajanje{
   width: 250px;
@@ -104,4 +104,853 @@ border-radius: 15px;
   margin-left: 20px;
   margin-right: 20px;
   cursor: pointer;
+}
+@media (min-width: 1200px) and (max-width: 1500px){
+  .VideoReklame{
+    display: flex;
+     height: 100px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledSlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .ProstorZaKontenjereNagradneIgre{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 340px;
+    justify-items: center;
+  }
+  .KontenjerZaNagradnuIgru{
+  width: 240px;
+  height: 290px;
+  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
+  margin-top: 20px;
+  border-radius: 15px;
+  }
+  .GornjiDeoZaNagradnuIgru{
+    width: 240px;
+    height: 180px;
+  }
+  .SlikaNagradneIgre{
+    width: 240px;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .DonjiDeoZaNagradneIgre{
+    width: 240px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+  }
+  .DonjiDeoZaNaslov{
+    width: 240px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .DonjiDeoZaTrajanje{
+    width: 240px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .SlovaNaslovaIgre{
+    font-size: 18px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 550;
+  }
+  .SlovaTrajanjeIgre{
+    font-size: 14px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 520;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1200px){
+  .VideoReklame{
+    display: flex;
+     height: 100px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledSlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .ProstorZaKontenjereNagradneIgre{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 340px;
+    justify-items: center;
+  }
+  .KontenjerZaNagradnuIgru{
+  width: 240px;
+  height: 290px;
+  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
+  margin-top: 20px;
+  border-radius: 15px;
+  }
+  .GornjiDeoZaNagradnuIgru{
+    width: 240px;
+    height: 180px;
+  }
+  .SlikaNagradneIgre{
+    width: 240px;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .DonjiDeoZaNagradneIgre{
+    width: 240px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+  }
+  .DonjiDeoZaNaslov{
+    width: 240px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .DonjiDeoZaTrajanje{
+    width: 240px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .SlovaNaslovaIgre{
+    font-size: 18px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 550;
+  }
+  .SlovaTrajanjeIgre{
+    font-size: 14px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 520;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+  .VideoReklame{
+    display: flex;
+     height: 100px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledSlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .ProstorZaKontenjereNagradneIgre{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 340px;
+    justify-items: center;
+  }
+  .KontenjerZaNagradnuIgru{
+  width: 240px;
+  height: 290px;
+  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
+  margin-top: 20px;
+  border-radius: 15px;
+  }
+  .GornjiDeoZaNagradnuIgru{
+    width: 240px;
+    height: 180px;
+  }
+  .SlikaNagradneIgre{
+    width: 240px;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .DonjiDeoZaNagradneIgre{
+    width: 240px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+  }
+  .DonjiDeoZaNaslov{
+    width: 240px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .DonjiDeoZaTrajanje{
+    width: 240px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .SlovaNaslovaIgre{
+    font-size: 18px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 550;
+  }
+  .SlovaTrajanjeIgre{
+    font-size: 14px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 520;
+  }
+  }
+@media (min-width: 900px) and (max-width: 1000px){
+  .VideoReklame{
+    display: flex;
+     height: 100px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledSlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .ProstorZaKontenjereNagradneIgre{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 280px;
+    justify-items: center;
+  }
+  .KontenjerZaNagradnuIgru{
+  width: 200px;
+  height: 240px;
+  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
+  margin-top: 20px;
+  border-radius: 15px;
+  }
+  .GornjiDeoZaNagradnuIgru{
+    width: 200px;
+    height: 150px;
+  }
+  .SlikaNagradneIgre{
+    width: 200px;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .DonjiDeoZaNagradneIgre{
+    width: 200px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+  }
+  .DonjiDeoZaNaslov{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .DonjiDeoZaTrajanje{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .SlovaNaslovaIgre{
+    font-size: 15px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 550;
+  }
+  .SlovaTrajanjeIgre{
+    font-size: 12px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 520;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px){
+  .VideoReklame{
+    display: flex;
+     height: 90px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledSlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .ProstorZaKontenjereNagradneIgre{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 220px;
+    justify-items: center;
+  }
+  .KontenjerZaNagradnuIgru{
+  width: 170px;
+  height: 200px;
+  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
+  margin-top: 20px;
+  border-radius: 15px;
+  }
+  .GornjiDeoZaNagradnuIgru{
+    width: 170px;
+    height: 125px;
+  }
+  .SlikaNagradneIgre{
+    width: 170px;
+    height: 125px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .DonjiDeoZaNagradneIgre{
+    width: 170px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+  }
+  .DonjiDeoZaNaslov{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .DonjiDeoZaTrajanje{
+    width: 170px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .SlovaNaslovaIgre{
+    font-size: 12.5px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 550;
+  }
+  .SlovaTrajanjeIgre{
+    font-size: 10px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 520;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  .DugmrStrane{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px){
+  .VideoReklame{
+    display: flex;
+     height: 80px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 60px;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledSlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .ProstorZaKontenjereNagradneIgre{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 200px;
+    justify-items: center;
+  }
+  .KontenjerZaNagradnuIgru{
+  width: 140px;
+  height: 180px;
+  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
+  margin-top: 20px;
+  border-radius: 15px;
+  }
+  .GornjiDeoZaNagradnuIgru{
+    width: 140px;
+    height: 110px;
+  }
+  .SlikaNagradneIgre{
+    width: 140px;
+    height: 110px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .DonjiDeoZaNagradneIgre{
+    width: 140px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .DonjiDeoZaNaslov{
+    width: 140px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .DonjiDeoZaTrajanje{
+    width: 140px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .SlovaNaslovaIgre{
+    font-size: 10px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 550;
+  }
+  .SlovaTrajanjeIgre{
+    font-size: 8px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 520;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  .DugmrStrane{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px){
+  .VideoReklame{
+    display: flex;
+     height: 60px;
+     width: 100%;
+     padding: 0;
+     margin-top: 5px;
+     margin-bottom: 5px;
+      background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledSlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .ProstorZaKontenjereNagradneIgre{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 150px;
+    justify-items: center;
+  }
+  .KontenjerZaNagradnuIgru{
+  width: 110px;
+  height: 130px;
+  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
+  margin-top: 20px;
+  border-radius: 15px;
+  }
+  .GornjiDeoZaNagradnuIgru{
+    width: 110px;
+    height: 85px;
+  }
+  .SlikaNagradneIgre{
+    width: 110px;
+    height: 85px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .DonjiDeoZaNagradneIgre{
+    width: 110px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+  }
+  .DonjiDeoZaNaslov{
+    width: 110px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .DonjiDeoZaTrajanje{
+    width: 110px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .SlovaNaslovaIgre{
+    font-size: 8px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 550;
+  }
+  .SlovaTrajanjeIgre{
+    font-size: 6px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 520;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  .DugmrStrane{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 350px) and (max-width: 400px){
+  .VideoReklame{
+    display: flex;
+     height: 50px;
+     width: 100%;
+     padding: 0;
+     margin-top: 5px;
+     margin-bottom: 5px;
+      background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 30px;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledSlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .ProstorZaKontenjereNagradneIgre{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px;
+    justify-items: center;
+  }
+  .KontenjerZaNagradnuIgru{
+  width: 85px;
+  height: 90px;
+  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
+  margin-top: 20px;
+  border-radius: 15px;
+  }
+  .GornjiDeoZaNagradnuIgru{
+    width: 85px;
+    height: 56px;
+  }
+  .SlikaNagradneIgre{
+    width: 85px;
+    height: 56px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .DonjiDeoZaNagradneIgre{
+    width: 85px;
+    height: 34px;
+    display: flex;
+    flex-direction: column;
+  }
+  .DonjiDeoZaNaslov{
+    width: 85px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .DonjiDeoZaTrajanje{
+    width: 85px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .SlovaNaslovaIgre{
+    font-size: 6px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 550;
+  }
+  .SlovaTrajanjeIgre{
+    font-size: 4.5px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 520;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  .DugmrStrane{
+    height: 16px;
+    width: 16px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    font-size: 9px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 300px) and (max-width: 350px){
+  .VideoReklame{
+    display: flex;
+     height: 50px;
+     width: 100%;
+     padding: 0;
+     margin-top: 5px;
+     margin-bottom: 5px;
+      background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 30px;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledSlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .ProstorZaKontenjereNagradneIgre{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100px;
+    justify-items: center;
+  }
+  .KontenjerZaNagradnuIgru{
+  width: 85px;
+  height: 90px;
+  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
+  margin-top: 20px;
+  border-radius: 15px;
+  }
+  .GornjiDeoZaNagradnuIgru{
+    width: 85px;
+    height: 56px;
+  }
+  .SlikaNagradneIgre{
+    width: 85px;
+    height: 56px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .DonjiDeoZaNagradneIgre{
+    width: 85px;
+    height: 34px;
+    display: flex;
+    flex-direction: column;
+  }
+  .DonjiDeoZaNaslov{
+    width: 85px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .DonjiDeoZaTrajanje{
+    width: 85px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .SlovaNaslovaIgre{
+    font-size: 6px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 550;
+  }
+  .SlovaTrajanjeIgre{
+    font-size: 4.5px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    font-weight: 520;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  .DugmrStrane{
+    height: 16px;
+    width: 16px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    font-size: 9px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
 }

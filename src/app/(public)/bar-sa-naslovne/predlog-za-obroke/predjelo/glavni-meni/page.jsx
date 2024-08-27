@@ -1,5 +1,6 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/predlog-za-obroke/glavnimenipredjela.module.scss';
 import Link from "next/link"
+import { GlavniMeniPredlogZaObroke } from "@/components/PredlogZaObroke/GlavniMeni/GlavniMeniZaObroke";
 export default function GlavniMeniPredjela() {
   return (
   <div>
@@ -23,14 +24,13 @@ export default function GlavniMeniPredjela() {
         </Link>
       </div>
       <div className={styles.KontenjerSaObrocima}>
-        <div className={styles.KontenjerSaPojedinacnimObrokom}>
-          <div className={styles.KontenjerZaSliku}>
-            <img className={styles.IzgledSlike} src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
-          </div>
-          <div className={styles.KonjtenjerZaTekst}>
-            <p>Musaka</p>
-          </div>
-        </div>
+        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka1"}/>
+        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka2"}/>
+        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka3"}/>
+        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka4"}/>
+        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka5"}/>
+        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka6"}/>
+        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka7"}/>   
         </div>
         <div className={styles.KontenjerZaDruguStranicu}>
          <button className={styles.DugmeZaSledecuStranu}>1</button>

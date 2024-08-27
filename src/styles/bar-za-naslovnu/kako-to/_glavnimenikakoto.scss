@@ -130,3 +130,967 @@
   margin-right: 20px;
   cursor: pointer;
 }
+@media (min-width: 1200px) and (max-width: 1500px){
+  .VideoReklame{
+    display: flex;
+     height: 150px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .PozicijaOpisa{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaOpisa{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaPretragu{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+   }
+  .IzgledInputaZaProdavnice::placeholder{
+    font-size: 16px;
+    color: rgba(31, 30, 30, 0.678);
+    padding-left: 10px;
+  }
+  .IzgledInputaZaProdavnice{
+    width: 450px;
+    height: 36px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(19, 26, 128, 0.6);
+    font-size: 18px;
+  }
+  .KontenjerSaResenjima{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 230px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1200px){
+  .VideoReklame{
+    display: flex;
+     height: 150px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .PozicijaOpisa{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaOpisa{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaPretragu{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+   }
+  .IzgledInputaZaProdavnice::placeholder{
+    font-size: 16px;
+    color: rgba(31, 30, 30, 0.678);
+    padding-left: 10px;
+  }
+  .IzgledInputaZaProdavnice{
+    width: 450px;
+    height: 36px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(19, 26, 128, 0.6);
+    font-size: 18px;
+  }
+  .KontenjerSaResenjima{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 230px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+  .VideoReklame{
+    display: flex;
+     height: 150px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .PozicijaOpisa{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaOpisa{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaPretragu{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+   }
+  .IzgledInputaZaProdavnice::placeholder{
+    font-size: 16px;
+    color: rgba(31, 30, 30, 0.678);
+    padding-left: 10px;
+  }
+  .IzgledInputaZaProdavnice{
+    width: 450px;
+    height: 36px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(19, 26, 128, 0.6);
+    font-size: 18px;
+  }
+  .KontenjerSaResenjima{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 230px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+  }
+@media (min-width: 900px) and (max-width: 1000px){
+  .VideoReklame{
+    display: flex;
+     height: 120px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .PozicijaOpisa{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaOpisa{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaPretragu{
+    width: 95%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+   }
+  .IzgledInputaZaProdavnice::placeholder{
+    font-size: 12px;
+    color: rgba(31, 30, 30, 0.678);
+    padding-left: 10px;
+  }
+  .IzgledInputaZaProdavnice{
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(19, 26, 128, 0.6);
+    font-size: 18px;
+  }
+  .KontenjerSaResenjima{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 230px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+  .KontenjerSaIzgledom{
+    height: 180px;
+    width: 160px;
+    border-radius: 12px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .KontenjerSaIzgledomGornji{
+    height: 120px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .KontenjerSaIzgledomDonji{
+    height: 60px;
+    width: 160px;
+    border: none;
+    border-top-color: rgba(2, 2, 2, 0.808);
+    border-top-style: solid;
+    border-top-width: 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .IzgledSlikeLoga{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 120px;
+    width: 160px;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 35px;
+    width: 35px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px){
+  .VideoReklame{
+    display: flex;
+     height: 100px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .PozicijaOpisa{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaOpisa{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaPretragu{
+    width: 95%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+   }
+  .IzgledInputaZaProdavnice::placeholder{
+    font-size: 12px;
+    color: rgba(31, 30, 30, 0.678);
+    padding-left: 10px;
+  }
+  .IzgledInputaZaProdavnice{
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(19, 26, 128, 0.6);
+    font-size: 18px;
+  }
+  .KontenjerSaResenjima{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 210px;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .KontenjerSaIzgledom{
+    height: 160px;
+    width: 140px;
+    border-radius: 12px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .KontenjerSaIzgledomGornji{
+    height: 100px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .KontenjerSaIzgledomDonji{
+    height: 60px;
+    width: 140px;
+    border: none;
+    border-top-color: rgba(2, 2, 2, 0.808);
+    border-top-style: solid;
+    border-top-width: 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .IzgledSlikeLoga{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 100px;
+    width: 140px;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 600px) and (max-width: 700px){
+  .VideoReklame{
+    display: flex;
+     height: 80px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .PozicijaOpisa{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaOpisa{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaPretragu{
+    width: 95%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+   }
+  .IzgledInputaZaProdavnice::placeholder{
+    font-size: 10px;
+    color: rgba(31, 30, 30, 0.678);
+    padding-left: 10px;
+  }
+  .IzgledInputaZaProdavnice{
+    width: 400px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(19, 26, 128, 0.6);
+    font-size: 10px;
+  }
+  .KontenjerSaResenjima{
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 140px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+  .KontenjerSaIzgledom{
+    height: 120px;
+    width: 105px;
+    border-radius: 12px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .KontenjerSaIzgledomGornji{
+    height: 80px;
+    width: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .KontenjerSaIzgledomDonji{
+    height: 40px;
+    width: 105px;
+    border: none;
+    border-top-color: rgba(2, 2, 2, 0.808);
+    border-top-style: solid;
+    border-top-width: 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .IzgledSlikeLoga{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 80px;
+    width: 105px;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px){
+  .VideoReklame{
+    display: flex;
+     height: 60px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .PozicijaOpisa{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaOpisa{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaPretragu{
+    width: 95%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+   }
+  .IzgledInputaZaProdavnice::placeholder{
+    font-size: 10px;
+    color: rgba(31, 30, 30, 0.678);
+    padding-left: 10px;
+  }
+  .IzgledInputaZaProdavnice{
+    width: 300px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(19, 26, 128, 0.6);
+    font-size: 10px;
+  }
+  .KontenjerSaResenjima{
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 120px;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .KontenjerSaIzgledom{
+    height: 100px;
+    width: 88px;
+    border-radius: 12px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .KontenjerSaIzgledomGornji{
+    height: 70px;
+    width: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .KontenjerSaIzgledomDonji{
+    height: 30px;
+    width: 88px;
+    border: none;
+    border-top-color: rgba(2, 2, 2, 0.808);
+    border-top-style: solid;
+    border-top-width: 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 7.2px;
+    font-weight: bold;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .IzgledSlikeLoga{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 70px;
+    width: 88px;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 350px) and (max-width: 400px){
+  .VideoReklame{
+    display: flex;
+     height: 50px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .PozicijaOpisa{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaOpisa{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaPretragu{
+    width: 95%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+   }
+  .IzgledInputaZaProdavnice::placeholder{
+    font-size: 8px;
+    color: rgba(31, 30, 30, 0.678);
+    padding-left: 10px;
+  }
+  .IzgledInputaZaProdavnice{
+    width: 300px;
+    height: 16px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(19, 26, 128, 0.6);
+    font-size: 8px;
+  }
+  .KontenjerSaResenjima{
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 100px;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .KontenjerSaIzgledom{
+    height: 90px;
+    width: 80px;
+    border-radius: 10px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .KontenjerSaIzgledomGornji{
+    height: 65px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .KontenjerSaIzgledomDonji{
+    height: 25px;
+    width: 80px;
+    border: none;
+    border-top-color: rgba(2, 2, 2, 0.808);
+    border-top-style: solid;
+    border-top-width: 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 6.5px;
+    font-weight: bold;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .IzgledSlikeLoga{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 65px;
+    width: 80px;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 300px) and (max-width: 350px){
+  .VideoReklame{
+    display: flex;
+     height: 50px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    background-color: gray;
+  }
+  .PozicijaNaslova{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .PozicijaOpisa{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlovaOpisa{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaPretragu{
+    width: 95%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+   }
+  .IzgledInputaZaProdavnice::placeholder{
+    font-size: 8px;
+    color: rgba(31, 30, 30, 0.678);
+    padding-left: 10px;
+  }
+  .IzgledInputaZaProdavnice{
+    width: 250px;
+    height: 16px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(19, 26, 128, 0.6);
+    font-size: 8px;
+  }
+  .KontenjerSaResenjima{
+    height: 100%;
+    width: 100%;
+    margin-top: 5px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 100px;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .KontenjerSaIzgledom{
+    height: 90px;
+    width: 80px;
+    border-radius: 10px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .KontenjerSaIzgledomGornji{
+    height: 65px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .KontenjerSaIzgledomDonji{
+    height: 25px;
+    width: 80px;
+    border: none;
+    border-top-color: rgba(2, 2, 2, 0.808);
+    border-top-style: solid;
+    border-top-width: 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 6.5px;
+    font-weight: bold;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .IzgledSlikeLoga{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 65px;
+    width: 80px;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+}

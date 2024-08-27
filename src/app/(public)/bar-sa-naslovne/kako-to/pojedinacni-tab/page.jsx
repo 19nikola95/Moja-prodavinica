@@ -1,4 +1,7 @@
 import styles from '../../../../../styles/bar-za-naslovnu/kako-to/pojedinacniMeni.module.scss';
+import { PojedinacniMeniSastojci } from '@/components/KakoTo/PojedinacniMeni/Sastojci';
+import { PojedinacniMeniPostupak } from '@/components/KakoTo/PojedinacniMeni/Postupak';
+import { PojedinacniMeniDodatniRecepti } from '@/components/KakoTo/PojedinacniMeni/DodatniRecepti';
 export default function kontaktirajnas() {
   return (
   <div>
@@ -11,13 +14,9 @@ export default function kontaktirajnas() {
           <div className={styles.LevaStranaKontenjeraStranice}>
             <img className={styles.IzgledSlike} src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
             <p className={styles.RedULevomKontenjeruNaslov}>Potrebne stvari</p>
-            <ul>
-            <div className={styles.RedULevomKontenjeru}>
-              <li>Silan Fresh Skz 2.850 l</li>
-            </div>
-            <div className={styles.RedULevomKontenjeru}>
-              <li> Ariel prasak 2kg</li>
-            </div>
+            <ul className={styles.ULKlasa}> 
+            <PojedinacniMeniSastojci sastojci1 ={"Ariel prasak 2kg"}/>
+            <PojedinacniMeniSastojci sastojci1 ={"Persil prasak 2kg"}/>
             </ul>
             <div className={styles.KontenjerIzgledDUgmetaKorpe}>
             <img className={styles.IzgledDUgmetaKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
@@ -27,42 +26,21 @@ export default function kontaktirajnas() {
               <p className={styles.RedUDesnomKontenjeruNaslov}>Postupak kako oprati stvari</p>
               <div className={styles.KontenjerZaPostupke}>
              <ol>
-            <div className={styles.RedUDesnomKontenjeru}>
-              <li>Razdvojiti bele i stvari u boji</li>
-            </div>
-            <div className={styles.RedUDesnomKontenjeru}>
-              <li>Ubaciti stvari u ves masinu 
-              </li>
-            </div>
-            <div className={styles.RedUDesnomKontenjeru}>
-              <li>U kevu kadicu sipati prasak a u srednju omeksivac
-              </li>
-            </div>
-            <div className={styles.RedUDesnomKontenjeru}>
-              <li>Podesiti na 90 stepeni masinu
-              </li>
-            </div>
-            <div className={styles.RedUDesnomKontenjeru}>
-              <li>Ukljuciti ciklus
-              </li>
-            </div>
+              <PojedinacniMeniPostupak postupak1={"Razdvojiti bele i stvari u boj"}/>
+              <PojedinacniMeniPostupak postupak1={"Ubaciti stvari u ves masinu "}/>
+              <PojedinacniMeniPostupak postupak1={"U kevu kadicu sipati prasak a u srednju omeksivac"}/>
+              <PojedinacniMeniPostupak postupak1={"Podesiti na 90 stepeni masinu "}/>
+              <PojedinacniMeniPostupak postupak1={"Ukljuciti ciklus "}/>        
             </ol>
             </div>
             <div className={styles.VideoKlip}></div>
           </div>
           <div className={styles.KontenjerZaJosRecepta}>
-            <div className={styles.RedZaJosRecepata}>
-              <img className={styles.IzgledSlikeZaJos} src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
-              <div className={styles.DesnaStranaZaJos}>
-                <p className={styles.SlovaZaJos}>Kako oprati veš</p>
-              </div>
-             </div>
-             <div className={styles.RedZaJosRecepata}>
-              <img className={styles.IzgledSlikeZaJos} src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
-              <div className={styles.DesnaStranaZaJos}>
-                <p className={styles.SlovaZaJos}>Musaka sa mesom zeljem i kiselim mlekom</p>
-              </div>
-             </div>
+            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš"}/>
+            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš1"}/>
+            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš2"}/>
+            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš3"}/>
+                     
           </div>
         </div>
       </div>

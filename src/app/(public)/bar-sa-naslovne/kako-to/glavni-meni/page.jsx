@@ -1,5 +1,6 @@
 import styles from '../../../../../styles/bar-za-naslovnu/kako-to/glavnimenikakoto.module.scss';
 import Link from "next/link"
+import { GlavniMeniKakoTo } from '@/components/KakoTo/GlavniMeni/GlavniMeni';
 export default function kontaktirajnas() {
   return (
   <div>
@@ -15,64 +16,13 @@ export default function kontaktirajnas() {
           <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Kako to ?"/>
         </div>
         <div className={styles.KontenjerSaResenjima}>
-        <Link href="/bar-sa-naslovne/kako-to/pojedinacni-tab">
-        <div className={styles.KontenjerSaIzgledom}>
-          <div className={styles.KontenjerSaIzgledomGornji}>
-            <img className={styles.IzgledSlikeLoga} src="/bar-za-navigaciju/kako-to/pranjevesa.jpg" alt=""/>
-          </div>
-          <div className={styles.KontenjerSaIzgledomDonji}>
-            <p>Kako oprati stvari</p>
-          </div>
-        </div>
-        </Link>
-        <div className={styles.KontenjerSaIzgledom}>
-          <div className={styles.KontenjerSaIzgledomGornji}>
-            <img className={styles.IzgledSlikeLoga} src="/bar-za-navigaciju/kako-to/pranjevesa.jpg" alt=""/>
-          </div>
-          <div className={styles.KontenjerSaIzgledomDonji}>
-            <p>Kako oprati stvari</p>
-          </div>
-        </div>
-        <div className={styles.KontenjerSaIzgledom}>
-          <div className={styles.KontenjerSaIzgledomGornji}>
-            <img className={styles.IzgledSlikeLoga} src="/bar-za-navigaciju/kako-to/pranjevesa.jpg" alt=""/>
-          </div>
-          <div className={styles.KontenjerSaIzgledomDonji}>
-            <p>Kako oprati stvari</p>
-          </div>
-        </div>
-        <div className={styles.KontenjerSaIzgledom}>
-          <div className={styles.KontenjerSaIzgledomGornji}>
-            <img className={styles.IzgledSlikeLoga} src="/bar-za-navigaciju/kako-to/pranjevesa.jpg" alt=""/>
-          </div>
-          <div className={styles.KontenjerSaIzgledomDonji}>
-            <p>Kako oprati stvari</p>
-          </div>
-        </div>
-        <div className={styles.KontenjerSaIzgledom}>
-          <div className={styles.KontenjerSaIzgledomGornji}>
-            <img className={styles.IzgledSlikeLoga} src="/bar-za-navigaciju/kako-to/pranjevesa.jpg" alt=""/>
-          </div>
-          <div className={styles.KontenjerSaIzgledomDonji}>
-            <p>Kako oprati stvari</p>
-          </div>
-        </div>
-        <div className={styles.KontenjerSaIzgledom}>
-          <div className={styles.KontenjerSaIzgledomGornji}>
-            <img className={styles.IzgledSlikeLoga} src="/bar-za-navigaciju/kako-to/pranjevesa.jpg" alt=""/>
-          </div>
-          <div className={styles.KontenjerSaIzgledomDonji}>
-            <p>Kako oprati stvari</p>
-          </div>
-        </div>
-        <div className={styles.KontenjerSaIzgledom}>
-          <div className={styles.KontenjerSaIzgledomGornji}>
-            <img className={styles.IzgledSlikeLoga} src="/bar-za-navigaciju/kako-to/pranjevesa.jpg" alt=""/>
-          </div>
-          <div className={styles.KontenjerSaIzgledomDonji}>
-            <p>Kako oprati stvari</p>
-          </div>
-        </div>
+      <GlavniMeniKakoTo naslov={"Kako oprati stvari1"}/>
+      <GlavniMeniKakoTo naslov={"Kako oprati stvari2"}/>
+      <GlavniMeniKakoTo naslov={"Kako oprati stvari3"}/>
+      <GlavniMeniKakoTo naslov={"Kako oprati stvari4"}/>
+      <GlavniMeniKakoTo naslov={"Kako oprati stvari5"}/>
+      <GlavniMeniKakoTo naslov={"Kako oprati stvari6"}/>
+      <GlavniMeniKakoTo naslov={"Kako oprati stvari6"}/>
       </div>
         <div className={styles.KontenjerZaDugmice}>
       <button className={styles.DugmrStrane}>1</button>

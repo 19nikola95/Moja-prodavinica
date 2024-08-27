@@ -1,5 +1,5 @@
+import { NagradnaIgra } from '@/components/KomponenteGlavnogMeniaNagradneIgre/NagradnaIgra';
 import styles from '../../../../../styles/bar-za-naslovnu/nagradne-igre/glavnimeniNagradneigre.module.scss';
-import Link from "next/link"
 export default function GlavniMeniNagradneIgre() {
   return (
   <div>
@@ -9,99 +9,13 @@ export default function GlavniMeniNagradneIgre() {
       <p className={styles.IzgledSlovaNaslova}>Sve nagradne igre</p>
       </div>
       <div className={styles.ProstorZaKontenjereNagradneIgre}>
-      <Link href="/bar-sa-naslovne/nagradne-igre/pojedinacni-meni">
-      <div className={styles.KontenjerZaNagradnuIgru}>
-        <div className={styles.GornjiDeoZaNagradnuIgru}>
-          <img className={styles.SlikaNagradneIgre} src="/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg" alt=""/>
-        </div>
-        <div className={styles.DonjiDeoZaNagradneIgre}>
-          <div className={styles.DonjiDeoZaNaslov}>
-            <p className={styles.SlovaNaslovaIgre}>Lav nagradna igra 2024: Osvoji auto uz Lav pivo</p>
-          </div>
-          <div className={styles.DonjiDeoZaTrajanje}>
-            <p className={styles.SlovaTrajanjeIgre}>Trajanje: 15.04.2024 do 26.05.2024</p>
-          </div>
-        </div>
-      </div>
-      </Link>
-      <div className={styles.KontenjerZaNagradnuIgru}>
-        <div className={styles.GornjiDeoZaNagradnuIgru}>
-          <img className={styles.SlikaNagradneIgre} src="/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg" alt=""/>
-        </div>
-        <div className={styles.DonjiDeoZaNagradneIgre}>
-          <div className={styles.DonjiDeoZaNaslov}>
-            <p className={styles.SlovaNaslovaIgre}>Lav nagradna igra 2024: Osvoji auto uz Lav pivo</p>
-          </div>
-          <div className={styles.DonjiDeoZaTrajanje}>
-            <p className={styles.SlovaTrajanjeIgre}>Trajanje: 15.04.2024 do 26.05.2024</p>
-          </div>
-        </div>
-      </div>
-      <div className={styles.KontenjerZaNagradnuIgru}>
-        <div className={styles.GornjiDeoZaNagradnuIgru}>
-          <img className={styles.SlikaNagradneIgre} src="/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg" alt=""/>
-        </div>
-        <div className={styles.DonjiDeoZaNagradneIgre}>
-          <div className={styles.DonjiDeoZaNaslov}>
-            <p className={styles.SlovaNaslovaIgre}>Lav nagradna igra 2024: Osvoji auto uz Lav pivo</p>
-          </div>
-          <div className={styles.DonjiDeoZaTrajanje}>
-            <p className={styles.SlovaTrajanjeIgre}>Trajanje: 15.04.2024 do 26.05.2024</p>
-          </div>
-        </div>
-      </div>
-      <div className={styles.KontenjerZaNagradnuIgru}>
-        <div className={styles.GornjiDeoZaNagradnuIgru}>
-          <img className={styles.SlikaNagradneIgre} src="/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg" alt=""/>
-        </div>
-        <div className={styles.DonjiDeoZaNagradneIgre}>
-          <div className={styles.DonjiDeoZaNaslov}>
-            <p className={styles.SlovaNaslovaIgre}>Lav nagradna igra 2024: Osvoji auto uz Lav pivo</p>
-          </div>
-          <div className={styles.DonjiDeoZaTrajanje}>
-            <p className={styles.SlovaTrajanjeIgre}>Trajanje: 15.04.2024 do 26.05.2024</p>
-          </div>
-        </div>
-      </div>
-      <div className={styles.KontenjerZaNagradnuIgru}>
-        <div className={styles.GornjiDeoZaNagradnuIgru}>
-          <img className={styles.SlikaNagradneIgre} src="/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg" alt=""/>
-        </div>
-        <div className={styles.DonjiDeoZaNagradneIgre}>
-          <div className={styles.DonjiDeoZaNaslov}>
-            <p className={styles.SlovaNaslovaIgre}>Lav nagradna igra 2024: Osvoji auto uz Lav pivo</p>
-          </div>
-          <div className={styles.DonjiDeoZaTrajanje}>
-            <p className={styles.SlovaTrajanjeIgre}>Trajanje: 15.04.2024 do 26.05.2024</p>
-          </div>
-        </div>
-      </div>
-      <div className={styles.KontenjerZaNagradnuIgru}>
-        <div className={styles.GornjiDeoZaNagradnuIgru}>
-          <img className={styles.SlikaNagradneIgre} src="/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg" alt=""/>
-        </div>
-        <div className={styles.DonjiDeoZaNagradneIgre}>
-          <div className={styles.DonjiDeoZaNaslov}>
-            <p className={styles.SlovaNaslovaIgre}>Lav nagradna igra 2024: Osvoji auto uz Lav pivo</p>
-          </div>
-          <div className={styles.DonjiDeoZaTrajanje}>
-            <p className={styles.SlovaTrajanjeIgre}>Trajanje: 15.04.2024 do 26.05.2024</p>
-          </div>
-        </div>
-      </div>
-      <div className={styles.KontenjerZaNagradnuIgru}>
-        <div className={styles.GornjiDeoZaNagradnuIgru}>
-          <img className={styles.SlikaNagradneIgre} src="/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg" alt=""/>
-        </div>
-        <div className={styles.DonjiDeoZaNagradneIgre}>
-          <div className={styles.DonjiDeoZaNaslov}>
-            <p className={styles.SlovaNaslovaIgre}>Lav nagradna igra 2024: Osvoji auto uz Lav pivo</p>
-          </div>
-          <div className={styles.DonjiDeoZaTrajanje}>
-            <p className={styles.SlovaTrajanjeIgre}>Trajanje: 15.04.2024 do 26.05.2024</p>
-          </div>
-        </div>
-      </div>
+    <NagradnaIgra ime="Nagrada igra Mercedes 1" datumOd={"15.3.2024"} datumDo={"15.8.2024"} slikaUrl={"/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg"}/>
+    <NagradnaIgra ime="Nagrada igra Mercedes 2"datumOd={"15.3.2024"} datumDo={"15.8.2024"} slikaUrl={"/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg"}/>
+    <NagradnaIgra ime="Nagrada igra Mercedes 3" datumDo={"15.8.2024"} slikaUrl={"/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg"}/>
+    <NagradnaIgra ime="Nagrada igra Mercedes 4"datumDo={"15.8.2024"} slikaUrl={"/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg"}/>
+    <NagradnaIgra ime="Nagrada igra Mercedes 5"datumDo={"15.8.2024"} slikaUrl={"/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg"}/>
+    <NagradnaIgra ime="Nagrada igra Mercedes 6"datumDo={"15.8.2024"} slikaUrl={"/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg"}/>
+    <NagradnaIgra ime="Nagrada igra Mercedes 7"datumDo={"15.8.2024"} slikaUrl={"/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg"}/>
     </div>
     <div className={styles.KontenjerZaDugmice}>
       <button className={styles.DugmrStrane}>1</button>

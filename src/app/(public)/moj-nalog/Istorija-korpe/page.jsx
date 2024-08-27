@@ -407,7 +407,7 @@ export default function pocetna() {
                   </div>                       
                   </div>
                   <div className={styles.KontenjerZaDugme}>
-                  <button className={styles.DugmeVidiJos} >Vidi jos</button>
+                  <button className={styles.DugmeVidiJos} >Vidi još</button>
                   </div>
 
 </div>
@@ -766,7 +766,7 @@ export default function pocetna() {
                     </div>
                     </div>
                     <div className={styles.KontenjerZaDugme}>
-                    <button className={styles.DugmeVidiJos} >Vidi jos</button>
+                    <button className={styles.DugmeVidiJos} >Vidi još</button>
                     </div>
   </div>
   </div>

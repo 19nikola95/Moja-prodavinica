@@ -2,7 +2,7 @@ import styles from '../../../styles/onama.module.scss';
 export default function pocetna() {
   return (
     <div className={styles.GlavniKontenjerZaSadrzaj}>
-   <div class={styles.PozicijaNaslova}>
+   <div className={styles.PozicijaNaslova}>
       <p className={styles.IzgledSlovaNaslova}>O nama</p>
       </div>
       <div className={styles.KontenjerZaOpis}>

@@ -93,3 +93,649 @@ height: 50px;
   border: none;
   cursor: pointer;
 }
+
+@media (min-width: 1100px) and (max-width: 1200px){
+  .Opis{
+    width: 1000px;
+    font-size: 18px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .Kontenjerzanaslov{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaDugme{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    }
+    .DugmeZaPoruku{
+      height: 45px;
+      width: 180px;
+      background-color: rgb(206, 235, 101);
+      font-size: 20px;
+      font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: rgba(19, 15, 15, 0.938);
+      border-radius: 28px;
+      border: none;
+      cursor: pointer;
+    }
+    .KontenjerZaPoruku{
+      width: 100%;
+      height: 210px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .IzgledBoxObavestenjaInputaZaKontaktirajNas{
+      width: 900px;
+      height: 200px;
+      font-size: 14px;
+      border-radius: 5px;
+    }
+    .IzgledSvihTekstovaZaKontaktirajNas{
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    .IzgledEmailInputaZaKontaktirajNas{
+      height: 24px;
+      font-size: 18px;
+      width: 376px;
+      border-radius: 5px;
+      border: rgb(11, 12, 11);
+      border-width: 1px;
+      border-style: solid;
+      background-color: white;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+  .Opis{
+    width: 1000px;
+    font-size: 18px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .Kontenjerzanaslov{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaDugme{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    }
+    .DugmeZaPoruku{
+      height: 45px;
+      width: 180px;
+      background-color: rgb(206, 235, 101);
+      font-size: 20px;
+      font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: rgba(19, 15, 15, 0.938);
+      border-radius: 28px;
+      border: none;
+      cursor: pointer;
+    }
+    .KontenjerZaPoruku{
+      width: 100%;
+      height: 210px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .IzgledBoxObavestenjaInputaZaKontaktirajNas{
+      width: 900px;
+      height: 200px;
+      font-size: 14px;
+      border-radius: 5px;
+    }
+    .IzgledSvihTekstovaZaKontaktirajNas{
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    .IzgledEmailInputaZaKontaktirajNas{
+      height: 24px;
+      font-size: 18px;
+      width: 376px;
+      border-radius: 5px;
+      border: rgb(11, 12, 11);
+      border-width: 1px;
+      border-style: solid;
+      background-color: white;
+    }
+  }
+@media (min-width: 900px) and (max-width: 1000px){
+  .Opis{
+    width: 900px;
+    font-size: 16px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .Kontenjerzanaslov{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaDugme{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    }
+    .DugmeZaPoruku{
+      height: 40px;
+      width: 160px;
+      background-color: rgb(206, 235, 101);
+      font-size: 18px;
+      font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: rgba(19, 15, 15, 0.938);
+      border-radius: 28px;
+      border: none;
+      cursor: pointer;
+    }
+    .KontenjerZaPoruku{
+      width: 100%;
+      height: 210px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .IzgledBoxObavestenjaInputaZaKontaktirajNas{
+      width: 900px;
+      height: 200px;
+      font-size: 12px;
+      border-radius: 5px;
+    }
+    .IzgledSvihTekstovaZaKontaktirajNas{
+      font-size: 18px;
+      margin-right: 10px;
+    }
+    .IzgledEmailInputaZaKontaktirajNas{
+      height: 20px;
+      font-size: 14px;
+      width: 376px;
+      border-radius: 5px;
+      border: rgb(11, 12, 11);
+      border-width: 1px;
+      border-style: solid;
+      background-color: white;
+    }
+}
+@media (min-width: 700px) and (max-width: 900px){
+  .Opis{
+    width: 700px;
+    font-size: 14px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .Kontenjerzanaslov{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaEmailIDugme{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .KontenjerZaDugme{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    }
+    .DugmeZaPoruku{
+      height: 35px;
+      width: 100px;
+      background-color: rgb(206, 235, 101);
+      font-size: 14px;
+      font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: rgba(19, 15, 15, 0.938);
+      border-radius: 28px;
+      margin-left: 40px;
+      border: none;
+      cursor: pointer;
+    }
+    .KontenjerZaPoruku{
+      width: 100%;
+      height: 210px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .IzgledBoxObavestenjaInputaZaKontaktirajNas{
+      width: 700px;
+      height: 200px;
+      font-size: 10px;
+      border-radius: 5px;
+    }
+    .IzgledSvihTekstovaZaKontaktirajNas{
+      font-size: 14px;
+      margin-right: 10px;
+    }
+    .IzgledEmailInputaZaKontaktirajNas{
+      height: 18px;
+      font-size: 10px;
+      width: 300px;
+      border-radius: 5px;
+      border: rgb(11, 12, 11);
+      border-width: 1px;
+      border-style: solid;
+      background-color: white;
+    }
+    .KontenjeEmailObavestenja{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 60px;
+      width: 400px;
+    }
+}
+@media (min-width: 600px) and (max-width: 700px){
+  .Opis{
+    width: 600px;
+    font-size: 12px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .Kontenjerzanaslov{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaEmailIDugme{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .KontenjerZaDugme{
+    display: flex;
+    width: 140px;
+    height: 50px;
+    align-items: center;
+    }
+    .DugmeZaPoruku{
+      height: 25px;
+      width: 80px;
+      background-color: rgb(206, 235, 101);
+      font-size: 10px;
+      font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: rgba(19, 15, 15, 0.938);
+      border-radius: 28px;
+      margin-left: 30px;
+      border: none;
+      cursor: pointer;
+    }
+    .KontenjerZaPoruku{
+      width: 100%;
+      height: 210px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .IzgledBoxObavestenjaInputaZaKontaktirajNas{
+      width: 580px;
+      height: 200px;
+      font-size: 7px;
+      border-radius: 5px;
+    }
+    .IzgledSvihTekstovaZaKontaktirajNas{
+      font-size: 10px;
+      margin-right: 10px;
+    }
+    .IzgledEmailInputaZaKontaktirajNas{
+      height: 16px;
+      font-size: 8px;
+      width: 256px;
+      border-radius: 5px;
+      border: rgb(11, 12, 11);
+      border-width: 1px;
+      border-style: solid;
+      background-color: white;
+    }
+    .KontenjeEmailObavestenja{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 40px;
+      width: 300px;
+    }
+}
+@media (min-width: 400px) and (max-width: 600px){
+  .Opis{
+    width: 450px;
+    font-size: 10px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    margin-top: 10px;
+  }
+  .Kontenjerzanaslov{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaEmailIDugme{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .KontenjerZaDugme{
+    display: flex;
+    width: 140px;
+    height: 30px;
+    align-items: center;
+    }
+    .DugmeZaPoruku{
+      height: 20px;
+      width: 70px;
+      background-color: rgb(206, 235, 101);
+      font-size: 8px;
+      font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: rgba(19, 15, 15, 0.938);
+      border-radius: 28px;
+      margin-left: 20px;
+      border: none;
+      cursor: pointer;
+    }
+    .KontenjerZaPoruku{
+      width: 100%;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .IzgledBoxObavestenjaInputaZaKontaktirajNas{
+      width: 440px;
+      height: 120px;
+      font-size: 5px;
+      border-radius: 5px;
+    }
+    .IzgledSvihTekstovaZaKontaktirajNas{
+      font-size: 8px;
+      margin-right: 10px;
+    }
+    .IzgledEmailInputaZaKontaktirajNas{
+      height: 12px;
+      font-size: 6px;
+      width: 200px;
+      border-radius: 5px;
+      border: rgb(11, 12, 11);
+      border-width: 0.5px;
+      border-style: solid;
+      background-color: white;
+    }
+    .KontenjeEmailObavestenja{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 40px;
+      width: 240px;
+    }
+}
+@media (min-width: 350px) and (max-width: 400px){
+  .KontenjerOpisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  .Opis{
+    width: 360px;
+    font-size: 8px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    margin-top: 10px;
+  }
+  .Kontenjerzanaslov{
+    height: 30px;
+    width: 100%;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaEmailIDugme{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+  }
+  .KontenjerZaDugme{
+    display: flex;
+    width: 140px;
+    height: 30px;
+    align-items: center;
+    }
+    .DugmeZaPoruku{
+      height: 20px;
+      width: 50px;
+      background-color: rgb(206, 235, 101);
+      font-size: 6px;
+      font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: rgba(19, 15, 15, 0.938);
+      border-radius: 28px;
+      margin-left: 20px;
+      border: none;
+      cursor: pointer;
+    }
+    .KontenjerZaPoruku{
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .IzgledBoxObavestenjaInputaZaKontaktirajNas{
+      width: 350px;
+      height: 100px;
+      font-size: 5px;
+      border-radius: 5px;
+      border-width: 0.5px;
+    }
+    .IzgledSvihTekstovaZaKontaktirajNas{
+      font-size: 6px;
+      margin-right: 10px;
+    }
+    .IzgledEmailInputaZaKontaktirajNas{
+      height: 10px;
+      font-size: 5px;
+      width: 160px;
+      border-radius: 5px;
+      border: rgb(11, 12, 11);
+      border-width: 0.5px;
+      border-style: solid;
+      background-color: white;
+    }
+    .KontenjeEmailObavestenja{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: end;
+      height: 20px;
+      width: 240px;
+    }
+}
+@media (min-width: 300px) and (max-width: 350px){
+  .KontenjerOpisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  .Opis{
+    width: 290px;
+    font-size: 6px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+    margin-top: 10px;
+  }
+  .Kontenjerzanaslov{
+    height: 30px;
+    width: 100%;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledNaslova{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(19, 15, 15, 0.938);
+  }
+  .KontenjerZaEmailIDugme{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+  }
+  .KontenjerZaDugme{
+    display: flex;
+    width: 140px;
+    height: 30px;
+    align-items: center;
+    }
+    .DugmeZaPoruku{
+      height: 20px;
+      width: 50px;
+      background-color: rgb(206, 235, 101);
+      font-size: 6px;
+      font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: rgba(19, 15, 15, 0.938);
+      border-radius: 28px;
+      margin-left: 20px;
+      border: none;
+      cursor: pointer;
+    }
+    .KontenjerZaPoruku{
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .IzgledBoxObavestenjaInputaZaKontaktirajNas{
+      width: 280px;
+      height: 100px;
+      font-size: 5px;
+      border-radius: 5px;
+      border-width: 0.5px;
+    }
+    .IzgledSvihTekstovaZaKontaktirajNas{
+      font-size: 6px;
+      margin-right: 10px;
+    }
+    .IzgledEmailInputaZaKontaktirajNas{
+      height: 10px;
+      font-size: 5px;
+      width: 140px;
+      border-radius: 5px;
+      border: rgb(11, 12, 11);
+      border-width: 0.5px;
+      border-style: solid;
+      background-color: white;
+    }
+    .KontenjeEmailObavestenja{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: end;
+      height: 20px;
+      width: 240px;
+    }
+}

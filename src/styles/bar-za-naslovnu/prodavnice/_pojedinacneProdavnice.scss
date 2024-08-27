@@ -148,3 +148,1096 @@
   margin-right: 20px;
   cursor: pointer;
 }
+@media (min-width: 1200px) and (max-width: 1500px){
+  .VideoReklame{
+    display: flex;
+     height: 120px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .KontenjerSaSvimProizvodima{
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    justify-items: center;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1200px){
+  .VideoReklame{
+    display: flex;
+     height: 110px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .KontenjerSaSvimProizvodima{
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    justify-items: center;
+  }
+  .KontenjerProizvoda{
+    width: 268px;
+    height: 210px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .GornjiDeoKontenjeraProizvoda{
+    width: 268px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .IzgledSlikaProizvoda{
+    margin-top: 10px;
+    object-fit: cover;
+    height: 110px;
+    width: 110px;
+  }
+  .KontenjerZaTekstProizvoda{
+    width: 160px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+  }
+  .RedUKontenjeruZaTekstProizvoda{
+    width: 160px;
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DonjiDeoKontenjeraProizvoda{
+    width: 268px;
+    height: 60px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  .IzgledOdabiraKolicine{
+    width: 45px;
+    height: 35px;
+   font-size: 24px;
+    margin-left: 45px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+  }
+  .IzgledOdabiraKolicine::placeholder{
+    color: rgb(0, 0, 0);
+  }
+  .IzgledKorpeUKontenjeruZaProizvod{
+    width: 45px;
+    height: 45px;
+    margin-left: 92px;
+    cursor: pointer;
+  }
+  .IzgledSlovaCena{
+    height: 30px;
+    width: 154px;
+    margin-top: 8px;
+    margin-left: 2px;
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+  .VideoReklame{
+    display: flex;
+     height: 110px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .KontenjerSaSvimProizvodima{
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    justify-items: center;
+  }
+  .KontenjerProizvoda{
+    width: 268px;
+    height: 210px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .GornjiDeoKontenjeraProizvoda{
+    width: 268px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .IzgledSlikaProizvoda{
+    margin-top: 10px;
+    object-fit: cover;
+    height: 110px;
+    width: 110px;
+  }
+  .KontenjerZaTekstProizvoda{
+    width: 160px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+  }
+  .RedUKontenjeruZaTekstProizvoda{
+    width: 160px;
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DonjiDeoKontenjeraProizvoda{
+    width: 268px;
+    height: 60px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  .IzgledOdabiraKolicine{
+    width: 45px;
+    height: 35px;
+   font-size: 24px;
+    margin-left: 45px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+  }
+  .IzgledOdabiraKolicine::placeholder{
+    color: rgb(0, 0, 0);
+  }
+  .IzgledKorpeUKontenjeruZaProizvod{
+    width: 45px;
+    height: 45px;
+    margin-left: 92px;
+    cursor: pointer;
+  }
+  .IzgledSlovaCena{
+    height: 30px;
+    width: 154px;
+    margin-top: 8px;
+    margin-left: 2px;
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  }
+@media (min-width: 900px) and (max-width: 1000px){
+  .VideoReklame{
+    display: flex;
+     height: 90px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .KontenjerNaslovILogo{
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .LogoZaNaslov{
+    height: 50px;
+    width: 75px;
+    margin-right: 2px;
+  }
+  .IzgledSlovaNaslova{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .KontenjerZaOpis{
+    height: 24px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledOpisa{
+    font-size: 16px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 540;
+    color: rgb(211, 88, 16);
+  }
+  .KontenjerSaSvimProizvodima{
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    justify-items: center;
+  }
+  .KontenjerProizvoda{
+    width: 220px;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .GornjiDeoKontenjeraProizvoda{
+    width: 220px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .IzgledSlikaProizvoda{
+    margin-top: 20px;
+    object-fit: cover;
+    height: 90px;
+    width: 90px;
+  }
+  .KontenjerZaTekstProizvoda{
+    width: 130px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+  }
+  .RedUKontenjeruZaTekstProizvoda{
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DonjiDeoKontenjeraProizvoda{
+    width: 220px;
+    height: 60px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .IzgledOdabiraKolicine{
+    width: 40px;
+    height: 30px;
+    font-size: 22px;
+    margin-left: 30px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+  }
+  .IzgledOdabiraKolicine::placeholder{
+    color: rgb(0, 0, 0);
+  }
+  .IzgledKorpeUKontenjeruZaProizvod{
+    width: 35px;
+    height: 35px;
+    margin-left: 72px;
+    cursor: pointer;
+  }
+  .IzgledSlovaCena{
+    height: 30px;
+    width: 130px;
+    margin-top: 14px;
+    margin-left: 0px;
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 35px;
+    width: 35px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px){
+  .VideoReklame{
+    display: flex;
+     height: 90px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .KontenjerNaslovILogo{
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .LogoZaNaslov{
+    height: 45px;
+    width: 70px;
+    margin-right: 2px;
+  }
+  .IzgledSlovaNaslova{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .KontenjerZaOpis{
+    height: 22px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledOpisa{
+    font-size: 13px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 540;
+    color: rgb(211, 88, 16);
+  }
+  .KontenjerSaSvimProizvodima{
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    justify-items: center;
+  }
+  .KontenjerProizvoda{
+    width: 180px;
+    height: 160px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .GornjiDeoKontenjeraProizvoda{
+    width: 180px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .IzgledSlikaProizvoda{
+    margin-top: 20px;
+    object-fit: cover;
+    height: 75px;
+    width: 75px;
+  }
+  .KontenjerZaTekstProizvoda{
+    width: 105px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+  .RedUKontenjeruZaTekstProizvoda{
+    width: 105px;
+    height: 25px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DonjiDeoKontenjeraProizvoda{
+    width: 180px;
+    height: 40px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .IzgledOdabiraKolicine{
+    width: 30px;
+    height: 25px;
+    font-size: 22px;
+    margin-left: 30px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+  }
+  .IzgledOdabiraKolicine::placeholder{
+    color: rgb(0, 0, 0);
+  }
+  .IzgledKorpeUKontenjeruZaProizvod{
+    width: 30px;
+    height: 30px;
+    margin-left: 62px;
+    cursor: pointer;
+  }
+  .IzgledSlovaCena{
+    height: 20px;
+    width: 105px;
+    margin-top: 14px;
+    margin-left: 0px;
+    font-size: 13px;
+    font-weight: 550;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 600px) and (max-width: 700px){
+  .VideoReklame{
+    display: flex;
+     height: 72px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .KontenjerNaslovILogo{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .LogoZaNaslov{
+    height: 35px;
+    width: 60px;
+    margin-right: 2px;
+  }
+  .IzgledSlovaNaslova{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .KontenjerZaOpis{
+    height: 18px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledOpisa{
+    font-size: 12px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 540;
+    color: rgb(211, 88, 16);
+  }
+  .KontenjerSaSvimProizvodima{
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    justify-items: center;
+  }
+  .KontenjerProizvoda{
+    width: 150px;
+    height: 140px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .GornjiDeoKontenjeraProizvoda{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .IzgledSlikaProizvoda{
+    margin-top: 10px;
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+  }
+  .KontenjerZaTekstProizvoda{
+    width: 90px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .RedUKontenjeruZaTekstProizvoda{
+    width: 90px;
+    height: 20px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DonjiDeoKontenjeraProizvoda{
+    width: 150px;
+    height: 40px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .IzgledOdabiraKolicine{
+    width: 25px;
+    height: 20px;
+    font-size: 18px;
+    margin-left: 20px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+  }
+  .IzgledOdabiraKolicine::placeholder{
+    color: rgb(0, 0, 0);
+  }
+  .IzgledKorpeUKontenjeruZaProizvod{
+    width: 25px;
+    height: 25px;
+    margin-left: 52px;
+    cursor: pointer;
+  }
+  .IzgledSlovaCena{
+    height: 20px;
+    width: 90px;
+    margin-top: 14px;
+    margin-left: 0px;
+    font-size: 11px;
+    font-weight: 550;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px){
+  .VideoReklame{
+    display: flex;
+     height: 62px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+      background-color: gray;
+  }
+  .KontenjerNaslovILogo{
+    height: 25px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .LogoZaNaslov{
+    height: 25px;
+    width: 40px;
+    margin-right: 2px;
+  }
+  .IzgledSlovaNaslova{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .KontenjerZaOpis{
+    height: 18px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledOpisa{
+    font-size: 10px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 540;
+    color: rgb(211, 88, 16);
+  }
+  .KontenjerSaSvimProizvodima{
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    justify-items: center;
+  }
+  .KontenjerProizvoda{
+    width: 110px;
+    height: 100px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .GornjiDeoKontenjeraProizvoda{
+    width: 110px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .IzgledSlikaProizvoda{
+    margin-top: 10px;
+    object-fit: cover;
+    height: 45px;
+    width: 45px;
+  }
+  .KontenjerZaTekstProizvoda{
+    width: 65px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+  }
+  .RedUKontenjeruZaTekstProizvoda{
+    width: 65px;
+    height: 15px;
+    font-size: 7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DonjiDeoKontenjeraProizvoda{
+    width: 110px;
+    height: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .IzgledOdabiraKolicine{
+    width: 25px;
+    height: 15px;
+    font-size: 8px;
+    margin-left: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+  }
+  .IzgledOdabiraKolicine::placeholder{
+    color: rgb(0, 0, 0);
+  }
+  .IzgledKorpeUKontenjeruZaProizvod{
+    width: 18px;
+    height: 18px;
+    margin-left: 32px;
+    cursor: pointer;
+  }
+  .IzgledSlovaCena{
+    height: 20px;
+    width: 65px;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 9px;
+    font-weight: 550;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 350px) and (max-width: 400px){
+  .VideoReklame{
+    display: flex;
+     height: 50px;
+     width: 100%;
+     padding: 0;
+     margin-top: 5px;
+     margin-bottom: 5px;
+      background-color: gray;
+  }
+  .KontenjerNaslovILogo{
+    height: 20px;
+    width: 100%;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .LogoZaNaslov{
+    height: 18px;
+    width: 30px;
+    margin-right: 2px;
+  }
+  .IzgledSlovaNaslova{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .KontenjerZaOpis{
+    height: 16px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledOpisa{
+    font-size: 7px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 540;
+    color: rgb(211, 88, 16);
+  }
+  .KontenjerSaSvimProizvodima{
+    margin-top: 12px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    justify-items: center;
+  }
+  .KontenjerProizvoda{
+    width: 88px;
+    height: 90px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .GornjiDeoKontenjeraProizvoda{
+    width: 88px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5px;
+  }
+  .IzgledSlikaProizvoda{
+    margin-top: 15px;
+    object-fit: cover;
+    height: 33px;
+    width: 33px;
+  }
+  .KontenjerZaTekstProizvoda{
+    width: 55px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+  }
+  .RedUKontenjeruZaTekstProizvoda{
+    width: 55px;
+    height: 15px;
+    font-size: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DonjiDeoKontenjeraProizvoda{
+    width: 88px;
+    height: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .IzgledOdabiraKolicine{
+    width: 28px;
+    height: 15px;
+    font-size: 6px;
+    margin-left: 6px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 0.5px;
+  }
+  .IzgledOdabiraKolicine::placeholder{
+    color: rgb(0, 0, 0);
+  }
+  .IzgledKorpeUKontenjeruZaProizvod{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .IzgledSlovaCena{
+    height: 20px;
+    width: 55px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 7px;
+    font-weight: 550;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 15px;
+    width: 15px;
+    font-size: 8px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 300px) and (max-width: 350px){
+  .VideoReklame{
+    display: flex;
+     height: 50px;
+     width: 100%;
+     padding: 0;
+     margin-top: 5px;
+     margin-bottom: 5px;
+      background-color: gray;
+  }
+  .KontenjerNaslovILogo{
+    height: 20px;
+    width: 100%;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .LogoZaNaslov{
+    height: 18px;
+    width: 30px;
+    margin-right: 2px;
+  }
+  .IzgledSlovaNaslova{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .KontenjerZaOpis{
+    height: 16px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IzgledOpisa{
+    font-size: 7px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 540;
+    color: rgb(211, 88, 16);
+  }
+  .KontenjerSaSvimProizvodima{
+    margin-top: 12px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+  }
+  .KontenjerProizvoda{
+    width: 88px;
+    height: 90px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .GornjiDeoKontenjeraProizvoda{
+    width: 88px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5px;
+  }
+  .IzgledSlikaProizvoda{
+    margin-top: 15px;
+    object-fit: cover;
+    height: 33px;
+    width: 33px;
+  }
+  .KontenjerZaTekstProizvoda{
+    width: 55px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+  }
+  .RedUKontenjeruZaTekstProizvoda{
+    width: 55px;
+    height: 15px;
+    font-size: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DonjiDeoKontenjeraProizvoda{
+    width: 88px;
+    height: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .IzgledOdabiraKolicine{
+    width: 28px;
+    height: 15px;
+    font-size: 6px;
+    margin-left: 6px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 0.5px;
+  }
+  .IzgledOdabiraKolicine::placeholder{
+    color: rgb(0, 0, 0);
+  }
+  .IzgledKorpeUKontenjeruZaProizvod{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .IzgledSlovaCena{
+    height: 20px;
+    width: 55px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 7px;
+    font-weight: 550;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .KontenjerZaDugmice{
+    display: flex;
+    margin: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .DugmrStrane{
+    height: 15px;
+    width: 15px;
+    font-size: 8px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(190, 190, 190, 0.582);
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+}

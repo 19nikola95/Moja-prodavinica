@@ -11,7 +11,7 @@ export default function pocetna() {
           <div className={styles.LevaStranaKontenjeraStranice}>
             <img className={styles.IzgledSlike} src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
             <p className={styles.RedULevomKontenjeruNaslov}>Potrebne stvari</p>
-            <ul>
+            <ul className={styles.ULKlasa}>
             <div className={styles.RedULevomKontenjeru}>
               <li>Silan Fresh Skz 2.850 l</li>
             </div>
