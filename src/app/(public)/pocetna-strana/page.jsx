@@ -29,11 +29,11 @@ export default function pocetna() {
   Samo za vas preporučujemo:</p>
 </div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
-   <KontenjerProizvoda/>
-  <KontenjerProizvoda/>
-  <KontenjerProizvoda/>
-  <KontenjerProizvoda/>
-  <KontenjerProizvoda/>
+   <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
 
  
 </div> {/* Ovo je samo za vas proizvodi */}
@@ -48,12 +48,11 @@ export default function pocetna() {
 </p>
 </div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
-<KontenjerProizvoda/>
-<KontenjerProizvoda/>
-<KontenjerProizvoda/>
-<KontenjerProizvoda/>
-<KontenjerProizvoda/>
-<KontenjerProizvoda/>
+<KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
 </div>
  {/* Ovo je preporučeni proizvodi */}
 <div className={styles.KontenjerZaSledeceINazad}>
@@ -66,12 +65,11 @@ export default function pocetna() {
 </p>
 </div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
-<KontenjerProizvoda/>
-<KontenjerProizvoda/>
-<KontenjerProizvoda/>
-<KontenjerProizvoda/>
-<KontenjerProizvoda/>
-<KontenjerProizvoda/>
+<KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
 
 </div> {/* Ovo je najpopularniji proizvodi */}
 <div className={styles.KontenjerZaSledeceINazad}>

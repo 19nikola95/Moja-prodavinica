@@ -2,17 +2,17 @@ import styles from '../../../../../styles/bar-za-naslovnu/kako-to/pojedinacniMen
 import { PojedinacniMeniSastojci } from '@/components/KakoTo/PojedinacniMeni/Sastojci';
 import { PojedinacniMeniPostupak } from '@/components/KakoTo/PojedinacniMeni/Postupak';
 import { PojedinacniMeniDodatniRecepti } from '@/components/KakoTo/PojedinacniMeni/DodatniRecepti';
+import { Naslov } from '@/components/KakoTo/PojedinacniMeni/Naslov';
+import { SlikaKakoTo } from '@/components/KakoTo/PojedinacniMeni/SlikaKakoTo';
 export default function kontaktirajnas() {
   return (
   <div>
 <div className={styles.KontenjerSadrzaja}>
 <div className={styles.VideoReklame}></div>
-        <div className={styles.KontenjerZaNaslov}>
-        <p className={styles.IzgledSlovaNaslova}>Kako oprati veš</p>
-        </div>
+        <Naslov naslov={"Kako oprati veš"}/>
         <div className={styles.KontenjerStranice}>
           <div className={styles.LevaStranaKontenjeraStranice}>
-            <img className={styles.IzgledSlike} src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
+            <SlikaKakoTo slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"}/>
             <p className={styles.RedULevomKontenjeruNaslov}>Potrebne stvari</p>
             <ul className={styles.ULKlasa}> 
             <PojedinacniMeniSastojci sastojci1 ={"Ariel prasak 2kg"}/>
@@ -36,10 +36,10 @@ export default function kontaktirajnas() {
             <div className={styles.VideoKlip}></div>
           </div>
           <div className={styles.KontenjerZaJosRecepta}>
-            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš"}/>
-            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš1"}/>
-            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš2"}/>
-            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš3"}/>
+            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš"} slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"}/>
+            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš1"} slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"}/>
+            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš2"} slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"}/>
+            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš3"} slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"}/>
                      
           </div>
         </div>

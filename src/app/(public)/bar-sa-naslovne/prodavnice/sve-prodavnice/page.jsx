@@ -12,15 +12,15 @@ export default function pocetna() {
         <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Pretraga obroka"/>
       </div>
         <div className={styles.KontenjerSaProdavnicama}>
-        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 24"}/>
-        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 25"}/>
-        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 26"}/>
-        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 27"}/>
-        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 28"}/>
-        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 29"}/>
-        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 30"}/>
-        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 31"}/>
-        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 32"}/>
+        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 24"} logoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"}/>
+        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 25"} logoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"}/>
+        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 26"} logoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"}/>
+        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 27"} logoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"}/>
+        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 28"} logoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"}/>
+        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 29"} logoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"}/>
+        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 30"} logoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"}/>
+        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 31"} logoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"}/>
+        <GlaniMeniProdavnica imeMarketa= {"DIS"} ulicaMarekta={"Smederevska Palanka, Trgovacka 32"} logoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"}/>
         </div>
         <div className={styles.KontenjerZaDugmice}>
       <button className={styles.DugmrStrane}>1</button>

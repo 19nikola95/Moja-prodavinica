@@ -4,18 +4,18 @@ import { NagradeZaOsvanjanje } from '@/components/PojedinacneNagradneIgre/Nagrad
 import { KakoUcestovati } from '@/components/PojedinacneNagradneIgre/KakoUcestvovati';
 import { IzvlacenjeNagradnihIgra } from '@/components/PojedinacneNagradneIgre/IzvlacenjeNagradnihIgra';
 import { LinkSajta } from '@/components/PojedinacneNagradneIgre/LinkNagradneIgre';
+import { SlikaNagradneIgre } from '@/components/PojedinacneNagradneIgre/SlikaNagradneIgre';
+import { TekstNaslova } from '@/components/PojedinacneNagradneIgre/TekstZaNaslov';
 import { DodatneIgre } from '@/components/PojedinacneNagradneIgre/DodatneNagradneIgre';
 export default function kontaktirajnas() {
   return (
   <div>
 <div className={styles.GlavniKontenjerZaSadrzaj}>
         <div className={styles.VideoReklame}></div>
-        <div className={styles.PozicijaNaslova}>
-        <p className={styles.IzgledSlovaNaslova}>Lav nagradna igra 2024: Osvoji auto uz Lav pivo</p>
-        </div>
+        <TekstNaslova naslov={"Lav nagradna igra 2024: Osvoji auto uz Lav pivo"}/>
         <div className={styles.KontenjerSaSadrzajom}>
           <div className={styles.LevaStranjaKontenjeraSaSadrzajom}>
-            <img className={styles.IzgledSlike} src="/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg" alt=""/>
+          <SlikaNagradneIgre slika={"/bar-za-navigaciju/nagradne-igre/SlikaLavNagradneIgre.jpg"}/>
             <div className={styles.KontenjerSaSadrzajem}>
               <p className={styles.IzgledSlovaSadrzaja}>Trajanje nagradne igre: </p>
             </div>
@@ -60,7 +60,6 @@ export default function kontaktirajnas() {
             <DodatneIgre linkdodanto={"https://www.lavovskenagrade.rs/dobitnici"} tekstDodatno={"Lav nagradna igra 2024: Osvoji auto uz Lav pivo"}/>
             <DodatneIgre linkdodanto={"https://www.lavovskenagrade.rs/dobitnici"} tekstDodatno={"Lav nagradna igra 2024: Osvoji auto uz Lav pivo1"}/>
             <DodatneIgre linkdodanto={"https://www.lavovskenagrade.rs/dobitnici"} tekstDodatno={"Lav nagradna igra 2024: Osvoji auto uz Lav pivo2"}/>
-             
           </div>
         </div>
       </div>

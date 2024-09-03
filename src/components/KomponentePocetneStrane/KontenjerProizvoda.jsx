@@ -39,11 +39,11 @@ const marketiPrimer=[
     
 ]
 
-export function KontenjerProizvoda({marketi=marketiPrimer}){
+export function KontenjerProizvoda({marketi=marketiPrimer, slikaProizvoda}){
     return <div className={styles.KontenjerProizvoda}>
     <div className={styles.GornjiDeoKontenjeraProizvoda}>
     <Link href="bar-sa-naslovne/svi-proizvodi/pojedinacni-proizvodi">
-    <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+    <img className={styles.IzgledSlikaProizvoda} src={slikaProizvoda} alt=""/>
     </Link>
       <div className={styles.KontenjerZaTekstProizvoda}>
        <KontenjerOpisNamernica imeProizvoda="Pavlaka sa dosta mlecne masti" TezinaProizvoda="250g" ProizvodjacProizvoda="Imlek subotica Novi Sad aaa"/>

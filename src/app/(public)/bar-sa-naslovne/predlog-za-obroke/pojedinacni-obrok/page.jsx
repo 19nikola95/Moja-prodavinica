@@ -1,23 +1,23 @@
 import styles from '../../../../../styles/bar-za-naslovnu/predlog-za-obroke/pojedinacniobrok.module.scss';
+import { NaslovRecepta } from '@/components/PredlogZaObroke/Pojedinacni/Naslov';
+import { PostupakZaRecepte } from '@/components/PredlogZaObroke/Pojedinacni/PostupakRecept';
+import { PojeidnacniReceptDodatno } from '@/components/PredlogZaObroke/Pojedinacni/DodatniRecept';
+import { SastojciRecepta} from '@/components/PredlogZaObroke/Pojedinacni/SastojciRecepta';
+import { SlikaJela } from '@/components/PredlogZaObroke/Pojedinacni/SlikaJela';
 export default function pocetna() {
   return (
   <div>
 <div className={styles.KontenjerSadrzaja}>
         <div className={styles.VideoReklame}></div>
-        <div className={styles.KontenjerZaNaslov}>
-        <p className={styles.IzgledSlovaNaslova}>Torta od višanja</p>
-        </div>
+        <NaslovRecepta naslov={"Torta od višanja"}/>
         <div className={styles.KontenjerStranice}>
           <div className={styles.LevaStranaKontenjeraStranice}>
-            <img className={styles.IzgledSlike} src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
-            <p className={styles.RedULevomKontenjeruNaslov}>Potrebne stvari</p>
+            <SlikaJela slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"}/>
+           <p className={styles.RedULevomKontenjeruNaslov}>Potrebne stvari</p>
             <ul className={styles.ULKlasa}>
-            <div className={styles.RedULevomKontenjeru}>
-              <li>Silan Fresh Skz 2.850 l</li>
-            </div>
-            <div className={styles.RedULevomKontenjeru}>
-              <li> Ariel prasak 2kg</li>
-            </div>
+              <SastojciRecepta sastojci1={"Silan Fresh Skz 2.850 l"}/>
+              <SastojciRecepta sastojci1={"Ariel prasak 2kg"}/>
+              <SastojciRecepta sastojci1={"Silan Fresh Skz 2.850 l"}/>
             </ul>
             <div className={styles.KontenjerIzgledDUgmetaKorpe}>
             <img className={styles.IzgledDUgmetaKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
@@ -27,42 +27,20 @@ export default function pocetna() {
               <p className={styles.RedUDesnomKontenjeruNaslov}>Postupak kako oprati stvari</p>
               <div className={styles.KontenjerZaPostupke}>
              <ol>
-            <div className={styles.RedUDesnomKontenjeru}>
-              <li>Razdvojiti bele i stvari u boji</li>
-            </div>
-            <div className={styles.RedUDesnomKontenjeru}>
-              <li>Ubaciti stvari u ves masinu 
-              </li>
-            </div>
-            <div className={styles.RedUDesnomKontenjeru}>
-              <li>U kevu kadicu sipati prasak a u srednju omeksivac
-              </li>
-            </div>
-            <div className={styles.RedUDesnomKontenjeru}>
-              <li>Podesiti na 90 stepeni masinu
-              </li>
-            </div>
-            <div className={styles.RedUDesnomKontenjeru}>
-              <li>Ukljuciti ciklus
-              </li>
-            </div>
+              <PostupakZaRecepte postupak1={"Razdvojiti bele i stvari u boji"}/>
+              <PostupakZaRecepte postupak1={"Ubaciti stvari u ves masinu "}/>
+              <PostupakZaRecepte postupak1={"U kevu kadicu sipati prasak a u srednju omeksivac"}/>
+              <PostupakZaRecepte postupak1={"Podesiti na 90 stepeni masinu"}/>
+              <PostupakZaRecepte postupak1={"Ukljuciti ciklus"}/>
+              <PostupakZaRecepte postupak1={"Sacekatiu da zavrsi ciklus"}/>
             </ol>
             </div>
             <div className={styles.VideoKlip}></div>
           </div>
           <div className={styles.KontenjerZaJosRecepta}>
-            <div className={styles.RedZaJosRecepata}>
-              <img className={styles.IzgledSlikeZaJos} src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
-              <div className={styles.DesnaStranaZaJos}>
-                <p className={styles.SlovaZaJos}>Musaka sa mesom zeljem i kiselim mlekom</p>
-              </div>
-             </div>
-             <div className={styles.RedZaJosRecepata}>
-              <img className={styles.IzgledSlikeZaJos} src="/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg" alt=""/>
-              <div className={styles.DesnaStranaZaJos}>
-                <p className={styles.SlovaZaJos}>Musaka sa mesom zeljem i kiselim mlekom</p>
-              </div>
-             </div>
+            <PojeidnacniReceptDodatno slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"} naslovRecepta={"Musaka sa mesom zeljem i kiselim mlekom1"}/>
+            <PojeidnacniReceptDodatno slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"} naslovRecepta={"Musaka sa mesom zeljem i kiselim mlekom2"}/>
+            <PojeidnacniReceptDodatno slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"} naslovRecepta={"Musaka sa mesom zeljem i kiselim mlekom3"}/>
           </div>
         </div>
       </div>

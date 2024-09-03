@@ -1,8 +1,21 @@
+"use client"
+
 import styles from '../../../../styles/proizvodiKojiMiSeSvidjaju.module.scss';
 import Link from "next/link"
+import {useState} from 'react';
 import { ProizvodiKojiMiSeSvidjajuKomponente } from '@/components/MojNalog/LicneInformacije';
 import { KontenjerProizvodaKomponentea } from '@/components/MojNalog/ProizvodiKojiMISeSvidjaju/KontenjerProizvodiKojiMiSeSvidajju';
+import {proizvodi} from '@/mocks/proizvodi.js';
+import {createPaginationPages, createPagination} from '@/utils/paginationUtils'
+
 export default function proizvodiKojiMiSeSvidjaju() {
+  const [strana, setStrana] = useState(1);
+  const proizvodiPaginated = createPagination(proizvodi, strana, { perPage: 2 });
+
+  function idiNaStranu(strana) { 
+    setStrana(strana);
+  }
+
   return (
   <div>
     <div className={styles.MojNalog}>
@@ -32,23 +45,10 @@ export default function proizvodiKojiMiSeSvidjaju() {
           <p className={styles.NaslovZaAkciju}>Pratite proizvode koji vam se svidjaju</p>
         </div>
         <div className={styles.KontenjerSaSlikama}>
-         <KontenjerProizvodaKomponentea/>
-         <KontenjerProizvodaKomponentea/>
-         <KontenjerProizvodaKomponentea/>
-         <KontenjerProizvodaKomponentea/>
-         <KontenjerProizvodaKomponentea/>
-         <KontenjerProizvodaKomponentea/>
+         {proizvodiPaginated.items?.map((proizvod) => <KontenjerProizvodaKomponentea proizvod={proizvod}/>)}         
           </div>
         <div className={styles.KontenjerZaDruguStranicu}>
-          <button className={styles.DugmeZaSledecuStranu}>1</button>
-          <button className={styles.DugmeZaSledecuStranu}>2</button>
-          <button className={styles.DugmeZaSledecuStranu}>3</button>
-          <button className={styles.DugmeZaSledecuStranu}>4</button>
-          <button className={styles.DugmeZaSledecuStranu}>5</button>
-          <button className={styles.DugmeZaSledecuStranu}>6</button>
-          <button className={styles.DugmeZaSledecuStranu}>7</button>
-          <button className={styles.DugmeZaSledecuStranu}>8</button>
-          <button className={styles.DugmeZaSledecuStranu}>9</button>
+            { proizvodiPaginated.pages.map((strana) => <button className={styles.DugmeZaSledecuStranu} onClick={() => idiNaStranu(strana)}>{strana}</button>)}
         </div>
       </div>
       </div>

@@ -1,6 +1,10 @@
 
 import styles from '../../../../styles/istorijaKorpe.module.scss';
 import Link from "next/link";
+import { Racun } from '@/components/MojNalog/IstorijaKorpe/Racuni';
+import { ProizvodiKojiMiSeSvidjajuKomponente } from '@/components/MojNalog/LicneInformacije';
+import { MesecniOpis } from '@/components/MojNalog/IstorijaKorpe/MesecniOpis';
+import { GodisnjiOpis } from '@/components/MojNalog/IstorijaKorpe/GodisnjiOpis';
 export default function pocetna() {
   return (
   <div>
@@ -11,22 +15,7 @@ export default function pocetna() {
             <div className={styles.KontenjerSlike}>
             <img  className={styles.IzgledProfilneSlike} src="/Moj nalog/bred pit.jpg" alt=""/>
             </div>
-            <div className={styles.KontenjerIme}>
-            <p className={styles.IzgledSlovaProfila}>Nikola Milojević</p>
-            <img  className={styles.SimbolIzmeni} src="/SlikeZnakova/zamena.png" alt=""/>
-            </div>
-            <div className={styles.KontenjerMesto}>
-            <p className={styles.IzgledMestaProfila}>Jasenička 2 Smederevsla Palanka Srbija</p>
-            <img  className={styles.SimbolIzmeni1} src="/SlikeZnakova/zamena.png" alt=""/>
-            </div>
-            <div className={styles.KontenjerEmail}>
-            <p className={styles.IzgledEmailaProfila}>nikolamilojevic78@gmail.com</p>
-            <img  className={styles.SimbolIzmeni2} src="/SlikeZnakova/zamena.png" alt=""/>
-          </div>
-           <div className={styles.KontenjerBroj}>
-            <p className={styles.IzgledBrojaProfila}>066001215</p>
-            <img  className={styles.SimbolIzmeni3} src="/SlikeZnakova/zamena.png" alt=""/>
-          </div>
+          <ProizvodiKojiMiSeSvidjajuKomponente imeiPrezime={"Nikola Milojevic"} adresaiMesto={"Jasenicka 2 Smederevska Palanka Srbija"} email={"nikolamilojevic78@gmail.com"} brojMobilnog={"066001215"}/>
           <div className={styles.KontenjerZaDugmeZaSacuvati}>
             <button className={styles.DugmeSacuvajIzmene}>Sačuvaj izmene</button>
             </div>
@@ -46,728 +35,74 @@ export default function pocetna() {
  <p className={styles.IzgledSlovaIstorijaKorpe}>Istorija korpe</p>
  </div>
  <div className={styles.PozicijaKontenjeraZaUsteduPrekoAplikaciju}>
-<div className={styles.KontenjerzaUstetuPrekoAplikacije}>
-<p className={styles.izgledTekstaOpisa}>Koristeci aplikaciju u ovoj godini ste ustedeli:</p>
-<p className={styles.IzgledCeneUstede}>54.320,21 din</p>
-<img className={styles.IzgledSmajliUstede} src="/DodatniSmajlici/Smajli ustede.png" alt=""/>
-</div>
+<GodisnjiOpis cena={"15854,23"}/>
 </div>
 <div className={styles.KontenjerZaMesecnuKupovinu}>
-<div className={styles.OpisniTekstMeseca}>
-<p className={styles.IzgledTekstaObavestenja}>Ukoliko ste kupili proizvode iz korpe pomocu aplikacije u mesecu</p>
-<p className={styles.IzgledTekstaObavestenja}> Aprilu</p>
-<p className={styles.IzgledTekstaObavestenja}> ustedeli ste:</p>
-<p className={styles.IzgledPromenljivogTeksta}>2456 din</p>
-</div>
+<MesecniOpis mesec={"April"} cena={"2356,54"}/>
 <div className={styles.KontenjerzaMesecneTroskove}>
  
-  <div className={styles.KontenjerZaRacun}>
-
-<div className={styles.PrvaParticija}>
-<p>KUPOVINA</p>
-</div>
-<div className={styles.DrugaParticija}>
-<p>Datum:</p>
-</div>
-<div className={styles.TrecaParticija}>
-<p>11.05.2024</p>
-</div>
-<div className={styles.CetvrtaParticija}>
-<p>Cena:</p>
-</div>
-<div className={styles.PetaParticija}>
-<p>112.025,20 din</p>
-</div>
-</div>
-<div className={styles.KontenjerZaRacun}>
-  <div className={styles.PrvaParticija}>
-  <p>KUPOVINA</p>
+<Racun datum={"15.09.2024"} cena={"1568,00"}/>
+<Racun datum={"15.05.2024"} cena={"1568,00"}/>
+<Racun datum={"15.07.2024"} cena={"1568,00"}/>
+<Racun datum={"15.08.2024"} cena={"1568,00"}/>
+<Racun datum={"15.10.2024"} cena={"1568,00"}/>
+<Racun datum={"10.09.2024"} cena={"1568,00"}/>
+<Racun datum={"14.09.2024"} cena={"1568,00"}/>
+<Racun datum={"11.09.2024"} cena={"1568,00"}/>
+<Racun datum={"19.09.2024"} cena={"1568,00"}/>
+<Racun datum={"17.09.2024"} cena={"1568,00"}/>
+<Racun datum={"18.09.2024"} cena={"1568,00"}/>
+<Racun datum={"15.09.2024"} cena={"1568,00"}/>
+<Racun datum={"15.05.2024"} cena={"1568,00"}/>
+<Racun datum={"15.07.2024"} cena={"1568,00"}/>
+<Racun datum={"15.08.2024"} cena={"1568,00"}/>
+<Racun datum={"15.10.2024"} cena={"1568,00"}/>
+<Racun datum={"10.09.2024"} cena={"1568,00"}/> 
+<Racun datum={"15.09.2024"} cena={"1568,00"}/>
+<Racun datum={"15.05.2024"} cena={"1568,00"}/>
+<Racun datum={"15.07.2024"} cena={"1568,00"}/>
+<Racun datum={"15.08.2024"} cena={"1568,00"}/>
+<Racun datum={"15.10.2024"} cena={"1568,00"}/>
+<Racun datum={"10.09.2024"} cena={"1568,00"}/>             
+   </div>
+  <div className={styles.KontenjerZaDugme}>
+  <button className={styles.DugmeVidiJos} >Vidi još</button>
   </div>
-  <div className={styles.DrugaParticija}>
-  <p>Datum:</p>
-  </div>
-  <div className={styles.TrecaParticija}>
-  <p>11.05.2024</p>
-  </div>
-  <div className={styles.CetvrtaParticija}>
-  <p>Cena:</p>
-  </div>
-  <div className={styles.PetaParticija}>
-  <p>112.025,20 din</p>
-  </div>
-  </div>
-  <div className={styles.KontenjerZaRacun}>
-    <div className={styles.PrvaParticija}>
-    <p>KUPOVINA</p>
-    </div>
-    <div className={styles.DrugaParticija}>
-    <p>Datum:</p>
-    </div>
-    <div className={styles.TrecaParticija}>
-    <p>11.05.2024</p>
-    </div>
-    <div className={styles.CetvrtaParticija}>
-    <p>Cena:</p>
-    </div>
-    <div className={styles.PetaParticija}>
-    <p>112.025,20 din</p>
-    </div>
-    </div>
-    <div className={styles.KontenjerZaRacun}>
-      <div className={styles.PrvaParticija}>
-      <p>KUPOVINA</p>
-      </div>
-      <div className={styles.DrugaParticija}>
-      <p>Datum:</p>
-      </div>
-      <div className={styles.TrecaParticija}>
-      <p>11.05.2024</p>
-      </div>
-      <div className={styles.CetvrtaParticija}>
-      <p>Cena:</p>
-      </div>
-      <div className={styles.PetaParticija}>
-      <p>112.025,20 din</p>
-      </div>
-      </div>
-      <div className={styles.KontenjerZaRacun}>
-        <div className={styles.PrvaParticija}>
-        <p>KUPOVINA</p>
-        </div>
-        <div className={styles.DrugaParticija}>
-        <p>Datum:</p>
-        </div>
-        <div className={styles.TrecaParticija}>
-        <p>11.05.2024</p>
-        </div>
-        <div className={styles.CetvrtaParticija}>
-        <p>Cena:</p>
-        </div>
-        <div className={styles.PetaParticija}>
-        <p>112.025,20 din</p>
-        </div>
-        </div>
-        <div className={styles.KontenjerZaRacun}>
-          <div className={styles.PrvaParticija}>
-          <p>KUPOVINA</p>
-          </div>
-          <div className={styles.DrugaParticija}>
-          <p>Datum:</p>
-          </div>
-          <div className={styles.TrecaParticija}>
-          <p>11.05.2024</p>
-          </div>
-          <div className={styles.CetvrtaParticija}>
-          <p>Cena:</p>
-          </div>
-          <div className={styles.PetaParticija}>
-          <p>112.025,20 din</p>
-          </div>
-          </div>
-          <div className={styles.KontenjerZaRacun}>
-            <div className={styles.PrvaParticija}>
-            <p>KUPOVINA</p>
-            </div>
-            <div className={styles.DrugaParticija}>
-            <p>Datum:</p>
-            </div>
-            <div className={styles.TrecaParticija}>
-            <p>11.05.2024</p>
-            </div>
-            <div className={styles.CetvrtaParticija}>
-            <p>Cena:</p>
-            </div>
-            <div className={styles.PetaParticija}>
-            <p>112.025,20 din</p>
-            </div>
-            </div>
-            <div className={styles.KontenjerZaRacun}>
-              <div className={styles.PrvaParticija}>
-              <p>KUPOVINA</p>
-              </div>
-              <div className={styles.DrugaParticija}>
-              <p>Datum:</p>
-              </div>
-              <div className={styles.TrecaParticija}>
-              <p>11.05.2024</p>
-              </div>
-              <div className={styles.CetvrtaParticija}>
-              <p>Cena:</p>
-              </div>
-              <div className={styles.PetaParticija}>
-              <p>112.025,20 din</p>
-              </div>
-              </div>
-              <div className={styles.KontenjerZaRacun}>
-                <div className={styles.PrvaParticija}>
-                <p>KUPOVINA</p>
-                </div>
-                <div className={styles.DrugaParticija}>
-                <p>Datum:</p>
-                </div>
-                <div className={styles.TrecaParticija}>
-                <p>11.05.2024 </p>
-                </div>
-                <div className={styles.CetvrtaParticija}>
-                <p>Cena:</p>
-                </div>
-                <div className={styles.PetaParticija}>
-                <p>112.025,20 din</p>
-                </div>
-                </div>
-                <div className={styles.KontenjerZaRacun}>
-                  <div className={styles.PrvaParticija}>
-                  <p>KUPOVINA</p>
-                  </div>
-                  <div className={styles.DrugaParticija}>
-                  <p>Datum:</p>
-                  </div>
-                  <div className={styles.TrecaParticija}>
-                  <p>11.05.2024</p>
-                  </div>
-                  <div className={styles.CetvrtaParticija}>
-                  <p>Cena:</p>
-                  </div>
-                  <div className={styles.PetaParticija}>
-                  <p>112.025,20 din</p>
-                  </div>
-                  </div>
-                  
-                  
-                     <div className={styles.KontenjerZaRacun}>
-
-<div className={styles.PrvaParticija}>
-<p>KUPOVINA</p>
-</div>
-<div className={styles.DrugaParticija}>
-<p>Datum:</p>
-</div>
-<div className={styles.TrecaParticija}>
-<p>11.05.2024</p>
-</div>
-<div className={styles.CetvrtaParticija}>
-<p>Cena:</p>
-</div>
-<div className={styles.PetaParticija}>
-<p>112.025,20 din</p>
-</div>
-</div>
-<div className={styles.KontenjerZaRacun}>
-  <div className={styles.PrvaParticija}>
-  <p>KUPOVINA</p>
-  </div>
-  <div className={styles.DrugaParticija}>
-  <p>Datum:</p>
-  </div>
-  <div className={styles.TrecaParticija}>
-  <p>11.05.2024</p>
-  </div>
-  <div className={styles.CetvrtaParticija}>
-  <p>Cena:</p>
-  </div>
-  <div className={styles.PetaParticija}>
-  <p>112.025,20 din</p>
-  </div>
-  </div>
-  <div className={styles.KontenjerZaRacun}>
-    <div className={styles.PrvaParticija}>
-    <p>KUPOVINA</p>
-    </div>
-    <div className={styles.DrugaParticija}>
-    <p>Datum:</p>
-    </div>
-    <div className={styles.TrecaParticija}>
-    <p>11.05.2024</p>
-    </div>
-    <div className={styles.CetvrtaParticija}>
-    <p>Cena:</p>
-    </div>
-    <div className={styles.PetaParticija}>
-    <p>112.025,20 din</p>
-    </div>
-    </div>
-    <div className={styles.KontenjerZaRacun}>
-      <div className={styles.PrvaParticija}>
-      <p>KUPOVINA</p>
-      </div>
-      <div className={styles.DrugaParticija}>
-      <p>Datum:</p>
-      </div>
-      <div className={styles.TrecaParticija}>
-      <p>11.05.2024</p>
-      </div>
-      <div className={styles.CetvrtaParticija}>
-      <p>Cena:</p>
-      </div>
-      <div className={styles.PetaParticija}>
-      <p>112.025,20 din</p>
-      </div>
-      </div>
-      <div className={styles.KontenjerZaRacun}>
-        <div className={styles.PrvaParticija}>
-        <p>KUPOVINA</p>
-        </div>
-        <div className={styles.DrugaParticija}>
-        <p>Datum:</p>
-        </div>
-        <div className={styles.TrecaParticija}>
-        <p>11.05.2024</p>
-        </div>
-        <div className={styles.CetvrtaParticija}>
-        <p>Cena:</p>
-        </div>
-        <div className={styles.PetaParticija}>
-        <p>112.025,20 din</p>
-        </div>
-        </div>
-        <div className={styles.KontenjerZaRacun}>
-          <div className={styles.PrvaParticija}>
-          <p>KUPOVINA</p>
-          </div>
-          <div className={styles.DrugaParticija}>
-          <p>Datum:</p>
-          </div>
-          <div className={styles.TrecaParticija}>
-          <p>11.05.2024</p>
-          </div>
-          <div className={styles.CetvrtaParticija}>
-          <p>Cena:</p>
-          </div>
-          <div className={styles.PetaParticija}>
-          <p>112.025,20 din</p>
-          </div>
-          </div>
-          <div className={styles.KontenjerZaRacun}>
-            <div className={styles.PrvaParticija}>
-            <p>KUPOVINA</p>
-            </div>
-            <div className={styles.DrugaParticija}>
-            <p>Datum:</p>
-            </div>
-            <div className={styles.TrecaParticija}>
-            <p>11.05.2024</p>
-            </div>
-            <div className={styles.CetvrtaParticija}>
-            <p>Cena:</p>
-            </div>
-            <div className={styles.PetaParticija}>
-            <p>112.025,20 din</p>
-            </div>
-            </div>
-            <div className={styles.KontenjerZaRacun}>
-              <div className={styles.PrvaParticija}>
-              <p>KUPOVINA</p>
-              </div>
-              <div className={styles.DrugaParticija}>
-              <p>Datum:</p>
-              </div>
-              <div className={styles.TrecaParticija}>
-              <p>11.05.2024</p>
-              </div>
-              <div className={styles.CetvrtaParticija}>
-              <p>Cena:</p>
-              </div>
-              <div className={styles.PetaParticija}>
-              <p>112.025,20 din</p>
-              </div>
-              </div>
-              <div className={styles.KontenjerZaRacun}>
-                <div className={styles.PrvaParticija}>
-                <p>KUPOVINA</p>
-                </div>
-                <div className={styles.DrugaParticija}>
-                <p>Datum:</p>
-                </div>
-                <div className={styles.TrecaParticija}>
-                <p>11.05.2024 </p>
-                </div>
-                <div className={styles.CetvrtaParticija}>
-                <p>Cena:</p>
-                </div>
-                <div className={styles.PetaParticija}>
-                <p>112.025,20 din</p>
-                </div>
-                </div>
-                <div className={styles.KontenjerZaRacun}>
-                  <div className={styles.PrvaParticija}>
-                  <p>KUPOVINA</p>
-                  </div>
-                  <div className={styles.DrugaParticija}>
-                  <p>Datum:</p>
-                  </div>
-                  <div className={styles.TrecaParticija}>
-                  <p>11.05.2024</p>
-                  </div>
-                  <div className={styles.CetvrtaParticija}>
-                  <p>Cena:</p>
-                  </div>
-                  <div className={styles.PetaParticija}>
-                  <p>112.025,20 din</p>
-                  </div>
-                  </div>                       
-                  </div>
-                  <div className={styles.KontenjerZaDugme}>
-                  <button className={styles.DugmeVidiJos} >Vidi još</button>
-                  </div>
 
 </div>
 <div className={styles.KontenjerZaMesecnuKupovinu}>
   <div className={styles.OpisniTekstMeseca}>
-  <p className={styles.IzgledTekstaObavestenja}>Ukoliko ste kupili proizvode iz korpe pomocu aplikacije u mesecu</p>
-  <p className={styles.IzgledTekstaObavestenja}>Maju</p>
-  <p className={styles.IzgledTekstaObavestenja}>ustedeli ste:</p>
-  <p className={styles.IzgledPromenljivogTeksta}>5516 din</p>
+  <MesecniOpis mesec={"Mart"} cena={"5421,24"}/>
   </div>
   <div className={styles.KontenjerzaMesecneTroskove}>
    
-    <div className={styles.KontenjerZaRacun}>
-  
-  <div className={styles.PrvaParticija}>
-  <p>KUPOVINA</p>
+ <Racun datum={"15.09.2024"} cena={"1568,00"}/>
+<Racun datum={"15.05.2024"} cena={"1568,00"}/>
+<Racun datum={"15.07.2024"} cena={"1568,00"}/>
+<Racun datum={"15.08.2024"} cena={"1568,00"}/>
+<Racun datum={"15.10.2024"} cena={"1568,00"}/>
+<Racun datum={"10.09.2024"} cena={"1568,00"}/>
+<Racun datum={"14.09.2024"} cena={"1568,00"}/>
+<Racun datum={"11.09.2024"} cena={"1568,00"}/>
+<Racun datum={"19.09.2024"} cena={"1568,00"}/>
+<Racun datum={"17.09.2024"} cena={"1568,00"}/>
+<Racun datum={"18.09.2024"} cena={"1568,00"}/>
+<Racun datum={"15.09.2024"} cena={"1568,00"}/>
+<Racun datum={"15.05.2024"} cena={"1568,00"}/>
+<Racun datum={"15.07.2024"} cena={"1568,00"}/>
+<Racun datum={"15.08.2024"} cena={"1568,00"}/>
+<Racun datum={"15.10.2024"} cena={"1568,00"}/>
+<Racun datum={"10.09.2024"} cena={"1568,00"}/>
+<Racun datum={"15.09.2024"} cena={"1568,00"}/>
+<Racun datum={"15.05.2024"} cena={"1568,00"}/>
+<Racun datum={"15.07.2024"} cena={"1568,00"}/>
+<Racun datum={"15.08.2024"} cena={"1568,00"}/>
+<Racun datum={"15.10.2024"} cena={"1568,00"}/>
+<Racun datum={"10.09.2024"} cena={"1568,00"}/>
+ </div>
+ <div className={styles.KontenjerZaDugme}>
+  <button className={styles.DugmeVidiJos} >Vidi još</button>
   </div>
-  <div className={styles.DrugaParticija}>
-  <p>Datum:</p>
-  </div>
-  <div className={styles.TrecaParticija}>
-  <p>11.05.2024</p>
-  </div>
-  <div className={styles.CetvrtaParticija}>
-  <p>Cena:</p>
-  </div>
-  <div className={styles.PetaParticija}>
-  <p>112.025,20 din</p>
-  </div>
-  </div>
-  <div className={styles.KontenjerZaRacun}>
-    <div className={styles.PrvaParticija}>
-    <p>KUPOVINA</p>
-    </div>
-    <div className={styles.DrugaParticija}>
-    <p>Datum:</p>
-    </div>
-    <div className={styles.TrecaParticija}>
-    <p>11.05.2024</p>
-    </div>
-    <div className={styles.CetvrtaParticija}>
-    <p>Cena:</p>
-    </div>
-    <div className={styles.PetaParticija}>
-    <p>112.025,20 din</p>
-    </div>
-    </div>
-    <div className={styles.KontenjerZaRacun}>
-      <div className={styles.PrvaParticija}>
-      <p>KUPOVINA</p>
-      </div>
-      <div className={styles.DrugaParticija}>
-      <p>Datum:</p>
-      </div>
-      <div className={styles.TrecaParticija}>
-      <p>11.05.2024</p>
-      </div>
-      <div className={styles.CetvrtaParticija}>
-      <p>Cena:</p>
-      </div>
-      <div className={styles.PetaParticija}>
-      <p>112.025,20 din</p>
-      </div>
-      </div>
-      <div className={styles.KontenjerZaRacun}>
-        <div className={styles.PrvaParticija}>
-        <p>KUPOVINA</p>
-        </div>
-        <div className={styles.DrugaParticija}>
-        <p>Datum:</p>
-        </div>
-        <div className={styles.TrecaParticija}>
-        <p>11.05.2024</p>
-        </div>
-        <div className={styles.CetvrtaParticija}>
-        <p>Cena:</p>
-        </div>
-        <div className={styles.PetaParticija}>
-        <p>112.025,20 din</p>
-        </div>
-        </div>
-        <div className={styles.KontenjerZaRacun}>
-          <div className={styles.PrvaParticija}>
-          <p>KUPOVINA</p>
-          </div>
-          <div className={styles.DrugaParticija}>
-          <p>Datum:</p>
-          </div>
-          <div className={styles.TrecaParticija}>
-          <p>11.05.2024</p>
-          </div>
-          <div className={styles.CetvrtaParticija}>
-          <p>Cena:</p>
-          </div>
-          <div className={styles.PetaParticija}>
-          <p>112.025,20 din</p>
-          </div>
-          </div>
-          <div className={styles.KontenjerZaRacun}>
-            <div className={styles.PrvaParticija}>
-            <p>KUPOVINA</p>
-            </div>
-            <div className={styles.DrugaParticija}>
-            <p>Datum:</p>
-            </div>
-            <div className={styles.TrecaParticija}>
-            <p>11.05.2024</p>
-            </div>
-            <div className={styles.CetvrtaParticija}>
-            <p>Cena:</p>
-            </div>
-            <div className={styles.PetaParticija}>
-            <p>112.025,20 din</p>
-            </div>
-            </div>
-            <div className={styles.KontenjerZaRacun}>
-              <div className={styles.PrvaParticija}>
-              <p>KUPOVINA</p>
-              </div>
-              <div className={styles.DrugaParticija}>
-              <p>Datum:</p>
-              </div>
-              <div className={styles.TrecaParticija}>
-              <p>11.05.2024</p>
-              </div>
-              <div className={styles.CetvrtaParticija}>
-              <p>Cena:</p>
-              </div>
-              <div className={styles.PetaParticija}>
-              <p>112.025,20 din</p>
-              </div>
-              </div>
-              <div className={styles.KontenjerZaRacun}>
-                <div className={styles.PrvaParticija}>
-                <p>KUPOVINA</p>
-                </div>
-                <div className={styles.DrugaParticija}>
-                <p>Datum:</p>
-                </div>
-                <div className={styles.TrecaParticija}>
-                <p>11.05.2024</p>
-                </div>
-                <div className={styles.CetvrtaParticija}>
-                <p>Cena:</p>
-                </div>
-                <div className={styles.PetaParticija}>
-                <p>112.025,20 din</p>
-                </div>
-                </div>
-                <div className={styles.KontenjerZaRacun}>
-                  <div className={styles.PrvaParticija}>
-                  <p>KUPOVINA</p>
-                  </div>
-                  <div className={styles.DrugaParticija}>
-                  <p>Datum:</p>
-                  </div>
-                  <div className={styles.TrecaParticija}>
-                  <p>11.05.2024 </p>
-                  </div>
-                  <div className={styles.CetvrtaParticija}>
-                  <p>Cena:</p>
-                  </div>
-                  <div className={styles.PetaParticija}>
-                  <p>112.025,20 din</p>
-                  </div>
-                  </div>
-                  <div className={styles.KontenjerZaRacun}>
-                    <div className={styles.PrvaParticija}>
-                    <p>KUPOVINA</p>
-                    </div>
-                    <div className={styles.DrugaParticija}>
-                    <p>Datum:</p>
-                    </div>
-                    <div className={styles.TrecaParticija}>
-                    <p>11.05.2024</p>
-                    </div>
-                    <div className={styles.CetvrtaParticija}>
-                    <p>Cena:</p>
-                    </div>
-                    <div className={styles.PetaParticija}>
-                    <p>112.025,20 din</p>
-                    </div>
-                    </div>
-                    
-                   
-                       <div className={styles.KontenjerZaRacun}>
-  
-  <div className={styles.PrvaParticija}>
-  <p>KUPOVINA</p>
-  </div>
-  <div className={styles.DrugaParticija}>
-  <p>Datum:</p>
-  </div>
-  <div className={styles.TrecaParticija}>
-  <p>11.05.2024</p>
-  </div>
-  <div className={styles.CetvrtaParticija}>
-  <p>Cena:</p>
-  </div>
-  <div className={styles.PetaParticija}>
-  <p>112.025,20 din</p>
-  </div>
-  </div>
-  <div className={styles.KontenjerZaRacun}>
-    <div className={styles.PrvaParticija}>
-    <p>KUPOVINA</p>
-    </div>
-    <div className={styles.DrugaParticija}>
-    <p>Datum:</p>
-    </div>
-    <div className={styles.TrecaParticija}>
-    <p>11.05.2024</p>
-    </div>
-    <div className={styles.CetvrtaParticija}>
-    <p>Cena:</p>
-    </div>
-    <div className={styles.PetaParticija}>
-    <p>112.025,20 din</p>
-    </div>
-    </div>
-    <div className={styles.KontenjerZaRacun}>
-      <div className={styles.PrvaParticija}>
-      <p>KUPOVINA</p>
-      </div>
-      <div className={styles.DrugaParticija}>
-      <p>Datum:</p>
-      </div>
-      <div className={styles.TrecaParticija}>
-      <p>11.05.2024</p>
-      </div>
-      <div className={styles.CetvrtaParticija}>
-      <p>Cena:</p>
-      </div>
-      <div className={styles.PetaParticija}>
-      <p>112.025,20 din</p>
-      </div>
-      </div>
-      <div className={styles.KontenjerZaRacun}>
-        <div className={styles.PrvaParticija}>
-        <p>KUPOVINA</p>
-        </div>
-        <div className={styles.DrugaParticija}>
-        <p>Datum:</p>
-        </div>
-        <div className={styles.TrecaParticija}>
-        <p>11.05.2024</p>
-        </div>
-        <div className={styles.CetvrtaParticija}>
-        <p>Cena:</p>
-        </div>
-        <div className={styles.PetaParticija}>
-        <p>112.025,20 din</p>
-        </div>
-        </div>
-        <div className={styles.KontenjerZaRacun}>
-          <div className={styles.PrvaParticija}>
-          <p>KUPOVINA</p>
-          </div>
-          <div className={styles.DrugaParticija}>
-          <p>Datum:</p>
-          </div>
-          <div className={styles.TrecaParticija}>
-          <p>11.05.2024</p>
-          </div>
-          <div className={styles.CetvrtaParticija}>
-          <p>Cena:</p>
-          </div>
-          <div className={styles.PetaParticija}>
-          <p>112.025,20 din</p>
-          </div>
-          </div>
-          <div className={styles.KontenjerZaRacun}>
-            <div className={styles.PrvaParticija}>
-            <p>KUPOVINA</p>
-            </div>
-            <div className={styles.DrugaParticija}>
-            <p>Datum:</p>
-            </div>
-            <div className={styles.TrecaParticija}>
-            <p>11.05.2024</p>
-            </div>
-            <div className={styles.CetvrtaParticija}>
-            <p>Cena:</p>
-            </div>
-            <div className={styles.PetaParticija}>
-            <p>112.025,20 din</p>
-            </div>
-            </div>
-            <div className={styles.KontenjerZaRacun}>
-              <div className={styles.PrvaParticija}>
-              <p>KUPOVINA</p>
-              </div>
-              <div className={styles.DrugaParticija}>
-              <p>Datum:</p>
-              </div>
-              <div className={styles.TrecaParticija}>
-              <p>11.05.2024</p>
-              </div>
-              <div className={styles.CetvrtaParticija}>
-              <p>Cena:</p>
-              </div>
-              <div className={styles.PetaParticija}>
-              <p>112.025,20 din</p>
-              </div>
-              </div>
-              <div className={styles.KontenjerZaRacun}>
-                <div className={styles.PrvaParticija}>
-                <p>KUPOVINA</p>
-                </div>
-                <div className={styles.DrugaParticija}>
-                <p>Datum:</p>
-                </div>
-                <div className={styles.TrecaParticija}>
-                <p>11.05.2024</p>
-                </div>
-                <div className={styles.CetvrtaParticija}>
-                <p>Cena:</p>
-                </div>
-                <div className={styles.PetaParticija}>
-                <p>112.025,20 din</p>
-                </div>
-                </div>
-                <div className={styles.KontenjerZaRacun}>
-                  <div className={styles.PrvaParticija}>
-                  <p>KUPOVINA</p>
-                  </div>
-                  <div className={styles.DrugaParticija}>
-                  <p>Datum:</p>
-                  </div>
-                  <div className={styles.TrecaParticija}>
-                  <p>11.05.2024 </p>
-                  </div>
-                  <div className={styles.CetvrtaParticija}>
-                  <p>Cena:</p>
-                  </div>
-                  <div className={styles.PetaParticija}>
-                  <p>112.025,20 din</p>
-                  </div>
-                  </div>
-                  <div className={styles.KontenjerZaRacun}>
-                    <div className={styles.PrvaParticija}>
-                    <p>KUPOVINA</p>
-                    </div>
-                    <div className={styles.DrugaParticija}>
-                    <p>Datum:</p>
-                    </div>
-                    <div className={styles.TrecaParticija}>
-                    <p>11.05.2024</p>
-                    </div>
-                    <div className={styles.CetvrtaParticija}>
-                    <p>Cena:</p>
-                    </div>
-                    <div className={styles.PetaParticija}>
-                    <p>112.025,20 din</p>
-                    </div>
-                    </div>
-                    </div>
-                    <div className={styles.KontenjerZaDugme}>
-                    <button className={styles.DugmeVidiJos} >Vidi još</button>
-                    </div>
   </div>
   </div>
   </div>

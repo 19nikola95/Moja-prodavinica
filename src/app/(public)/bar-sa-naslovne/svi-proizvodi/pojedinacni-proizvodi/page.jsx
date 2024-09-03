@@ -1,4 +1,12 @@
 import styles from '../../../../../styles/bar-za-naslovnu/svi-proizvodi/pojedinacniproizvodi.module.scss';
+import { DodantniProizvodi } from '@/components/PojedinacniProizvod/DodatniProizvodi';
+import { CenaILogo } from '@/components/PojedinacniProizvod/CenaILogoa';
+import { ProizvodjacProizvoda } from '@/components/PojedinacniProizvod/ProizvodjacProizvoda';
+import { Tezinaroizvoda } from '@/components/PojedinacniProizvod/TezinaProizvoda';
+import { KolicinaProizvoda } from '@/components/PojedinacniProizvod/KolicinaProizvoda';
+import { UpustvoZaUpotrebu } from '@/components/PojedinacniProizvod/UputstvoZaUpotrebu';
+import { Sastojci } from '@/components/PojedinacniProizvod/Sastojci';
+import { Napomena } from '@/components/PojedinacniProizvod/Napomena';
 export default function kontaktirajnas() {
   return (
   <div>
@@ -16,163 +24,36 @@ export default function kontaktirajnas() {
             </div>
           </div>
           <div className={styles.KontenjerZaCene}>
-            <div className={styles.KontenjerZaRed}>
-              <div className={styles.LogoProdavnice}>
-                <img className={styles.DimenzijeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-              </div>
-              <div className={styles.KontenjerZaCenu}>
-                <p>DIS: 102,22 din</p>
-              </div>
-            </div>
-            <div className={styles.KontenjerZaRed}>
-              <div className={styles.LogoProdavnice}>
-                <img className={styles.DimenzijeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-              </div>
-              <div className={styles.KontenjerZaCenu}>
-                <p>DIS: 102,22 din</p>
-              </div>
-            </div>
-            <div className={styles.KontenjerZaRed}>
-              <div className={styles.LogoProdavnice}>
-                <img className={styles.DimenzijeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-              </div>
-              <div className={styles.KontenjerZaCenu}>
-                <p>DIS: 102,22 din</p>
-              </div>
-            </div>
-            <div className={styles.KontenjerZaRed}>
-              <div className={styles.LogoProdavnice}>
-                <img className={styles.DimenzijeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-              </div>
-              <div className={styles.KontenjerZaCenu}>
-                <p>DIS: 102,22 din</p>
-              </div>
-            </div>
-            <div className={styles.KontenjerZaRed}>
-              <div className={styles.LogoProdavnice}>
-                <img className={styles.DimenzijeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-              </div>
-              <div className={styles.KontenjerZaCenu}>
-                <p>DIS: 102,22 din</p>
-              </div>
-            </div>
-            <div className={styles.KontenjerZaRed}>
-              <div className={styles.LogoProdavnice}>
-                <img className={styles.DimenzijeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-              </div>
-              <div className={styles.KontenjerZaCenu}>
-                <p>DIS: 102,22 din</p>
-              </div>
-            </div>
-            <div className={styles.KontenjerZaRed}>
-              <div className={styles.LogoProdavnice}>
-                <img className={styles.DimenzijeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-              </div>
-              <div className={styles.KontenjerZaCenu}>
-                <p>DIS: 102,22 din</p>
-              </div>
-            </div>
-            <div className={styles.KontenjerZaRed}>
-              <div className={styles.LogoProdavnice}>
-                <img className={styles.DimenzijeLoga} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-              </div>
-              <div className={styles.KontenjerZaCenu}>
-                <p>DIS: 102,22 din</p>
-              </div>
-            </div>
-            
+          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS1"} cena={"102,22"}/>
+          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS2"} cena={"102,22"}/>
+          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS3"} cena={"102,22"}/>
+          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS4"} cena={"102,22"}/>
+          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS5"} cena={"102,22"}/>
+          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS6"} cena={"102,22"}/>
+          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS7"} cena={"102,22"}/>
+          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS8"} cena={"102,22"}/>
           </div>
           <div className={styles.KontenjerZaOpis}>
             <div className={styles.NaslovZaOpis}>
               <p>Opis proizvoda</p>
             </div>
             <div className={styles.KlasaTekstOpisa}>
-              <p className={styles.TekstOpisa}><b>Proizvođač:</b> K Plus</p>
-              <p className={styles.TekstOpisa}><b>Težina:</b> 40g</p>
-              <p className={styles.TekstOpisa}><b>Količina:</b> 20 kesica</p>
-              <p className={styles.TekstOpisa}><b>Upustvo za upotrebu:</b> Filter kesici iz aroma omotača staviti u posudu, preliti sa 200ml ključale vode i preklopiti. Nakon 10 min stajanja izvaditi kesicu i gotov čaj zasladiti po želji.</p>
-              <p className={styles.TekstOpisa}><b>Sastojci:</b> koren đumbira 25%, plod divlje jabuke 23%, plod šipka 16%, aroma limun-limete 9%, kora limuna 8%, list slatke kupine 7%, kiselina: limunska kiselina 6%, list matičnjaka 5%, aroma đumbira 1%. </p>
-              <p className={styles.TekstOpisa}><b>Napomena:</b> Čuvati na suvom i hladnom mestu. Proizvod je najbolje upotrebiti u roko od 60 dana nakon otvaranja. Najbolje upotrebiti do/ Oznake serije: označeno na dnu ambalaže.</p>
+              <ProizvodjacProizvoda proizvodjac={"K Plus"}/>
+              <Tezinaroizvoda tezina={"40g"}/>
+              <KolicinaProizvoda kolicina={"20 kesica"}/>
+              <UpustvoZaUpotrebu upustvo={"Filter kesici iz aroma omotača staviti u posudu, preliti sa 200ml ključale vode i preklopiti. Nakon 10 min stajanja izvaditi kesicu i gotov čaj zasladiti po želji."}/>
+              <Sastojci sastojci={"koren đumbira 25%, plod divlje jabuke 23%, plod šipka 16%, aroma limun-limete 9%, kora limuna 8%, list slatke kupine 7%, kiselina: limunska kiselina 6%, list matičnjaka 5%, aroma đumbira 1%. "}/>
+              <Napomena napomena={"Čuvati na suvom i hladnom mestu. Proizvod je najbolje upotrebiti u roko od 60 dana nakon otvaranja. Najbolje upotrebiti do/ Oznake serije: označeno na dnu ambalaže."}/>
             </div>
           </div>
         </div>
         <div className={styles.KontenjerOstaliPorizvodi}>
-          <div className={styles.GornjiDeoKontenjeraProizvoda}>
-            <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-            <div className={styles.KontenjerZaTekstProizvoda}>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja} >Mleko od badema sa dsadsadsa</p>
-              </div>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja}>350g</p>
-              </div>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja}>Doktor etker i braca grasad dsa dsasd as</p>
-              </div>
-              
-            </div>
-          </div>
-          <div className={styles.GornjiDeoKontenjeraProizvoda}>
-            <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-            <div className={styles.KontenjerZaTekstProizvoda}>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja} >Mleko od badema sa dsadsadsa</p>
-              </div>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja}>350g</p>
-              </div>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja}>Doktor etker i braca grasad dsa dsasd as</p>
-              </div>
-              
-            </div>
-          </div>
-          <div className={styles.GornjiDeoKontenjeraProizvoda}>
-            <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-            <div className={styles.KontenjerZaTekstProizvoda}>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja} >Mleko od badema sa dsadsadsa</p>
-              </div>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja}>350g</p>
-              </div>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja}>Doktor etker i braca grasad dsa dsasd as</p>
-              </div>
-              
-            </div>
-          </div>
-          <div className={styles.GornjiDeoKontenjeraProizvoda}>
-            <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-            <div className={styles.KontenjerZaTekstProizvoda}>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja} >Mleko od badema sa dsadsadsa</p>
-              </div>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja}>350g</p>
-              </div>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja}>Doktor etker i braca grasad dsa dsasd as</p>
-              </div>
-              
-            </div>
-          </div>
-          <div className={styles.GornjiDeoKontenjeraProizvoda}>
-            <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-            <div className={styles.KontenjerZaTekstProizvoda}>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja} >Mleko od badema sa dsadsadsa</p>
-              </div>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja}>350g</p>
-              </div>
-              <div className={styles.RedUKontenjeruZaTekstProizvoda}>
-                <p className={styles.SlovaZaOpisSadrzaja}>Doktor etker i braca grasad dsa dsasd as</p>
-              </div>
-              
-            </div>
-          </div>
-          
+          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
+          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa1"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
+          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa2"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
+          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa3"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
+          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa4"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
+          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa4"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
         </div>
        
       </div>

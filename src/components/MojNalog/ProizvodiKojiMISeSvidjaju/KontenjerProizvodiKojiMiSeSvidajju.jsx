@@ -1,19 +1,17 @@
 import styles from '@/styles/proizvodiKojiMiSeSvidjaju.module.scss';
 import { CenaiNazivProizvodiKojiMiSeSvidjaju } from './CenaiNazivProizvodiKojiMiSeSvidjaju';
 import { ProizvodGornjiMEni } from './ProizvodiGornjiMeni';
-export function KontenjerProizvodaKomponentea (){
+
+// proizvod = {naziv, tezinu, proizvodjac, slika, marketi: [{cena, naziv}]}
+// prop "proizvodi" je array(niz) proizvoda
+
+export function KontenjerProizvodaKomponentea ({proizvod}){
     return <div>
          <div className={styles.KontenjerProizvoda}>
-         <ProizvodGornjiMEni imeProizvoda={"Smoki"} tezinaProizvoda={"50g"} proizvodjacProizvoca={"Stark"}/>
+         <ProizvodGornjiMEni imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoca={proizvod.proizvodjac} slika={proizvod.slika}/>
         <div className={styles.DonjiDeoKontenjeraProizvoda}>
-        <CenaiNazivProizvodiKojiMiSeSvidjaju nazivProizvodiKojiMiSeSvidjaju={"UNIVEREXPORT"} cenaProizvodiKojiMiseSvidjaju={"60"}/>
-        <CenaiNazivProizvodiKojiMiSeSvidjaju nazivProizvodiKojiMiSeSvidjaju={"MAXI"} cenaProizvodiKojiMiseSvidjaju={"61"}/>
-        <CenaiNazivProizvodiKojiMiSeSvidjaju nazivProizvodiKojiMiSeSvidjaju={"AMAN"} cenaProizvodiKojiMiseSvidjaju={"62"}/>
-        <CenaiNazivProizvodiKojiMiSeSvidjaju nazivProizvodiKojiMiSeSvidjaju={"TEMPO"} cenaProizvodiKojiMiseSvidjaju={"63"}/>
-        <CenaiNazivProizvodiKojiMiSeSvidjaju nazivProizvodiKojiMiSeSvidjaju={"IDEA"} cenaProizvodiKojiMiseSvidjaju={"64"}/>
-        <CenaiNazivProizvodiKojiMiSeSvidjaju nazivProizvodiKojiMiSeSvidjaju={"STRELAC"} cenaProizvodiKojiMiseSvidjaju={"65"}/>
-        <CenaiNazivProizvodiKojiMiSeSvidjaju nazivProizvodiKojiMiSeSvidjaju={"MAXI"} cenaProizvodiKojiMiseSvidjaju={"66"}/>
-        <CenaiNazivProizvodiKojiMiSeSvidjaju nazivProizvodiKojiMiSeSvidjaju={"MAXI"} cenaProizvodiKojiMiseSvidjaju={"67"}/>
+        
+        {proizvod?.marketi?.map((market) => <CenaiNazivProizvodiKojiMiSeSvidjaju nazivProizvodiKojiMiSeSvidjaju={market.naziv} cenaProizvodiKojiMiseSvidjaju={market.cena}/>)}
             </div>
          </div>
     

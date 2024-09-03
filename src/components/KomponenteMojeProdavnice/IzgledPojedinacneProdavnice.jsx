@@ -1,9 +1,9 @@
 import styles from '@/styles/bar-za-naslovnu/prodavnice/pojedinacneProdavnice.module.scss';
-export function PojedinacnaProdavnica({imeProizvoda, tezinaProizvoda, proizvodjacProizvoda ,cenaProizvoda}){
+export function PojedinacnaProdavnica({imeProizvoda, tezinaProizvoda, proizvodjacProizvoda ,cenaProizvoda, slikaProizvoda}){
     return <div>
     <div className={styles.KontenjerProizvoda}>
             <div className={styles.GornjiDeoKontenjeraProizvoda}>
-              <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+              <img className={styles.IzgledSlikaProizvoda} src={slikaProizvoda} alt=""/>
               <div className={styles.KontenjerZaTekstProizvoda}>
                 <div className={styles.RedUKontenjeruZaTekstProizvoda}>
                   <p>{imeProizvoda}</p>

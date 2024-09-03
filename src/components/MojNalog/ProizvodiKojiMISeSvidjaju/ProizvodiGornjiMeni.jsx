@@ -1,8 +1,8 @@
 import styles from '@/styles/proizvodiKojiMiSeSvidjaju.module.scss';
-export function ProizvodGornjiMEni({imeProizvoda,tezinaProizvoda,proizvodjacProizvoca }){
+export function ProizvodGornjiMEni({imeProizvoda,tezinaProizvoda,proizvodjacProizvoca, slika }){
     return <div>
 <div className={styles.GornjiDeoKontenjeraProizvoda}>
-              <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
+        <img className={styles.IzgledSlikaProizvoda} src={slika} alt=""/>
               <div className={styles.KontenjerZaTekstProizvoda}>
                 <div className={styles.RedUKontenjeruZaTekstProizvoda}>
                   <p className={styles.SlovaZaOpisSadrzaja} >{imeProizvoda}</p>

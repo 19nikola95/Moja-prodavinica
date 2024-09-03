@@ -1,14 +1,13 @@
 import styles from '@/styles/bar-za-naslovnu/svi-proizvodi/sviproizvodiglavnimeni.module.scss';
 import { GlavniMeniOpis } from './OpisProizvoda';
 import { GlavniMeniCenaiNaziv } from './CenaINazivMarketa';
+import { SlikaProizvoda } from './SlikaProizvoda';
 import Link from 'next/link';
 export function KontenjerSaProizvodom(){
     return  <div>
 < div className={styles.KontenjerProizvoda}>
             <div className={styles.GornjiDeoKontenjeraProizvoda}>
-              <Link href="/bar-sa-naslovne/svi-proizvodi/pojedinacni-proizvodi">
-              <img className={styles.IzgledSlikaProizvoda} src="/SlikaProizvoda/Mleko.jpeg" alt=""/>
-              </Link>
+              <SlikaProizvoda slika={"/SlikaProizvoda/Mleko.jpeg"} linkProizvoda={"/bar-sa-naslovne/svi-proizvodi/pojedinacni-proizvodi"}/>
              <GlavniMeniOpis NazivNamernice={"Bademovo mleko"} KolicinaNamernice={"1L"} ProizvodjacNamernice={"Imlek"}/>
               </div>
               <div className={styles.DonjiDeoKontenjeraProizvoda}>
