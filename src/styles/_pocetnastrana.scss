@@ -7,12 +7,25 @@
 }
 .VideoReklame{
   display: flex;
+   height: 150px;
+   width: 100%;
+   padding: 0;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+ justify-content:space-between;
+}
+.KontenjerSlikaReklame{
+  display: flex;
+  flex: 1;
   height: 150px;
-  width: 100%;
-  padding: 0;
-  margin-top: 10px;
-  margin-bottom: 10px;
- background-color: gray;
+  align-items: center;
+  justify-content: center;
+}
+.SlikaReklame{
+  height: 150px;
+  width: 200px;
 }
 .KontenjerZaDugmice{
   height: 100px;
@@ -108,8 +121,8 @@ margin-bottom: 40px;
 }
 .RedUKontenjeruZaTekstProizvoda{
   width: 156px;
-  height: 50px;
-  font-size: 18px;
+  height: 37.5px;
+  font-size: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,6 +162,17 @@ margin-bottom: 40px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
 }
+.DimenzijeSlikeKorpe{
+  height: 26px;
+  width: 26px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  border-color: rgb(131, 123, 123);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 5px;
+}
 @media (min-width: 1600px) and (max-width: 1750px){
   .DugmeIzbora{
     margin-left: 40px;
@@ -163,11 +187,55 @@ margin-bottom: 40px;
   .DugmeIzbora{
     margin-left: 0px;
   }
+  .VideoReklame{
+    display: flex;
+     height: 100px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  }
+  .KontenjerSlikaReklame{
+    display: flex;
+    flex: 1;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlikaReklame{
+    height: 120px;
+    width: 160px;
+  }
 }
 @media (min-width: 1100px) and (max-width: 1200px){
 .KontenjerZaDugmice{
   grid-template-columns: 20% 20% 20% 20% 20%;
   margin-left: 0px;
+}
+.VideoReklame{
+  display: flex;
+   height: 100px;
+   width: 100%;
+   padding: 0;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+ justify-content:space-between;
+}
+.KontenjerSlikaReklame{
+  display: flex;
+  flex: 1;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.SlikaReklame{
+  height: 105px;
+  width: 140px;
 }
 .DugmeIzbora{
   margin-left: 0px;
@@ -175,11 +243,37 @@ margin-bottom: 40px;
 .KontenjerPreporuceniProizvodi{
   grid-template-columns: 33% 33% 33%;
 }
+.DimenzijeSlikeKorpe{
+  height: 20px;
+  width: 20px;
+}
 }
 @media (min-width: 1000px) and (max-width: 1100px){
   .KontenjerZaDugmice{
     grid-template-columns: 20% 20% 20% 20% 20%;
     margin-left: 0px;
+  }
+  .VideoReklame{
+    display: flex;
+     height: 90px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  }
+  .KontenjerSlikaReklame{
+    display: flex;
+    flex: 1;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlikaReklame{
+    height: 105px;
+    width: 140px;
   }
   .DugmeIzbora{
     margin-left: 0px;
@@ -195,6 +289,28 @@ margin-bottom: 40px;
     grid-template-rows: 100px;
     margin-left: 0px;
     margin-bottom: 60px;
+  }
+  .VideoReklame{
+    display: flex;
+     height: 105px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  }
+  .KontenjerSlikaReklame{
+    display: flex;
+    flex: 1;
+    height: 105px;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlikaReklame{
+    height: 105px;
+    width: 140px;
   }
   .DugmeIzbora{
     margin-left: 0px;
@@ -233,6 +349,28 @@ margin-bottom: 40px;
     grid-template-rows: 90px;
     margin-left: 0px;
     margin-bottom: 50px;
+  }
+  .VideoReklame{
+    display: flex;
+     height: 90px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  }
+  .KontenjerSlikaReklame{
+    display: flex;
+    flex: 1;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlikaReklame{
+    height: 90px;
+    width: 120px;
   }
   .DugmeIzbora{
     margin: 0px;
@@ -273,6 +411,28 @@ margin-bottom: 40px;
     justify-items: center;
     align-items: center;
   }
+  .VideoReklame{
+    display: flex;
+     height: 80px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  }
+  .KontenjerSlikaReklame{
+    display: flex;
+    flex: 1;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlikaReklame{
+    height: 75px;
+    width: 100px;
+  }
   .DugmeIzbora{
     margin-left: 0px;
     width: 170px;
@@ -306,6 +466,10 @@ margin-bottom: 40px;
   .VideoReklame{
     margin-bottom: 16px;
   }
+  .DimenzijeSlikeKorpe{
+    height: 20px;
+    width: 20px;
+  }
 }
 @media (min-width: 400px) and (max-width: 600px){
   .KontenjerZaDugmice{
@@ -314,6 +478,28 @@ margin-bottom: 40px;
     grid-template-rows: 56px;
     margin-left: 0px;
     margin-bottom: 50px;
+  }
+  .VideoReklame{
+    display: flex;
+     height: 56px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  }
+  .KontenjerSlikaReklame{
+    display: flex;
+    flex: 1;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlikaReklame{
+    height: 54px;
+    width: 72px;
   }
   .DugmeIzbora{
     margin-left: 0px;
@@ -356,6 +542,10 @@ margin-bottom: 40px;
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  .DimenzijeSlikeKorpe{
+    height: 15px;
+    width: 15px;
+  }
 }
 @media (min-width: 350px) and (max-width: 400px){
   .KontenjerZaDugmice{
@@ -364,6 +554,28 @@ margin-bottom: 40px;
     grid-template-rows: 56px;
     margin-left: 0px;
     margin-bottom: 50px;
+  }
+  .VideoReklame{
+    display: flex;
+     height: 48px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  }
+  .KontenjerSlikaReklame{
+    display: flex;
+    flex: 1;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlikaReklame{
+    height: 45px;
+    width: 60px;
   }
   .DugmeIzbora{
     margin-left: 0px;
@@ -409,6 +621,10 @@ margin-bottom: 40px;
   .DugmeZaStranice{
     margin-right: 50px;
   }
+  .DimenzijeSlikeKorpe{
+    height: 15px;
+    width: 15px;
+  }
 }
 @media (min-width: 300px) and (max-width: 350px){
   .KontenjerZaDugmice{
@@ -417,6 +633,28 @@ margin-bottom: 40px;
     grid-template-rows: 56px;
     margin-left: 0px;
     margin-bottom: 50px;
+  }
+  .VideoReklame{
+    display: flex;
+     height: 38px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  }
+  .KontenjerSlikaReklame{
+    display: flex;
+    flex: 1;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlikaReklame{
+    height: 36px;
+    width: 48px;
   }
   .DugmeIzbora{
     margin-left: 0px;

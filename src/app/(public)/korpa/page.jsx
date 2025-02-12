@@ -2,6 +2,13 @@ import styles from '../../../styles/korpa.module.scss';
 import { NajeftinijePoProdavnicama } from '@/components/Korpa/NajeftinijePoProdavnicama';
 import { PojedinacniProizvodiPoProdavnici } from '@/components/Korpa/PojedinacniProizvodiPoProdavnici';
 import { NaruceniProizvodi } from '@/components/Korpa/NaruceniProizvodi';
+import { KorpaPojedinacneProdavnice } from '@/components/Korpa/KorpaPojedinacnaProdavnica';
+import { najeftinijeSve } from '@/mocks/korpa-najeftinije-za-sve';
+import { najblizizaSve } from '@/mocks/korpa-najblize-za-sve';
+import { vasaProdavnica } from '@/mocks/korpa-vasa-prodavnica';
+import { najeftinijiProizvodiPoProdavnici } from '@/mocks/korpa-pojedinacna-jeftina-prodavnica-proizvodi';
+import { pojedinacnaProdavnica } from '@/mocks/korpa-pojedinacna-jeftina-prodavnica';
+import { mojaKorpa } from '@/mocks/korpa-moja-korpa';
 export default function korpa() {
   return (
   <div>
@@ -12,73 +19,33 @@ export default function korpa() {
       <div className={styles.KontenjerSaSvimInformacijama}>
         <div className={styles.LevaStranaKontenjeraSaSvimInformacijama}>
           <div className={styles.KontenjerInformacijeObavestenja}>
-            <p>Najeftinije prodavnice/marketi u vašem mestu gde možete kupiti:</p>
+            <p>Najjeftinije prodavnice/marketi u vašem mestu gde možete kupiti:</p>
           </div>
+          {najeftinijeSve.map((najeftinijeSvI) => <NajeftinijePoProdavnicama LogoProdavnice={najeftinijeSvI.LOGO} nazivProdavnice={najeftinijeSvI.NAZIV} cenauProdavnici={najeftinijeSvI.CENA} obavestenjeuProdavnicei={najeftinijeSvI.OBAVESTENJE} />)}
 
-          <NajeftinijePoProdavnicama LogoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"} nazivProdavnice={"DIS"} cenauProdavnici={"3542,12"} obavestenjeuProdavnicei={"DIS ima svoju aplikaciju preko koje mozete dobiti dodatne popuste"}/>
-          <NajeftinijePoProdavnicama LogoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"} nazivProdavnice={"DIS"} cenauProdavnici={"3542,12"} obavestenjeuProdavnicei={"DIS ima svoju aplikaciju preko koje mozete dobiti dodatne popuste"}/>
-          <NajeftinijePoProdavnicama LogoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"} nazivProdavnice={"DIS"} cenauProdavnici={"3542,12"} obavestenjeuProdavnicei={"DIS ima svoju aplikaciju preko koje mozete dobiti dodatne popuste"}/>
-          <NajeftinijePoProdavnicama LogoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"} nazivProdavnice={"DIS"} cenauProdavnici={"3542,12"} obavestenjeuProdavnicei={"DIS ima svoju aplikaciju preko koje mozete dobiti dodatne popuste"}/>
-          <NajeftinijePoProdavnicama LogoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"} nazivProdavnice={"DIS"} cenauProdavnici={"3542,12"} obavestenjeuProdavnicei={"DIS ima svoju aplikaciju preko koje mozete dobiti dodatne popuste"}/>
 
           <div className={styles.KontenjerInformacijeObavestenja}>
-            <p>Najbliža prodavnice/marketi u kome mozete kupiti sve:</p>
+            <p>Najbliže prodavnice/marketi u kojima možete kupiti sve:</p>
           </div>
-
-          <NajeftinijePoProdavnicama LogoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"} nazivProdavnice={"DIS"} cenauProdavnici={"3542,12"} obavestenjeuProdavnicei={"DIS ima svoju aplikaciju preko koje mozete dobiti dodatne popuste"}/>
-          <NajeftinijePoProdavnicama LogoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"} nazivProdavnice={"DIS"} cenauProdavnici={"3542,12"} obavestenjeuProdavnicei={"DIS ima svoju aplikaciju preko koje mozete dobiti dodatne popuste"}/>
-          <NajeftinijePoProdavnicama LogoProdavnice={"/LogoProdavnica/DIS LOGO.jpg"} nazivProdavnice={"DIS"} cenauProdavnici={"3542,12"} obavestenjeuProdavnicei={"DIS ima svoju aplikaciju preko koje mozete dobiti dodatne popuste"}/>
+          {najblizizaSve.map((najblizizaSvi) => <NajeftinijePoProdavnicama LogoProdavnice={najblizizaSvi.LOGO} nazivProdavnice={najblizizaSvi.NAZIV} cenauProdavnici={najblizizaSvi.CENA} obavestenjeuProdavnicei={najblizizaSvi.OBAVESTENJE} />)}
 
           <div className={styles.KontenjerInformacijeObavestenja}>
-            <p>U vasoj najblizoj prodavnici možete uzeti sledeće namernice:</p>
+            <p>U vašoj najbližoj prodavnici možete uzeti sledeće namirnice:</p>
           </div>
           <div className={styles.IspisNamernicaKojeSeMoguKupiti}>
-           <PojedinacniProizvodiPoProdavnici proizvod={"jaje"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Brasno"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Secer"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Sok"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Hleb"}/>
+          {vasaProdavnica.map((vasaProdavnici) => <PojedinacniProizvodiPoProdavnici proizvod={vasaProdavnici.PROIZVOD} />)}  
           </div>
           <div className={styles.KontenjerInformacijeObavestenja}>
-            <p>Njeftiniji proizvodi po prodavnicama/marketima:</p>
+            <p>Najjeftiniji proizvodi po prodavnicama/marketima:</p>
           </div>
-          <div className={styles.KontenjerInformacijeObavestenjaZaPoProdavnicama}>
-            <img className={styles.IzgledLogaCene} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-            <p>DIS</p>
-          </div>
+          {pojedinacnaProdavnica.map((pojedinacnaProdavnici) => <KorpaPojedinacneProdavnice logo={pojedinacnaProdavnici.LOGO} ime={pojedinacnaProdavnici.IME} />)} 
           <div className={styles.IspisNamernicaKojeSeMoguKupiti}>
-          <PojedinacniProizvodiPoProdavnici proizvod={"jaje"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Brasno"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Secer"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Sok"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Hleb"}/>
-          </div>
-          <div className={styles.KontenjerInformacijeObavestenjaZaPoProdavnicama}>
-            <img className={styles.IzgledLogaCene} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-            <p>DIS</p>
-          </div>
-          <div className={styles.IspisNamernicaKojeSeMoguKupiti}>
-          <PojedinacniProizvodiPoProdavnici proizvod={"jaje"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Brasno"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Secer"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Sok"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Hleb"}/>
-          </div>
-          <div className={styles.KontenjerInformacijeObavestenjaZaPoProdavnicama}>
-            <img className={styles.IzgledLogaCene} src="/LogoProdavnica/DIS LOGO.jpg" alt=""/>
-            <p>DIS</p>
-          </div>
-          <div className={styles.IspisNamernicaKojeSeMoguKupiti}>
-          <PojedinacniProizvodiPoProdavnici proizvod={"jaje"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Brasno"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Secer"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Sok"}/>
-           <PojedinacniProizvodiPoProdavnici proizvod={"Hleb"}/>
+          {najeftinijiProizvodiPoProdavnici.map((najeftinijiProizvodiPoProdavnica) => <PojedinacniProizvodiPoProdavnici proizvod={najeftinijiProizvodiPoProdavnica.PROIZVOD} />)}  
           </div>
         </div>
         <div className={styles.DesnaStranaKontenjeraSaSvimInformacijama}>
           <div className={styles.KontenjerInformacijeObavestenja}>
-            <p>Proizvodi iz vase korpe:</p>
+            <p>Proizvodi iz Vaše korpe:</p>
           </div>
          <div className={styles.KontenjerZaDugmice}>
           <button className={styles.Dugmici}>Odštampaj</button>
@@ -87,14 +54,9 @@ export default function korpa() {
           <p>Ukoliko želite  spisak sa proizvodima podeljenim po prodavnicama čekirajte ovde.</p>
          </div>
          <div className={styles.KontenjerSvihIzabranihProizvoda}>
-          <NaruceniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} imeProizvoda={"Bademovo melko"}/>
-          <NaruceniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} imeProizvoda={"Bademovo melko"}/>
-          <NaruceniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} imeProizvoda={"Bademovo melko"}/>
-          <NaruceniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} imeProizvoda={"Bademovo melko"}/>
-          <NaruceniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} imeProizvoda={"Bademovo melko"}/>
-          <NaruceniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} imeProizvoda={"Bademovo melko"}/>
-          <NaruceniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} imeProizvoda={"Bademovo melko"}/>
-          <NaruceniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} imeProizvoda={"Bademovo melko"}/>
+         {mojaKorpa.map((mojaKorpI) => <NaruceniProizvodi slikaProizvoda={mojaKorpI.SLIKAPROIZVODA} imeProizvoda={mojaKorpI.IMEPROIZVODA} />)} 
+   
+  
          </div>
         </div>
       </div>

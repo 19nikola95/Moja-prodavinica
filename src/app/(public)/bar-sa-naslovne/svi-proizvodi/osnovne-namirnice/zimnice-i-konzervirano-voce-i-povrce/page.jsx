@@ -1,5 +1,6 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/zimniceikonzerviranopovrce.module.scss';
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
+import { proizvodi } from '@/mocks/svi-proizvodi-zimnica-i-konzervirano-voce-i-povrce';
 export default function HlebiPecivo() {
   return (
   <div>
@@ -12,14 +13,8 @@ export default function HlebiPecivo() {
         <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Pretraga proizvoda"/>
       </div>
       <div className={styles.KontenjerSaSlikama}>
-         
-      <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>    
+      {proizvodi.map((proizvod) => <KontenjerSaProizvodom slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
+  
          </div>
         
       

@@ -1,11 +1,11 @@
 import styles from '@/styles/bar-za-naslovnu/svi-proizvodi/sviproizvodiglavnimeni.module.scss';
-export function GlavniMeniCenaiNaziv({NazivMarketa, cenaMarketa}){
+export function GlavniMeniCenaiNaziv({ime, cena}){
     return  <div>
     <div className={styles.IzgledNaslovaMarketa}>
-    <span>{NazivMarketa}</span>
+    <span>{ime}</span>
 </div>
 <div className={styles.IzgledSlovaCena}>
-<span> {cenaMarketa}din</span>
+<span> {cena}din</span>
 </div>
 </div>
 }

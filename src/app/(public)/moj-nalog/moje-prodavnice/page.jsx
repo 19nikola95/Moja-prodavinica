@@ -1,17 +1,18 @@
 import styles from '../../../../styles/mojeProdavnice.module.scss';
 import Link from "next/link";
 import { ProizvodiKojiMiSeSvidjajuKomponente } from '@/components/MojNalog/LicneInformacije';
+import { SlikaProfila } from '@/components/MojNalog/ProizvodiKojiMISeSvidjaju/LicnaSlika';
 import { MojaPojedinacnaProdavnica } from '@/components/MojNalog/MojeProdavice/PojedinacnaProdavnica';
+import { profili } from '@/mocks/moj-nalog-profil';
+import { prodavnice } from '@/mocks/moj-nalog-prodavnice';
 export default function MojeProdavnice() {
   return (
   <div>
     <div className={styles.MojNalog}>
         <div className={styles.InicijalniPodatci}>
           <div className={styles.KontenjerSlikaProfilaiOpisa}>
-            <div className={styles.KontenjerSlike}>
-            <img  className={styles.IzgledProfilneSlike} src="/Moj nalog/bred pit.jpg" alt=""/>
-            </div>
-          <ProizvodiKojiMiSeSvidjajuKomponente imeiPrezime={"Nikola Milojevic"} adresaiMesto={"Jasenicka 2 Smederevska Palanka Srbija"} email={"nikolamilojevic78@gmail.com"} brojMobilnog={"066001215"}/>
+          {profili.map((profil) => <SlikaProfila slika={profil.SLIKA} />)}  
+            {profili.map((profil) => <ProizvodiKojiMiSeSvidjajuKomponente imeiPrezime={profil.IME} adresaiMesto={profil.ADRESA} email={profil.EMAIL} brojMobilnog={profil.BROJ} />)}  
           <div className={styles.KontenjerZaDugmeZaSacuvati}>
             <button className={styles.DugmeSacuvajIzmene}>Sačuvaj izmene</button>
             </div>
@@ -31,13 +32,7 @@ export default function MojeProdavnice() {
       <p className={styles.IzgledIzaberiSvojeProdavnice}>Izaberi svoje prodavnice</p>
       </div>
       <div className={styles.KontenjerZaProdavnice}>
-         <MojaPojedinacnaProdavnica nazivProdavnica={"UniverExport"} slika={"/LogoProdavnica/univerexport logo.jpg"}/>
-         <MojaPojedinacnaProdavnica nazivProdavnica={"UniverExport"} slika={"/LogoProdavnica/univerexport logo.jpg"}/>
-         <MojaPojedinacnaProdavnica nazivProdavnica={"UniverExport"} slika={"/LogoProdavnica/univerexport logo.jpg"}/>
-         <MojaPojedinacnaProdavnica nazivProdavnica={"UniverExport"} slika={"/LogoProdavnica/univerexport logo.jpg"}/>
-         <MojaPojedinacnaProdavnica nazivProdavnica={"UniverExport"} slika={"/LogoProdavnica/univerexport logo.jpg"}/>
-         <MojaPojedinacnaProdavnica nazivProdavnica={"UniverExport"} slika={"/LogoProdavnica/univerexport logo.jpg"}/>
-         <MojaPojedinacnaProdavnica nazivProdavnica={"UniverExport"} slika={"/LogoProdavnica/univerexport logo.jpg"}/>
+      {prodavnice.map((prodavnicA) => <MojaPojedinacnaProdavnica nazivProdavnica={prodavnicA.IME} slika={prodavnicA.LOGO} />)}  
       </div>
       <div className={styles.ProstorZaSacuvati}>
       <button className={styles.DugrmeSacuvajProdavnice}>Sačuvaj</button>

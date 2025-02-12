@@ -1,9 +1,9 @@
 export const proizvodi = [
   {
-    naziv: "Smoki",
+    naziv: "Smoki starkicc adsada sdaddsa dsada",
     tezina: '50g',
-    proizvodjac: "Stark",
-    slika: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalflEjFRIhN4hZAwO0CZMzhH08KN6npOgzQ&s',
+    proizvodjac: "Stark sremska mitrovica sdadsa",
+    slika: '/SlikaProizvoda/Smoki.jpg',
     marketi: [
       { 
         cena: '60.00', 

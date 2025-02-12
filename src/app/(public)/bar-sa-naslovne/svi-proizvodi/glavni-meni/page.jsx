@@ -1,11 +1,16 @@
 import styles from '../../../../../styles/bar-za-naslovnu/svi-proizvodi/sviproizvodiglavnimeni.module.scss';
 import Link from "next/link"
+import { proizvodi } from '@/mocks/svi-proizvodi-glavni-meni';
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
+import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
+import { ReklamneSlike } from '@/mocks/reklame';
 export default function pocetna() {
   return (
   <div>
 <div className={styles.GlavniKontenjerZaSadrzaj}>
-  <div className={styles.VideoReklame}></div>
+  <div className={styles.VideoReklame}>
+  {ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
+  </div>
   <div className={styles.KontenjerZaNaslov}>
       <p className={styles.IzgledSlovaNaslova}>Svi proizvodi</p>
       </div>
@@ -14,7 +19,7 @@ export default function pocetna() {
       </div>
       <div className={styles.KontenjerSaIzboromObroka}>
       <Link href="/bar-sa-naslovne/svi-proizvodi/osnovne-namirnice/glavni-meni">
-        <button className={styles.IzgledDugmetaZaObroke}>Osnovne namernice</button>
+        <button className={styles.IzgledDugmetaZaObroke}>Osnovne namirnice</button>
        </Link>   
         <Link href="/bar-sa-naslovne/svi-proizvodi/meso-riba-i-njihove-prepradjevine/glavni-meni">
         <button className={styles.IzgledDugmetaZaObroke}>Meso, riba i njihove prerađevine</button>
@@ -52,14 +57,7 @@ export default function pocetna() {
       </div>
       
         <div className={styles.KontenjerSaSlikama}>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>         
-              
+        {proizvodi.map((proizvod) => <KontenjerSaProizvodom slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
           </div>
           <div className={styles.KontenjerZaDruguStranicu}>
           <button className={styles.DugmeZaSledecuStranu}>1</button>

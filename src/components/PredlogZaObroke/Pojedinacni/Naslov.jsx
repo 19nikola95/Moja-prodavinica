@@ -2,7 +2,7 @@ import styles from '@/styles/bar-za-naslovnu/predlog-za-obroke/pojedinacniobrok.
 export function NaslovRecepta({naslov}){
     return <div>
          <div className={styles.KontenjerZaNaslov}>
-        <p className={styles.IzgledSlovaNaslova}>Torta od višanja</p>
+        <p className={styles.IzgledSlovaNaslova}>{naslov}</p>
         </div>
     </div>
 }

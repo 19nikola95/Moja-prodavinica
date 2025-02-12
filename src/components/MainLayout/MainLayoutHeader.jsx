@@ -8,7 +8,7 @@ export function MainLayoutHeader() {
          <img className="IzgledLoga" src="/Logo sajta/Logo.png" alt=""/> 
         </div></Link>
         <div className="KontenjerdShearchBara">
-          <input className="IzgledShearchBara" type="text" placeholder="Unesi naziv namernice"/>
+          <input className="IzgledShearchBara" type="text" placeholder="Unesi naziv namirnice"/>
         </div>
         <div className="KontenjerZaLupuu">
         <img className="IzgledLupe" src="/Slike za heder/simbol-za-lupu.png" alt="" />

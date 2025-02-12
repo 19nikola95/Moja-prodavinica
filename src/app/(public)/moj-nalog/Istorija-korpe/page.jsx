@@ -3,8 +3,13 @@ import styles from '../../../../styles/istorijaKorpe.module.scss';
 import Link from "next/link";
 import { Racun } from '@/components/MojNalog/IstorijaKorpe/Racuni';
 import { ProizvodiKojiMiSeSvidjajuKomponente } from '@/components/MojNalog/LicneInformacije';
+import { SlikaProfila } from '@/components/MojNalog/ProizvodiKojiMISeSvidjaju/LicnaSlika';
+import { profili } from '@/mocks/moj-nalog-profil';
 import { MesecniOpis } from '@/components/MojNalog/IstorijaKorpe/MesecniOpis';
 import { GodisnjiOpis } from '@/components/MojNalog/IstorijaKorpe/GodisnjiOpis';
+import { meseciCena } from '@/mocks/moj-nalog-istorija-korpe-mesec-i-cena';
+import { racun } from '@/mocks/moj-nalog-istorija-korpe-racun';
+import { usteda } from '@/mocks/moj-nalog-istorija-korpe-usteda';
 export default function pocetna() {
   return (
   <div>
@@ -12,10 +17,8 @@ export default function pocetna() {
     <div className={styles.MojNalog}>
         <div className={styles.InicijalniPodatci}>
           <div className={styles.KontenjerSlikaProfilaiOpisa}>
-            <div className={styles.KontenjerSlike}>
-            <img  className={styles.IzgledProfilneSlike} src="/Moj nalog/bred pit.jpg" alt=""/>
-            </div>
-          <ProizvodiKojiMiSeSvidjajuKomponente imeiPrezime={"Nikola Milojevic"} adresaiMesto={"Jasenicka 2 Smederevska Palanka Srbija"} email={"nikolamilojevic78@gmail.com"} brojMobilnog={"066001215"}/>
+          {profili.map((profil) => <SlikaProfila slika={profil.SLIKA} />)}  
+          {profili.map((profil) => <ProizvodiKojiMiSeSvidjajuKomponente imeiPrezime={profil.IME} adresaiMesto={profil.ADRESA} email={profil.EMAIL} brojMobilnog={profil.BROJ} />)}
           <div className={styles.KontenjerZaDugmeZaSacuvati}>
             <button className={styles.DugmeSacuvajIzmene}>Sačuvaj izmene</button>
             </div>
@@ -35,75 +38,17 @@ export default function pocetna() {
  <p className={styles.IzgledSlovaIstorijaKorpe}>Istorija korpe</p>
  </div>
  <div className={styles.PozicijaKontenjeraZaUsteduPrekoAplikaciju}>
-<GodisnjiOpis cena={"15854,23"}/>
+ {usteda.map((ustedi) => <GodisnjiOpis cena={ustedi.CENA} />)}  
 </div>
 <div className={styles.KontenjerZaMesecnuKupovinu}>
-<MesecniOpis mesec={"April"} cena={"2356,54"}/>
+{meseciCena.map((meseciCeni) => <MesecniOpis mesec={meseciCeni.MESEC} cena={meseciCeni.CENA} />)} 
 <div className={styles.KontenjerzaMesecneTroskove}>
- 
-<Racun datum={"15.09.2024"} cena={"1568,00"}/>
-<Racun datum={"15.05.2024"} cena={"1568,00"}/>
-<Racun datum={"15.07.2024"} cena={"1568,00"}/>
-<Racun datum={"15.08.2024"} cena={"1568,00"}/>
-<Racun datum={"15.10.2024"} cena={"1568,00"}/>
-<Racun datum={"10.09.2024"} cena={"1568,00"}/>
-<Racun datum={"14.09.2024"} cena={"1568,00"}/>
-<Racun datum={"11.09.2024"} cena={"1568,00"}/>
-<Racun datum={"19.09.2024"} cena={"1568,00"}/>
-<Racun datum={"17.09.2024"} cena={"1568,00"}/>
-<Racun datum={"18.09.2024"} cena={"1568,00"}/>
-<Racun datum={"15.09.2024"} cena={"1568,00"}/>
-<Racun datum={"15.05.2024"} cena={"1568,00"}/>
-<Racun datum={"15.07.2024"} cena={"1568,00"}/>
-<Racun datum={"15.08.2024"} cena={"1568,00"}/>
-<Racun datum={"15.10.2024"} cena={"1568,00"}/>
-<Racun datum={"10.09.2024"} cena={"1568,00"}/> 
-<Racun datum={"15.09.2024"} cena={"1568,00"}/>
-<Racun datum={"15.05.2024"} cena={"1568,00"}/>
-<Racun datum={"15.07.2024"} cena={"1568,00"}/>
-<Racun datum={"15.08.2024"} cena={"1568,00"}/>
-<Racun datum={"15.10.2024"} cena={"1568,00"}/>
-<Racun datum={"10.09.2024"} cena={"1568,00"}/>             
+{racun.map((racunI) => <Racun datum={racunI.DATUM} cena={racunI.CENA} />)}              
    </div>
   <div className={styles.KontenjerZaDugme}>
   <button className={styles.DugmeVidiJos} >Vidi još</button>
   </div>
-
 </div>
-<div className={styles.KontenjerZaMesecnuKupovinu}>
-  <div className={styles.OpisniTekstMeseca}>
-  <MesecniOpis mesec={"Mart"} cena={"5421,24"}/>
-  </div>
-  <div className={styles.KontenjerzaMesecneTroskove}>
-   
- <Racun datum={"15.09.2024"} cena={"1568,00"}/>
-<Racun datum={"15.05.2024"} cena={"1568,00"}/>
-<Racun datum={"15.07.2024"} cena={"1568,00"}/>
-<Racun datum={"15.08.2024"} cena={"1568,00"}/>
-<Racun datum={"15.10.2024"} cena={"1568,00"}/>
-<Racun datum={"10.09.2024"} cena={"1568,00"}/>
-<Racun datum={"14.09.2024"} cena={"1568,00"}/>
-<Racun datum={"11.09.2024"} cena={"1568,00"}/>
-<Racun datum={"19.09.2024"} cena={"1568,00"}/>
-<Racun datum={"17.09.2024"} cena={"1568,00"}/>
-<Racun datum={"18.09.2024"} cena={"1568,00"}/>
-<Racun datum={"15.09.2024"} cena={"1568,00"}/>
-<Racun datum={"15.05.2024"} cena={"1568,00"}/>
-<Racun datum={"15.07.2024"} cena={"1568,00"}/>
-<Racun datum={"15.08.2024"} cena={"1568,00"}/>
-<Racun datum={"15.10.2024"} cena={"1568,00"}/>
-<Racun datum={"10.09.2024"} cena={"1568,00"}/>
-<Racun datum={"15.09.2024"} cena={"1568,00"}/>
-<Racun datum={"15.05.2024"} cena={"1568,00"}/>
-<Racun datum={"15.07.2024"} cena={"1568,00"}/>
-<Racun datum={"15.08.2024"} cena={"1568,00"}/>
-<Racun datum={"15.10.2024"} cena={"1568,00"}/>
-<Racun datum={"10.09.2024"} cena={"1568,00"}/>
- </div>
- <div className={styles.KontenjerZaDugme}>
-  <button className={styles.DugmeVidiJos} >Vidi još</button>
-  </div>
-  </div>
   </div>
   </div>
   </div>

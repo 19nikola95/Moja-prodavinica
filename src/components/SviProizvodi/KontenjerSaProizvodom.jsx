@@ -3,22 +3,17 @@ import { GlavniMeniOpis } from './OpisProizvoda';
 import { GlavniMeniCenaiNaziv } from './CenaINazivMarketa';
 import { SlikaProizvoda } from './SlikaProizvoda';
 import Link from 'next/link';
-export function KontenjerSaProizvodom(){
+export function KontenjerSaProizvodom({marketi, slikaProizvoda, imeProizvoda, tezinaProizvoda, proizvodjacProizvoda}){
     return  <div>
 < div className={styles.KontenjerProizvoda}>
             <div className={styles.GornjiDeoKontenjeraProizvoda}>
-              <SlikaProizvoda slika={"/SlikaProizvoda/Mleko.jpeg"} linkProizvoda={"/bar-sa-naslovne/svi-proizvodi/pojedinacni-proizvodi"}/>
-             <GlavniMeniOpis NazivNamernice={"Bademovo mleko"} KolicinaNamernice={"1L"} ProizvodjacNamernice={"Imlek"}/>
+            <Link href="bar-sa-naslovne/svi-proizvodi/pojedinacni-proizvodi">
+              <img className={styles.IzgledSlikaProizvoda} src={slikaProizvoda} alt=""/>
+            </Link>
+             <GlavniMeniOpis ImeProizvoda={imeProizvoda} TezinaProizvoda={tezinaProizvoda} ProizvodjacProizvoda={proizvodjacProizvoda}/>
               </div>
               <div className={styles.DonjiDeoKontenjeraProizvoda}>
-                <GlavniMeniCenaiNaziv NazivMarketa={"UNIVEREXPORT"} cenaMarketa={"254,22"}/>
-                <GlavniMeniCenaiNaziv NazivMarketa={"UNIVEREXPORT"} cenaMarketa={"254,22"}/>
-                <GlavniMeniCenaiNaziv NazivMarketa={"IDEA"} cenaMarketa={"254,22"}/>
-                <GlavniMeniCenaiNaziv NazivMarketa={"DIS"} cenaMarketa={"254,22"}/>
-                <GlavniMeniCenaiNaziv NazivMarketa={"AMAN"} cenaMarketa={"254,22"}/>
-                <GlavniMeniCenaiNaziv NazivMarketa={"STRELAC"} cenaMarketa={"254,22"}/>
-                <GlavniMeniCenaiNaziv NazivMarketa={"MAJA"} cenaMarketa={"254,22"}/>
-                <GlavniMeniCenaiNaziv NazivMarketa={"BUCKO"} cenaMarketa={"254,22"}/>
+              {marketi?.map((market) =>  <GlavniMeniCenaiNaziv ime= {market.naziv} cena={market.cena}/>)}
               </div>
               </div>
     </div>

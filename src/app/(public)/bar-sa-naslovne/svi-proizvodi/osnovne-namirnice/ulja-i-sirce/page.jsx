@@ -1,5 +1,6 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/uljeisirce.module.scss';
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
+import { proizvodi } from '@/mocks/svi-proizvodi-ulje-i-sirce';
 export default function HlebiPecivo() {
   return (
   <div>
@@ -13,13 +14,8 @@ export default function HlebiPecivo() {
       </div>
       <div className={styles.KontenjerSaSlikama}>
          
-      <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>    
+      {proizvodi.map((proizvod) => <KontenjerSaProizvodom slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
+  
          </div>
         
       

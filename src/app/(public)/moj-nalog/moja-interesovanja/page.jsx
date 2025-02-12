@@ -1,30 +1,16 @@
 import styles from '../../../../styles/mojeInteresovanje.module.scss';
 import Link from "next/link";
+import { ProizvodiKojiMiSeSvidjajuKomponente } from '@/components/MojNalog/LicneInformacije';
+import { SlikaProfila } from '@/components/MojNalog/ProizvodiKojiMISeSvidjaju/LicnaSlika';
+import { profili } from '@/mocks/moj-nalog-profil';
 export default function pocetna() {
   return (
   <div>
     <div className={styles.MojNalog}>
         <div className={styles.InicijalniPodatci}>
           <div className={styles.KontenjerSlikaProfilaiOpisa}>
-            <div className={styles.KontenjerSlike}>
-            <img  className={styles.IzgledProfilneSlike} src="/Moj nalog/bred pit.jpg" alt=""/>
-            </div>
-            <div className={styles.KontenjerIme}>
-            <p className={styles.IzgledSlovaProfila}>Nikola Milojević</p>
-            <img  className={styles.SimbolIzmeni} src="/SlikeZnakova/zamena.png" alt=""/>
-            </div>
-            <div className={styles.KontenjerMesto}>
-            <p className={styles.IzgledMestaProfila}>Jasenička 2 Smederevsla Palanka Srbija</p>
-            <img  className={styles.SimbolIzmeni1} src="/SlikeZnakova/zamena.png" alt=""/>
-            </div>
-            <div className={styles.KontenjerEmail}>
-            <p className={styles.IzgledEmailaProfila}>nikolamilojevic78@gmail.com</p>
-            <img  className={styles.SimbolIzmeni2} src="/SlikeZnakova/zamena.png" alt=""/>
-          </div>
-           <div className={styles.KontenjerBroj}>
-            <p className={styles.IzgledBrojaProfila}>066001215</p>
-            <img  className={styles.SimbolIzmeni3} src="/SlikeZnakova/zamena.png" alt=""/>
-          </div>
+          {profili.map((profil) => <SlikaProfila slika={profil.SLIKA} />)}  
+          {profili.map((profil) => <ProizvodiKojiMiSeSvidjajuKomponente imeiPrezime={profil.IME} adresaiMesto={profil.ADRESA} email={profil.EMAIL} brojMobilnog={profil.BROJ} />)}
           <div className={styles.KontenjerZaDugmeZaSacuvati}>
             <button className={styles.DugmeSacuvajIzmene}>Sačuvaj izmene</button>
             </div>
@@ -41,7 +27,7 @@ export default function pocetna() {
           <Link href="/moj-nalog/moje-prodavnice"><button className={styles.MojeProdavnice}>Moje prodavnice</button></Link>
         </div>
       <div className={styles.KontenjerNaslova}>    
-        <p className={styles.IzgledIzaberiSvojaInteresovanja}>Izaberi svoja interesvoanja</p>
+        <p className={styles.IzgledIzaberiSvojaInteresovanja}>Izaberi svoja interesovanja</p>
       </div>
  <div className={styles.KontenjerIzaberiVrstuProizvoda}>
   <div className={styles.KontenjerZdravaHrada}>
@@ -51,12 +37,12 @@ export default function pocetna() {
  </div>
 <div className={styles.KontenjerMlecniProizvodi}>
   <img className={styles.FormatSlika} src="/Moj nalog/Moja-interesovanja/mlecni-proizvodi.jpg" alt=""/>
-  <p className={styles.IzgledSlovaZaCekiranje}>Mlecni proizvodi</p>
+  <p className={styles.IzgledSlovaZaCekiranje}>Mlečni proizvodi</p>
   <input className={styles.IzgledChekBoxa} type="checkbox"/>
 </div>
 <div className={styles.KontenjerVoceIPovrce}>
   <img className={styles.FormatSlika} src="/Moj nalog/Moja-interesovanja/Voce i povrce.png" alt=""/>
-  <p className={styles.IzgledSlovaZaCekiranje}>Voce i povrce</p>
+  <p className={styles.IzgledSlovaZaCekiranje}>Voće i povrće</p>
   <input className={styles.IzgledChekBoxa} type="checkbox"/>
 </div>
 <div className={styles.KontenjerMesniProizvodi}>
@@ -66,12 +52,12 @@ export default function pocetna() {
 </div>
   <div className={styles.KontenjerSlatkisiIGrickalice}>
     <img className={styles.FormatSlika} src="/Moj nalog/Moja-interesovanja/Slatkisi.jpg" alt=""/>
-    <p className={styles.IzgledSlovaZaCekiranje}>Slatkisi i grickalice</p>
+    <p className={styles.IzgledSlovaZaCekiranje}>Slatkiši i grickalice</p>
     <input className={styles.IzgledChekBoxa} type="checkbox"/>
   </div>
 <div className={styles.KontenjerPice}>
   <img className={styles.FormatSlika} src="/Moj nalog/Moja-interesovanja/Pice.jpg" alt=""/>
-  <p className={styles.IzgledSlovaZaCekiranje}>Napitci</p>
+  <p className={styles.IzgledSlovaZaCekiranje}>Napici</p>
   <input className={styles.IzgledChekBoxa} type="checkbox"/>
 </div>
   <div className={styles.KontenjerLicnaHigijena}>
@@ -86,7 +72,7 @@ export default function pocetna() {
   </div>
 <div className={styles.KontenjerKucniLjubimci}>
   <img className={styles.FormatSlika} src="/Moj nalog/Moja-interesovanja/Hrana za ljubimcel.png" alt=""/>
-  <p className={styles.IzgledSlovaZaCekiranje}>Kucni ljubimci</p>
+  <p className={styles.IzgledSlovaZaCekiranje}>Kućni ljubimci</p>
   <input className={styles.IzgledChekBoxa} type="checkbox"/>
 </div>
 <div className={styles.KontenjerTehnikaIPosudje}>
@@ -101,7 +87,7 @@ export default function pocetna() {
   </div>
  </div>
  <div className={styles.ProstorZaSacuvati}>
-<button className={styles.IzgledDugmeta}>Sacuvaj</button>
+<button className={styles.IzgledDugmeta}>Sačuvaj</button>
  </div>
   </div>
   </div>

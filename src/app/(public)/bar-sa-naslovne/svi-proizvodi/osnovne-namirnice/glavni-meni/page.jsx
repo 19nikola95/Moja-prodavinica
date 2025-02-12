@@ -1,13 +1,14 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/osnovnenamerniceglavnimeni.module.scss';
 import Link from "next/link"
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
+import { proizvodi } from '@/mocks/svi-proizvodi-osnovne-namernice';
 export default function pocetna() {
   return (
   <div>
  <div className={styles.GlavniKontenjerZaSadrzaj}>
   <div className={styles.VideoReklame}></div>
   <div className={styles.KontenjerZaNaslov}>
-      <p className={styles.IzgledSlovaNaslova}>Osnovne namernice</p>
+      <p className={styles.IzgledSlovaNaslova}>Osnovne namirnice</p>
       </div>
       <div className={styles.KontenjerZaPretragu}>
         <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Pretraga proizvoda"/>
@@ -35,7 +36,7 @@ export default function pocetna() {
         <button className={styles.IzgledDugmetaZaObroke}>Testenina</button>
         </Link>
         <Link href="/bar-sa-naslovne/svi-proizvodi/osnovne-namirnice/zimnice-i-konzervirano-voce-i-povrce">
-        <button className={styles.IzgledDugmetaZaObroke}>Zimnica i konzervirano voći i povrće</button>
+        <button className={styles.IzgledDugmetaZaObroke}>Zimnica i konzervirano voće i povrće</button>
         </Link>
         <Link href="/bar-sa-naslovne/svi-proizvodi/osnovne-namirnice/majonez-kecap-i-sosovi">
         <button className={styles.IzgledDugmetaZaObroke}>Majonez, kečap i sosovi</button>
@@ -53,13 +54,8 @@ export default function pocetna() {
       </div>
       <div className={styles.KontenjerSaSlikama}>
          
-        <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>  
+      {proizvodi.map((proizvod) => <KontenjerSaProizvodom slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
+
        
          </div>
         

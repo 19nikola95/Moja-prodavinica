@@ -1,6 +1,7 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/tehnikaposudjeialatiglavnimeni.module.scss';
 import Link from "next/link"
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
+import { proizvodi } from '@/mocks/svi-proizvodi-tehnika-posudje-i-ostalo';
 export default function pocetna() {
   return (
   <div>
@@ -30,13 +31,8 @@ export default function pocetna() {
         </Link>
       </div>
       <div className={styles.KontenjerSaSlikama}>
-      <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>    
+      {proizvodi.map((proizvod) => <KontenjerSaProizvodom slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}   
+  
          </div>
         
       

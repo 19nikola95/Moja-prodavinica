@@ -32,9 +32,9 @@ export function MainLayoutFooter() {
         </div>
         <div className="KontenjerUsloviKoriscenjaIPolitikaPrivatnosti">
           <div className="GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti">
-            <p className="IzgledSlovaNaslovaZObavestenja">Uslovi koriscenja i politika privatnosti</p>
+            <p className="IzgledSlovaNaslovaZObavestenja">Uslovi korišćenja i politika privatnosti</p>
           </div>
-          <p className="IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti">Uslovi koriscenja</p>
+          <p className="IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti">Uslovi korišćenja</p>
           <p className="IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti">Politika privatnosti</p>
         </div>
       </div>

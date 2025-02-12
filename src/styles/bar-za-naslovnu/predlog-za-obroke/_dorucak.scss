@@ -12,8 +12,21 @@
    padding: 0;
    margin-top: 10px;
    margin-bottom: 10px;
-    background-color: gray;
- }
+  display: flex;
+  align-items: center;
+ justify-content:space-between;
+}
+.KontenjerSlikaReklame{
+  display: flex;
+  flex: 1;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.SlikaReklame{
+  height: 150px;
+  width: 200px;
+}
 .KontenjerZaNaslov{
   height: 40px;
   width: 95%;
@@ -113,6 +126,28 @@
     grid-template-columns: 25% 25% 25% 25%;
     row-gap: 15px;
   }
+  .VideoReklame{
+    display: flex;
+     height: 100px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  }
+  .KontenjerSlikaReklame{
+    display: flex;
+    flex: 1;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlikaReklame{
+    height: 120px;
+    width: 160px;
+  }
   .KontenjerSaObrocima{
     height: 100%;
     width: 100%;
@@ -132,6 +167,28 @@
     grid-template-columns: 25% 25% 25% 25%;
     row-gap: 15px;
   }
+  .VideoReklame{
+    display: flex;
+     height: 100px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  }
+  .KontenjerSlikaReklame{
+    display: flex;
+    flex: 1;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlikaReklame{
+    height: 105px;
+    width: 140px;
+  }
   .KontenjerSaObrocima{
     height: 100%;
     width: 100%;
@@ -150,6 +207,28 @@
    justify-items: center;
     grid-template-columns: 25% 25% 25% 25%;
     row-gap: 15px;
+  }
+  .VideoReklame{
+    display: flex;
+     height: 90px;
+     width: 100%;
+     padding: 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  }
+  .KontenjerSlikaReklame{
+    display: flex;
+    flex: 1;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlikaReklame{
+    height: 105px;
+    width: 140px;
   }
   .IzgledDugmetaZaObroke{
     height: 70px;
@@ -245,6 +324,28 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    }
+    .VideoReklame{
+      display: flex;
+       height: 105px;
+       width: 100%;
+       padding: 0;
+       margin-top: 10px;
+       margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+     justify-content:space-between;
+    }
+    .KontenjerSlikaReklame{
+      display: flex;
+      flex: 1;
+      height: 105px;
+      align-items: center;
+      justify-content: center;
+    }
+    .SlikaReklame{
+      height: 105px;
+      width: 140px;
     }
     .IzgledSlovaNaslova{
       margin: 0;
@@ -379,6 +480,28 @@
     text-align: center;
     justify-content: center;
     }
+    .VideoReklame{
+      display: flex;
+       height: 90px;
+       width: 100%;
+       padding: 0;
+       margin-top: 10px;
+       margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+     justify-content:space-between;
+    }
+    .KontenjerSlikaReklame{
+      display: flex;
+      flex: 1;
+      height: 90px;
+      align-items: center;
+      justify-content: center;
+    }
+    .SlikaReklame{
+      height: 90px;
+      width: 120px;
+    }
     .IzgledSlovaNaslova{
       margin: 0;
       padding: 0;
@@ -511,6 +634,28 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    }
+    .VideoReklame{
+      display: flex;
+       height: 80px;
+       width: 100%;
+       padding: 0;
+       margin-top: 10px;
+       margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+     justify-content:space-between;
+    }
+    .KontenjerSlikaReklame{
+      display: flex;
+      flex: 1;
+      height: 80px;
+      align-items: center;
+      justify-content: center;
+    }
+    .SlikaReklame{
+      height: 75px;
+      width: 100px;
     }
     .IzgledSlovaNaslova{
       margin: 0;
@@ -645,6 +790,28 @@
     text-align: center;
     justify-content: center;
     }
+    .VideoReklame{
+      display: flex;
+       height: 56px;
+       width: 100%;
+       padding: 0;
+       margin-top: 10px;
+       margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+     justify-content:space-between;
+    }
+    .KontenjerSlikaReklame{
+      display: flex;
+      flex: 1;
+      height: 56px;
+      align-items: center;
+      justify-content: center;
+    }
+    .SlikaReklame{
+      height: 54px;
+      width: 72px;
+    }
     .IzgledSlovaNaslova{
       margin: 0;
       padding: 0;
@@ -777,6 +944,28 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    }
+    .VideoReklame{
+      display: flex;
+       height: 48px;
+       width: 100%;
+       padding: 0;
+       margin-top: 10px;
+       margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+     justify-content:space-between;
+    }
+    .KontenjerSlikaReklame{
+      display: flex;
+      flex: 1;
+      height: 48px;
+      align-items: center;
+      justify-content: center;
+    }
+    .SlikaReklame{
+      height: 45px;
+      width: 60px;
     }
     .IzgledSlovaNaslova{
       margin: 0;
@@ -919,6 +1108,28 @@
      font-size: 12px;
      font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       color: rgba(19, 15, 15, 0.938);
+    }
+    .VideoReklame{
+      display: flex;
+       height: 38px;
+       width: 100%;
+       padding: 0;
+       margin-top: 10px;
+       margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+     justify-content:space-between;
+    }
+    .KontenjerSlikaReklame{
+      display: flex;
+      flex: 1;
+      height: 38px;
+      align-items: center;
+      justify-content: center;
+    }
+    .SlikaReklame{
+      height: 36px;
+      width: 48px;
     }
   .KontenjerZaPretragu{
     width: 95%;

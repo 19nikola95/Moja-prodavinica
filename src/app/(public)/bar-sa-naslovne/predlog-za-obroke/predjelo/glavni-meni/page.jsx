@@ -1,11 +1,16 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/predlog-za-obroke/glavnimenipredjela.module.scss';
 import Link from "next/link"
 import { GlavniMeniPredlogZaObroke } from "@/components/PredlogZaObroke/GlavniMeni/GlavniMeniZaObroke";
+import { obroci } from '@/mocks/predlog-za-obroke-predjelo';
+import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
+import { ReklamneSlike } from '@/mocks/reklame';
 export default function GlavniMeniPredjela() {
   return (
   <div>
  <div className={styles.GlavniKontenjerZaSadrzaj}>
-      <div className={styles.VideoReklame}></div>
+      <div className={styles.VideoReklame}>
+      {ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
+      </div>
       <div className={styles.KontenjerZaNaslov}>
       <p className={styles.IzgledSlovaNaslova}>Predjelo</p>
       </div>
@@ -14,7 +19,7 @@ export default function GlavniMeniPredjela() {
         <button className={styles.IzgledDugmetaZaObroke}>Topla predjela</button>
         </Link>
         <Link href="/bar-sa-naslovne/predlog-za-obroke/predjelo/hladna-predjela-i-salate-torte">
-        <button className={styles.IzgledDugmetaZaObroke}>Hladna predjela i slane torete</button>
+        <button className={styles.IzgledDugmetaZaObroke}>Hladna predjela i slane torte</button>
         </Link>
         <Link href="/bar-sa-naslovne/predlog-za-obroke/predjelo/peciva">
         <button className={styles.IzgledDugmetaZaObroke}>Peciva</button>
@@ -24,13 +29,7 @@ export default function GlavniMeniPredjela() {
         </Link>
       </div>
       <div className={styles.KontenjerSaObrocima}>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka1"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka2"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka3"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka4"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka5"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka6"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka7"}/>   
+      {obroci.map((obrok) => <GlavniMeniPredlogZaObroke nazivObroka={obrok.nazivobroka} slikaObroka={obrok.slikaobroka} />)}    
         </div>
         <div className={styles.KontenjerZaDruguStranicu}>
          <button className={styles.DugmeZaSledecuStranu}>1</button>

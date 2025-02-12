@@ -4,11 +4,11 @@ export default function kontaktirajnas() {
   <div>
     <div className={styles.KontenjerZaKontaktirajNasPravi}>
       <div className={styles.Kontenjerzanaslov}>
-      <p className={styles.IzgledNaslova}>Kontektirajte nas</p>
+      <p className={styles.IzgledNaslova}>Kontaktirajte nas</p>
       </div>
       
       <div className={styles.KontenjerOpisa}>
-      <p className={styles.Opis}>Aplikacija Moja prodavnica je napravljena kako bi pomogla svim korisnicima prilikom kupovine. Cilj nam je da aplikacija bude korisna i efikasna. Ukoliko imate predlog za poboljšanje slobodno podelite to sa nama jer cenimo Vaše mišljenje i uzećemo u obzir za nova poboljšanja. Takođe ukoliko Vas nešto zanima ili imate zanimljivu temu posetite naš blog.</p>
+      <p className={styles.Opis}>Aplikacija "Moja prodavnica" je napravljena kako bi pomogla svim korisnicima prilikom kupovine. Cilj nam je da aplikacija bude korisna i efikasna. Ukoliko imate predlog za poboljšanje, slobodno podelite to sa nama jer cenimo Vaše mišljenje i uzećemo u obzir za nova poboljšanja. Takođe, ukoliko Vas nešto zanima ili imate zanimljivu temu posetite naš blog.</p>
       </div>
       <div className={styles.KontenjerZaEmailIDugme}>
       <div className={styles.KontenjeEmailObavestenja}>

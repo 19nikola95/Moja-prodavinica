@@ -1,11 +1,16 @@
 import styles from '../../../../../styles/bar-za-naslovnu/kako-to/glavnimenikakoto.module.scss';
 import Link from "next/link"
 import { GlavniMeniKakoTo } from '@/components/KakoTo/GlavniMeni/GlavniMeni';
+import { KakoTO } from '@/mocks/kako-to';
+import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
+import { ReklamneSlike } from '@/mocks/reklame';
 export default function kontaktirajnas() {
   return (
   <div>
 <div className={styles.KontenjerSaSadrzajem}>
-<div className={styles.VideoReklame}></div>
+<div className={styles.VideoReklame}>
+{ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
+</div>
     <div className={styles.PozicijaNaslova}>
     <p className={styles.SlovaNaslova}>Kako to ?</p>
     </div>
@@ -16,13 +21,7 @@ export default function kontaktirajnas() {
           <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Kako to ?"/>
         </div>
         <div className={styles.KontenjerSaResenjima}>
-      <GlavniMeniKakoTo naslov={"Kako oprati stvari1"}/>
-      <GlavniMeniKakoTo naslov={"Kako oprati stvari2"}/>
-      <GlavniMeniKakoTo naslov={"Kako oprati stvari3"}/>
-      <GlavniMeniKakoTo naslov={"Kako oprati stvari4"}/>
-      <GlavniMeniKakoTo naslov={"Kako oprati stvari5"}/>
-      <GlavniMeniKakoTo naslov={"Kako oprati stvari6"}/>
-      <GlavniMeniKakoTo naslov={"Kako oprati stvari6"}/>
+        {KakoTO.map((kakoto) => <GlavniMeniKakoTo slika={kakoto.Slika} naslov={kakoto.nAslov} />)}
       </div>
         <div className={styles.KontenjerZaDugmice}>
       <button className={styles.DugmrStrane}>1</button>

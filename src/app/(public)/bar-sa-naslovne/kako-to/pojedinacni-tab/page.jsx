@@ -4,19 +4,27 @@ import { PojedinacniMeniPostupak } from '@/components/KakoTo/PojedinacniMeni/Pos
 import { PojedinacniMeniDodatniRecepti } from '@/components/KakoTo/PojedinacniMeni/DodatniRecepti';
 import { Naslov } from '@/components/KakoTo/PojedinacniMeni/Naslov';
 import { SlikaKakoTo } from '@/components/KakoTo/PojedinacniMeni/SlikaKakoTo';
+import { VideoKakotO } from '@/components/KakoTo/PojedinacniMeni/VideoKakoTo';  
+import { uopstenooObrocima } from '@/mocks/kako-to-uopstene-infromacije';
+import { sastojciObroci } from '@/mocks/kako-to-sastojci';
+import { Postupci } from '@/mocks/kako-to-postupak';
+import { Ostali } from '@/mocks/kako-to-ostalo';
+import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
+import { ReklamneSlike } from '@/mocks/reklame';
 export default function kontaktirajnas() {
   return (
   <div>
 <div className={styles.KontenjerSadrzaja}>
-<div className={styles.VideoReklame}></div>
-        <Naslov naslov={"Kako oprati veš"}/>
+<div className={styles.VideoReklame}>
+{ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
+</div>
+{uopstenooObrocima.map((uopstenooObroku) => <Naslov naslov={uopstenooObroku.naslovObroka} />)}   
         <div className={styles.KontenjerStranice}>
           <div className={styles.LevaStranaKontenjeraStranice}>
-            <SlikaKakoTo slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"}/>
+          {uopstenooObrocima.map((uopstenooObroku) => <SlikaKakoTo slika={uopstenooObroku.slikaObroka} />)}  
             <p className={styles.RedULevomKontenjeruNaslov}>Potrebne stvari</p>
             <ul className={styles.ULKlasa}> 
-            <PojedinacniMeniSastojci sastojci1 ={"Ariel prasak 2kg"}/>
-            <PojedinacniMeniSastojci sastojci1 ={"Persil prasak 2kg"}/>
+            {sastojciObroci.map((sastojciObroka) => <PojedinacniMeniSastojci sastojci1={sastojciObroka.Sastojci} />)} 
             </ul>
             <div className={styles.KontenjerIzgledDUgmetaKorpe}>
             <img className={styles.IzgledDUgmetaKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
@@ -26,21 +34,15 @@ export default function kontaktirajnas() {
               <p className={styles.RedUDesnomKontenjeruNaslov}>Postupak kako oprati stvari</p>
               <div className={styles.KontenjerZaPostupke}>
              <ol>
-              <PojedinacniMeniPostupak postupak1={"Razdvojiti bele i stvari u boj"}/>
-              <PojedinacniMeniPostupak postupak1={"Ubaciti stvari u ves masinu "}/>
-              <PojedinacniMeniPostupak postupak1={"U kevu kadicu sipati prasak a u srednju omeksivac"}/>
-              <PojedinacniMeniPostupak postupak1={"Podesiti na 90 stepeni masinu "}/>
-              <PojedinacniMeniPostupak postupak1={"Ukljuciti ciklus "}/>        
+             {Postupci.map((Postupak) => <PojedinacniMeniPostupak postupak1={Postupak.PoStupak} />)} 
+            
             </ol>
             </div>
-            <div className={styles.VideoKlip}></div>
+            {uopstenooObrocima.map((uopstenooObroku) => <VideoKakotO video={uopstenooObroku.videoObroka} />)}  
+      
           </div>
           <div className={styles.KontenjerZaJosRecepta}>
-            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš"} slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"}/>
-            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš1"} slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"}/>
-            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš2"} slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"}/>
-            <PojedinacniMeniDodatniRecepti receptDodatan={"Kako oprati veš3"} slika={"/bar-za-navigaciju/predlog-za-obroke/Musaka.jpg"}/>
-                     
+          {Ostali.map((Ostalo) => <PojedinacniMeniDodatniRecepti slika={Ostalo.Slika} receptDodatan={Ostalo.NaslovRecepta}/>)}  
           </div>
         </div>
       </div>

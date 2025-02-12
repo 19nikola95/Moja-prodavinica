@@ -1,12 +1,17 @@
 
 import { KontenjerProizvoda } from '@/components/KomponentePocetneStrane/KontenjerProizvoda';
 import styles from '../../../styles/pocetnastrana.module.scss';
-import Link from "next/link"
+import Link from "next/link";
+import { proizvodi } from '@/mocks/pocetna-strana';
+import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
+import { ReklamneSlike } from '@/mocks/reklame';
 export default function pocetna() {
   return (
   <div>
    <div  className={styles.KontenjerPocetneStrane}>
-<div className={styles.VideoReklame}></div>
+<div className={styles.VideoReklame}>
+{ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
+</div>
 <div className={styles.KontenjerZaDugmice}>
   <Link className={styles.LinkSviProizovi} href="/bar-sa-naslovne/svi-proizvodi/glavni-meni">
 <button className={styles.DugmeIzbora}>Svi proizvodi</button> 
@@ -26,16 +31,11 @@ export default function pocetna() {
 </div>
 <div className={styles.KontenjerZaNaslov}>
 <p className={styles.IzgledSlovaObavestenja}>
-  Samo za vas preporučujemo:</p>
+  Samo za Vas preporučujemo:</p>
 </div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
-   <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+ {proizvodi.map((proizvod) => <KontenjerProizvoda slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
 
- 
 </div> {/* Ovo je samo za vas proizvodi */}
 <div className={styles.KontenjerZaSledeceINazad}>
 <button className={styles.DugmeZaStranice}>Nazad</button>
@@ -44,15 +44,12 @@ export default function pocetna() {
 
 <div className={styles.KontenjerZaNaslov}>
 <p className={styles.IzgledSlovaObavestenja}>
-  Proizvodi po vašem ukusu:
+  Proizvodi po Vašem ukusu:
 </p>
 </div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
-<KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+{proizvodi.map((proizvod) => <KontenjerProizvoda slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
+
 </div>
  {/* Ovo je preporučeni proizvodi */}
 <div className={styles.KontenjerZaSledeceINazad}>
@@ -65,11 +62,8 @@ export default function pocetna() {
 </p>
 </div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
-<KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
-  <KontenjerProizvoda slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"}/>
+{proizvodi.map((proizvod) => <KontenjerProizvoda slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
+
 
 </div> {/* Ovo je najpopularniji proizvodi */}
 <div className={styles.KontenjerZaSledeceINazad}>

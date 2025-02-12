@@ -1,11 +1,16 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/predlog-za-obroke/dezertiglavnimeni.module.scss';
 import { GlavniMeniPredlogZaObroke } from "@/components/PredlogZaObroke/GlavniMeni/GlavniMeniZaObroke";
 import Link from "next/link"
+import { obroci } from '@/mocks/predlog-za-obrok-dezert';
+import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
+import { ReklamneSlike } from '@/mocks/reklame';
 export default function pocetna() {
   return (
   <div>
  <div className={styles.GlavniKontenjerZaSadrzaj}>
-      <div className={styles.VideoReklame}></div>
+      <div className={styles.VideoReklame}>
+      {ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
+      </div>
       <div className={styles.KontenjerZaNaslov}>
       <p className={styles.IzgledSlovaNaslova}>Dezerti</p>
       </div>
@@ -27,13 +32,8 @@ export default function pocetna() {
         </Link>
           </div>
       <div className={styles.KontenjerSaObrocima}>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka1"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka2"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka3"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka4"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka5"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka6"}/>
-        <GlavniMeniPredlogZaObroke nazivObroka={"Musaka7"}/>  
+      {obroci.map((obrok) => <GlavniMeniPredlogZaObroke nazivObroka={obrok.nazivobroka} slikaObroka={obrok.slikaobroka} />)}   
+
         </div>
         <div className={styles.KontenjerZaDruguStranicu}>
          <button className={styles.DugmeZaSledecuStranu}>1</button>

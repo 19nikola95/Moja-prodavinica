@@ -4,13 +4,14 @@ import styles from '../../../../styles/proizvodiKojiMiSeSvidjaju.module.scss';
 import Link from "next/link"
 import {useState} from 'react';
 import { ProizvodiKojiMiSeSvidjajuKomponente } from '@/components/MojNalog/LicneInformacije';
+import { SlikaProfila } from '@/components/MojNalog/ProizvodiKojiMISeSvidjaju/LicnaSlika';
 import { KontenjerProizvodaKomponentea } from '@/components/MojNalog/ProizvodiKojiMISeSvidjaju/KontenjerProizvodiKojiMiSeSvidajju';
-import {proizvodi} from '@/mocks/proizvodi.js';
+import {proizvodi} from '@/mocks/moj-nalog-proizvodi-koji-mi-se-svidjaju-proizvodi';
 import {createPaginationPages, createPagination} from '@/utils/paginationUtils'
-
+import { profili } from '@/mocks/moj-nalog-profil';
 export default function proizvodiKojiMiSeSvidjaju() {
   const [strana, setStrana] = useState(1);
-  const proizvodiPaginated = createPagination(proizvodi, strana, { perPage: 2 });
+  const proizvodiPaginated = createPagination(proizvodi, strana, { perPage: 4 });
 
   function idiNaStranu(strana) { 
     setStrana(strana);
@@ -21,10 +22,8 @@ export default function proizvodiKojiMiSeSvidjaju() {
     <div className={styles.MojNalog}>
         <div className={styles.InicijalniPodatci}>
           <div className={styles.KontenjerSlikaProfilaiOpisa}>
-            <div className={styles.KontenjerSlike}>
-            <img  className={styles.IzgledProfilneSlike} src="/Moj nalog/bred pit.jpg" alt=""/>
-            </div>
-            <ProizvodiKojiMiSeSvidjajuKomponente imeiPrezime={"Nikola Milojevic"} adresaiMesto={"Jasenicka 2 Smederevska Palanka Srbija"} email={"nikolamilojevic78@gmail.com"} brojMobilnog={"066001215"}/>
+          {profili.map((profil) => <SlikaProfila slika={profil.SLIKA} />)}  
+            {profili.map((profil) => <ProizvodiKojiMiSeSvidjajuKomponente imeiPrezime={profil.IME} adresaiMesto={profil.ADRESA} email={profil.EMAIL} brojMobilnog={profil.BROJ} />)}  
           <div className={styles.KontenjerZaDugmeZaSacuvati}>
             <button className={styles.DugmeSacuvajIzmene}>Sačuvaj izmene</button>
             </div>
@@ -42,7 +41,7 @@ export default function proizvodiKojiMiSeSvidjaju() {
           </div>
      
         <div className={styles.KontenjerPratiteProizvode}>
-          <p className={styles.NaslovZaAkciju}>Pratite proizvode koji vam se svidjaju</p>
+          <p className={styles.NaslovZaAkciju}>Pratite proizvode koji Vam se sviđaju</p>
         </div>
         <div className={styles.KontenjerSaSlikama}>
          {proizvodiPaginated.items?.map((proizvod) => <KontenjerProizvodaKomponentea proizvod={proizvod}/>)}         

@@ -1,13 +1,14 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/napitcihlavnimeni.module.scss';
 import Link from "next/link"
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
+import { proizvodi } from '@/mocks/svi-proizvodi-napitci';
 export default function pocetna() {
   return (
   <div>
  <div className={styles.GlavniKontenjerZaSadrzaj}>
   <div className={styles.VideoReklame}></div>
   <div className={styles.KontenjerZaNaslov}>
-      <p className={styles.IzgledSlovaNaslova}>Napitci</p>
+      <p className={styles.IzgledSlovaNaslova}>Napici</p>
       </div>
       <div className={styles.KontenjerZaPretragu}>
         <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Pretraga proizvoda"/>
@@ -38,17 +39,12 @@ export default function pocetna() {
         <button className={styles.IzgledDugmetaZaObroke}>Žestoka pića</button>
         </Link>
         <Link href="/bar-sa-naslovne/svi-proizvodi/napici/energetski-napici">
-        <button className={styles.IzgledDugmetaZaObroke}>Energetski napitci</button>
+        <button className={styles.IzgledDugmetaZaObroke}>Energetski napici</button>
         </Link>
       </div>
       <div className={styles.KontenjerSaSlikama}>
-      <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>    
+      {proizvodi.map((proizvod) => <KontenjerSaProizvodom slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}   
+   
          </div>
         
       

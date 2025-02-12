@@ -7,6 +7,9 @@ import { KolicinaProizvoda } from '@/components/PojedinacniProizvod/KolicinaProi
 import { UpustvoZaUpotrebu } from '@/components/PojedinacniProizvod/UputstvoZaUpotrebu';
 import { Sastojci } from '@/components/PojedinacniProizvod/Sastojci';
 import { Napomena } from '@/components/PojedinacniProizvod/Napomena';
+import { cenepomarketima } from '@/mocks/pojedinacni-proizvodi-cena-po-marketima';
+import { opisproizvoda } from '@/mocks/pojedinacni-proizvodi-opis';
+import { ostalo } from '@/mocks/pojedinacni-proizvodi-ostalo';
 export default function kontaktirajnas() {
   return (
   <div>
@@ -24,36 +27,24 @@ export default function kontaktirajnas() {
             </div>
           </div>
           <div className={styles.KontenjerZaCene}>
-          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS1"} cena={"102,22"}/>
-          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS2"} cena={"102,22"}/>
-          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS3"} cena={"102,22"}/>
-          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS4"} cena={"102,22"}/>
-          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS5"} cena={"102,22"}/>
-          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS6"} cena={"102,22"}/>
-          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS7"} cena={"102,22"}/>
-          <CenaILogo logo={"/LogoProdavnica/DIS LOGO.jpg"} market={"DIS8"} cena={"102,22"}/>
+          {cenepomarketima.map((cenepomarketu) => <CenaILogo logo={cenepomarketu.logoproizvoda} market={cenepomarketu.nazivmakreta} cena={cenepomarketu.cenaproizvoda} />)}
           </div>
           <div className={styles.KontenjerZaOpis}>
             <div className={styles.NaslovZaOpis}>
               <p>Opis proizvoda</p>
             </div>
             <div className={styles.KlasaTekstOpisa}>
-              <ProizvodjacProizvoda proizvodjac={"K Plus"}/>
-              <Tezinaroizvoda tezina={"40g"}/>
-              <KolicinaProizvoda kolicina={"20 kesica"}/>
-              <UpustvoZaUpotrebu upustvo={"Filter kesici iz aroma omotača staviti u posudu, preliti sa 200ml ključale vode i preklopiti. Nakon 10 min stajanja izvaditi kesicu i gotov čaj zasladiti po želji."}/>
-              <Sastojci sastojci={"koren đumbira 25%, plod divlje jabuke 23%, plod šipka 16%, aroma limun-limete 9%, kora limuna 8%, list slatke kupine 7%, kiselina: limunska kiselina 6%, list matičnjaka 5%, aroma đumbira 1%. "}/>
-              <Napomena napomena={"Čuvati na suvom i hladnom mestu. Proizvod je najbolje upotrebiti u roko od 60 dana nakon otvaranja. Najbolje upotrebiti do/ Oznake serije: označeno na dnu ambalaže."}/>
+            {opisproizvoda.map((opisproizvodi) => < ProizvodjacProizvoda proizvodjac={opisproizvodi.proizvodjaC}/>)}
+            {opisproizvoda.map((opisproizvodi) => < Tezinaroizvoda tezina={opisproizvodi.tezinA}/>)}
+            {opisproizvoda.map((opisproizvodi) => < KolicinaProizvoda kolicina={opisproizvodi.kolicinA}/>)}
+            {opisproizvoda.map((opisproizvodi) => < UpustvoZaUpotrebu upustvo={opisproizvodi.upustvoZaupotrebu}/>)}
+            {opisproizvoda.map((opisproizvodi) => < Sastojci sastojci={opisproizvodi.sasTojci}/>)}
+            {opisproizvoda.map((opisproizvodi) => < Napomena napomena={opisproizvodi.naPomena}/>)}
             </div>
           </div>
         </div>
         <div className={styles.KontenjerOstaliPorizvodi}>
-          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
-          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa1"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
-          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa2"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
-          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa3"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
-          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa4"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
-          <DodantniProizvodi slikaProizvoda={"/SlikaProizvoda/Mleko.jpeg"} nazivProizvoda={"Mleko od badema sa dsadsadsa4"} kolicinaProizvoda={"350g"} proizvodjacProizvoda={"Doktor etker i braca grasad dsa dsasd as"}/>
+        {ostalo.map((ostali) => <DodantniProizvodi slikaProizvoda={ostali.Slikaproizvoda} nazivProizvoda={ostali.Nazivproizvoda} kolicinaProizvoda={ostali.Kolicinaproizvoda} proizvodjacProizvoda={ostali.Proizvodjacproizvoda}  />)}
         </div>
        
       </div>

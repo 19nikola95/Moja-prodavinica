@@ -69,7 +69,7 @@ export default function registrujprodavnicu() {
     </div>
     <div className={styles.KontenjerPisanjeUpita}>
      <div className={styles.KontenjerTekstUputa}>
-      <p className={styles.IzgledObavestenjaTekstovaZaKontaktirajNas}>Ukoliko imate dodatne zahteve, pitanja ili nekih nejasnoća ovde slobodno pitajte:</p>
+      <p className={styles.IzgledObavestenjaTekstovaZaKontaktirajNas}>Ukoliko imate dodatne zahteve, pitanja ili nekih nedoumica ovde slobodno pitajte:</p>
       <div className={styles.KontenjerZaDugme}>
     <button className={styles.DugmeUpit}>Pošalji upit</button>
     </div>

@@ -1,5 +1,6 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/pripremazakolaceitorte.module.scss';
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
+import { proizvodi } from '@/mocks/svi-prizvodi-priprema-kolaca-i-torti';
 export default function HlebiPecivo() {
   return (
   <div>
@@ -13,13 +14,8 @@ export default function HlebiPecivo() {
       </div>
       <div className={styles.KontenjerSaSlikama}>
          
-      <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>
-         <KontenjerSaProizvodom/>    
+      {proizvodi.map((proizvod) => <KontenjerSaProizvodom slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
+   
          </div>
         
       
