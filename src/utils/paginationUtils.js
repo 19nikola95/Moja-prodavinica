@@ -5,16 +5,16 @@ export function createPaginationPages(numberOfPages) {
 
 export function createPagination(items, currentPage, {perPage = 10} = {}) {
   const pagesNumber = Math.floor(items.length / perPage);
-
-  const startIndex = perPage * (currentPage - 1);
-  const stopIndex = perPage * currentPage;
-
+  const startIndex = perPage * (currentPage -1 );
+  const stopIndex = perPage * currentPage ;
   const paginatedItems = items.slice(startIndex, stopIndex);
 
   return {
     items: paginatedItems,
     total: items.length,
-    pages: createPaginationPages(pagesNumber),
+    pages: createPaginationPages(pagesNumber + 1),
   }
 
 }
+
+

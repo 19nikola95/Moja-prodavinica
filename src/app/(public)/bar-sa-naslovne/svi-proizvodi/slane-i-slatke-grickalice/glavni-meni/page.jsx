@@ -2,11 +2,15 @@ import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/glavn
 import Link from "next/link"
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
 import { proizvodi } from '@/mocks/svi-proizvodi-slane-i-slatke-grickalice';
+import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
+import { ReklamneSlike } from '@/mocks/reklame';
 export default function pocetna() {
   return (
   <div>
  <div className={styles.GlavniKontenjerZaSadrzaj}>
-  <div className={styles.VideoReklame}></div>
+  <div className={styles.VideoReklame}>
+  {ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
+  </div>
   <div className={styles.KontenjerZaNaslov}>
       <p className={styles.IzgledSlovaNaslova}>Slane i slatke grickalice</p>
       </div>

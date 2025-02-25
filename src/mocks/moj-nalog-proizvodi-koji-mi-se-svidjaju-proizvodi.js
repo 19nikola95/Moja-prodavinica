@@ -182,7 +182,687 @@ export const proizvodi = [
           cena: "190.00"
         }
       ]
-    }
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
+    {
+      naziv: "Eurocrem",
+      tezina: '200g',
+      proizvodjac: "Takovo",
+      slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+      marketi: [
+        { 
+          cena: '180.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "185.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "190.00"
+        }
+      ]
+    },
     
   ];
   

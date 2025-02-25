@@ -7,14 +7,14 @@ import { ProizvodiKojiMiSeSvidjajuKomponente } from '@/components/MojNalog/Licne
 import { SlikaProfila } from '@/components/MojNalog/ProizvodiKojiMISeSvidjaju/LicnaSlika';
 import { KontenjerProizvodaKomponentea } from '@/components/MojNalog/ProizvodiKojiMISeSvidjaju/KontenjerProizvodiKojiMiSeSvidajju';
 import {proizvodi} from '@/mocks/moj-nalog-proizvodi-koji-mi-se-svidjaju-proizvodi';
-import {createPaginationPages, createPagination} from '@/utils/paginationUtils'
+import { createPagination} from '@/utils/paginationUtils'
 import { profili } from '@/mocks/moj-nalog-profil';
 export default function proizvodiKojiMiSeSvidjaju() {
   const [strana, setStrana] = useState(1);
-  const proizvodiPaginated = createPagination(proizvodi, strana, { perPage: 4 });
+  const proizvodiPaginated = createPagination(proizvodi, strana, { perPage: 6 });
 
   function idiNaStranu(strana) { 
-    setStrana(strana);
+    setStrana(strana); 
   }
 
   return (
@@ -47,7 +47,9 @@ export default function proizvodiKojiMiSeSvidjaju() {
          {proizvodiPaginated.items?.map((proizvod) => <KontenjerProizvodaKomponentea proizvod={proizvod}/>)}         
           </div>
         <div className={styles.KontenjerZaDruguStranicu}>
+          <button className={styles.DugmeZaSledecuStranu}  onClick={ () => idiNaStranu(strana - 1)}>&lt;</button>
             { proizvodiPaginated.pages.map((strana) => <button className={styles.DugmeZaSledecuStranu} onClick={() => idiNaStranu(strana)}>{strana}</button>)}
+            <button className={styles.DugmeZaSledecuStranu} onClick={() => idiNaStranu(strana + 1)}>&gt;</button>
         </div>
       </div>
       </div>

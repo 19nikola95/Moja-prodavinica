@@ -1,11 +1,15 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/zimniceikonzerviranopovrce.module.scss';
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
 import { proizvodi } from '@/mocks/svi-proizvodi-zimnica-i-konzervirano-voce-i-povrce';
+import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
+import { ReklamneSlike } from '@/mocks/reklame';
 export default function HlebiPecivo() {
   return (
   <div>
 <div className={styles.GlavniKontenjerZaSadrzaj}>
-      <div className={styles.VideoReklame}></div>
+      <div className={styles.VideoReklame}>
+      {ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
+      </div>
       <div className={styles.KontenjerZaNaslov}>
       <p className={styles.IzgledSlovaNaslova}>Zimnice i konzervirano voće i povrće</p>
       </div>

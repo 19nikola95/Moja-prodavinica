@@ -9,9 +9,7 @@ export default function pocetna() {
   return (
   <div>
    <div  className={styles.KontenjerPocetneStrane}>
-<div className={styles.VideoReklame}>
-{ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
-</div>
+
 <div className={styles.KontenjerZaDugmice}>
   <Link className={styles.LinkSviProizovi} href="/bar-sa-naslovne/svi-proizvodi/glavni-meni">
 <button className={styles.DugmeIzbora}>Svi proizvodi</button> 

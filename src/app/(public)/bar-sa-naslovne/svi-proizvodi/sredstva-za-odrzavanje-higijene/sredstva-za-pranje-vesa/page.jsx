@@ -1,11 +1,15 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/srestvazapranjevesa.module.scss';
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
 import { proizvodi } from '@/mocks/svi-proizvodi-srestva-za-pranje-vesa';
+import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
+import { ReklamneSlike } from '@/mocks/reklame';
 export default function HlebiPecivo() {
   return (
   <div>
 <div className={styles.GlavniKontenjerZaSadrzaj}>
-      <div className={styles.VideoReklame}></div>
+      <div className={styles.VideoReklame}>
+      {ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
+      </div>
       <div className={styles.KontenjerZaNaslov}>
       <p className={styles.IzgledSlovaNaslova}>Sredstva pranje veša</p>
       </div>
