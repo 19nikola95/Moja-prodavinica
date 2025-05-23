@@ -1,5 +1,5 @@
 import styles from '@/styles/pocetnastrana.module.scss';
-export function KontenjerOpisNamernica({imeProizvoda,TezinaProizvoda,ProizvodjacProizvoda}){
+export function KontenjerOpisNamernica({key,imeProizvoda,TezinaProizvoda,ProizvodjacProizvoda}){
     return <div>
     <div className={styles.RedUKontenjeruZaTekstProizvoda}>
           <span>{imeProizvoda}</span>

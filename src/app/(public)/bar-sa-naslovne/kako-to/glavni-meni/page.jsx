@@ -4,7 +4,7 @@ import { GlavniMeniKakoTo } from '@/components/KakoTo/GlavniMeni/GlavniMeni';
 import { KakoTO } from '@/mocks/kako-to';
 import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 import { ReklamneSlike } from '@/mocks/reklame';
-export default function kontaktirajnas() {
+export default function Glavnimenikakoto() {
   return (
   <div>
 <div className={styles.KontenjerSaSadrzajem}>
@@ -21,7 +21,7 @@ export default function kontaktirajnas() {
           <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Kako to ?"/>
         </div>
         <div className={styles.KontenjerSaResenjima}>
-        {KakoTO.map((kakoto) => <GlavniMeniKakoTo slika={kakoto.Slika} naslov={kakoto.nAslov} />)}
+        {KakoTO.map((kakoto) => <GlavniMeniKakoTo kakoTo={kakoto} />)}
       </div>
         <div className={styles.KontenjerZaDugmice}>
       <button className={styles.DugmrStrane}>1</button>

@@ -4,7 +4,7 @@ export function MainLayoutHeader() {
   return <header className="MainLayout__header">
       <div className="HeaderPozadina">
       <div className="GlavniIzgledHedera">
-      <Link href="/pocetna-strana"><div className="KontenjerLoga">
+      <Link href="/"><div className="KontenjerLoga">
          <img className="IzgledLoga" src="/Logo sajta/Logo.png" alt=""/> 
         </div></Link>
         <div className="KontenjerdShearchBara">

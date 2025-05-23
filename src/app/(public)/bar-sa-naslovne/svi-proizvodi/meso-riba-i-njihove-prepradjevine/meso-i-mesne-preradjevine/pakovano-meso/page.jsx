@@ -1,9 +1,11 @@
 import styles from '../../../../../../../styles/bar-za-naslovnu/svi-proizvodi/pakovanomeso.module.scss';
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
-import { proizvodi } from '@/mocks/svi-proizvodi-pakovano-meso';
+import { opisproizvoda } from '@/mocks/pojedinacni-proizvodi-opis';
 import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 import { ReklamneSlike } from '@/mocks/reklame';
-export default function HlebiPecivo() {
+export default function PakovanoMeso() {
+  const filtriraniProizvodi = opisproizvoda.filter(PojedinacniProizvod =>
+    PojedinacniProizvod.ispodpodkategorije.includes("3.23"));
   return (
   <div>
 <div className={styles.GlavniKontenjerZaSadrzaj}>
@@ -18,7 +20,7 @@ export default function HlebiPecivo() {
       </div>
       <div className={styles.KontenjerSaSlikama}>
          
-      {proizvodi.map((proizvod) => <KontenjerSaProizvodom slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
+      {filtriraniProizvodi.map((opisproizvodi) => <KontenjerSaProizvodom PojedinacniProizvod={opisproizvodi} />)}   
   
          </div>
         

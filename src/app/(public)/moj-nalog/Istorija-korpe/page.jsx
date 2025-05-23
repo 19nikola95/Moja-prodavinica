@@ -1,16 +1,14 @@
-
 import styles from '../../../../styles/istorijaKorpe.module.scss';
 import Link from "next/link";
-import { Racun } from '@/components/MojNalog/IstorijaKorpe/Racuni';
+import { ZaSveRacune } from '@/components/MojNalog/IstorijaKorpe/Racuni';
 import { ProizvodiKojiMiSeSvidjajuKomponente } from '@/components/MojNalog/LicneInformacije';
 import { SlikaProfila } from '@/components/MojNalog/ProizvodiKojiMISeSvidjaju/LicnaSlika';
 import { profili } from '@/mocks/moj-nalog-profil';
 import { MesecniOpis } from '@/components/MojNalog/IstorijaKorpe/MesecniOpis';
 import { GodisnjiOpis } from '@/components/MojNalog/IstorijaKorpe/GodisnjiOpis';
-import { meseciCena } from '@/mocks/moj-nalog-istorija-korpe-mesec-i-cena';
-import { racun } from '@/mocks/moj-nalog-istorija-korpe-racun';
-import { usteda } from '@/mocks/moj-nalog-istorija-korpe-usteda';
-export default function pocetna() {
+import { IstroijaRacuna } from '@/mocks/moj-nalog-istorija-korpe-racun';
+import { IzabraneNamirnica } from '@/mocks/IzabraneNamirnice';
+export default function IstorijaKorpe() {
   return (
   <div>
  <div>
@@ -38,12 +36,12 @@ export default function pocetna() {
  <p className={styles.IzgledSlovaIstorijaKorpe}>Istorija korpe</p>
  </div>
  <div className={styles.PozicijaKontenjeraZaUsteduPrekoAplikaciju}>
- {usteda.map((ustedi) => <GodisnjiOpis cena={ustedi.CENA} />)}  
+ {IstroijaRacuna.map((istorijaracune) => <GodisnjiOpis GodisnjaCena={istorijaracune.UkupnaUsteda} />)}
 </div>
 <div className={styles.KontenjerZaMesecnuKupovinu}>
-{meseciCena.map((meseciCeni) => <MesecniOpis mesec={meseciCeni.MESEC} cena={meseciCeni.CENA} />)} 
+{IstroijaRacuna.UstedaPoMesecima?.map((UstedaPoMesecima) => <MesecniOpis mesec={UstedaPoMesecima.TRENITNIMESEC}  cena={UstedaPoMesecima.TRENUTNACENA}  />)}
 <div className={styles.KontenjerzaMesecneTroskove}>
-{racun.map((racunI) => <Racun datum={racunI.DATUM} cena={racunI.CENA} />)}              
+{IzabraneNamirnica.map((racun) => <ZaSveRacune Racun={racun} />)}              
    </div>
   <div className={styles.KontenjerZaDugme}>
   <button className={styles.DugmeVidiJos} >Vidi još</button>

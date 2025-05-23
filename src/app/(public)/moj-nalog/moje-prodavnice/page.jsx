@@ -32,7 +32,7 @@ export default function MojeProdavnice() {
       <p className={styles.IzgledIzaberiSvojeProdavnice}>Izaberi svoje prodavnice</p>
       </div>
       <div className={styles.KontenjerZaProdavnice}>
-      {prodavnice.map((prodavnicA) => <MojaPojedinacnaProdavnica nazivProdavnica={prodavnicA.IME} slika={prodavnicA.LOGO} />)}  
+      {prodavnice.map((prodavnicA) => <MojaPojedinacnaProdavnica nazivProdavnica={prodavnicA.IME} slika={prodavnicA.LOGO} ulica={prodavnicA.ULICA}/>)}  
       </div>
       <div className={styles.ProstorZaSacuvati}>
       <button className={styles.DugrmeSacuvajProdavnice}>Sačuvaj</button>

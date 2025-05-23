@@ -1,7 +1,7 @@
 import Link from "next/link"
 import styles from '../../../../../styles/bar-za-naslovnu/predlog-za-obroke/glavnimenipredlogzaobroke.module.scss';
 import { GlavniMeniPredlogZaObroke } from "@/components/PredlogZaObroke/GlavniMeni/GlavniMeniZaObroke";
-import { obroci } from '@/mocks/predlog-za-obrok-glavni-meni';
+import { uopstenooObrocima } from "@/mocks/pojedinacni-obrok-uopstene-informacije";
 import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 import { ReklamneSlike } from '@/mocks/reklame';
 export default function predlogZaObroke() {
@@ -50,10 +50,9 @@ export default function predlogZaObroke() {
         <button className={styles.IzgledDugmetaZaObroke}>Zdravi obroci</button>
         </Link>
       </div>
-      <div className={styles.KontenjerSaObrocima}>
-      {obroci.map((obrok) => <GlavniMeniPredlogZaObroke nazivObroka={obrok.nazivobroka} slikaObroka={obrok.slikaobroka} />)}
 
-        
+      <div className={styles.KontenjerSaObrocima}>
+      {uopstenooObrocima.map((pojedinacniObrok) => <GlavniMeniPredlogZaObroke PojedinacniObrok={pojedinacniObrok} />)}
         </div>
         <div className={styles.KontenjerZaDruguStranicu}>
          <button className={styles.DugmeZaSledecuStranu}>1</button>

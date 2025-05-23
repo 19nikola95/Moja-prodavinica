@@ -1,10 +1,12 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/glavnimenimameibebe.module.scss';
 import Link from "next/link"
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
-import { proizvodi } from '@/mocks/svi-proizvodi-mame-i-bebe';
+import { opisproizvoda } from '@/mocks/pojedinacni-proizvodi-opis';
 import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 import { ReklamneSlike } from '@/mocks/reklame';
 export default function pocetna() {
+  const filtriraniProizvodi = opisproizvoda.filter(PojedinacniProizvod =>
+    PojedinacniProizvod.kategorija.includes("2"));
   return (
   <div>
  <div className={styles.GlavniKontenjerZaSadrzaj}>
@@ -32,8 +34,7 @@ export default function pocetna() {
         </Link>
        </div>
        <div className={styles.KontenjerSaSlikama}>
-       {proizvodi.map((proizvod) => <KontenjerSaProizvodom slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}   
-  
+       {filtriraniProizvodi.map((opisproizvodi) => <KontenjerSaProizvodom PojedinacniProizvod={opisproizvodi} />)}  
          </div>
         
       

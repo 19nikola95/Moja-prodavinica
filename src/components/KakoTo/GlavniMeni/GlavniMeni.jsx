@@ -1,13 +1,13 @@
 import styles from '@/styles/bar-za-naslovnu/kako-to/glavnimenikakoto.module.scss';
 import Link from "next/link"
-export function GlavniMeniKakoTo({naslov, slika}){
-    return <Link href="/bar-sa-naslovne/kako-to/pojedinacni-tab">
+export function GlavniMeniKakoTo({naslov, slika, kakoTo}){
+    return <Link href={`/bar-sa-naslovne/kako-to/${kakoTo.id}`}>
     <div className={styles.KontenjerSaIzgledom}>
       <div className={styles.KontenjerSaIzgledomGornji}>
-        <img className={styles.IzgledSlikeLoga} src={slika} alt=""/>
+        <img className={styles.IzgledSlikeLoga} src={kakoTo.slikaObroka} alt=""/>
       </div>
       <div className={styles.KontenjerSaIzgledomDonji}>
-        <p>{naslov}</p>
+        <p>{kakoTo.naslovObroka}</p>
       </div>
     </div>
     </Link>

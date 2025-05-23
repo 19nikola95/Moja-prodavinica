@@ -7,19 +7,20 @@ import { KolicinaProizvoda } from '@/components/PojedinacniProizvod/KolicinaProi
 import { UpustvoZaUpotrebu } from '@/components/PojedinacniProizvod/UputstvoZaUpotrebu';
 import { Sastojci } from '@/components/PojedinacniProizvod/Sastojci';
 import { Napomena } from '@/components/PojedinacniProizvod/Napomena';
-import { cenepomarketima } from '@/mocks/pojedinacni-proizvodi-cena-po-marketima';
 import { opisproizvoda } from '@/mocks/pojedinacni-proizvodi-opis';
-import { ostalo } from '@/mocks/pojedinacni-proizvodi-ostalo';
-export default function kontaktirajnas() {
+export default async function PojedinacniProizvodId({params}) {
+  const { PojedinacniProizvodId } = await params;
+
+  const PojedinacniProizvod = opisproizvoda.find((PojedinacniProizvod) => PojedinacniProizvod.id == PojedinacniProizvodId);
   return (
   <div>
   <div className={styles.GlavniKontenjerZaSadrzaj}>
         <div className={styles.VideoReklame}></div>
-        <div className={styles.KontenjerZaNaslov} ><p className={styles.IzgledSlovaNaslova}>Čaj od limuna i đumbira</p>
+        <div className={styles.KontenjerZaNaslov} ><p className={styles.IzgledSlovaNaslova}>{PojedinacniProizvod.naziv}</p>
         </div>
         <div className={styles.RasporedSlikeIopisa}>
           <div className={styles.KontenjerZaSlikuIDodatke}>
-            <img className={styles.DimenzijeSlike} src="/SlikaProizvoda/Caj K plus.jpg" alt=""/>
+            <img className={styles.DimenzijeSlike} src={PojedinacniProizvod.slika} alt=""/>
             <div className={styles.KontenjerZaDodatke}>
               <img className={styles.DimenzijeDodatkaKorpa} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
               <img className={styles.DimenzijeDodatkaZvezda} src="/DodatniSmajlici/zvezdica.png" alt=""/>
@@ -27,24 +28,24 @@ export default function kontaktirajnas() {
             </div>
           </div>
           <div className={styles.KontenjerZaCene}>
-          {cenepomarketima.map((cenepomarketu) => <CenaILogo logo={cenepomarketu.logoproizvoda} market={cenepomarketu.nazivmakreta} cena={cenepomarketu.cenaproizvoda} />)}
+          {PojedinacniProizvod.cenePoMarketika?.map((cenePoMarketika) => <CenaILogo logo={cenePoMarketika.logoproizvoda} market={cenePoMarketika.nazivmakreta} cena={cenePoMarketika.cenaproizvoda} />)}
           </div>
           <div className={styles.KontenjerZaOpis}>
             <div className={styles.NaslovZaOpis}>
               <p>Opis proizvoda</p>
             </div>
             <div className={styles.KlasaTekstOpisa}>
-            {opisproizvoda.map((opisproizvodi) => < ProizvodjacProizvoda proizvodjac={opisproizvodi.proizvodjaC}/>)}
-            {opisproizvoda.map((opisproizvodi) => < Tezinaroizvoda tezina={opisproizvodi.tezinA}/>)}
-            {opisproizvoda.map((opisproizvodi) => < KolicinaProizvoda kolicina={opisproizvodi.kolicinA}/>)}
-            {opisproizvoda.map((opisproizvodi) => < UpustvoZaUpotrebu upustvo={opisproizvodi.upustvoZaupotrebu}/>)}
-            {opisproizvoda.map((opisproizvodi) => < Sastojci sastojci={opisproizvodi.sasTojci}/>)}
-            {opisproizvoda.map((opisproizvodi) => < Napomena napomena={opisproizvodi.naPomena}/>)}
+             < ProizvodjacProizvoda proizvodjac={PojedinacniProizvod.proizvodjaC}/>
+            < Tezinaroizvoda tezina={PojedinacniProizvod.tezinA}/>
+            < KolicinaProizvoda kolicina={PojedinacniProizvod.kolicinA}/>
+             < UpustvoZaUpotrebu upustvo={PojedinacniProizvod.upustvoZaupotrebu}/>
+             < Sastojci sastojci={PojedinacniProizvod.sasTojci}/>
+            < Napomena napomena={PojedinacniProizvod.naPomena}/>
             </div>
           </div>
         </div>
         <div className={styles.KontenjerOstaliPorizvodi}>
-        {ostalo.map((ostali) => <DodantniProizvodi slikaProizvoda={ostali.Slikaproizvoda} nazivProizvoda={ostali.Nazivproizvoda} kolicinaProizvoda={ostali.Kolicinaproizvoda} proizvodjacProizvoda={ostali.Proizvodjacproizvoda}  />)}
+        {PojedinacniProizvod.ostalo?.map((ostalo) => <DodantniProizvodi slikaProizvoda={ostalo.Slikaproizvoda} nazivProizvoda={ostalo.Nazivproizvoda} kolicinaProizvoda={ostalo.Kolicinaproizvoda} proizvodjacProizvoda={ostalo.Proizvodjacproizvoda}  />)}
         </div>
        
       </div>

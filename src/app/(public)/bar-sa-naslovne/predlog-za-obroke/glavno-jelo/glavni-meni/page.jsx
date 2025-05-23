@@ -1,10 +1,12 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/predlog-za-obroke/glavnimeniglavnojelo.module.scss';
 import { GlavniMeniPredlogZaObroke } from "@/components/PredlogZaObroke/GlavniMeni/GlavniMeniZaObroke";
-import { obroci } from '@/mocks/predlog-za-obrok-glavno-jelo';
+import { uopstenooObrocima } from "@/mocks/pojedinacni-obrok-uopstene-informacije";
 import Link from "next/link"
 import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 import { ReklamneSlike } from '@/mocks/reklame';
-export default function pocetna() {
+export default function GlavnoJelo() {
+    const filtriraniObroci = uopstenooObrocima.filter(PojedinacniObrok =>
+      PojedinacniObrok.kategorija.includes("3"));
   return (
   <div>
 <div className={styles.GlavniKontenjerZaSadrzaj}>
@@ -35,7 +37,7 @@ export default function pocetna() {
   </Link>
 </div>
 <div className={styles.KontenjerSaObrocima}>
-{obroci.map((obrok) => <GlavniMeniPredlogZaObroke nazivObroka={obrok.nazivobroka} slikaObroka={obrok.slikaobroka} />)}   
+{filtriraniObroci.map((uopstenooObrocima) => <GlavniMeniPredlogZaObroke PojedinacniObrok={uopstenooObrocima} />)} 
 
   </div>
   <div className={styles.KontenjerZaDruguStranicu}>

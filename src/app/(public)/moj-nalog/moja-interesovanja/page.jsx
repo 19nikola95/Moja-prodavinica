@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ProizvodiKojiMiSeSvidjajuKomponente } from '@/components/MojNalog/LicneInformacije';
 import { SlikaProfila } from '@/components/MojNalog/ProizvodiKojiMISeSvidjaju/LicnaSlika';
 import { profili } from '@/mocks/moj-nalog-profil';
-export default function pocetna() {
+export default function mojaInteresovanja() {
   return (
   <div>
     <div className={styles.MojNalog}>

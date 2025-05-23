@@ -1,18 +1,18 @@
 import Link from "next/link";
 import styles from '@/styles/bar-za-naslovnu/nagradne-igre/glavnimeniNagradneigre.module.scss';
-export function NagradnaIgra({ime,datumOd,datumDo,slikaUrl} ){
-    return   <Link href="/bar-sa-naslovne/nagradne-igre/pojedinacni-meni">
+export function NagradnaIgraUGlavnomMeni({ime,datumOd,datumDo,slikaUrl,NagradneIgre} ){
+    return   <Link href={`/bar-sa-naslovne/nagradne-igre/${NagradneIgre.id}`}>
     <div className={styles.KontenjerZaNagradnuIgru}>
       <div className={styles.GornjiDeoZaNagradnuIgru}>
-        <img className={styles.SlikaNagradneIgre} src={slikaUrl} alt=""/>
+        <img className={styles.SlikaNagradneIgre} src={NagradneIgre.Slika} alt=""/>
       </div>
       <div className={styles.DonjiDeoZaNagradneIgre}>
         <div className={styles.DonjiDeoZaNaslov}>
-          <p className={styles.SlovaNaslovaIgre}>{ime}</p>
+          <p className={styles.SlovaNaslovaIgre}>{NagradneIgre.Naslov}</p>
         </div>
         <div className={styles.DonjiDeoZaTrajanje}>
-        {datumOd && datumDo && <p className={styles.SlovaTrajanjeIgre}>Trajanje: {datumOd} do {datumDo}</p> }
-        {!datumOd && datumDo && <p className={styles.SlovaTrajanjeIgre}>Trajanje: do {datumDo}</p> }
+        {NagradneIgre.datumod && NagradneIgre.datumdo && <p className={styles.SlovaTrajanjeIgre}>Trajanje: {NagradneIgre.datumod} do {NagradneIgre.datumdo}</p> }
+        {!NagradneIgre.datumod && NagradneIgre.datumdo && <p className={styles.SlovaTrajanjeIgre}>Trajanje: do {NagradneIgre.datumdo}</p> }
         </div>
       </div>
     </div>

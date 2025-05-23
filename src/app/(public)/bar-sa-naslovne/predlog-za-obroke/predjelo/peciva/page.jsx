@@ -1,9 +1,11 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/predlog-za-obroke/peciva.module.scss';
 import { GlavniMeniPredlogZaObroke } from "@/components/PredlogZaObroke/GlavniMeni/GlavniMeniZaObroke";
-import { obroci } from '@/mocks/predlog-za-obroke-peciva';
+import { uopstenooObrocima } from '@/mocks/pojedinacni-obrok-uopstene-informacije';
 import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 import { ReklamneSlike } from '@/mocks/reklame';
-export default function pocetna() {
+export default function Peciva() {
+    const filtriraniObroci = uopstenooObrocima.filter(PojedinacniObrok =>
+        PojedinacniObrok.podkategorija.includes("6.2"));
   return (
   <div>
 <div className={styles.GlavniKontenjerZaSadrzaj}>
@@ -14,7 +16,8 @@ export default function pocetna() {
       <p className={styles.IzgledSlovaNaslova}>Peciva</p>
       </div>
       <div className={styles.KontenjerSaObrocima}>
-      {obroci.map((obrok) => <GlavniMeniPredlogZaObroke nazivObroka={obrok.nazivobroka} slikaObroka={obrok.slikaobroka} />)} 
+      {filtriraniObroci.map((uopstenooObrocima) => <GlavniMeniPredlogZaObroke PojedinacniObrok={uopstenooObrocima} />)} 
+
         </div>
         <div className={styles.KontenjerZaDruguStranicu}>
          <button className={styles.DugmeZaSledecuStranu}>1</button>

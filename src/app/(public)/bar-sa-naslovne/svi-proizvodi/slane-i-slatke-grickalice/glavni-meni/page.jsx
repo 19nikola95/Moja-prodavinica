@@ -1,10 +1,12 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/svi-proizvodi/glavnimenislatkisi.module.scss';
 import Link from "next/link"
 import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
-import { proizvodi } from '@/mocks/svi-proizvodi-slane-i-slatke-grickalice';
+import { opisproizvoda } from '@/mocks/pojedinacni-proizvodi-opis';
 import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 import { ReklamneSlike } from '@/mocks/reklame';
-export default function pocetna() {
+export default function SlaneISlatkeGrickalice() {
+  const filtriraniProizvodi = opisproizvoda.filter(PojedinacniProizvod =>
+    PojedinacniProizvod.kategorija.includes("7"));
   return (
   <div>
  <div className={styles.GlavniKontenjerZaSadrzaj}>
@@ -38,12 +40,8 @@ export default function pocetna() {
         </Link>
       </div>
       <div className={styles.KontenjerSaSlikama}>
-      {proizvodi.map((proizvod) => <KontenjerSaProizvodom slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}   
-   
-       
+      {filtriraniProizvodi.map((opisproizvodi) => <KontenjerSaProizvodom PojedinacniProizvod={opisproizvodi} />)}       
          </div>
-        
-      
        <div className={styles.KontenjerZaDruguStranicu}>
          <button className={styles.DugmeZaSledecuStranu}>1</button>
          <button className={styles.DugmeZaSledecuStranu}>2</button>

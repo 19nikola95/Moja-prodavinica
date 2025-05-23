@@ -1,5 +1,5 @@
 import styles from '../../../styles/onama.module.scss';
-export default function pocetna() {
+export default function oNama() {
   return (
     <div className={styles.GlavniKontenjerZaSadrzaj}>
    <div className={styles.PozicijaNaslova}>

@@ -1,5 +1,6 @@
 export const proizvodi = [
     {
+      id: 1,
       naziv: "Smoki starkicc adsada sdaddsa dsada",
       tezina: '50g',
       proizvodjac: "Stark sremska mitrovica sdadsa",
@@ -24,6 +25,7 @@ export const proizvodi = [
       ]
     },
     {
+      id: 2,
       naziv: "Plazma",
       tezina: '300g',
       proizvodjac: "Bambi",
@@ -44,6 +46,7 @@ export const proizvodi = [
       ]
     },
     {
+      id: 3,
       naziv: "Jaffa Cakes",
       tezina: '150g',
       proizvodjac: "Jaffa",
@@ -64,6 +67,7 @@ export const proizvodi = [
       ]
     },
     {
+      id: 4,
       naziv: "Cedevita",
       tezina: '200g',
       proizvodjac: "Atlantic Grupa",
@@ -84,6 +88,7 @@ export const proizvodi = [
       ]
     },
     {
+      id: 5,
       naziv: "Eurocrem",
       tezina: '200g',
       proizvodjac: "Takovo",

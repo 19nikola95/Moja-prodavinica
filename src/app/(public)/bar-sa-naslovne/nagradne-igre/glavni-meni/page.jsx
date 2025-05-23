@@ -1,6 +1,7 @@
-import { NagradnaIgra } from '@/components/KomponenteGlavnogMeniaNagradneIgre/NagradnaIgra';
+import { NagradnaIgraUGlavnomMeni } from '@/components/KomponenteGlavnogMeniaNagradneIgre/NagradnaIgra';
 import styles from '../../../../../styles/bar-za-naslovnu/nagradne-igre/glavnimeniNagradneigre.module.scss';
-import { NagradneIgre } from '@/mocks/nagradne-igre-glavni-meni';
+import { uopsteno } from '@/mocks/nagradna-igra-pojedinacna-uopsteno';
+import Link from "next/link"
 import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 import { ReklamneSlike } from '@/mocks/reklame';
 export default function GlavniMeniNagradneIgre() {
@@ -15,7 +16,7 @@ export default function GlavniMeniNagradneIgre() {
       <p className={styles.IzgledSlovaNaslova}>Sve nagradne igre</p>
       </div>
       <div className={styles.ProstorZaKontenjereNagradneIgre}>
-      {NagradneIgre.map((NagradneIgra) => <NagradnaIgra ime={NagradneIgra.IMEIGRE} datumOd={NagradneIgra.DATUMOD} datumDo={NagradneIgra.DATUMDO} slikaUrl={NagradneIgra.SLIKA} />)}   
+         {uopsteno.map((nagradneigre) => <NagradnaIgraUGlavnomMeni NagradneIgre={nagradneigre}  />)}
     </div>
     <div className={styles.KontenjerZaDugmice}>
       <button className={styles.DugmrStrane}>1</button>

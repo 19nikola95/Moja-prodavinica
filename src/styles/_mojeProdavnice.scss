@@ -279,9 +279,17 @@ align-items: center;
 }
 .DesnaStranaReda{
   height: 60px;
-  width: 140px;
+  width: 190px;
   display: flex;
   align-items: center;
+}
+.NazivIUlica{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 60px;
+  width: 170px;
 }
 .iZGLEDlOGApRODAVNICA{
   object-fit: contain;
@@ -291,6 +299,13 @@ align-items: center;
 .FontSlovaImenaProdavnica{
   font-size: 18px;
   font-weight: 520;
+  margin: 0px;
+  padding: 0px;
+}
+.FontSlovaUlicaProdavnica{
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
 }
 .CekboxProdavnica{
   width: 20px;
@@ -344,6 +359,19 @@ align-items: center;
     width: 160px;
     display: flex;
     align-items: center;
+  }
+  .NazivIUlica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    width: 145px;
+  }
+  .FontSlovaUlicaProdavnica{
+    font-size: 11px;
+    margin: 0px;
+    padding: 0px;
   }
   .iZGLEDlOGApRODAVNICA{
     object-fit: contain;
@@ -412,6 +440,19 @@ align-items: center;
     display: flex;
     align-items: center;
   }
+  .NazivIUlica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    width: 135px;
+  }
+  .FontSlovaUlicaProdavnica{
+    font-size: 9px;
+    margin: 0px;
+    padding: 0px;
+  }
   .iZGLEDlOGApRODAVNICA{
     object-fit: contain;
     width: 70px;
@@ -478,6 +519,19 @@ align-items: center;
     width: 150px;
     display: flex;
     align-items: center;
+  }
+  .NazivIUlica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    width: 135px;
+  }
+  .FontSlovaUlicaProdavnica{
+    font-size: 9px;
+    margin: 0px;
+    padding: 0px;
   }
   .iZGLEDlOGApRODAVNICA{
     object-fit: contain;
@@ -687,17 +741,30 @@ align-items: center;
   }
   .DesnaStranaReda{
     height: 60px;
-    width: 150px;
+    width: 100px;
     display: flex;
     align-items: center;
   }
+  .NazivIUlica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    width: 90px;
+  }
+  .FontSlovaUlicaProdavnica{
+    font-size: 7px;
+    margin: 0px;
+    padding: 0px;
+  }
   .iZGLEDlOGApRODAVNICA{
     object-fit: contain;
-    width: 70px;
-    height: 42px;
+    width: 60px;
+    height: 36px;
   }
   .FontSlovaImenaProdavnica{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 520;
   }
   .CekboxProdavnica{
@@ -912,13 +979,26 @@ align-items: center;
     display: flex;
     align-items: center;
   }
+  .NazivIUlica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    width: 90px;
+  }
+  .FontSlovaUlicaProdavnica{
+    font-size: 7px;
+    margin: 0px;
+    padding: 0px;
+  }
   .iZGLEDlOGApRODAVNICA{
     object-fit: contain;
     width: 60px;
     height: 36px;
   }
   .FontSlovaImenaProdavnica{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 520;
   }
   .CekboxProdavnica{
@@ -1168,19 +1248,32 @@ align-items: center;
     display: flex;
     align-items: center;
   }
+  .NazivIUlica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    width: 90px;
+  }
+  .FontSlovaUlicaProdavnica{
+    font-size: 7px;
+    margin: 0px;
+    padding: 0px;
+  }
   .iZGLEDlOGApRODAVNICA{
     object-fit: contain;
     width: 50px;
     height: 30px;
   }
   .FontSlovaImenaProdavnica{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 520;
   }
   .CekboxProdavnica{
     width: 10px;
     height: 10px;
-    margin-left: 16px;
+    margin-left: 7px;
   }
   .ProstorZaSacuvati{
     width: 100%;
@@ -1407,6 +1500,19 @@ align-items: center;
     display: flex;
     align-items: center;
   }
+  .NazivIUlica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 90px;
+  }
+  .FontSlovaUlicaProdavnica{
+    font-size: 6px;
+    margin: 0px;
+    padding: 0px;
+  }
   .iZGLEDlOGApRODAVNICA{
     object-fit: contain;
     width: 40px;
@@ -1420,7 +1526,7 @@ align-items: center;
   .CekboxProdavnica{
     width: 10px;
     height: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
   }
   .ProstorZaSacuvati{
     width: 100%;
@@ -1805,6 +1911,19 @@ align-items: center;
     display: flex;
     align-items: center;
   }
+  .NazivIUlica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 90px;
+  }
+  .FontSlovaUlicaProdavnica{
+    font-size: 6px;
+    margin: 0px;
+    padding: 0px;
+  }
   .iZGLEDlOGApRODAVNICA{
     object-fit: contain;
     width: 40px;
@@ -1818,7 +1937,7 @@ align-items: center;
   .CekboxProdavnica{
     width: 10px;
     height: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
   }
   .ProstorZaSacuvati{
     width: 100%;
@@ -2227,16 +2346,29 @@ align-items: center;
   .LevaStranaReda{
     height: 40px;
     width: 50px;
-    margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 0px;
   }
   .DesnaStranaReda{
     height: 40px;
-    width: 100px;
+    width: 90px;
     display: flex;
     align-items: center;
+  }
+  .NazivIUlica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 82px;
+  }
+  .FontSlovaUlicaProdavnica{
+    font-size: 4px;
+    margin: 0px;
+    padding: 0px;
   }
   .iZGLEDlOGApRODAVNICA{
     object-fit: contain;
@@ -2244,14 +2376,13 @@ align-items: center;
     height: 25px;
   }
   .FontSlovaImenaProdavnica{
-    font-size: 10px;
+    font-size: 7px;
     font-weight: 520;
-    margin-left: 5px;
   }
   .CekboxProdavnica{
-    width: 10px;
-    height: 10px;
-    margin-left: 10px;
+    width: 8px;
+    height: 8px;
+    margin-left: 1px;
   }
   .ProstorZaSacuvati{
     width: 100%;

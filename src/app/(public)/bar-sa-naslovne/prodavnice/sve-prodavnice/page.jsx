@@ -1,9 +1,9 @@
 import styles from '@/styles/bar-za-naslovnu/prodavnice/sveprodavnice.module.scss';
 import { GlaniMeniProdavnica } from '@/components/KomponenteMojeProdavnice/IzgledGlavnogMenijaProdanice';
-import { SveProdavnice } from '@/mocks/prodavnice-glavni-meni';
+import { infromacije } from '@/mocks/prodavnica-pojedinacno-informacije';
 import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 import { ReklamneSlike } from '@/mocks/reklame';
-export default function pocetna() {
+export default function SveProdavnice() {
   return (
   <div>
 <div className={styles.KontenjerPocetneStrane}>
@@ -17,7 +17,7 @@ export default function pocetna() {
         <input className={styles.IzgledInputaZaProdavnice} type="text" name="" id="" placeholder="Pretraga prodavnica"/>
       </div>
         <div className={styles.KontenjerSaProdavnicama}>
-        {SveProdavnice.map((SveProdavnicA) => <GlaniMeniProdavnica imeMarketa={SveProdavnicA.NAZIV} ulicaMarekta={SveProdavnicA.ULICA} logoProdavnice={SveProdavnicA.LOGO} />)}  
+        {infromacije.map((prodavnice) => <GlaniMeniProdavnica Prodavnice={prodavnice} />)}  
         </div>
         <div className={styles.KontenjerZaDugmice}>
       <button className={styles.DugmrStrane}>1</button>

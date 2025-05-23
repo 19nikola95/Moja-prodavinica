@@ -2,8 +2,10 @@ import styles from '../../../../../styles/bar-za-naslovnu/predlog-za-obroke/zimn
 import { GlavniMeniPredlogZaObroke } from "@/components/PredlogZaObroke/GlavniMeni/GlavniMeniZaObroke";
 import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 import { ReklamneSlike } from '@/mocks/reklame';
-import { obroci } from '@/mocks/predlog-za-obroke-zimnica';
-export default function pocetna() {
+import { uopstenooObrocima } from '@/mocks/pojedinacni-obrok-uopstene-informacije';
+export default function Zimnica() {
+  const filtriraniObroci = uopstenooObrocima.filter(PojedinacniObrok =>
+    PojedinacniObrok.kategorija.includes("10"));
   return (
   <div>
 <div className={styles.GlavniKontenjerZaSadrzaj}>
@@ -14,7 +16,7 @@ export default function pocetna() {
       <p className={styles.IzgledSlovaNaslova}>Zimnice</p>
       </div>
       <div className={styles.KontenjerSaObrocima}>
-      {obroci.map((obrok) => <GlavniMeniPredlogZaObroke nazivObroka={obrok.nazivobroka} slikaObroka={obrok.slikaobroka} />)}   
+      {filtriraniObroci.map((uopstenooObrocima) => <GlavniMeniPredlogZaObroke PojedinacniObrok={uopstenooObrocima} />)} 
 
         </div>
         <div className={styles.KontenjerZaDruguStranicu}>

@@ -1,9 +1,11 @@
 import styles from '../../../../../../styles/bar-za-naslovnu/predlog-za-obroke/namazi.module.scss';
 import { GlavniMeniPredlogZaObroke } from "@/components/PredlogZaObroke/GlavniMeni/GlavniMeniZaObroke";
-import { obroci } from '@/mocks/predlog-za-obrok-namazi';
+import { uopstenooObrocima } from '@/mocks/pojedinacni-obrok-uopstene-informacije';
 import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 import { ReklamneSlike } from '@/mocks/reklame';
-export default function pocetna() {
+export default function Namazi() {
+    const filtriraniObroci = uopstenooObrocima.filter(PojedinacniObrok =>
+        PojedinacniObrok.podkategorija.includes("1.3"));
   return (
   <div>
 <div className={styles.GlavniKontenjerZaSadrzaj}>
@@ -14,7 +16,7 @@ export default function pocetna() {
       <p className={styles.IzgledSlovaNaslova}>Namazi</p>
       </div>
       <div className={styles.KontenjerSaObrocima}>
-      {obroci.map((obrok) => <GlavniMeniPredlogZaObroke nazivObroka={obrok.nazivobroka} slikaObroka={obrok.slikaobroka} />)}   
+      {filtriraniObroci.map((uopstenooObrocima) => <GlavniMeniPredlogZaObroke PojedinacniObrok={uopstenooObrocima} />)} 
   
         </div>
         <div className={styles.KontenjerZaDruguStranicu}>

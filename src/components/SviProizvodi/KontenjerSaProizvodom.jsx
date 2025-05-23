@@ -3,17 +3,17 @@ import { GlavniMeniOpis } from './OpisProizvoda';
 import { GlavniMeniCenaiNaziv } from './CenaINazivMarketa';
 import { SlikaProizvoda } from './SlikaProizvoda';
 import Link from 'next/link';
-export function KontenjerSaProizvodom({marketi, slikaProizvoda, imeProizvoda, tezinaProizvoda, proizvodjacProizvoda}){
+export function KontenjerSaProizvodom({marketi, slikaProizvoda, imeProizvoda, tezinaProizvoda, proizvodjacProizvoda, PojedinacniProizvod}){
     return  <div>
 < div className={styles.KontenjerProizvoda}>
             <div className={styles.GornjiDeoKontenjeraProizvoda}>
-            <Link href="bar-sa-naslovne/svi-proizvodi/pojedinacni-proizvodi">
-              <img className={styles.IzgledSlikaProizvoda} src={slikaProizvoda} alt=""/>
+            <Link href={`/bar-sa-naslovne/svi-proizvodi/${PojedinacniProizvod.id}`}>
+              <img className={styles.IzgledSlikaProizvoda} src={PojedinacniProizvod.slika} alt=""/>
             </Link>
-             <GlavniMeniOpis ImeProizvoda={imeProizvoda} TezinaProizvoda={tezinaProizvoda} ProizvodjacProizvoda={proizvodjacProizvoda}/>
+             <GlavniMeniOpis ImeProizvoda={PojedinacniProizvod.naziv} TezinaProizvoda={PojedinacniProizvod.tezinA} ProizvodjacProizvoda={PojedinacniProizvod.proizvodjaC}/>
               </div>
               <div className={styles.DonjiDeoKontenjeraProizvoda}>
-              {marketi?.map((market) =>  <GlavniMeniCenaiNaziv ime= {market.naziv} cena={market.cena}/>)}
+              {PojedinacniProizvod.cenePoMarketika?.map((cenePoMarketika) =>  <GlavniMeniCenaiNaziv ime= {cenePoMarketika.nazivmakreta} cena={cenePoMarketika.cenaproizvoda}/>)}
               </div>
               </div>
     </div>
