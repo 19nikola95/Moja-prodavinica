@@ -112,12 +112,13 @@ width: 100%;
 .KontenjerSaOstalimNagradnimIgrama{
 width: 500px;
 height: 84px;
-border-color: rgb(103, 103, 104);
-border-width: 2px;
-border-style: solid;
+box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+border-radius: 10px;
+background-color: white;
 display: flex;
 flex-direction: row;
 margin-bottom: 10px;
+text-decoration: none;
 }
 .LevaKontenjerSaOstalimNagradnimIgrama{
 height: 84px;
@@ -125,7 +126,8 @@ width: 110px;
 display: flex;
 align-items: center;
 justify-content: center;
-box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
 }
 .DesnaKontenjerSaOstalimNagradnimIgrama{
 height: 84px;
@@ -137,10 +139,16 @@ font-weight: bold;
 font-size: 16px;
 font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 color: rgba(19, 15, 15, 0.938);
+text-decoration: none;
+}
+.IzgledLinka{
+  text-decoration: none;
 }
 .MalaSlicicaNagradneIgre{
   height: 80px;
   width: 105px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 @media (min-width: 1200px) and (max-width: 1500px){
   .VideoReklame{
@@ -250,9 +258,9 @@ color: rgba(19, 15, 15, 0.938);
   .KontenjerSaOstalimNagradnimIgrama{
   width: 400px;
   height: 84px;
-  border-color: rgb(103, 103, 104);
-  border-width: 2px;
-  border-style: solid;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+  border-radius: 10px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
@@ -263,7 +271,6 @@ color: rgba(19, 15, 15, 0.938);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
   }
   .DesnaKontenjerSaOstalimNagradnimIgrama{
   height: 84px;
@@ -389,9 +396,9 @@ color: rgba(19, 15, 15, 0.938);
   .KontenjerSaOstalimNagradnimIgrama{
   width: 400px;
   height: 84px;
-  border-color: rgb(103, 103, 104);
-  border-width: 2px;
-  border-style: solid;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+  border-radius: 10px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
@@ -402,7 +409,6 @@ color: rgba(19, 15, 15, 0.938);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
   }
   .DesnaKontenjerSaOstalimNagradnimIgrama{
   height: 84px;
@@ -528,9 +534,9 @@ color: rgba(19, 15, 15, 0.938);
   .KontenjerSaOstalimNagradnimIgrama{
   width: 400px;
   height: 84px;
-  border-color: rgb(103, 103, 104);
-  border-width: 2px;
-  border-style: solid;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+  border-radius: 10px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
@@ -541,7 +547,6 @@ color: rgba(19, 15, 15, 0.938);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
   }
   .DesnaKontenjerSaOstalimNagradnimIgrama{
   height: 84px;
@@ -667,9 +672,9 @@ color: rgba(19, 15, 15, 0.938);
   .KontenjerSaOstalimNagradnimIgrama{
   width: 360px;
   height: 84px;
-  border-color: rgb(103, 103, 104);
-  border-width: 2px;
-  border-style: solid;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+  border-radius: 10px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
@@ -680,7 +685,6 @@ color: rgba(19, 15, 15, 0.938);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
   }
   .DesnaKontenjerSaOstalimNagradnimIgrama{
   height: 84px;
@@ -806,9 +810,9 @@ color: rgba(19, 15, 15, 0.938);
   .KontenjerSaOstalimNagradnimIgrama{
   width: 280px;
   height: 60px;
-  border-color: rgb(103, 103, 104);
-  border-width: 2px;
-  border-style: solid;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+  border-radius: 10px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
@@ -819,7 +823,6 @@ color: rgba(19, 15, 15, 0.938);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 5px rgba(18, 4, 100, 0.87);
   }
   .DesnaKontenjerSaOstalimNagradnimIgrama{
   height: 60px;
@@ -946,9 +949,9 @@ color: rgba(19, 15, 15, 0.938);
   .KontenjerSaOstalimNagradnimIgrama{
   width: 258px;
   height: 50px;
-  border-color: rgb(103, 103, 104);
-  border-width: 1px;
-  border-style: solid;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+  border-radius: 10px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   margin-bottom: 6px;
@@ -959,7 +962,6 @@ color: rgba(19, 15, 15, 0.938);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.87);
   }
   .DesnaKontenjerSaOstalimNagradnimIgrama{
   height: 50px;
@@ -1086,9 +1088,9 @@ color: rgba(19, 15, 15, 0.938);
   .KontenjerSaOstalimNagradnimIgrama{
   width: 160px;
   height: 30px;
-  border-color: rgb(103, 103, 104);
-  border-width: 1px;
-  border-style: solid;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+  border-radius: 10px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   margin-bottom: 6px;
@@ -1099,7 +1101,6 @@ color: rgba(19, 15, 15, 0.938);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.87);
   }
   .DesnaKontenjerSaOstalimNagradnimIgrama{
   height: 30px;
@@ -1226,9 +1227,9 @@ color: rgba(19, 15, 15, 0.938);
   .KontenjerSaOstalimNagradnimIgrama{
   width: 160px;
   height: 30px;
-  border-color: rgb(103, 103, 104);
-  border-width: 1px;
-  border-style: solid;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+  border-radius: 10px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   margin-bottom: 3px;
@@ -1239,7 +1240,6 @@ color: rgba(19, 15, 15, 0.938);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.87);
   }
   .DesnaKontenjerSaOstalimNagradnimIgrama{
   height: 30px;
@@ -1366,9 +1366,9 @@ color: rgba(19, 15, 15, 0.938);
   .KontenjerSaOstalimNagradnimIgrama{
   width: 120px;
   height: 30px;
-  border-color: rgb(103, 103, 104);
-  border-width: 1px;
-  border-style: solid;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+  border-radius: 10px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   margin-bottom: 3px;
@@ -1379,7 +1379,6 @@ color: rgba(19, 15, 15, 0.938);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.87);
   }
   .DesnaKontenjerSaOstalimNagradnimIgrama{
   height: 30px;

@@ -9,12 +9,16 @@
   background-image: linear-gradient(to right, rgb(245, 247, 122) 20%, rgb(154, 218, 102) 80%);
   box-shadow: 0px 0px 20px rgba(95, 97, 95, 0.6);
 }
+.IzgledLinka{
+  text-decoration: none;
+  color: black;
+}
 .KontenjerZapratiNas{
   height: 190px;
   width: 260px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
 .GornjiDeoKontenjeraZapratiNas{
   width: 260px;
@@ -83,7 +87,7 @@
     width: 260px;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
   }
   .GornjiDeoKontenjeraSaznajONama{
   width: 260px;
@@ -111,7 +115,7 @@
     width: 260px;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     margin-left: 4%;
   }
   .GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti{
@@ -172,7 +176,7 @@
     }
     .KontenjerZapratiNas{
       width: 80px;
-      justify-content: start;
+      align-items: flex-start;
     }
     .IzgledSlovaNaslovaZObavestenja{
       display: none;
@@ -216,7 +220,7 @@
     }
     .KontenjerZapratiNas{
       width: 80px;
-      justify-content: start;
+      align-items: flex-start;
       margin-left: 30px;
     }
     .IzgledSlovaNaslovaZObavestenja{
@@ -261,7 +265,7 @@
     }
     .KontenjerZapratiNas{
       width: 60px;
-      justify-content: start;
+      align-items: flex-start;
       align-items: center;
   
     }
@@ -319,7 +323,7 @@
     }
     .KontenjerZapratiNas{
       width: 60px;
-      justify-content: start;
+      align-items: flex-start;
       align-items: center;
   
     }

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from '@/styles/bar-za-naslovnu/nagradne-igre/glavnimeniNagradneigre.module.scss';
 export function NagradnaIgraUGlavnomMeni({ime,datumOd,datumDo,slikaUrl,NagradneIgre} ){
-    return   <Link href={`/bar-sa-naslovne/nagradne-igre/${NagradneIgre.id}`}>
+    return   <Link className={styles.IzgledLinka} href={`/bar-sa-naslovne/nagradne-igre/${NagradneIgre.id}`}>
     <div className={styles.KontenjerZaNagradnuIgru}>
       <div className={styles.GornjiDeoZaNagradnuIgru}>
         <img className={styles.SlikaNagradneIgre} src={NagradneIgre.Slika} alt=""/>

@@ -5,6 +5,9 @@
   flex-direction: column;
   background-color: rgb(245, 244, 244);
 }
+.IzgledLinka{
+  text-decoration: none;
+}
 .VideoReklame{
   display: flex;
    height: 150px;
@@ -87,11 +90,7 @@
   height: 195px;
   width: 180px;
   border-radius: 12px;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-color: gray;
-  border-style: solid;
-  border-width: 1px;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
   margin-top: 10px;
   margin-bottom: 20px;
   cursor: pointer;
@@ -107,9 +106,9 @@
   height: 60px;
   width: 180px;
   border: none;
-  border-top-color: rgba(2, 2, 2, 0.808);
+  border-top-color: rgba(99, 99, 99, 0.808);
   border-top-style: solid;
-  border-top-width: 2px;
+  border-top-width: 1px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -117,6 +116,7 @@
   font-weight: bold;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
+  text-decoration: none;
 }
 .IzgledSlikeLoga{
   border-top-left-radius: 12px;
@@ -466,11 +466,7 @@
     height: 180px;
     width: 160px;
     border-radius: 12px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-color: gray;
-    border-style: solid;
-    border-width: 1px;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     margin-top: 10px;
     margin-bottom: 20px;
     cursor: pointer;
@@ -486,9 +482,9 @@
     height: 60px;
     width: 160px;
     border: none;
-    border-top-color: rgba(2, 2, 2, 0.808);
+    border-top-color: rgba(99, 99, 99, 0.808);
     border-top-style: solid;
-    border-top-width: 2px;
+    border-top-width: 1px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -606,11 +602,7 @@
     height: 160px;
     width: 140px;
     border-radius: 12px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-color: gray;
-    border-style: solid;
-    border-width: 1px;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     margin-top: 10px;
     margin-bottom: 20px;
     cursor: pointer;
@@ -626,9 +618,9 @@
     height: 60px;
     width: 140px;
     border: none;
-    border-top-color: rgba(2, 2, 2, 0.808);
+    border-top-color: rgba(99, 99, 99, 0.808);
     border-top-style: solid;
-    border-top-width: 2px;
+    border-top-width: 1px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -746,11 +738,7 @@
     height: 120px;
     width: 105px;
     border-radius: 12px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-color: gray;
-    border-style: solid;
-    border-width: 1px;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     margin-top: 10px;
     margin-bottom: 20px;
     cursor: pointer;
@@ -766,9 +754,7 @@
     height: 40px;
     width: 105px;
     border: none;
-    border-top-color: rgba(2, 2, 2, 0.808);
-    border-top-style: solid;
-    border-top-width: 2px;
+    border-top-color: rgba(99, 99, 99, 0.808);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -886,11 +872,7 @@
     height: 100px;
     width: 88px;
     border-radius: 12px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-color: gray;
-    border-style: solid;
-    border-width: 1px;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     margin-top: 10px;
     margin-bottom: 20px;
     cursor: pointer;
@@ -906,9 +888,7 @@
     height: 30px;
     width: 88px;
     border: none;
-    border-top-color: rgba(2, 2, 2, 0.808);
-    border-top-style: solid;
-    border-top-width: 2px;
+    border-top-color: rgba(99, 99, 99, 0.808);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -1026,11 +1006,7 @@
     height: 90px;
     width: 80px;
     border-radius: 10px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-color: gray;
-    border-style: solid;
-    border-width: 1px;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     margin-top: 8px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -1046,9 +1022,7 @@
     height: 25px;
     width: 80px;
     border: none;
-    border-top-color: rgba(2, 2, 2, 0.808);
-    border-top-style: solid;
-    border-top-width: 2px;
+    border-top-color: rgba(99, 99, 99, 0.808);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -1166,11 +1140,7 @@
     height: 90px;
     width: 80px;
     border-radius: 10px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-color: gray;
-    border-style: solid;
-    border-width: 1px;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     margin-top: 8px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -1186,9 +1156,7 @@
     height: 25px;
     width: 80px;
     border: none;
-    border-top-color: rgba(2, 2, 2, 0.808);
-    border-top-style: solid;
-    border-top-width: 2px;
+    border-top-color: rgba(99, 99, 99, 0.808);
     display: flex;
     text-align: center;
     justify-content: center;

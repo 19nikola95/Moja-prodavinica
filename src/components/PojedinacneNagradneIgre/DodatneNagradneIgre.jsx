@@ -5,7 +5,7 @@ export function DodatneIgre({linkdodanto, tekstDodatno, slika}){
           <img className={styles.MalaSlicicaNagradneIgre} src={slika} alt=""/>
         </div>
         <div className={styles.DesnaKontenjerSaOstalimNagradnimIgrama}>
-    <p><a href={linkdodanto}>{tekstDodatno}</a></p>
+    <p ><a className={styles.IzgledLinka} href={linkdodanto}>{tekstDodatno}</a></p>
   </div>
         </div>
 }

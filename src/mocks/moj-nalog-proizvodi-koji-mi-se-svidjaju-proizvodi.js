@@ -20,6 +20,22 @@ export const proizvodi = [
         {
           naziv: "Idea",
           cena: "1000.00"
+        },
+        { 
+          cena: '60.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "62.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "100.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "1000.00"
         }
       ]
     },
@@ -30,16 +46,36 @@ export const proizvodi = [
       slika: 'https://online.idea.rs/images/products/070/070013478_1l.jpg?1719501309',
       marketi: [
         { 
-          cena: '150.00', 
+          cena: '60.00', 
           naziv: "Maxi"
         },
         {
           naziv: "Aman",
-          cena: "155.00"
+          cena: "62.00"
         },
         {
           naziv: "Idea",
-          cena: "160.00"
+          cena: "100.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "1000.00"
+        },
+        { 
+          cena: '60.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "62.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "100.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "1000.00"
         }
       ]
     },
@@ -50,16 +86,36 @@ export const proizvodi = [
       slika: 'https://www.jaffa.rs/wp-content/uploads/2020/07/jaffa-cakes-original-150g-MALI-500x450-c-default.png',
       marketi: [
         { 
-          cena: '120.00', 
+          cena: '60.00', 
           naziv: "Maxi"
         },
         {
           naziv: "Aman",
-          cena: "125.00"
+          cena: "62.00"
         },
         {
           naziv: "Idea",
-          cena: "130.00"
+          cena: "100.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "1000.00"
+        },
+        { 
+          cena: '60.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "62.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "100.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "1000.00"
         }
       ]
     },
@@ -70,16 +126,36 @@ export const proizvodi = [
       slika: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQduuSvSpSEtJ3ylJpqOzU0Kyp5jys4ZZeddw&s',
       marketi: [
         { 
-          cena: '250.00', 
+          cena: '60.00', 
           naziv: "Maxi"
         },
         {
           naziv: "Aman",
-          cena: "255.00"
+          cena: "62.00"
         },
         {
           naziv: "Idea",
-          cena: "260.00"
+          cena: "100.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "1000.00"
+        },
+        { 
+          cena: '60.00', 
+          naziv: "Maxi"
+        },
+        {
+          naziv: "Aman",
+          cena: "62.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "100.00"
+        },
+        {
+          naziv: "Idea",
+          cena: "1000.00"
         }
       ]
     },

@@ -1,10 +1,27 @@
 export const proizvodi = [
   {
+    id: 1,
     naziv: "Smoki starkicc adsada sdaddsa dsada",
     tezina: '50g',
     proizvodjac: "Stark sremska mitrovica sdadsa",
-    slika: '/SlikaProizvoda/Smoki.jpg',
+    slika: '/SlikaProizvoda/Smoki-removebg-preview.png',
     marketi: [
+      { 
+        cena: '60.00', 
+        naziv: "Maxi"
+      },
+      {
+        naziv: "Aman",
+        cena: "62.00"
+      },
+      {
+        naziv: "Idea",
+        cena: "100.00"
+      },
+      {
+        naziv: "Idea",
+        cena: "1000.00"
+      },
       { 
         cena: '60.00', 
         naziv: "Maxi"
@@ -24,10 +41,11 @@ export const proizvodi = [
     ]
   },
   {
+    id: 2,
     naziv: "Plazma",
     tezina: '300g',
     proizvodjac: "Bambi",
-    slika: 'https://online.idea.rs/images/products/070/070013478_1l.jpg?1719501309',
+    slika: '/SlikaProizvoda/Plazma.png',
     marketi: [
       { 
         cena: '150.00', 
@@ -44,10 +62,11 @@ export const proizvodi = [
     ]
   },
   {
+    id: 3,
     naziv: "Jaffa Cakes",
     tezina: '150g',
     proizvodjac: "Jaffa",
-    slika: 'https://www.jaffa.rs/wp-content/uploads/2020/07/jaffa-cakes-original-150g-MALI-500x450-c-default.png',
+    slika: '/SlikaProizvoda/jaffa-cakes-original-150g-MALI-500x450-c-default.png',
     marketi: [
       { 
         cena: '120.00', 
@@ -64,10 +83,11 @@ export const proizvodi = [
     ]
   },
   {
+    id: 4,
     naziv: "Cedevita",
     tezina: '200g',
     proizvodjac: "Atlantic Grupa",
-    slika: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQduuSvSpSEtJ3ylJpqOzU0Kyp5jys4ZZeddw&s',
+    slika: '/SlikaProizvoda/200g.png',
     marketi: [
       { 
         cena: '250.00', 
@@ -84,10 +104,11 @@ export const proizvodi = [
     ]
   },
   {
+    id: 5,
     naziv: "Eurocrem",
     tezina: '200g',
     proizvodjac: "Takovo",
-    slika: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZUvFcZYH9K-YYmKSIUlwCzLtO32J-cQ94Q&s",
+    slika: "/SlikaProizvoda/pro_v_1277823.jpg",
     marketi: [
       { 
         cena: '180.00', 

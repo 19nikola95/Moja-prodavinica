@@ -18,8 +18,6 @@
   justify-items: center;
   width: 100%;
   height: 100%;
-  border-right-color: black;
-  border-right-style: solid;
 }
 .KontenjerSlike {
   margin-top: 10px;
@@ -183,8 +181,7 @@
   justify-items: center;
   height: 100px;
   margin-top: 40px;
-  border-bottom-color: black;
-  border-bottom-style: solid;
+  box-shadow: 0px 2px 0px rgba(175, 175, 175, 0.3);
 }
 .DugmeProizvodiKojiMiSeSvidjaju {
   width: 200px;
@@ -343,6 +340,11 @@
   background-color: rgb(252, 255, 255);
   cursor: pointer;
 }
+.IzgledLinka{
+  text-decoration: none;
+  color: black;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .PrvaParticija {
   width: 100px;
   height: 28px;
@@ -350,7 +352,7 @@
   align-items: center;
   justify-content: center;
   font-size: 16px;
-  font-weight: 550;
+ font-weight: 500;
 }
 .DrugaParticija {
   width: 100px;
@@ -492,7 +494,7 @@
     height: 31px;
     font-size: 14px;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -636,7 +638,7 @@
     height: 31px;
     font-size: 14px;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -696,8 +698,7 @@
     justify-items: center;
     height: 100px;
     margin-top: 40px;
-    border-bottom-color: black;
-    border-bottom-style: solid;
+    box-shadow: 0px 2px 0px rgba(175, 175, 175, 0.3);
   }
   .DugmeProizvodiKojiMiSeSvidjaju {
     width: 170px;
@@ -858,7 +859,7 @@
     height: 31px;
     font-size: 14px;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -918,8 +919,7 @@
     justify-items: center;
     height: 100px;
     margin-top: 40px;
-    border-bottom-color: black;
-    border-bottom-style: solid;
+    box-shadow: 0px 2px 0px rgba(175, 175, 175, 0.3);
   }
   .DugmeProizvodiKojiMiSeSvidjaju {
     width: 140px;
@@ -1056,7 +1056,7 @@
     align-items: center;
     justify-content: center;
     font-size: 14px;
-    font-weight: 550;
+    font-weight: 500;
   }
   .DrugaParticija {
     width: 100px;
@@ -1146,7 +1146,7 @@
     height: 31px;
     font-size: 14px;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -1206,8 +1206,7 @@
     justify-items: center;
     height: 100px;
     margin-top: 40px;
-    border-bottom-color: black;
-    border-bottom-style: solid;
+    box-shadow: 0px 2px 0px rgba(175, 175, 175, 0.3);
   }
   .DugmeProizvodiKojiMiSeSvidjaju {
     width: 120px;
@@ -1355,7 +1354,7 @@
     align-items: center;
     justify-content: center;
     font-size: 12px;
-    font-weight: 550;
+    font-weight: 500;
   }
   .DrugaParticija {
     width: 100px;
@@ -1414,75 +1413,7 @@
     cursor: pointer;
     margin-bottom: 20px;
   }
-  .KontenjerProizvoda {
-    width: 210px;
-    height: 320px;
-    border-color: black;
-    border-style: solid;
-    background-color: white;
-  }
-  .GornjiDeoKontenjeraProizvoda {
-    width: 210px;
-    height: 130px;
-    display: flex;
-    flex-direction: row;
-    border: none;
-    align-items: center;
-  }
-  .IzgledSlikaProizvoda {
-    object-fit: cover;
-    height: 90px;
-    width: 82px;
-    border: none;
-  }
-  .KontenjerZaTekstProizvoda {
-    width: 128px;
-    height: 140px;
-    display: flex;
-    flex-direction: column;
-  }
-  .RedUKontenjeruZaTekstProizvoda {
-    width: 128px;
-    height: 31px;
-    font-size: 9px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-  }
-
-  .SlovaZaOpisSadrzaja {
-    font-size: 11px;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
-    color: rgba(19, 15, 15, 0.938);
-    margin-left: 3px;
-  }
-  .DonjiDeoKontenjeraProizvoda {
-    padding-top: 5px;
-    width: 210px;
-    height: 240px;
-    border: none;
-    border-top-color: black;
-    border-top-style: solid;
-    border-top-width: 2px;
-    display: grid;
-    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px;
-    grid-template-columns: 105px 105px;
-    justify-items: center;
-  }
-  .IzgledSlovaCena {
-    font-size: 11px;
-    font-weight: 520;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
-    color: rgba(19, 15, 15, 0.938);
-    line-height: 1;
-  }
-  .IzgledNaslovaMarketa {
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-  }
+ 
   .DimenzijeSlikeKorpe {
     height: 15px;
     width: 15px;
@@ -1506,8 +1437,7 @@
     justify-items: center;
     height: 100px;
     margin-top: 40px;
-    border-bottom-color: black;
-    border-bottom-style: solid;
+    box-shadow: 0px 2px 0px rgba(175, 175, 175, 0.3);
   }
   .DugmeProizvodiKojiMiSeSvidjaju {
     width: 100px;
@@ -1748,9 +1678,16 @@
   .KontenjerSaSlikama {
     grid-template-columns: 100%;
   }
+  .PozicijaKontenjeraZaUsteduPrekoAplikaciju {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .KontenjerzaUstetuPrekoAplikacije {
-    height: 40px;
-    width: 420px;
+    height: 30px;
+    width: 300px;
     border-color: rgb(195, 223, 35);
     border-style: solid;
     border-width: 4px;
@@ -1808,7 +1745,7 @@
     align-items: center;
     justify-content: center;
     font-size: 12px;
-    font-weight: 550;
+    font-weight: 500;
   }
   .DrugaParticija {
     width: 100px;
@@ -1844,15 +1781,15 @@
   }
   .KontenjerNaslova {
     width: 100%;
-    height: 30px;
+    height: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
   .IzgledSlovaIstorijaKorpe {
-    font-size: 18px;
+    font-size: 14px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
     color: rgba(19, 15, 15, 0.938);
@@ -1960,8 +1897,7 @@
     justify-items: center;
     height: 60px;
     margin-top: 20px;
-    border-bottom-color: black;
-    border-bottom-style: solid;
+    box-shadow: 0px 2px 0px rgba(175, 175, 175, 0.3);
   }
   .IzgledLinka {
     width: 70px;
@@ -2208,37 +2144,42 @@
     justify-items: center;
     width: 100%;
     height: 100%;
-    border-right-color: black;
-    border-right-style: solid;
   }
 }
 @media (min-width: 350px) and (max-width: 400px) {
   .KontenjerSaSlikama {
     grid-template-columns: 100%;
   }
+  .PozicijaKontenjeraZaUsteduPrekoAplikaciju {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .KontenjerzaUstetuPrekoAplikacije {
-    height: 40px;
-    width: 420px;
+    height: 30px;
+    width: 230px;
     border-color: rgb(195, 223, 35);
     border-style: solid;
-    border-width: 4px;
+    border-width: 2px;
     border-radius: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
   }
   .IzgledSmajliUstede {
-    height: 20px;
-    width: 30px;
+    height: 16px;
+    width: 24px;
     margin-left: 10px;
   }
   .izgledTekstaOpisa {
-    font-size: 7px;
+    font-size: 5px;
     margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
   }
   .IzgledCeneUstede {
-    font-size: 9px;
+    font-size: 7px;
     font-weight: 600;
     margin-left: 2px;
     font-family: Arial, Helvetica, sans-serif;
@@ -2266,15 +2207,15 @@
     width: 100%;
     display: grid;
     grid-template-columns: 32% 32% 32%;
-    grid-template-rows: 90px 90px 90px 90px 90px 90px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px;
     justify-items: center;
     align-items: center;
   }
   .KontenjerZaRacun {
     margin-left: 15px;
     margin-top: 15px;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width:  60px;
     display: flex;
     flex-direction: column;
    
@@ -2282,56 +2223,57 @@
     cursor: pointer;
   }
   .PrvaParticija {
-    width: 80px;
+    width:  60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 14px;
-    font-size: 10px;
-    font-weight: 550;
+    height: 12px;
+    font-size: 8.5px;
+    font-weight: 500;
   }
   .DrugaParticija {
-    width: 80px;
-    height: 14px;
-    font-size: 9px;
+    width:  60px;
+    height: 12px;
+    font-size: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .TrecaParticija {
-    width: 80px;
-    height: 14px;
-    font-size: 9px;
+    width:  60px;
+    height: 12px;
+    font-size: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .CetvrtaParticija {
-    width: 80px;
-    height: 14px;
-    font-size: 9px;
+    width:  60px;
+    height: 12px;
+    font-size: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .PetaParticija {
-    width: 80px;
-    height: 14px;
-    font-size: 9px;
+    width:  60px;
+    height: 12px;
+    font-size: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .KontenjerNaslova {
     width: 100%;
-    height: 30px;
+    height: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
   .IzgledSlovaIstorijaKorpe {
-    font-size: 18px;
+    font-size: 12px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
     color: rgba(19, 15, 15, 0.938);
@@ -2446,8 +2388,7 @@
     justify-items: center;
     height: 60px;
     margin-top: 20px;
-    border-bottom-color: black;
-    border-bottom-style: solid;
+    box-shadow: 0px 2px 0px rgba(175, 175, 175, 0.3);
   }
   .DugmeProizvodiKojiMiSeSvidjaju {
     width: 60px;
@@ -2699,29 +2640,36 @@
   .KontenjerSaSlikama {
     grid-template-columns: 100%;
   }
+  .PozicijaKontenjeraZaUsteduPrekoAplikaciju {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .KontenjerzaUstetuPrekoAplikacije {
-    height: 40px;
-    width: 420px;
+    height: 30px;
+    width: 230px;
     border-color: rgb(195, 223, 35);
     border-style: solid;
-    border-width: 4px;
+    border-width: 2px;
     border-radius: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
   }
   .IzgledSmajliUstede {
-    height: 20px;
-    width: 30px;
+    height: 16px;
+    width: 24px;
     margin-left: 10px;
   }
   .izgledTekstaOpisa {
-    font-size: 7px;
+    font-size: 5px;
     margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
   }
   .IzgledCeneUstede {
-    font-size: 9px;
+    font-size: 7px;
     font-weight: 600;
     margin-left: 2px;
     font-family: Arial, Helvetica, sans-serif;
@@ -2748,72 +2696,74 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 90px 90px 90px 90px 90px 90px;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px;
     justify-items: center;
+    align-items: center;
   }
   .KontenjerZaRacun {
     margin-left: 15px;
     margin-top: 15px;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width:  60px;
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 1px 10px rgba(143, 145, 130, 1);
+   
     background-color: rgb(252, 255, 255);
     cursor: pointer;
   }
   .PrvaParticija {
-    width: 80px;
+    width:  60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 14px;
-    font-size: 10px;
-    font-weight: 550;
+    height: 12px;
+    font-size: 8.5px;
+    font-weight: 500;
   }
   .DrugaParticija {
-    width: 80px;
-    height: 14px;
-    font-size: 9px;
+    width:  60px;
+    height: 12px;
+    font-size: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .TrecaParticija {
-    width: 80px;
-    height: 14px;
-    font-size: 9px;
+    width:  60px;
+    height: 12px;
+    font-size: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .CetvrtaParticija {
-    width: 80px;
-    height: 14px;
-    font-size: 9px;
+    width:  60px;
+    height: 12px;
+    font-size: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .PetaParticija {
-    width: 80px;
-    height: 14px;
-    font-size: 9px;
+    width:  60px;
+    height: 12px;
+    font-size: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .KontenjerNaslova {
     width: 100%;
-    height: 30px;
+    height: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
   .IzgledSlovaIstorijaKorpe {
-    font-size: 18px;
+    font-size: 12px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
     color: rgba(19, 15, 15, 0.938);
@@ -2929,43 +2879,43 @@
     justify-items: center;
     height: 80px;
     margin-top: 20px;
-    border-bottom-color: black;
-    border-bottom-style: solid;
+    box-shadow: 0px 2px 0px rgba(175, 175, 175, 0.3);
   }
   .DugmeProizvodiKojiMiSeSvidjaju {
-    width: 80px;
-    height: 40px;
-    font-size: 9px;
+    width: 50px;
+    height: 25px;
+    font-size: 7px;
     background-color: rgb(206, 235, 101);
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
       "Helvetica Neue", sans-serif;
     color: rgba(19, 15, 15, 0.938);
     box-shadow: none;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .DugmeMojaInteresovanja {
-    width: 80px;
-    height: 40px;
-    font-size: 9px;
+    width: 50px;
+    height: 25px;;
+    font-size: 7px;
     background-color: rgb(206, 235, 101);
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
       "Helvetica Neue", sans-serif;
     color: rgba(19, 15, 15, 0.938);
     box-shadow: none;
     cursor: pointer;
+    margin-bottom: 0px;
   }
   .DugmeIstorijaKorpe {
-    width: 80px;
-    height: 40px;
-    font-size: 9px;
+    width: 50px;
+    height: 25px;
+    font-size: 7px;
     background-color: rgb(245, 247, 122);
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
       "Helvetica Neue", sans-serif;
     color: rgba(19, 15, 15, 0.938);
@@ -2973,12 +2923,12 @@
     cursor: pointer;
   }
   .MojeProdavnice {
-    width: 80px;
-    height: 40px;
-    font-size: 9px;
+    width: 50px;
+    height: 25px;
+    font-size: 7px;
     background-color: rgb(206, 235, 101);
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
       "Helvetica Neue", sans-serif;
     color: rgba(19, 15, 15, 0.938);

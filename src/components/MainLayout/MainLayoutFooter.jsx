@@ -1,41 +1,42 @@
 import Link from "next/link"
+import styles from '../../styles/mainLayoutFooter.module.scss';
 export function MainLayoutFooter() {
-  return <footer className="MainLayout__footer">
-    <div className="GlavniIzgledFootera">
-        <div className="KontenjerZapratiNas">
-          <div className="GornjiDeoKontenjeraZapratiNas">
-            <p className="IzgledSlovaNaslovaZObavestenja">Zaprati nas na mrezama</p>
+  return <footer className={styles.MainLayout__footer}>
+    <div className={styles.GlavniIzgledFootera}>
+        <div className={styles.KontenjerZapratiNas}>
+          <div className={styles.GornjiDeoKontenjeraZapratiNas}>
+            <p className={styles.IzgledSlovaNaslovaZObavestenja}>Zaprati nas na mrezama</p>
           </div>
-          <div className="DonjiDeoKontenjeraZapratiNas">
-            <div className="KontenjerZaFacebook">
-              <img className="IzgledSimbolaFacebook" src="/Slike za footer/simbol-za-facebook.png" alt=""/>
-              <p className="IzgledSlovFacebooka">Facebook</p>
+          <div className={styles.DonjiDeoKontenjeraZapratiNas}>
+            <div className={styles.KontenjerZaFacebook}>
+              <img className={styles.IzgledSimbolaFacebook} src="/Slike za footer/simbol-za-facebook.png" alt=""/>
+              <p className={styles.IzgledSlovFacebooka}>Facebook</p>
             </div>
-            <div className="KontenjerZaTikTok">
-              <img className="IzgledSimbolaTiktoka" src="/Slike za footer/simbol-za-tiktok.png" alt=""/>
-              <p className="IzgledSlovaTiktoka">TikTok</p>
+            <div className={styles.KontenjerZaTikTok}>
+              <img className={styles.IzgledSimbolaTiktoka} src="/Slike za footer/simbol-za-tiktok.png" alt=""/>
+              <p className={styles.IzgledSlovaTiktoka}>TikTok</p>
             </div>
-            <div className="KontenjerZaYoutube">
-              <img className="IzgledSimbolaYoutube" src="/Slike za footer/simbol-za-youtube.png" alt=""/>
-              <p className="IzgledSlovaYoutube">Youtube</p>
+            <div className={styles.KontenjerZaYoutube}>
+              <img className={styles.IzgledSimbolaYoutube} src="/Slike za footer/simbol-za-youtube.png" alt=""/>
+              <p className={styles.IzgledSlovaYoutube}>Youtube</p>
             </div>
             </div>
         </div>
-        <div className="KontenjerSaznajONama">
-          <div className="GornjiDeoKontenjeraSaznajONama">
-            <p className="IzgledSlovaNaslovaZObavestenja">Saznaj o nama</p>
+        <div className={styles.KontenjerSaznajONama}>
+          <div className={styles.GornjiDeoKontenjeraSaznajONama}>
+            <p className={styles.IzgledSlovaNaslovaZObavestenja}>Saznaj o nama</p>
           </div>
-          <Link href="/o-nama"><p className="IzgleSlovaOpcijeONama">O mojoj prodavnici</p> </Link>
-          <p className="IzgleSlovaOpcijeONama">Blog</p>
-          <Link href="/registuj-prodavnicu"><p className="IzgleSlovaOpcijeONama">Registracija prodavnice</p></Link>
-          <Link href="/kontaktiraj-nas"> <p className="IzgleSlovaOpcijeONama">Kontaktiraj nas</p></Link>
+          <Link className={styles.IzgledLinka} href="/o-nama"><p className={styles.IzgleSlovaOpcijeONama}>O mojoj prodavnici</p> </Link>
+          <p className={styles.IzgleSlovaOpcijeONama}>Blog</p>
+          <Link className={styles.IzgledLinka} href="/registuj-prodavnicu"><p className={styles.IzgleSlovaOpcijeONama}>Registracija prodavnice</p></Link>
+          <Link className={styles.IzgledLinka} href="/kontaktiraj-nas"> <p className={styles.IzgleSlovaOpcijeONama}>Kontaktiraj nas</p></Link>
         </div>
-        <div className="KontenjerUsloviKoriscenjaIPolitikaPrivatnosti">
-          <div className="GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti">
-            <p className="IzgledSlovaNaslovaZObavestenja">Uslovi korišćenja i politika privatnosti</p>
+        <div className={styles.KontenjerUsloviKoriscenjaIPolitikaPrivatnosti}>
+          <div className={styles.GornjiDeoKontenjerUsloviKoriscenjaIPolitikaPrivatnosti}>
+            <p className={styles.IzgledSlovaNaslovaZObavestenja}>Uslovi korišćenja i politika privatnosti</p>
           </div>
-          <p className="IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti">Uslovi korišćenja</p>
-          <p className="IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti">Politika privatnosti</p>
+          <p className={styles.IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti}>Uslovi korišćenja</p>
+          <p className={styles.IzgledSlovaUslovaKoriscenjaIPolitikaPrivatnosti}>Politika privatnosti</p>
         </div>
       </div>
   </footer>

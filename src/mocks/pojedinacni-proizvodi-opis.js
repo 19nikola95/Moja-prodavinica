@@ -79,7 +79,7 @@ export const opisproizvoda = [
                 Proizvodjacproizvoda:'Doktor etker i braca grasad dsa dsasd as'
             },
         ],
-        kategorija: ['1'],
+        kategorija: ['1', '4'],
         podkategorija:['1.1', '1.3'],
         ispodpodkategorije:['3.21',],
     },

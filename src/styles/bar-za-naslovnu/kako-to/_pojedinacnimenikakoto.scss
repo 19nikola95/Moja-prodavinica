@@ -163,13 +163,16 @@
   height: 80px;
   display: flex;
   margin-bottom: 5px;
-  border-color: rgb(117, 104, 104);
-  border-style: solid;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+  border-radius: 10px;
+  background-color: white;
   cursor: pointer;
  }
 .IzgledSlikeZaJos{
   height: 80px;
   width: 105px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .DesnaStranaZaJos{
   height: 80px;
@@ -366,8 +369,9 @@
     height: 60px;
     display: flex;
     margin-bottom: 5px;
-    border-color: rgb(117, 104, 104);
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+    border-radius: 10px;
+    background-color: white;
     cursor: pointer;
    }
   .IzgledSlikeZaJos{
@@ -537,8 +541,9 @@
     height: 60px;
     display: flex;
     margin-bottom: 5px;
-    border-color: rgb(117, 104, 104);
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+    border-radius: 10px;
+    background-color: white;
     cursor: pointer;
    }
   .IzgledSlikeZaJos{
@@ -719,8 +724,9 @@
     height: 60px;
     display: flex;
     margin-bottom: 5px;
-    border-color: rgb(117, 104, 104);
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+    border-radius: 10px;
+    background-color: white;
     cursor: pointer;
    }
   .IzgledSlikeZaJos{
@@ -901,8 +907,9 @@
     height: 60px;
     display: flex;
     margin-bottom: 5px;
-    border-color: rgb(117, 104, 104);
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+    border-radius: 10px;
+    background-color: white;
     cursor: pointer;
    }
   .IzgledSlikeZaJos{
@@ -1087,8 +1094,9 @@
     height: 50px;
     display: flex;
     margin-bottom: 3px;
-    border-color: rgb(117, 104, 104);
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+    border-radius: 10px;
+    background-color: white;
     cursor: pointer;
    }
   .IzgledSlikeZaJos{
@@ -1272,8 +1280,9 @@
     height: 40px;
     display: flex;
     margin-bottom: 3px;
-    border-color: rgb(117, 104, 104);
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+    border-radius: 10px;
+    background-color: white;
     cursor: pointer;
    }
   .IzgledSlikeZaJos{
@@ -1459,8 +1468,9 @@
     height: 30px;
     display: flex;
     margin-bottom: 3px;
-    border-color: rgb(117, 104, 104);
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+    border-radius: 10px;
+    background-color: white;
     cursor: pointer;
    }
   .IzgledSlikeZaJos{
@@ -1648,8 +1658,9 @@
     height: 30px;
     display: flex;
     margin-bottom: 3px;
-    border-color: rgb(117, 104, 104);
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+    border-radius: 10px;
+    background-color: white;
     cursor: pointer;
    }
   .IzgledSlikeZaJos{
@@ -1837,9 +1848,9 @@
     height: 30px;
     display: flex;
     margin-bottom: 3px;
-    border-color: rgb(117, 104, 104);
-    border-style: solid;
-    border-width: 0.5px;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+    border-radius: 10px;
+    background-color: white;
     cursor: pointer;
    }
   .IzgledSlikeZaJos{

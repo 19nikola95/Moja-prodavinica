@@ -60,17 +60,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-color: gray;
-  border-style: solid;
-  border-width: 2px;
+  box-shadow: 0px 0px 5px rgba(92, 92, 92, 0.6);
   border-radius: 12px;
+  background-color: white;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
 }
 .CenaUProdavnici{
-  border-color: rgba(24, 24, 24, 0.719);
-  border-style: solid;
-  border-width: 1px;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.788);
   height: 40px;
@@ -141,10 +138,11 @@ justify-content: center;
   margin-left: 2%;
   display: grid;
   grid-template-columns: 50% 50%;
-  align-items: start;
+  align-items: flex-start;
   justify-items: center;
   box-shadow: 0px 0px 5px rgba(17, 77, 37, 0.6);
   border-radius: 20px;
+  background-color: rgb(250, 247, 247);
 }
 .RedZaProizvode{
   width: 385px;

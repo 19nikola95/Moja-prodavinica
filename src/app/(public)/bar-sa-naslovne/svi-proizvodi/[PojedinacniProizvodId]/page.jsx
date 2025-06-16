@@ -8,6 +8,8 @@ import { UpustvoZaUpotrebu } from '@/components/PojedinacniProizvod/UputstvoZaUp
 import { Sastojci } from '@/components/PojedinacniProizvod/Sastojci';
 import { Napomena } from '@/components/PojedinacniProizvod/Napomena';
 import { opisproizvoda } from '@/mocks/pojedinacni-proizvodi-opis';
+import { ReklamneSlike } from '@/mocks/reklame';
+import { FunkcijaReklama } from '@/components/VideoReklame/ReklamniMaterijal';
 export default async function PojedinacniProizvodId({params}) {
   const { PojedinacniProizvodId } = await params;
 
@@ -15,8 +17,10 @@ export default async function PojedinacniProizvodId({params}) {
   return (
   <div>
   <div className={styles.GlavniKontenjerZaSadrzaj}>
-        <div className={styles.VideoReklame}></div>
-        <div className={styles.KontenjerZaNaslov} ><p className={styles.IzgledSlovaNaslova}>Čaj od limuna i đumbira</p>
+        <div className={styles.VideoReklame}>
+        {ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama key={ReklamneSlika.id}  slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
+        </div>
+        <div className={styles.KontenjerZaNaslov} ><p className={styles.IzgledSlovaNaslova}>{PojedinacniProizvod.naziv}</p>
         </div>
         <div className={styles.RasporedSlikeIopisa}>
           <div className={styles.KontenjerZaSlikuIDodatke}>

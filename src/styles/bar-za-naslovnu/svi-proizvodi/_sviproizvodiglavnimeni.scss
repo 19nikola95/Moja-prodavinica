@@ -79,7 +79,6 @@
 .IzgledDugmetaZaObroke {
   height: 80px;
   width: 200px;
-
   margin-top: 0;
   border-radius: 40px;
   border-style: solid;
@@ -104,9 +103,9 @@
 .KontenjerProizvoda {
   width: 350px;
   height: 370px;
-  border-color: black;
-  border-style: solid;
+  box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
   background-color: white;
+  border-radius: 14px;
 }
 .GornjiDeoKontenjeraProizvoda {
   width: 350px;
@@ -117,8 +116,10 @@
 }
 .IzgledSlikaProizvoda {
   object-fit: cover;
-  height: 140px;
-  width: 140px;
+  height: 130px;
+  width: 130px;
+  margin-left: 5px;
+  margin-top: 5px;
   border: none;
   cursor: pointer;
 }
@@ -146,9 +147,7 @@
   width: 350px;
   height: 220px;
   border: none;
-  border-top-color: black;
-  border-top-style: solid;
-  border-top-width: 2px;
+  box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
   display: grid;
   justify-items: center;
   grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px;
@@ -160,8 +159,7 @@
   display: flex;
   justify-content: center;
   font-weight: 520;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgba(19, 15, 15, 0.938);
   line-height: 1;
 }
@@ -169,7 +167,7 @@
   font-size: 18px;
   display: flex;
   justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
 }
 .KontenjerZaDruguStranicu {
@@ -325,9 +323,7 @@
   .KontenjerProizvoda {
     width: 300px;
     height: 370px;
-
-    border-color: black;
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     background-color: white;
   }
   .GornjiDeoKontenjeraProizvoda {
@@ -339,8 +335,10 @@
   }
   .IzgledSlikaProizvoda {
     object-fit: cover;
-    height: 140px;
-    width: 140px;
+    height: 130px;
+    width: 130px;
+    margin-left: 5px;
+    margin-top: 5px;
     border: none;
     cursor: pointer;
   }
@@ -353,13 +351,13 @@
   .RedUKontenjeruZaTekstProizvoda {
     width: 156px;
     height: 31px;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .SlovaZaOpisSadrzaja {
-    font-size: 15px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3px;
   }
@@ -367,9 +365,7 @@
     width: 300px;
     height: 220px;
     border: none;
-    border-top-color: black;
-    border-top-style: solid;
-    border-top-width: 2px;
+    box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
     display: grid;
     justify-items: center;
     grid-template-columns: 150px 150px;
@@ -380,8 +376,7 @@
     font-weight: 520;
     display: flex;
     justify-content: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(19, 15, 15, 0.938);
     line-height: 1;
   }
@@ -389,7 +384,7 @@
     font-size: 16px;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
   }
   .KontenjerZaDruguStranicu {
@@ -521,8 +516,7 @@
   .KontenjerProizvoda {
     width: 260px;
     height: 320px;
-    border-color: black;
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     background-color: white;
   }
   .GornjiDeoKontenjeraProizvoda {
@@ -534,8 +528,10 @@
   }
   .IzgledSlikaProizvoda {
     object-fit: cover;
-    height: 110px;
-    width: 110px;
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 10px;
     border: none;
     cursor: pointer;
   }
@@ -554,7 +550,7 @@
     align-items: center;
   }
   .SlovaZaOpisSadrzaja {
-    font-size: 14px;
+    font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3px;
   }
@@ -562,9 +558,7 @@
     width: 260px;
     height: 186px;
     border: none;
-    border-top-color: black;
-    border-top-style: solid;
-    border-top-width: 2px;
+    box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
     display: grid;
     justify-items: center;
     grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
@@ -576,8 +570,7 @@
     font-weight: 520;
     display: flex;
     justify-content: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(19, 15, 15, 0.938);
     line-height: 1;
   }
@@ -585,7 +578,7 @@
     font-size: 14px;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
   }
   .KontenjerZaDruguStranicu {
@@ -717,8 +710,7 @@
   .KontenjerProizvoda {
     width: 260px;
     height: 320px;
-    border-color: black;
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     background-color: white;
   }
   .GornjiDeoKontenjeraProizvoda {
@@ -730,8 +722,10 @@
   }
   .IzgledSlikaProizvoda {
     object-fit: cover;
-    height: 110px;
-    width: 110px;
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 10px;
     border: none;
     cursor: pointer;
   }
@@ -750,7 +744,7 @@
     align-items: center;
   }
   .SlovaZaOpisSadrzaja {
-    font-size: 14px;
+    font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3px;
   }
@@ -758,9 +752,7 @@
     width: 260px;
     height: 186px;
     border: none;
-    border-top-color: black;
-    border-top-style: solid;
-    border-top-width: 2px;
+    box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
     display: grid;
     justify-items: center;
     grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
@@ -772,8 +764,7 @@
     font-weight: 520;
     display: flex;
     justify-content: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(19, 15, 15, 0.938);
     line-height: 1;
   }
@@ -781,7 +772,7 @@
     font-size: 14px;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
   }
   .KontenjerZaDruguStranicu {
@@ -914,8 +905,7 @@
   .KontenjerProizvoda {
     width: 230px;
     height: 300px;
-    border-color: black;
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     background-color: white;
   }
   .GornjiDeoKontenjeraProizvoda {
@@ -927,8 +917,10 @@
   }
   .IzgledSlikaProizvoda {
     object-fit: cover;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
+    margin-left: 5px;
+    margin-top: 10px;
     border: none;
     cursor: pointer;
   }
@@ -947,7 +939,7 @@
     align-items: center;
   }
   .SlovaZaOpisSadrzaja {
-    font-size: 12px;
+    font-size: 8.5px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3px;
   }
@@ -955,9 +947,7 @@
     width: 230px;
     height: 186px;
     border: none;
-    border-top-color: black;
-    border-top-style: solid;
-    border-top-width: 2px;
+    box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
     display: grid;
     justify-items: center;
     grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
@@ -969,8 +959,7 @@
     font-weight: 520;
     display: flex;
     justify-content: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(19, 15, 15, 0.938);
     line-height: 1;
   }
@@ -978,7 +967,7 @@
     font-size: 12px;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
   }
   .KontenjerZaDruguStranicu {
@@ -1111,8 +1100,7 @@
   .KontenjerProizvoda {
     width: 230px;
     height: 300px;
-    border-color: black;
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     background-color: white;
   }
   .GornjiDeoKontenjeraProizvoda {
@@ -1124,8 +1112,10 @@
   }
   .IzgledSlikaProizvoda {
     object-fit: cover;
-    height: 100px;
-    width: 100px;
+    height: 85px;
+    width: 85px;
+    margin-left: 5px;
+    margin-top: 10px;
     border: none;
     cursor: pointer;
   }
@@ -1144,7 +1134,7 @@
     align-items: center;
   }
   .SlovaZaOpisSadrzaja {
-    font-size: 12px;
+    font-size: 8px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3px;
   }
@@ -1152,9 +1142,7 @@
     width: 230px;
     height: 186px;
     border: none;
-    border-top-color: black;
-    border-top-style: solid;
-    border-top-width: 2px;
+    box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
     display: grid;
     justify-items: center;
     grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
@@ -1166,8 +1154,7 @@
     font-weight: 520;
     display: flex;
     justify-content: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(19, 15, 15, 0.938);
     line-height: 1;
   }
@@ -1175,7 +1162,7 @@
     font-size: 12px;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
   }
   .KontenjerZaDruguStranicu {
@@ -1308,8 +1295,7 @@
   .KontenjerProizvoda {
     width: 190px;
     height: 230px;
-    border-color: black;
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     background-color: white;
   }
   .GornjiDeoKontenjeraProizvoda {
@@ -1321,8 +1307,10 @@
   }
   .IzgledSlikaProizvoda {
     object-fit: cover;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
+    margin-left: 4px;
+    margin-top: 4px;
     border: none;
     cursor: pointer;
   }
@@ -1341,7 +1329,7 @@
     align-items: center;
   }
   .SlovaZaOpisSadrzaja {
-    font-size: 9.5px;
+    font-size: 7px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3px;
   }
@@ -1349,9 +1337,7 @@
     width: 190px;
     height: 142px;
     border: none;
-    border-top-color: black;
-    border-top-style: solid;
-    border-top-width: 2px;
+    box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
     display: grid;
     justify-items: center;
     grid-template-rows: 38px 38px 38px 38px 38px 38px 38px 38px 38px;
@@ -1363,8 +1349,7 @@
     font-weight: 520;
     display: flex;
     justify-content: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(19, 15, 15, 0.938);
     line-height: 1;
   }
@@ -1372,7 +1357,7 @@
     font-size: 10px;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
   }
   .KontenjerZaDruguStranicu {
@@ -1505,8 +1490,7 @@
   .KontenjerProizvoda {
     width: 150px;
     height: 190px;
-    border-color: black;
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     background-color: white;
   }
   .GornjiDeoKontenjeraProizvoda {
@@ -1518,8 +1502,10 @@
   }
   .IzgledSlikaProizvoda {
     object-fit: cover;
-    height: 65px;
-    width: 65px;
+    height: 55px;
+    width: 55px;
+    margin-left: 4px;
+    margin-top: 4px;
     border: none;
     cursor: pointer;
   }
@@ -1538,7 +1524,7 @@
     align-items: center;
   }
   .SlovaZaOpisSadrzaja {
-    font-size: 6.8px;
+    font-size: 5.5px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3px;
   }
@@ -1546,9 +1532,7 @@
     width: 150px;
     height: 91px;
     border: none;
-    border-top-color: black;
-    border-top-style: solid;
-    border-top-width: 1px;
+    box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
     display: grid;
     justify-items: center;
     grid-template-rows: 31px 31px 31px 31px 31px 31px 31px 31px 31px;
@@ -1560,8 +1544,7 @@
     font-weight: 520;
     display: flex;
     justify-content: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(19, 15, 15, 0.938);
     line-height: 1;
   }
@@ -1569,7 +1552,7 @@
     font-size: 8px;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
   }
   .KontenjerZaDruguStranicu {
@@ -1702,8 +1685,7 @@
   .KontenjerProizvoda {
     width: 150px;
     height: 190px;
-    border-color: black;
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     background-color: white;
   }
   .GornjiDeoKontenjeraProizvoda {
@@ -1715,8 +1697,10 @@
   }
   .IzgledSlikaProizvoda {
     object-fit: cover;
-    height: 65px;
-    width: 65px;
+    height: 54px;
+    width: 54px;
+    margin-left: 4px;
+    margin-top: 4px;
     border: none;
     cursor: pointer;
   }
@@ -1735,7 +1719,7 @@
     align-items: center;
   }
   .SlovaZaOpisSadrzaja {
-    font-size: 6.8px;
+    font-size: 4.8px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3px;
   }
@@ -1743,9 +1727,7 @@
     width: 150px;
     height: 91px;
     border: none;
-    border-top-color: black;
-    border-top-style: solid;
-    border-top-width: 1px;
+    box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
     display: grid;
     justify-items: center;
     grid-template-rows: 31px 31px 31px 31px 31px 31px 31px 31px 31px;
@@ -1757,8 +1739,7 @@
     font-weight: 520;
     display: flex;
     justify-content: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(19, 15, 15, 0.938);
     line-height: 1;
   }
@@ -1766,7 +1747,7 @@
     font-size: 8px;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
   }
   .KontenjerZaDruguStranicu {
@@ -1902,10 +1883,8 @@
   .KontenjerProizvoda {
     width: 150px;
     height: 190px;
-    border-color: black;
-    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
     background-color: white;
-    border-width: 0.5px;
   }
   .GornjiDeoKontenjeraProizvoda {
     width: 150px;
@@ -1916,8 +1895,10 @@
   }
   .IzgledSlikaProizvoda {
     object-fit: cover;
-    height: 65px;
-    width: 65px;
+    height: 52px;
+    width: 52px;
+    margin-left: 4px;
+    margin-top: 4px;
     border: none;
     cursor: pointer;
   }
@@ -1936,7 +1917,7 @@
     align-items: center;
   }
   .SlovaZaOpisSadrzaja {
-    font-size: 6.8px;
+    font-size: 4.5px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3px;
   }
@@ -1944,9 +1925,7 @@
     width: 150px;
     height: 91px;
     border: none;
-    border-top-color: black;
-    border-top-style: solid;
-    border-top-width: 1px;
+    box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
     display: grid;
     justify-items: center;
     grid-template-rows: 31px 31px 31px 31px 31px 31px 31px 31px 31px;
@@ -1958,8 +1937,7 @@
     font-weight: 520;
     display: flex;
     justify-content: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(19, 15, 15, 0.938);
     line-height: 1;
   }
@@ -1967,7 +1945,7 @@
     font-size: 8px;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
   }
   .KontenjerZaDruguStranicu {

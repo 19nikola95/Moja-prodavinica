@@ -9,7 +9,7 @@ export default function SviProizvodiGlavnimeni() {
   <div>
 <div className={styles.GlavniKontenjerZaSadrzaj}>
   <div className={styles.VideoReklame}>
-  {ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
+  {ReklamneSlike.map((ReklamneSlika) => <FunkcijaReklama key={ReklamneSlika.id}  slika={ReklamneSlika.SLIKA} link={ReklamneSlika.LINK} />)}
   </div>
   <div className={styles.KontenjerZaNaslov}>
       <p className={styles.IzgledSlovaNaslova}>Svi proizvodi</p>
@@ -56,7 +56,7 @@ export default function SviProizvodiGlavnimeni() {
         </Link>
       </div>
         <div className={styles.KontenjerSaSlikama}>
-        {opisproizvoda.map((opisproizvodi) => <KontenjerSaProizvodom PojedinacniProizvod={opisproizvodi} />)}
+        {opisproizvoda.map((opisproizvodi) => <KontenjerSaProizvodom  PojedinacniProizvod={opisproizvodi} />)}
           </div>
           <div className={styles.KontenjerZaDruguStranicu}>
           <button className={styles.DugmeZaSledecuStranu}>1</button>

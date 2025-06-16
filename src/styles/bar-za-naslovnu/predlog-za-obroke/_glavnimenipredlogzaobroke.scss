@@ -5,6 +5,7 @@
   flex-direction: column;
   background-color: rgb(245, 244, 244);
 }
+
 .VideoReklame{
   display: flex;
    height: 150px;
@@ -141,9 +142,14 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+.IzgledLinka{
+  text-decoration: none;
+}
 .IzgledSlovaObroka{
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
+  color: black; 
 }
 .KontenjerZaDruguStranicu{
   display: flex;

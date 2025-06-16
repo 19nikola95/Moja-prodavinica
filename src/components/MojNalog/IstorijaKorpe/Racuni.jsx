@@ -1,7 +1,7 @@
 import styles from '@/styles/istorijaKorpe.module.scss';
 import Link from 'next/link';
 export function ZaSveRacune({Racun}){
-    return <Link href={`/moj-nalog//${Racun.id}`}>
+    return <Link className={styles.IzgledLinka}  href={`/moj-nalog//${Racun.id}`}>
  <div className={styles.KontenjerZaRacun}>
 <div className={styles.PrvaParticija}>
 <p>RAČUN</p>

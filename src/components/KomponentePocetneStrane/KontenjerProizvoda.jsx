@@ -3,7 +3,7 @@ import { KontenjerProizvodaImeICena } from "./KontenjerProizvodaImeICena";
 import styles from '@/styles/pocetnastrana.module.scss';
 import { KontenjerOpisNamernica } from "./KontenjerOpisNamirnice";
 
-export function KontenjerProizvoda({marketi, slikaProizvoda, imeProizvoda, tezinaProizvoda, proizvodjacProizvoda}){
+export function KontenjerProizvoda({ marketi, slikaProizvoda, imeProizvoda, tezinaProizvoda, proizvodjacProizvoda, }){
     return <div className={styles.KontenjerProizvoda}>
     <div className={styles.GornjiDeoKontenjeraProizvoda}>
     <Link href="bar-sa-naslovne/svi-proizvodi/pojedinacni-proizvodi">

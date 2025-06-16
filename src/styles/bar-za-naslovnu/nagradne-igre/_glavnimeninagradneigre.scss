@@ -5,6 +5,9 @@
   flex-direction: column;
   background-color: rgb(245, 244, 244);
 }
+.IzgledLinka{
+  text-decoration: none;
+}
 .VideoReklame{
   display: flex;
    height: 150px;
@@ -92,12 +95,14 @@ border-radius: 15px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
   font-weight: 550;
+  text-decoration: none;
 }
 .SlovaTrajanjeIgre{
   font-size: 15px;
   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(19, 15, 15, 0.938);
   font-weight: 520;
+  text-decoration: none;
 }
 .KontenjerZaDugmice{
   display: flex;
