@@ -55,8 +55,6 @@ export default function korpa() {
          </div>
          <div className={styles.KontenjerSvihIzabranihProizvoda}>
          {mojaKorpa.map((mojaKorpI) => <NaruceniProizvodi slikaProizvoda={mojaKorpI.SLIKAPROIZVODA} imeProizvoda={mojaKorpI.IMEPROIZVODA} />)} 
-   
-  
          </div>
         </div>
       </div>

@@ -19,7 +19,8 @@ export default async function PojedinacniObrokIdPage({params}) {
           <SlikaJela slika={PojedinacniObrok.slikaObroka} />
            <p className={styles.RedULevomKontenjeruNaslov}>Potrebne stvari</p>
             <ul className={styles.ULKlasa}>
-             <SastojciRecepta sastojci1={PojedinacniObrok.Sastojci} /> 
+          
+             {PojedinacniObrok.Sastojci?.map((Sastojci) => <SastojciRecepta sastojci1={Sastojci.nazivSastojka} key={Sastojci.id}/>)} 
             </ul>
             <div className={styles.KontenjerIzgledDUgmetaKorpe}>
             <img className={styles.IzgledDUgmetaKorpe} src="/Slike za heder/simbol-za-korpu.png" alt=""/>

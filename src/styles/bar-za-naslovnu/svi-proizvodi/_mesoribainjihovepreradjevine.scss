@@ -78,7 +78,6 @@
  .IzgledDugmetaZaObroke{
    height: 80px;
    width: 200px;
- 
    margin-top: 0;
    border-radius: 40px;
    border-style: solid;
@@ -92,82 +91,83 @@
  
  }
  .KontenjerSaSlikama{
-   width: 100%;
-   height: 100%;
-   margin-top: 30px;
-   margin-bottom: 60px;
-   display: grid;
-  justify-items: center;
-   grid-template-columns: 20% 20% 20% 20% 20%;
-   row-gap: 15px;
-    }
-   .KontenjerProizvoda{
-     width: 300px;
-     height: 370px;
-    
-     border-color: black;
-     border-style: solid;
-     background-color: white;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  display: grid;
+ justify-items: center;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  row-gap: 15px;
    }
-   .GornjiDeoKontenjeraProizvoda{
-     width: 296px;
+   .KontenjerProizvoda {
+     width: 350px;
+     height: 370px;
+     box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+     background-color: white;
+     border-radius: 14px;
+   }
+   .GornjiDeoKontenjeraProizvoda {
+     width: 350px;
      height: 140px;
      display: flex;
      flex-direction: row;
      border: none;
-     }
-   .IzgledSlikaProizvoda{
-     object-fit: cover;
-     height: 140px;
-     width: 140px;
-    border: none;
-    cursor: pointer;
    }
-   .KontenjerZaTekstProizvoda{
-     width: 156px;
+   .IzgledSlikaProizvoda {
+     object-fit: cover;
+     height: 130px;
+     width: 130px;
+     margin-left: 5px;
+     margin-top: 5px;
+     border: none;
+     cursor: pointer;
+   }
+   .KontenjerZaTekstProizvoda {
+     width: 210px;
      height: 140px;
      display: flex;
      flex-direction: column;
-     }
-   .RedUKontenjeruZaTekstProizvoda{
-     width: 156px;
+   }
+   .RedUKontenjeruZaTekstProizvoda {
+     width: 210px;
      height: 31px;
      font-size: 15px;
      display: flex;
      justify-content: center;
      align-items: center;
-    
    }
-   .SlovaZaOpisSadrzaja{
+   
+   .SlovaZaOpisSadrzaja {
      font-size: 15px;
      font-family: Arial, Helvetica, sans-serif;
      margin-left: 3px;
    }
-   .DonjiDeoKontenjeraProizvoda{
-     width: 300px;
+   .DonjiDeoKontenjeraProizvoda {
+     width: 350px;
      height: 220px;
      border: none;
-     border-top-color: black;
-     border-top-style: solid;
-     border-top-width: 2px;
+     box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
      display: grid;
      justify-items: center;
-     grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px;
-     grid-template-columns: 140px 140px;
+     grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+     grid-template-columns: 175px 175px;
    }
-   .IzgledSlovaCena{
+   .IzgledSlovaCena {
      margin: 0px;
      font-size: 15px;
+     display: flex;
+     justify-content: center;
      font-weight: 520;
-     margin-left: 20px;
-     font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      color: rgba(19, 15, 15, 0.938);
      line-height: 1;
    }
-   .IzgledNaslovaMarketa{
+   .IzgledNaslovaMarketa {
      font-size: 18px;
-     margin-left: 20px;
-     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     justify-content: center;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      color: black;
    }
    .KontenjerZaDruguStranicu{
@@ -199,6 +199,30 @@
      border-width: 2px;
      border-radius: 10px;
      padding: 5px;
+    }
+    @media (min-width: 1700px) and (max-width: 1900px) {
+      .KontenjerSaSlikama {
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 25% 25% 25% 25%;
+        row-gap: 15px;
+      }
+    }
+    @media (min-width: 1500px) and (max-width: 1700px) {
+      .KontenjerSaSlikama {
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 25% 25% 25% 25%;
+        row-gap: 15px;
+      }
     }
     @media (min-width: 1200px) and (max-width: 1500px){
       .KontenjerZaNaslov{
@@ -284,85 +308,83 @@
         background-color: rgb(206, 235, 101);
         cursor: pointer;
       }
-      .KontenjerSaSlikama{
+      .KontenjerSaSlikama {
         width: 100%;
         height: 100%;
         margin-top: 30px;
         margin-bottom: 60px;
         display: grid;
-       justify-items: center;
+        justify-items: center;
         grid-template-columns: 25% 25% 25% 25%;
         row-gap: 15px;
-         }
-        .KontenjerProizvoda{
-          width: 300px;
-          height: 370px;
-         
-          border-color: black;
-          border-style: solid;
-          background-color: white;
-        }
-        .GornjiDeoKontenjeraProizvoda{
-          width: 296px;
-          height: 140px;
-          display: flex;
-          flex-direction: row;
-          border: none;
-          }
-        .IzgledSlikaProizvoda{
-          object-fit: cover;
-          height: 140px;
-          width: 140px;
-         border: none;
-         cursor: pointer;
-        }
-        .KontenjerZaTekstProizvoda{
-          width: 156px;
-          height: 140px;
-          display: flex;
-          flex-direction: column;
-          }
-        .RedUKontenjeruZaTekstProizvoda{
-          width: 156px;
-          height: 31px;
-          font-size: 15px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-         
-        }
-        .SlovaZaOpisSadrzaja{
-          font-size: 15px;
-          font-family: Arial, Helvetica, sans-serif;
-          margin-left: 3px;
-        }
-        .DonjiDeoKontenjeraProizvoda{
-          width: 300px;
-          height: 220px;
-          border: none;
-          border-top-color: black;
-          border-top-style: solid;
-          border-top-width: 2px;
-          display: grid;
-          justify-items: center;
-          grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px;
-          grid-template-columns: 140px 140px;
-        }
-        .IzgledSlovaCena{
-          margin: 0px;
-          font-size: 15px;
-          font-weight: 520;
-          margin-left: 20px;
-          font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          color: rgba(19, 15, 15, 0.938);
-          line-height: 1;
-        }
-        .IzgledNaslovaMarketa{
-          font-size: 18px;
-          margin-left: 20px;
-          font-family: Arial, Helvetica, sans-serif;
-          color: black;
-        }
+      }
+      .KontenjerProizvoda {
+        width: 300px;
+        height: 370px;
+        box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+        background-color: white;
+      }
+      .GornjiDeoKontenjeraProizvoda {
+        width: 296px;
+        height: 140px;
+        display: flex;
+        flex-direction: row;
+        border: none;
+      }
+      .IzgledSlikaProizvoda {
+        object-fit: cover;
+        height: 130px;
+        width: 130px;
+        margin-left: 5px;
+        margin-top: 5px;
+        border: none;
+        cursor: pointer;
+      }
+      .KontenjerZaTekstProizvoda {
+        width: 156px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+      }
+      .RedUKontenjeruZaTekstProizvoda {
+        width: 156px;
+        height: 31px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .SlovaZaOpisSadrzaja {
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 3px;
+      }
+      .DonjiDeoKontenjeraProizvoda {
+        width: 300px;
+        height: 220px;
+        border: none;
+        box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 150px 150px;
+      }
+      .IzgledSlovaCena {
+        margin: 0px;
+        font-size: 14px;
+        font-weight: 520;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(19, 15, 15, 0.938);
+        line-height: 1;
+      }
+      .IzgledNaslovaMarketa {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+      }
         .KontenjerZaDruguStranicu{
           display: flex;
           margin: 0px;
@@ -477,83 +499,84 @@
         background-color: rgb(206, 235, 101);
         cursor: pointer;
       }
-      .KontenjerSaSlikama{
+      .KontenjerSaSlikama {
         width: 100%;
         height: 100%;
         margin-top: 30px;
         margin-bottom: 60px;
         display: grid;
-       justify-items: center;
+        justify-items: center;
         grid-template-columns: 25% 25% 25% 25%;
         row-gap: 15px;
-         }
-        .KontenjerProizvoda{
-          width: 260px;
-          height: 320px;
-          border-color: black;
-          border-style: solid;
-          background-color: white;
-        }
-        .GornjiDeoKontenjeraProizvoda{
-          width: 260px;
-          height: 130px;
-          display: flex;
-          flex-direction: row;
-          border: none;
-          }
-        .IzgledSlikaProizvoda{
-          object-fit: cover;
-          height: 110px;
-          width: 110px;
-         border: none;
-         cursor: pointer;
-        }
-        .KontenjerZaTekstProizvoda{
-          width: 150px;
-          height: 130px;
-          display: flex;
-          flex-direction: column;
-          }
-        .RedUKontenjeruZaTekstProizvoda{
-          width: 150px;
-          height: 30px;
-          font-size: 12px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .SlovaZaOpisSadrzaja{
-          font-size: 14px;
-          font-family: Arial, Helvetica, sans-serif;
-          margin-left: 3px;
-        }
-        .DonjiDeoKontenjeraProizvoda{
-          width: 260px;
-          height: 186px;
-          border: none;
-          border-top-color: black;
-          border-top-style: solid;
-          border-top-width: 2px;
-          display: grid;
-          justify-items: center;
-          grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px;
-          grid-template-columns: 115px 115px;
-        }
-        .IzgledSlovaCena{
-          margin: 0px;
-          font-size: 14px;
-          font-weight: 520;
-          margin-left: 20px;
-          font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          color: rgba(19, 15, 15, 0.938);
-          line-height: 1;
-        }
-        .IzgledNaslovaMarketa{
-          font-size: 16px;
-          margin-left: 20px;
-          font-family: Arial, Helvetica, sans-serif;
-          color: black;
-        }
+      }
+      .KontenjerProizvoda {
+        width: 260px;
+        height: 320px;
+        box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+        background-color: white;
+      }
+      .GornjiDeoKontenjeraProizvoda {
+        width: 260px;
+        height: 130px;
+        display: flex;
+        flex-direction: row;
+        border: none;
+      }
+      .IzgledSlikaProizvoda {
+        object-fit: cover;
+        height: 100px;
+        width: 100px;
+        margin-left: 5px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+      }
+      .KontenjerZaTekstProizvoda {
+        width: 150px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+      }
+      .RedUKontenjeruZaTekstProizvoda {
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .SlovaZaOpisSadrzaja {
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 3px;
+      }
+      .DonjiDeoKontenjeraProizvoda {
+        width: 260px;
+        height: 186px;
+        border: none;
+        box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-columns: 130px 130px;
+      }
+      .IzgledSlovaCena {
+        margin: 0px;
+        font-size: 12px;
+        font-weight: 520;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(19, 15, 15, 0.938);
+        line-height: 1;
+      }
+      .IzgledNaslovaMarketa {
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+      }
         .KontenjerZaDruguStranicu{
           display: flex;
           margin: 0px;
@@ -668,83 +691,84 @@
         background-color: rgb(206, 235, 101);
         cursor: pointer;
       }
-      .KontenjerSaSlikama{
+      .KontenjerSaSlikama {
         width: 100%;
         height: 100%;
         margin-top: 30px;
         margin-bottom: 60px;
         display: grid;
-       justify-items: center;
+        justify-items: center;
         grid-template-columns: 25% 25% 25% 25%;
         row-gap: 15px;
-         }
-        .KontenjerProizvoda{
-          width: 260px;
-          height: 320px;
-          border-color: black;
-          border-style: solid;
-          background-color: white;
-        }
-        .GornjiDeoKontenjeraProizvoda{
-          width: 260px;
-          height: 130px;
-          display: flex;
-          flex-direction: row;
-          border: none;
-          }
-        .IzgledSlikaProizvoda{
-          object-fit: cover;
-          height: 110px;
-          width: 110px;
-         border: none;
-         cursor: pointer;
-        }
-        .KontenjerZaTekstProizvoda{
-          width: 150px;
-          height: 130px;
-          display: flex;
-          flex-direction: column;
-          }
-        .RedUKontenjeruZaTekstProizvoda{
-          width: 150px;
-          height: 30px;
-          font-size: 12px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .SlovaZaOpisSadrzaja{
-          font-size: 14px;
-          font-family: Arial, Helvetica, sans-serif;
-          margin-left: 3px;
-        }
-        .DonjiDeoKontenjeraProizvoda{
-          width: 260px;
-          height: 186px;
-          border: none;
-          border-top-color: black;
-          border-top-style: solid;
-          border-top-width: 2px;
-          display: grid;
-          justify-items: center;
-          grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px;
-          grid-template-columns: 115px 115px;
-        }
-        .IzgledSlovaCena{
-          margin: 0px;
-          font-size: 14px;
-          font-weight: 520;
-          margin-left: 20px;
-          font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          color: rgba(19, 15, 15, 0.938);
-          line-height: 1;
-        }
-        .IzgledNaslovaMarketa{
-          font-size: 16px;
-          margin-left: 20px;
-          font-family: Arial, Helvetica, sans-serif;
-          color: black;
-        }
+      }
+      .KontenjerProizvoda {
+        width: 260px;
+        height: 320px;
+        box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+        background-color: white;
+      }
+      .GornjiDeoKontenjeraProizvoda {
+        width: 260px;
+        height: 130px;
+        display: flex;
+        flex-direction: row;
+        border: none;
+      }
+      .IzgledSlikaProizvoda {
+        object-fit: cover;
+        height: 100px;
+        width: 100px;
+        margin-left: 5px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+      }
+      .KontenjerZaTekstProizvoda {
+        width: 150px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+      }
+      .RedUKontenjeruZaTekstProizvoda {
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .SlovaZaOpisSadrzaja {
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 3px;
+      }
+      .DonjiDeoKontenjeraProizvoda {
+        width: 260px;
+        height: 186px;
+        border: none;
+        box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-columns: 130px 130px;
+      }
+      .IzgledSlovaCena {
+        margin: 0px;
+        font-size: 12px;
+        font-weight: 520;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(19, 15, 15, 0.938);
+        line-height: 1;
+      }
+      .IzgledNaslovaMarketa {
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+      }
         .KontenjerZaDruguStranicu{
           display: flex;
           margin: 0px;
@@ -860,83 +884,84 @@
         background-color: rgb(206, 235, 101);
         cursor: pointer;
       }
-      .KontenjerSaSlikama{
+      .KontenjerSaSlikama {
         width: 100%;
         height: 100%;
         margin-top: 30px;
         margin-bottom: 60px;
         display: grid;
-       justify-items: center;
+        justify-items: center;
         grid-template-columns: 25% 25% 25% 25%;
         row-gap: 15px;
-         }
-        .KontenjerProizvoda{
-          width: 230px;
-          height: 300px;
-          border-color: black;
-          border-style: solid;
-          background-color: white;
-        }
-        .GornjiDeoKontenjeraProizvoda{
-          width: 230px;
-          height: 114px;
-          display: flex;
-          flex-direction: row;
-          border: none;
-          }
-        .IzgledSlikaProizvoda{
-          object-fit: cover;
-          height: 100px;
-          width: 100px;
-         border: none;
-         cursor: pointer;
-        }
-        .KontenjerZaTekstProizvoda{
-          width: 130px;
-          height: 114px;
-          display: flex;
-          flex-direction: column;
-          }
-        .RedUKontenjeruZaTekstProizvoda{
-          width: 130px;
-          height: 25px;
-          font-size: 10px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .SlovaZaOpisSadrzaja{
-          font-size: 12px;
-          font-family: Arial, Helvetica, sans-serif;
-          margin-left: 3px;
-        }
-        .DonjiDeoKontenjeraProizvoda{
-          width: 230px;
-          height: 186px;
-          border: none;
-          border-top-color: black;
-          border-top-style: solid;
-          border-top-width: 2px;
-          display: grid;
-          justify-items: center;
-          grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px;
-          grid-template-columns: 115px 115px;
-        }
-        .IzgledSlovaCena{
-          margin: 0px;
-          font-size: 12px;
-          font-weight: 520;
-          margin-left: 20px;
-          font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          color: rgba(19, 15, 15, 0.938);
-          line-height: 1;
-        }
-        .IzgledNaslovaMarketa{
-          font-size: 14px;
-          margin-left: 15px;
-          font-family: Arial, Helvetica, sans-serif;
-          color: black;
-        }
+      }
+      .KontenjerProizvoda {
+        width: 230px;
+        height: 300px;
+        box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+        background-color: white;
+      }
+      .GornjiDeoKontenjeraProizvoda {
+        width: 230px;
+        height: 114px;
+        display: flex;
+        flex-direction: row;
+        border: none;
+      }
+      .IzgledSlikaProizvoda {
+        object-fit: cover;
+        height: 90px;
+        width: 90px;
+        margin-left: 5px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+      }
+      .KontenjerZaTekstProizvoda {
+        width: 130px;
+        height: 114px;
+        display: flex;
+        flex-direction: column;
+      }
+      .RedUKontenjeruZaTekstProizvoda {
+        width: 130px;
+        height: 25px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .SlovaZaOpisSadrzaja {
+        font-size: 8.5px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 3px;
+      }
+      .DonjiDeoKontenjeraProizvoda {
+        width: 230px;
+        height: 186px;
+        border: none;
+        box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-columns: 115px 115px;
+      }
+      .IzgledSlovaCena {
+        margin: 0px;
+        font-size: 10px;
+        font-weight: 520;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(19, 15, 15, 0.938);
+        line-height: 1;
+      }
+      .IzgledNaslovaMarketa {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+      }
         .KontenjerZaDruguStranicu{
           display: flex;
           margin: 0px;
@@ -1052,83 +1077,84 @@
         background-color: rgb(206, 235, 101);
         cursor: pointer;
       }
-      .KontenjerSaSlikama{
+      .KontenjerSaSlikama {
         width: 100%;
         height: 100%;
         margin-top: 30px;
         margin-bottom: 60px;
         display: grid;
-       justify-items: center;
+        justify-items: center;
         grid-template-columns: 33% 33% 33%;
         row-gap: 15px;
-         }
-        .KontenjerProizvoda{
-          width: 230px;
-          height: 300px;
-          border-color: black;
-          border-style: solid;
-          background-color: white;
-        }
-        .GornjiDeoKontenjeraProizvoda{
-          width: 230px;
-          height: 114px;
-          display: flex;
-          flex-direction: row;
-          border: none;
-          }
-        .IzgledSlikaProizvoda{
-          object-fit: cover;
-          height: 100px;
-          width: 100px;
-         border: none;
-         cursor: pointer;
-        }
-        .KontenjerZaTekstProizvoda{
-          width: 130px;
-          height: 114px;
-          display: flex;
-          flex-direction: column;
-          }
-        .RedUKontenjeruZaTekstProizvoda{
-          width: 130px;
-          height: 25px;
-          font-size: 10px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .SlovaZaOpisSadrzaja{
-          font-size: 12px;
-          font-family: Arial, Helvetica, sans-serif;
-          margin-left: 3px;
-        }
-        .DonjiDeoKontenjeraProizvoda{
-          width: 230px;
-          height: 186px;
-          border: none;
-          border-top-color: black;
-          border-top-style: solid;
-          border-top-width: 2px;
-          display: grid;
-          justify-items: center;
-          grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px;
-          grid-template-columns: 115px 115px;
-        }
-        .IzgledSlovaCena{
-          margin: 0px;
-          font-size: 12px;
-          font-weight: 520;
-          margin-left: 20px;
-          font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          color: rgba(19, 15, 15, 0.938);
-          line-height: 1;
-        }
-        .IzgledNaslovaMarketa{
-          font-size: 14px;
-          margin-left: 15px;
-          font-family: Arial, Helvetica, sans-serif;
-          color: black;
-        }
+      }
+      .KontenjerProizvoda {
+        width: 230px;
+        height: 300px;
+        box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+        background-color: white;
+      }
+      .GornjiDeoKontenjeraProizvoda {
+        width: 230px;
+        height: 114px;
+        display: flex;
+        flex-direction: row;
+        border: none;
+      }
+      .IzgledSlikaProizvoda {
+        object-fit: cover;
+        height: 85px;
+        width: 85px;
+        margin-left: 5px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+      }
+      .KontenjerZaTekstProizvoda {
+        width: 130px;
+        height: 114px;
+        display: flex;
+        flex-direction: column;
+      }
+      .RedUKontenjeruZaTekstProizvoda {
+        width: 130px;
+        height: 25px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .SlovaZaOpisSadrzaja {
+        font-size: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 3px;
+      }
+      .DonjiDeoKontenjeraProizvoda {
+        width: 230px;
+        height: 186px;
+        border: none;
+        box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-columns: 115px 115px;
+      }
+      .IzgledSlovaCena {
+        margin: 0px;
+        font-size: 10px;
+        font-weight: 520;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(19, 15, 15, 0.938);
+        line-height: 1;
+      }
+      .IzgledNaslovaMarketa {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+      }
         .KontenjerZaDruguStranicu{
           display: flex;
           margin: 0px;
@@ -1244,82 +1270,83 @@
         background-color: rgb(206, 235, 101);
         cursor: pointer;
       }
-      .KontenjerSaSlikama{
+      .KontenjerSaSlikama {
         width: 100%;
         height: 100%;
         margin-top: 30px;
         margin-bottom: 40px;
         display: grid;
-       justify-items: center;
+        justify-items: center;
         grid-template-columns: 33% 33% 33%;
         row-gap: 15px;
-         }
-        .KontenjerProizvoda{
-          width: 190px;
-          height: 230px;
-          border-color: black;
-          border-style: solid;
-          background-color: white;
-        }
-        .GornjiDeoKontenjeraProizvoda{
-          width: 190px;
-          height: 88px;
-          display: flex;
-          flex-direction: row;
-          border: none;
-          }
-        .IzgledSlikaProizvoda{
-          object-fit: cover;
-          height: 80px;
-          width: 80px;
-         border: none;
-         cursor: pointer;
-        }
-        .KontenjerZaTekstProizvoda{
-          width: 110px;
-          height: 88px;
-          display: flex;
-          flex-direction: column;
-          }
-        .RedUKontenjeruZaTekstProizvoda{
-          width: 110px;
-          height: 20px;
-          font-size: 6px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .SlovaZaOpisSadrzaja{
-          font-size: 9.5px;
-          font-family: Arial, Helvetica, sans-serif;
-          margin-left: 3px;
-        }
-        .DonjiDeoKontenjeraProizvoda{
-          width: 190px;
-          height: 142px;
-          border: none;
-          border-top-color: black;
-          border-top-style: solid;
-          border-top-width: 2px;
-          display: grid;
-          justify-items: center;
-          grid-template-rows: 16px 16px 16px 16px 16px 16px 16px 16px 16px;
-          grid-template-columns: 90px 90px;
-        }
-        .IzgledSlovaCena{
-          margin: 0px;
-          font-size: 9.5px;
-          font-weight: 520;
-          margin-left: 15px;
-          font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          color: rgba(19, 15, 15, 0.938);
-          line-height: 1;
-        }
-        .IzgledNaslovaMarketa{
-          font-size: 10.5px;
-          margin-left: 15px;
-          font-family: Arial, Helvetica, sans-serif;
-          color: black;
+      }
+      .KontenjerProizvoda {
+        width: 190px;
+        height: 230px;
+        box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+        background-color: white;
+      }
+      .GornjiDeoKontenjeraProizvoda {
+        width: 190px;
+        height: 88px;
+        display: flex;
+        flex-direction: row;
+        border: none;
+      }
+      .IzgledSlikaProizvoda {
+        object-fit: cover;
+        height: 70px;
+        width: 70px;
+        margin-left: 4px;
+        margin-top: 4px;
+        border: none;
+        cursor: pointer;
+      }
+      .KontenjerZaTekstProizvoda {
+        width: 110px;
+        height: 88px;
+        display: flex;
+        flex-direction: column;
+      }
+      .RedUKontenjeruZaTekstProizvoda {
+        width: 110px;
+        height: 20px;
+        font-size: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .SlovaZaOpisSadrzaja {
+        font-size: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 3px;
+      }
+      .DonjiDeoKontenjeraProizvoda {
+        width: 190px;
+        height: 142px;
+        border: none;
+        box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 38px 38px 38px 38px 38px 38px 38px 38px 38px;
+        grid-template-columns: 95px 95px;
+      }
+      .IzgledSlovaCena {
+        margin: 0px;
+        font-size: 8px;
+        font-weight: 520;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(19, 15, 15, 0.938);
+        line-height: 1;
+      }
+      .IzgledNaslovaMarketa {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
         }
         .KontenjerZaDruguStranicu{
           display: flex;
@@ -1436,83 +1463,85 @@
         background-color: rgb(206, 235, 101);
         cursor: pointer;
       }
-      .KontenjerSaSlikama{
+      .KontenjerSaSlikama {
         width: 100%;
         height: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
         display: grid;
-       justify-items: center;
+        justify-items: center;
         grid-template-columns: 33.3% 33.3% 33.3%;
         row-gap: 15px;
-         }
-        .KontenjerProizvoda{
-          width: 150px;
-          height: 190px;
-          border-color: black;
-          border-style: solid;
-          background-color: white;
-        }
-        .GornjiDeoKontenjeraProizvoda{
-          width: 150px;
-          height: 69px;
-          display: flex;
-          flex-direction: row;
-          border: none;
-          }
-        .IzgledSlikaProizvoda{
-          object-fit: cover;
-          height: 65px;
-          width: 65px;
-         border: none;
-         cursor: pointer;
-        }
-        .KontenjerZaTekstProizvoda{
-          width: 85px;
-          height: 69px;
-          display: flex;
-          flex-direction: column;
-          }
-        .RedUKontenjeruZaTekstProizvoda{
-          width: 85px;
-          height: 16px;
-          font-size: 4px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .SlovaZaOpisSadrzaja{
-          font-size: 6.8px;
-          font-family: Arial, Helvetica, sans-serif;
-          margin-left: 3px;
-        }
-        .DonjiDeoKontenjeraProizvoda{
-          width: 150px;
-          height: 91px;
-          border: none;
-          border-top-color: black;
-          border-top-style: solid;
-          border-top-width: 1px;
-          display: grid;
-          justify-items: center;
-          grid-template-rows: 14px 14px 14px 14px 14px 14px 14px 14px 14px;
-          grid-template-columns: 70px 70px;
-        }
-        .IzgledSlovaCena{
-          margin: 0px;
-          font-size: 7px;
-          font-weight: 520;
-          margin-left: 15px;
-          font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          color: rgba(19, 15, 15, 0.938);
-          line-height: 1;
-        }
-        .IzgledNaslovaMarketa{
-          font-size: 8px;
-          margin-left: 15px;
-          font-family: Arial, Helvetica, sans-serif;
-          color: black;
-        }
+      }
+      .KontenjerProizvoda {
+        width: 150px;
+        height: 190px;
+        box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+        background-color: white;
+      }
+      .GornjiDeoKontenjeraProizvoda {
+        width: 150px;
+        height: 69px;
+        display: flex;
+        flex-direction: row;
+        border: none;
+      }
+      .IzgledSlikaProizvoda {
+        object-fit: cover;
+        height: 55px;
+        width: 55px;
+        margin-left: 4px;
+        margin-top: 4px;
+        border: none;
+        cursor: pointer;
+      }
+      .KontenjerZaTekstProizvoda {
+        width: 85px;
+        height: 69px;
+        display: flex;
+        flex-direction: column;
+      }
+      .RedUKontenjeruZaTekstProizvoda {
+        width: 85px;
+        height: 16px;
+        font-size: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .SlovaZaOpisSadrzaja {
+        font-size: 5.5px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 3px;
+      }
+      .DonjiDeoKontenjeraProizvoda {
+        width: 150px;
+        height: 91px;
+        border: none;
+        box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 31px 31px 31px 31px 31px 31px 31px 31px 31px;
+        grid-template-columns: 75px 75px;
+      }
+      .IzgledSlovaCena {
+        margin: 0px;
+        font-size: 6.5px;
+        font-weight: 520;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(19, 15, 15, 0.938);
+        line-height: 1;
+      }
+      .IzgledNaslovaMarketa {
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+      }
+        
         .KontenjerZaDruguStranicu{
           display: flex;
           margin: 0px;
@@ -1628,83 +1657,84 @@
         background-color: rgb(206, 235, 101);
         cursor: pointer;
       }
-      .KontenjerSaSlikama{
+      .KontenjerSaSlikama {
         width: 100%;
         height: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
         display: grid;
-       justify-items: center;
+        justify-items: center;
         grid-template-columns: 50% 50%;
         row-gap: 15px;
-         }
-        .KontenjerProizvoda{
-          width: 150px;
-          height: 190px;
-          border-color: black;
-          border-style: solid;
-          background-color: white;
-        }
-        .GornjiDeoKontenjeraProizvoda{
-          width: 150px;
-          height: 69px;
-          display: flex;
-          flex-direction: row;
-          border: none;
-          }
-        .IzgledSlikaProizvoda{
-          object-fit: cover;
-          height: 65px;
-          width: 65px;
-         border: none;
-         cursor: pointer;
-        }
-        .KontenjerZaTekstProizvoda{
-          width: 85px;
-          height: 69px;
-          display: flex;
-          flex-direction: column;
-          }
-        .RedUKontenjeruZaTekstProizvoda{
-          width: 85px;
-          height: 16px;
-          font-size: 4px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .SlovaZaOpisSadrzaja{
-          font-size: 6.8px;
-          font-family: Arial, Helvetica, sans-serif;
-          margin-left: 3px;
-        }
-        .DonjiDeoKontenjeraProizvoda{
-          width: 150px;
-          height: 91px;
-          border: none;
-          border-top-color: black;
-          border-top-style: solid;
-          border-top-width: 1px;
-          display: grid;
-          justify-items: center;
-          grid-template-rows: 14px 14px 14px 14px 14px 14px 14px 14px 14px;
-          grid-template-columns: 70px 70px;
-        }
-        .IzgledSlovaCena{
-          margin: 0px;
-          font-size: 7px;
-          font-weight: 520;
-          margin-left: 15px;
-          font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          color: rgba(19, 15, 15, 0.938);
-          line-height: 1;
-        }
-        .IzgledNaslovaMarketa{
-          font-size: 8px;
-          margin-left: 15px;
-          font-family: Arial, Helvetica, sans-serif;
-          color: black;
-        }
+      }
+      .KontenjerProizvoda {
+        width: 150px;
+        height: 190px;
+        box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+        background-color: white;
+      }
+      .GornjiDeoKontenjeraProizvoda {
+        width: 150px;
+        height: 69px;
+        display: flex;
+        flex-direction: row;
+        border: none;
+      }
+      .IzgledSlikaProizvoda {
+        object-fit: cover;
+        height: 54px;
+        width: 54px;
+        margin-left: 4px;
+        margin-top: 4px;
+        border: none;
+        cursor: pointer;
+      }
+      .KontenjerZaTekstProizvoda {
+        width: 85px;
+        height: 69px;
+        display: flex;
+        flex-direction: column;
+      }
+      .RedUKontenjeruZaTekstProizvoda {
+        width: 85px;
+        height: 16px;
+        font-size: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .SlovaZaOpisSadrzaja {
+        font-size: 4.8px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 3px;
+      }
+      .DonjiDeoKontenjeraProizvoda {
+        width: 150px;
+        height: 91px;
+        border: none;
+        box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 31px 31px 31px 31px 31px 31px 31px 31px 31px;
+        grid-template-columns: 75px 75px;
+      }
+      .IzgledSlovaCena {
+        margin: 0px;
+        font-size: 6.5px;
+        font-weight: 520;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(19, 15, 15, 0.938);
+        line-height: 1;
+      }
+      .IzgledNaslovaMarketa {
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+      }
         .KontenjerZaDruguStranicu{
           display: flex;
           margin: 0px;
@@ -1750,13 +1780,6 @@
         text-align: center;
         justify-content: center;
         }
-        .IzgledSlovaNaslova{
-          margin: 0;
-          padding: 0;
-         font-size: 16px;
-         font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          color: rgba(19, 15, 15, 0.938);
-        }
         .VideoReklame{
           display: flex;
            height: 38px;
@@ -1778,6 +1801,13 @@
         .SlikaReklame{
           height: 36px;
           width: 48px;
+        }
+        .IzgledSlovaNaslova{
+          margin: 0;
+          padding: 0;
+         font-size: 16px;
+         font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          color: rgba(19, 15, 15, 0.938);
         }
       .KontenjerZaPretragu{
         width: 95%;
@@ -1823,84 +1853,84 @@
         background-color: rgb(206, 235, 101);
         cursor: pointer;
       }
-      .KontenjerSaSlikama{
+      .KontenjerSaSlikama {
         width: 100%;
         height: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
         display: grid;
-       justify-items: center;
+        justify-items: center;
         grid-template-columns: 50% 50%;
         row-gap: 15px;
-         }
-        .KontenjerProizvoda{
-          width: 150px;
-          height: 190px;
-          border-color: black;
-          border-style: solid;
-          background-color: white;
-          border-width: 0.5px;
-        }
-        .GornjiDeoKontenjeraProizvoda{
-          width: 150px;
-          height: 69px;
-          display: flex;
-          flex-direction: row;
-          border: none;
-          }
-        .IzgledSlikaProizvoda{
-          object-fit: cover;
-          height: 65px;
-          width: 65px;
-         border: none;
-         cursor: pointer;
-        }
-        .KontenjerZaTekstProizvoda{
-          width: 85px;
-          height: 69px;
-          display: flex;
-          flex-direction: column;
-          }
-        .RedUKontenjeruZaTekstProizvoda{
-          width: 85px;
-          height: 16px;
-          font-size: 4px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .SlovaZaOpisSadrzaja{
-          font-size: 6.8px;
-          font-family: Arial, Helvetica, sans-serif;
-          margin-left: 3px;
-        }
-        .DonjiDeoKontenjeraProizvoda{
-          width: 150px;
-          height: 91px;
-          border: none;
-          border-top-color: black;
-          border-top-style: solid;
-          border-top-width: 1px;
-          display: grid;
-          justify-items: center;
-          grid-template-rows: 14px 14px 14px 14px 14px 14px 14px 14px 14px;
-          grid-template-columns: 70px 70px;
-        }
-        .IzgledSlovaCena{
-          margin: 0px;
-          font-size: 7px;
-          font-weight: 520;
-          margin-left: 15px;
-          font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          color: rgba(19, 15, 15, 0.938);
-          line-height: 1;
-        }
-        .IzgledNaslovaMarketa{
-          font-size: 8px;
-          margin-left: 15px;
-          font-family: Arial, Helvetica, sans-serif;
-          color: black;
-        }
+      }
+      .KontenjerProizvoda {
+        width: 150px;
+        height: 190px;
+        box-shadow: 0px 0px 5px rgba(175, 175, 175, 0.6);
+        background-color: white;
+      }
+      .GornjiDeoKontenjeraProizvoda {
+        width: 150px;
+        height: 69px;
+        display: flex;
+        flex-direction: row;
+        border: none;
+      }
+      .IzgledSlikaProizvoda {
+        object-fit: cover;
+        height: 52px;
+        width: 52px;
+        margin-left: 4px;
+        margin-top: 4px;
+        border: none;
+        cursor: pointer;
+      }
+      .KontenjerZaTekstProizvoda {
+        width: 85px;
+        height: 69px;
+        display: flex;
+        flex-direction: column;
+      }
+      .RedUKontenjeruZaTekstProizvoda {
+        width: 85px;
+        height: 16px;
+        font-size: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .SlovaZaOpisSadrzaja {
+        font-size: 4.5px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 3px;
+      }
+      .DonjiDeoKontenjeraProizvoda {
+        width: 150px;
+        height: 91px;
+        border: none;
+        box-shadow: 0px -1px 2px rgba(175, 175, 175, 0.6);
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 31px 31px 31px 31px 31px 31px 31px 31px 31px;
+        grid-template-columns: 75px 75px;
+      }
+      .IzgledSlovaCena {
+        margin: 0px;
+        font-size: 6.5px;
+        font-weight: 520;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(19, 15, 15, 0.938);
+        line-height: 1;
+      }
+      .IzgledNaslovaMarketa {
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+      }
         .KontenjerZaDruguStranicu{
           display: flex;
           margin: 0px;

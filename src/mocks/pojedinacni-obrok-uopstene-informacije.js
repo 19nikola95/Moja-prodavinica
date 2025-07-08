@@ -27,7 +27,21 @@ export const uopstenooObrocima = [
                 NaslovRecepta:'Musaka sa mesom zeljem i kiselim mlekom4'
             },
         ],
-        Sastojci:['Silan Fresh Skz 2.850 ','Arijel Fresh Skz 2.850 ','Finis Fresh Skz 2.850 ',],
+        Sastojci:[
+            {
+                id:1,
+                nazivSastojka: 'Silan Fresh Skz 2.850 '
+            },
+            {
+                id:2,
+                nazivSastojka: 'Arijel Fresh Skz 2.850  '
+            },
+            {
+                id:3,
+                nazivSastojka: 'Finis Fresh Skz 2.850 '
+            },
+            
+           ],
         kategorija: ['1' ,],
         podkategorija: ['1.1',]
     },

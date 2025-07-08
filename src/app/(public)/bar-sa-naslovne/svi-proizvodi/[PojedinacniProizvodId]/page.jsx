@@ -24,7 +24,7 @@ export default async function PojedinacniProizvodId({params}) {
         </div>
         <div className={styles.RasporedSlikeIopisa}>
           <div className={styles.KontenjerZaSlikuIDodatke}>
-            <img className={styles.DimenzijeSlike} src="/SlikaProizvoda/Caj K plus.jpg" alt=""/>
+            <img className={styles.DimenzijeSlike} src={PojedinacniProizvod.slika} alt=""/>
             <div className={styles.KontenjerZaDodatke}>
               <img className={styles.DimenzijeDodatkaKorpa} src="/Slike za heder/simbol-za-korpu.png" alt=""/>
               <img className={styles.DimenzijeDodatkaZvezda} src="/DodatniSmajlici/zvezdica.png" alt=""/>

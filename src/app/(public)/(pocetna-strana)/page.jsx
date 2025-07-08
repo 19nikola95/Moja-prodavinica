@@ -1,8 +1,9 @@
 
 import { KontenjerProizvoda } from '@/components/KomponentePocetneStrane/KontenjerProizvoda';
 import styles from '../../../styles/pocetnastrana.module.scss';
+import { KontenjerSaProizvodom } from '@/components/SviProizvodi/KontenjerSaProizvodom';
 import Link from "next/link";
-import { proizvodi } from '@/mocks/pocetna-strana';
+import { opisproizvoda } from '@/mocks/pojedinacni-proizvodi-opis';
 export default function PocetnaStrana() {
   return (
   <div>
@@ -30,8 +31,7 @@ export default function PocetnaStrana() {
   Samo za Vas preporučujemo:</p>
 </div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
- {proizvodi.map((proizvod) => <KontenjerProizvoda slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
-
+  {opisproizvoda.map((opisproizvodi) => <KontenjerSaProizvodom  key={opisproizvodi.id} PojedinacniProizvod={opisproizvodi} />)}
 </div> {/* Ovo je samo za vas proizvodi */}
 <div className={styles.KontenjerZaSledeceINazad}>
 <button className={styles.DugmeZaStranice}>Nazad</button>
@@ -44,9 +44,7 @@ export default function PocetnaStrana() {
 </p>
 </div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
-{proizvodi.map((proizvod) => <KontenjerProizvoda slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
-
-</div>
+{opisproizvoda.map((opisproizvodi) => <KontenjerSaProizvodom key={opisproizvodi.id} PojedinacniProizvod={opisproizvodi} />)}</div>
  {/* Ovo je preporučeni proizvodi */}
 <div className={styles.KontenjerZaSledeceINazad}>
 <button className={styles.DugmeZaStranice}>Nazad</button>
@@ -58,9 +56,7 @@ export default function PocetnaStrana() {
 </p>
 </div>
 <div className={styles.KontenjerPreporuceniProizvodi}>
-{proizvodi.map((proizvod) => <KontenjerProizvoda slikaProizvoda={proizvod.slika} imeProizvoda={proizvod.naziv} tezinaProizvoda={proizvod.tezina} proizvodjacProizvoda={proizvod.proizvodjac} marketi={proizvod.marketi}/>)}
-
-
+{opisproizvoda.map((opisproizvodi) => <KontenjerSaProizvodom  key={opisproizvodi.id} PojedinacniProizvod={opisproizvodi} />)}
 </div> {/* Ovo je najpopularniji proizvodi */}
 <div className={styles.KontenjerZaSledeceINazad}>
 <button className={styles.DugmeZaStranice}>Nazad</button>
